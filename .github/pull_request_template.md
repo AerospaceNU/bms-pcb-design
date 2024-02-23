@@ -1,6 +1,6 @@
 <!--- Provide a general summary of your changes in the Title above -->
 
-## User story or task linked to this change
+## User Story or task linked to this change
 <!--- Add the DevOps user story or task number and title here -->
 
 ## Description
