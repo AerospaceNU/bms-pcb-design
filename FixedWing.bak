@@ -120,11 +120,11 @@
         (name "S12" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 0 -35.56 90) (length 2.54) hide
+      (pin passive line (at -1.27 -35.56 90) (length 2.54) hide
         (name "V-" (effects (font (size 1.27 1.27))))
         (number "30" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 0 -35.56 90) (length 2.54)
+      (pin passive line (at 2.54 -35.56 90) (length 2.54)
         (name "V-" (effects (font (size 1.27 1.27))))
         (number "31" (effects (font (size 1.27 1.27))))
       )
