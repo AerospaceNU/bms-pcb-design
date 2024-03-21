@@ -471,6 +471,14 @@
     [
       "8a7831d1-a913-4f04-8780-225d2234b41d",
       ""
+    ],
+    [
+      "95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e",
+      "FilteringCells"
+    ],
+    [
+      "1e9f81b4-c330-4dde-84b6-9168ce482c70",
+      "BatteryMonitor"
     ]
   ],
   "text_variables": {}
