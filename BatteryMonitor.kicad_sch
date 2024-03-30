@@ -5,7 +5,7 @@
   (paper "A4")
 
   (lib_symbols
-    (symbol "LTC6804-2_1" (in_bom yes) (on_board yes)
+    (symbol "FixedWing:LTC6804-2" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at -10.16 34.29 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
@@ -27,13 +27,13 @@
       (property "ki_fp_filters" "SSOP*5.3x12.8mm*P0.5mm*" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "LTC6804-2_1_0_1"
+      (symbol "LTC6804-2_0_1"
         (rectangle (start 10.16 -33.02) (end -10.16 33.02)
           (stroke (width 0.254) (type default))
           (fill (type background))
         )
       )
-      (symbol "LTC6804-2_1_1_1"
+      (symbol "LTC6804-2_1_1"
         (pin power_in line (at 0 35.56 270) (length 2.54)
           (name "V+" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
@@ -525,7 +525,7 @@
     )
   )
 
-  (symbol (lib_name "LTC6804-2_1") (lib_id "FixedWing:LTC6804-2") (at 130.81 95.25 0) (unit 1)
+  (symbol (lib_id "FixedWing:LTC6804-2") (at 130.81 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1acc448b-5fd3-47b6-9b69-766a561db28b)
     (property "Reference" "U?" (at 133.0041 57.15 0)
