@@ -2,7 +2,7 @@
 
   (uuid 8a7831d1-a913-4f04-8780-225d2234b41d)
 
-  (paper "A4")
+  (paper "B")
 
   (lib_symbols
     (symbol "FixedWing:LTC6804-2" (in_bom yes) (on_board yes)
@@ -231,14 +231,14 @@
   )
 
 
-  (sheet (at 35.56 27.94) (size 62.23 38.1) (fields_autoplaced)
+  (sheet (at 116.84 69.85) (size 62.23 38.1) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 1e9f81b4-c330-4dde-84b6-9168ce482c70)
-    (property "Sheetname" "BatteryMonitor" (at 35.56 27.2284 0)
+    (property "Sheetname" "BatteryMonitor" (at 116.84 69.1384 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "BatteryMonitor.kicad_sch" (at 35.56 66.6246 0)
+    (property "Sheetfile" "BatteryMonitor.kicad_sch" (at 116.84 108.5346 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
@@ -248,14 +248,14 @@
     )
   )
 
-  (sheet (at 27.94 146.05) (size 50.8 39.37) (fields_autoplaced)
+  (sheet (at 34.29 69.85) (size 50.8 39.37) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e)
-    (property "Sheetname" "FilteringCells" (at 27.94 145.3384 0)
+    (property "Sheetname" "FilteringCells" (at 34.29 69.1384 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "FilteringCells.kicad_sch" (at 27.94 186.0046 0)
+    (property "Sheetfile" "FilteringCells.kicad_sch" (at 34.29 109.8046 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
