@@ -1,4 +1,4 @@
-22645825285966951
+22654384121224484
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -55250,6 +55250,41 @@ emi filter
 0
 5
 5
+FixedWing
+CAPC2012X95N
+0805 (2012)(H=0.95mm)
+Capacitor
+0
+2
+2
+FixedWing
+CONN_S7B-XH-A_JST
+
+S7B-XH-A 
+0
+7
+7
+FixedWing
+RESC2012X50N
+CRCW0805
+Resistor
+0
+2
+2
+FixedWing
+RESC6332X70N
+CRCW2512
+Resistor
+0
+2
+2
+FixedWing
+SOT95P260X110-3N
+BSS308PE H6327
+MOSFET (P-Channel)
+0
+3
+3
 Fuse
 FuseHolder_Blade_ATO_Littelfuse_FLR_178.6165
 Littelfuse fuse holder for ATO/FKS blade fuses, 80V, vertical, 20 x 6mm, PCB thickness up to 1.5mm, http://www.littelfuse.com/~/media/commercial-vehicle/datasheets/automotive-fuse-holders/ato/littelfuse-fuse-holder-ato-flr-pcb-datasheet.pdf
