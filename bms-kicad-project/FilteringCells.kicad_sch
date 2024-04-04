@@ -8,7 +8,7 @@
     (title "BMS Cell Filtering Logic")
     (date "2024-03-29")
     (rev "1")
-    (company "AeroNU FixedWing")
+    (company "AeroNU - FixedWing")
   )
 
   (lib_symbols

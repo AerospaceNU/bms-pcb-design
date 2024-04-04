@@ -1,0 +1,20 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 6b8c3f42-cecc-4293-a8ef-dbc7c463c90e)
+
+  (paper "A4")
+
+  (title_block
+    (title "Vishay / Dale 100Ω SMD805 Breakout Board")
+    (rev "1")
+    (company "AeroNU - FixedWing")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

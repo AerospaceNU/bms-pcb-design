@@ -1,0 +1,20 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid a1218e94-8cef-463a-8348-8be13b042018)
+
+  (paper "A4")
+
+  (title_block
+    (title "Vishay / Dale 33Ω SMD2512 Breakout Board")
+    (rev "1")
+    (company "AeroNU - FixedWing")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
