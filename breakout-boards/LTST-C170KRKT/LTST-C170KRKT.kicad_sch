@@ -1,0 +1,20 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid b501b1b3-bf5e-43b1-b23c-a1e36bab609a)
+
+  (paper "A4")
+
+  (title_block
+    (title "Lite-On LED Red SMD805 Breakout Board")
+    (rev "1")
+    (company "AeroNU - FixedWing")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

@@ -1,0 +1,20 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 8fa9ade4-ce80-4c27-9e96-ce2c5051f917)
+
+  (paper "A4")
+
+  (title_block
+    (title "Infineon MOSFET-P Breakout Board")
+    (rev "1")
+    (company "AeroNU - FixedWing")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
