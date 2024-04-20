@@ -553,7 +553,7 @@
   (symbol (lib_id "FixedWing:LTC6804-2") (at 193.04 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1acc448b-5fd3-47b6-9b69-766a561db28b)
-    (property "Reference" "U?" (at 195.2341 88.9 0)
+    (property "Reference" "U1" (at 195.2341 88.9 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LTC6804-2" (at 195.2341 91.44 0)
@@ -616,7 +616,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/1e9f81b4-c330-4dde-84b6-9168ce482c70"
-          (reference "U?") (unit 1)
+          (reference "U1") (unit 1)
         )
       )
     )
