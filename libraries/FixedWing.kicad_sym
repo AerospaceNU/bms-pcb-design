@@ -6,7 +6,7 @@
     (property "Value" "10nF" (at 8.89 3.81 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
-    (property "Footprint" "CAPC2012X95N" (at 8.89 -96.19 0)
+    (property "Footprint" "FixedWing:CAPC2012X95N" (at 8.89 -96.19 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://www.yageo.com/en/ProductSearch/PartNumberSearch?part_number=AC0805KRX7R8BB103" (at 8.89 -196.19 0)
