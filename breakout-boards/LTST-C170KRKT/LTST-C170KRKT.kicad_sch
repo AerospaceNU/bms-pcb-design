@@ -525,12 +525,12 @@
   )
 
   (symbol (lib_id "FixedWing:LTST-C170KRKT") (at 144.78 59.69 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 13cb2966-e706-40b3-8af3-203d466776d1)
-    (property "Reference" "LED3" (at 151.7015 50.8 0)
+    (property "Reference" "LED10" (at 152.4 52.07 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "LTST-C170KRKT" (at 151.7015 53.34 0)
+    (property "Value" "LTST-C170KRKT" (at 152.4 54.61 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "LEDC2012X120N" (at 157.48 153.34 0)
@@ -559,19 +559,19 @@
     (instances
       (project "LTST-C170KRKT"
         (path "/b501b1b3-bf5e-43b1-b23c-a1e36bab609a"
-          (reference "LED3") (unit 1)
+          (reference "LED10") (unit 1)
         )
       )
     )
   )
 
   (symbol (lib_id "FixedWing:LTST-C170KRKT") (at 144.78 93.98 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 380e76ad-42b8-4833-a5ab-ef379627b25d)
-    (property "Reference" "LED6" (at 151.7015 85.09 0)
+    (property "Reference" "LED7" (at 152.4 86.36 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "LTST-C170KRKT" (at 151.7015 87.63 0)
+    (property "Value" "LTST-C170KRKT" (at 152.4 88.9 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "LEDC2012X120N" (at 157.48 187.63 0)
@@ -600,19 +600,19 @@
     (instances
       (project "LTST-C170KRKT"
         (path "/b501b1b3-bf5e-43b1-b23c-a1e36bab609a"
-          (reference "LED6") (unit 1)
+          (reference "LED7") (unit 1)
         )
       )
     )
   )
 
   (symbol (lib_id "FixedWing:LTST-C170KRKT") (at 144.78 128.27 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 3c70c138-3954-4edf-a813-1aadb999488a)
-    (property "Reference" "LED9" (at 151.7015 119.38 0)
+    (property "Reference" "LED4" (at 152.4 120.65 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "LTST-C170KRKT" (at 151.7015 121.92 0)
+    (property "Value" "LTST-C170KRKT" (at 152.4 123.19 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "LEDC2012X120N" (at 157.48 221.92 0)
@@ -641,19 +641,19 @@
     (instances
       (project "LTST-C170KRKT"
         (path "/b501b1b3-bf5e-43b1-b23c-a1e36bab609a"
-          (reference "LED9") (unit 1)
+          (reference "LED4") (unit 1)
         )
       )
     )
   )
 
   (symbol (lib_id "FixedWing:LTST-C170KRKT") (at 144.78 162.56 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 415f37bd-8421-4aea-b9de-fbef8e9c712d)
-    (property "Reference" "LED12" (at 151.7015 153.67 0)
+    (property "Reference" "LED1" (at 152.4 154.94 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "LTST-C170KRKT" (at 151.7015 156.21 0)
+    (property "Value" "LTST-C170KRKT" (at 152.4 157.48 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "LEDC2012X120N" (at 157.48 256.21 0)
@@ -682,19 +682,19 @@
     (instances
       (project "LTST-C170KRKT"
         (path "/b501b1b3-bf5e-43b1-b23c-a1e36bab609a"
-          (reference "LED12") (unit 1)
+          (reference "LED1") (unit 1)
         )
       )
     )
   )
 
   (symbol (lib_id "FixedWing:LTST-C170KRKT") (at 144.78 71.12 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 51490e53-0bd6-4f68-a0cd-b64326d6cb85)
-    (property "Reference" "LED4" (at 151.7015 62.23 0)
+    (property "Reference" "LED9" (at 152.4 63.5 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "LTST-C170KRKT" (at 151.7015 64.77 0)
+    (property "Value" "LTST-C170KRKT" (at 152.4 66.04 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "LEDC2012X120N" (at 157.48 164.77 0)
@@ -723,7 +723,7 @@
     (instances
       (project "LTST-C170KRKT"
         (path "/b501b1b3-bf5e-43b1-b23c-a1e36bab609a"
-          (reference "LED4") (unit 1)
+          (reference "LED9") (unit 1)
         )
       )
     )
@@ -732,10 +732,10 @@
   (symbol (lib_id "Connector_Generic:Conn_01x12") (at 110.49 100.33 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 582319d5-64f9-49bf-b21b-b5db2b3ee293)
-    (property "Reference" "J1" (at 107.95 78.74 0)
+    (property "Reference" "J1" (at 106.68 116.84 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "Conn_01x12" (at 107.95 81.28 0)
+    (property "Value" "Conn_01x12" (at 106.68 119.38 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" (at 110.49 100.33 0)
@@ -766,12 +766,12 @@
   )
 
   (symbol (lib_id "FixedWing:LTST-C170KRKT") (at 144.78 36.83 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 62af772c-f41e-45dc-a1df-113150205938)
-    (property "Reference" "LED1" (at 151.7015 27.94 0)
+    (property "Reference" "LED12" (at 152.4 29.21 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "LTST-C170KRKT" (at 151.7015 30.48 0)
+    (property "Value" "LTST-C170KRKT" (at 152.4 31.75 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "LEDC2012X120N" (at 157.48 130.48 0)
@@ -800,19 +800,19 @@
     (instances
       (project "LTST-C170KRKT"
         (path "/b501b1b3-bf5e-43b1-b23c-a1e36bab609a"
-          (reference "LED1") (unit 1)
+          (reference "LED12") (unit 1)
         )
       )
     )
   )
 
   (symbol (lib_id "FixedWing:LTST-C170KRKT") (at 144.78 82.55 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 65f52180-14d1-40f5-be90-933a6327b2d7)
-    (property "Reference" "LED5" (at 151.7015 73.66 0)
+    (property "Reference" "LED8" (at 152.4 74.93 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "LTST-C170KRKT" (at 151.7015 76.2 0)
+    (property "Value" "LTST-C170KRKT" (at 152.4 77.47 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "LEDC2012X120N" (at 157.48 176.2 0)
@@ -841,7 +841,7 @@
     (instances
       (project "LTST-C170KRKT"
         (path "/b501b1b3-bf5e-43b1-b23c-a1e36bab609a"
-          (reference "LED5") (unit 1)
+          (reference "LED8") (unit 1)
         )
       )
     )
@@ -850,10 +850,10 @@
   (symbol (lib_id "Connector_Generic:Conn_01x12") (at 193.04 101.6 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8e3afc30-9f4f-47ab-a258-d3c7056cbb83)
-    (property "Reference" "J2" (at 195.58 80.01 0)
+    (property "Reference" "J2" (at 196.85 116.84 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "Conn_01x12" (at 195.58 82.55 0)
+    (property "Value" "Conn_01x12" (at 196.85 119.38 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" (at 193.04 101.6 0)
@@ -884,12 +884,12 @@
   )
 
   (symbol (lib_id "FixedWing:LTST-C170KRKT") (at 144.78 105.41 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid bab5c8e2-ec71-492a-97cc-7896817ae3e7)
-    (property "Reference" "LED7" (at 151.7015 96.52 0)
+    (property "Reference" "LED6" (at 152.4 97.79 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "LTST-C170KRKT" (at 151.7015 99.06 0)
+    (property "Value" "LTST-C170KRKT" (at 152.4 100.33 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "LEDC2012X120N" (at 157.48 199.06 0)
@@ -918,19 +918,19 @@
     (instances
       (project "LTST-C170KRKT"
         (path "/b501b1b3-bf5e-43b1-b23c-a1e36bab609a"
-          (reference "LED7") (unit 1)
+          (reference "LED6") (unit 1)
         )
       )
     )
   )
 
   (symbol (lib_id "FixedWing:LTST-C170KRKT") (at 144.78 139.7 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid bed6aa7f-bc7f-4b08-a734-da5911716b51)
-    (property "Reference" "LED10" (at 151.7015 130.81 0)
+    (property "Reference" "LED3" (at 152.4 132.08 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "LTST-C170KRKT" (at 151.7015 133.35 0)
+    (property "Value" "LTST-C170KRKT" (at 152.4 134.62 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "LEDC2012X120N" (at 157.48 233.35 0)
@@ -959,19 +959,19 @@
     (instances
       (project "LTST-C170KRKT"
         (path "/b501b1b3-bf5e-43b1-b23c-a1e36bab609a"
-          (reference "LED10") (unit 1)
+          (reference "LED3") (unit 1)
         )
       )
     )
   )
 
   (symbol (lib_id "FixedWing:LTST-C170KRKT") (at 144.78 48.26 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid c378f5d4-b7d7-4567-9e35-0444f3ec78da)
-    (property "Reference" "LED2" (at 151.7015 39.37 0)
+    (property "Reference" "LED11" (at 152.4 40.64 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "LTST-C170KRKT" (at 151.7015 41.91 0)
+    (property "Value" "LTST-C170KRKT" (at 152.4 43.18 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "LEDC2012X120N" (at 157.48 141.91 0)
@@ -1000,19 +1000,19 @@
     (instances
       (project "LTST-C170KRKT"
         (path "/b501b1b3-bf5e-43b1-b23c-a1e36bab609a"
-          (reference "LED2") (unit 1)
+          (reference "LED11") (unit 1)
         )
       )
     )
   )
 
   (symbol (lib_id "FixedWing:LTST-C170KRKT") (at 144.78 116.84 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid f4d47d31-a74e-4e20-a43b-7bde470db49c)
-    (property "Reference" "LED8" (at 151.7015 107.95 0)
+    (property "Reference" "LED5" (at 152.4 109.22 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "LTST-C170KRKT" (at 151.7015 110.49 0)
+    (property "Value" "LTST-C170KRKT" (at 152.4 111.76 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "LEDC2012X120N" (at 157.48 210.49 0)
@@ -1041,19 +1041,19 @@
     (instances
       (project "LTST-C170KRKT"
         (path "/b501b1b3-bf5e-43b1-b23c-a1e36bab609a"
-          (reference "LED8") (unit 1)
+          (reference "LED5") (unit 1)
         )
       )
     )
   )
 
   (symbol (lib_id "FixedWing:LTST-C170KRKT") (at 144.78 151.13 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid f7edffc2-4597-4c4a-86d5-647a5718385f)
-    (property "Reference" "LED11" (at 151.7015 142.24 0)
+    (property "Reference" "LED2" (at 152.4 143.51 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "LTST-C170KRKT" (at 151.7015 144.78 0)
+    (property "Value" "LTST-C170KRKT" (at 152.4 146.05 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "LEDC2012X120N" (at 157.48 244.78 0)
@@ -1082,7 +1082,7 @@
     (instances
       (project "LTST-C170KRKT"
         (path "/b501b1b3-bf5e-43b1-b23c-a1e36bab609a"
-          (reference "LED11") (unit 1)
+          (reference "LED2") (unit 1)
         )
       )
     )
