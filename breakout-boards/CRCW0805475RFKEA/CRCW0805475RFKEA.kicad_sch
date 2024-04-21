@@ -461,7 +461,7 @@
   (symbol (lib_id "FixedWing:CRCW0805475RFKEA") (at 144.78 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 09ceb03b-c92a-4e03-9ee6-2c0819bf5c86)
-    (property "Reference" "R4" (at 153.67 64.77 0)
+    (property "Reference" "R9" (at 153.67 64.77 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "475Ω" (at 153.67 67.31 0)
@@ -493,7 +493,7 @@
     (instances
       (project "CRCW0805475RFKEA"
         (path "/027b73a9-5e62-41ab-9c40-0261e031de69"
-          (reference "R4") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -502,7 +502,7 @@
   (symbol (lib_id "FixedWing:CRCW0805475RFKEA") (at 144.78 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 40cd56d6-560a-43b4-9ec8-ae98df6b6fb8)
-    (property "Reference" "R8" (at 153.67 110.49 0)
+    (property "Reference" "R5" (at 153.67 110.49 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "475Ω" (at 153.67 113.03 0)
@@ -534,7 +534,7 @@
     (instances
       (project "CRCW0805475RFKEA"
         (path "/027b73a9-5e62-41ab-9c40-0261e031de69"
-          (reference "R8") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -543,7 +543,7 @@
   (symbol (lib_id "FixedWing:CRCW0805475RFKEA") (at 144.78 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5a708bd0-8f48-458f-a199-2c6d1bcba286)
-    (property "Reference" "R6" (at 153.67 87.63 0)
+    (property "Reference" "R7" (at 153.67 87.63 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "475Ω" (at 153.67 90.17 0)
@@ -575,7 +575,7 @@
     (instances
       (project "CRCW0805475RFKEA"
         (path "/027b73a9-5e62-41ab-9c40-0261e031de69"
-          (reference "R6") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -584,7 +584,7 @@
   (symbol (lib_id "FixedWing:CRCW0805475RFKEA") (at 144.78 128.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5d588b90-3b0e-4aaa-8945-3fb291f2b87a)
-    (property "Reference" "R9" (at 153.67 121.92 0)
+    (property "Reference" "R4" (at 153.67 121.92 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "475Ω" (at 153.67 124.46 0)
@@ -616,7 +616,7 @@
     (instances
       (project "CRCW0805475RFKEA"
         (path "/027b73a9-5e62-41ab-9c40-0261e031de69"
-          (reference "R9") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -625,7 +625,7 @@
   (symbol (lib_id "FixedWing:CRCW0805475RFKEA") (at 144.78 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 670a1a62-7003-4405-81ff-ccc0720a882b)
-    (property "Reference" "R5" (at 153.67 76.2 0)
+    (property "Reference" "R8" (at 153.67 76.2 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "475Ω" (at 153.67 78.74 0)
@@ -657,7 +657,7 @@
     (instances
       (project "CRCW0805475RFKEA"
         (path "/027b73a9-5e62-41ab-9c40-0261e031de69"
-          (reference "R5") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -666,7 +666,7 @@
   (symbol (lib_id "FixedWing:CRCW0805475RFKEA") (at 144.78 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7572e303-e354-4f39-8158-b0efe604abaa)
-    (property "Reference" "R11" (at 153.67 144.78 0)
+    (property "Reference" "R2" (at 153.67 144.78 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "475Ω" (at 153.67 147.32 0)
@@ -698,7 +698,7 @@
     (instances
       (project "CRCW0805475RFKEA"
         (path "/027b73a9-5e62-41ab-9c40-0261e031de69"
-          (reference "R11") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -707,7 +707,7 @@
   (symbol (lib_id "FixedWing:CRCW0805475RFKEA") (at 144.78 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8f55c98c-1e3f-4958-a044-1fc4d80ab83d)
-    (property "Reference" "R2" (at 153.67 41.91 0)
+    (property "Reference" "R11" (at 153.67 41.91 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "475Ω" (at 153.67 44.45 0)
@@ -739,7 +739,7 @@
     (instances
       (project "CRCW0805475RFKEA"
         (path "/027b73a9-5e62-41ab-9c40-0261e031de69"
-          (reference "R2") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -748,7 +748,7 @@
   (symbol (lib_id "FixedWing:CRCW0805475RFKEA") (at 144.78 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8f59c956-25ac-409a-a33d-74857c416579)
-    (property "Reference" "R3" (at 153.67 53.34 0)
+    (property "Reference" "R10" (at 153.67 53.34 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "475Ω" (at 153.67 55.88 0)
@@ -780,7 +780,7 @@
     (instances
       (project "CRCW0805475RFKEA"
         (path "/027b73a9-5e62-41ab-9c40-0261e031de69"
-          (reference "R3") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -789,7 +789,7 @@
   (symbol (lib_id "FixedWing:CRCW0805475RFKEA") (at 144.78 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9ddd589f-4628-4e45-bcc1-49d73e7eb864)
-    (property "Reference" "R10" (at 153.67 133.35 0)
+    (property "Reference" "R3" (at 153.67 133.35 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "475Ω" (at 153.67 135.89 0)
@@ -821,7 +821,7 @@
     (instances
       (project "CRCW0805475RFKEA"
         (path "/027b73a9-5e62-41ab-9c40-0261e031de69"
-          (reference "R10") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -830,7 +830,7 @@
   (symbol (lib_id "FixedWing:CRCW0805475RFKEA") (at 144.78 162.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ae807235-59fc-4492-921b-d522629b9910)
-    (property "Reference" "R12" (at 153.67 156.21 0)
+    (property "Reference" "R1" (at 153.67 156.21 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "475Ω" (at 153.67 158.75 0)
@@ -862,7 +862,7 @@
     (instances
       (project "CRCW0805475RFKEA"
         (path "/027b73a9-5e62-41ab-9c40-0261e031de69"
-          (reference "R12") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -871,7 +871,7 @@
   (symbol (lib_id "FixedWing:CRCW0805475RFKEA") (at 144.78 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d95c6c3c-d88d-408f-91d7-548300025083)
-    (property "Reference" "R7" (at 153.67 99.06 0)
+    (property "Reference" "R6" (at 153.67 99.06 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "475Ω" (at 153.67 101.6 0)
@@ -903,7 +903,7 @@
     (instances
       (project "CRCW0805475RFKEA"
         (path "/027b73a9-5e62-41ab-9c40-0261e031de69"
-          (reference "R7") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -912,7 +912,7 @@
   (symbol (lib_id "FixedWing:CRCW0805475RFKEA") (at 144.78 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dd6a7c3b-ac5a-4597-af19-c3e2fb2cf6ab)
-    (property "Reference" "R1" (at 153.67 30.48 0)
+    (property "Reference" "R12" (at 153.67 30.48 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "475Ω" (at 153.67 33.02 0)
@@ -944,7 +944,7 @@
     (instances
       (project "CRCW0805475RFKEA"
         (path "/027b73a9-5e62-41ab-9c40-0261e031de69"
-          (reference "R1") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )

@@ -458,10 +458,46 @@
     (uuid fff34b7a-191d-4e2a-8294-da712c8d93dd)
   )
 
+  (symbol (lib_id "Connector_Generic:Conn_01x12") (at 196.85 102.87 0) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 03e1d6c9-3d8f-4508-ba8e-9726ca54c87f)
+    (property "Reference" "J2" (at 200.66 116.84 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "Conn_01x12" (at 200.66 119.38 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" (at 196.85 102.87 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 196.85 102.87 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "8" (uuid 025d8a58-f3b9-4b98-8d11-22614e9ec42f))
+    (pin "6" (uuid d1cafaf0-2277-4812-a7bf-577db9c685f7))
+    (pin "7" (uuid 7969f194-9617-4f92-8f46-ba46eee07319))
+    (pin "9" (uuid 4548ebd7-5c6a-4113-a98e-6bf5a7b56c21))
+    (pin "3" (uuid d8b1a283-6f9f-4279-bc3d-779fd2c71343))
+    (pin "4" (uuid e8612c1c-002b-4e43-b2a9-7652fd1111e6))
+    (pin "2" (uuid b7ce8167-913d-4240-b073-9b85dd2f18b1))
+    (pin "5" (uuid 1fa3fd29-cc0e-4f7a-bc0e-a512b30142d3))
+    (pin "12" (uuid bc19bad7-058b-4c76-8cb9-ec4da3dea533))
+    (pin "10" (uuid f1235b48-e06d-4fc7-9d39-0adee9d380a1))
+    (pin "11" (uuid 9578151d-ecb5-4e30-b34f-d605901ab4d6))
+    (pin "1" (uuid 9673c21c-f15c-4f66-927d-23a530049f46))
+    (instances
+      (project "CRCW08053K30JNEA"
+        (path "/990ddf93-01dd-428b-a8b7-950f15b0f469"
+          (reference "J2") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "FixedWing:CRCW08053K30JNEA") (at 144.78 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0da0cd1a-e4a5-465e-919e-4c5d8162edad)
-    (property "Reference" "R6" (at 153.67 88.9 0)
+    (property "Reference" "R7" (at 153.67 88.9 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "3K3Ω" (at 153.67 91.44 0)
@@ -493,7 +529,7 @@
     (instances
       (project "CRCW08053K30JNEA"
         (path "/990ddf93-01dd-428b-a8b7-950f15b0f469"
-          (reference "R6") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -502,7 +538,7 @@
   (symbol (lib_id "FixedWing:CRCW08053K30JNEA") (at 144.78 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 17134be6-ace3-468b-9782-81b3a8e9af9c)
-    (property "Reference" "R5" (at 153.67 77.47 0)
+    (property "Reference" "R8" (at 153.67 77.47 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "3K3Ω" (at 153.67 80.01 0)
@@ -534,7 +570,7 @@
     (instances
       (project "CRCW08053K30JNEA"
         (path "/990ddf93-01dd-428b-a8b7-950f15b0f469"
-          (reference "R5") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -543,7 +579,7 @@
   (symbol (lib_id "FixedWing:CRCW08053K30JNEA") (at 144.78 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 36cb90dd-f2e5-4bb4-955d-d5a8b79c5240)
-    (property "Reference" "R9" (at 153.67 123.19 0)
+    (property "Reference" "R4" (at 153.67 123.19 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "3K3Ω" (at 153.67 125.73 0)
@@ -575,43 +611,7 @@
     (instances
       (project "CRCW08053K30JNEA"
         (path "/990ddf93-01dd-428b-a8b7-950f15b0f469"
-          (reference "R9") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector_Generic:Conn_01x12") (at 110.49 101.6 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 3cea831a-a67f-43ec-8804-76f65a5b17aa)
-    (property "Reference" "J1" (at 107.95 80.01 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Conn_01x12" (at 107.95 82.55 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" (at 110.49 101.6 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 110.49 101.6 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "8" (uuid f811052a-c2bd-4f53-9fde-3eb053230119))
-    (pin "6" (uuid 1e1ae709-3e22-4e6b-b091-00f8e7746bd3))
-    (pin "7" (uuid 6ccdd4b5-f961-4b01-8293-662306565a93))
-    (pin "9" (uuid d2b0e2bc-c0aa-47c2-9dcb-3221b24942e8))
-    (pin "3" (uuid 509d3831-7d8c-4577-9555-283fca40df6c))
-    (pin "4" (uuid e4840f94-8cb0-4c9d-8f40-be0e8341a2a0))
-    (pin "2" (uuid ea7cb95d-8816-4bd0-a539-45982d606553))
-    (pin "5" (uuid b5bdfba5-980f-4840-b2da-e51f0ee828c9))
-    (pin "12" (uuid 2410dda9-3f38-46d5-b517-ea19b78fd82a))
-    (pin "10" (uuid fe85d36a-9017-4897-9a0b-1d821569b2ac))
-    (pin "11" (uuid 3c7905c9-16e1-4609-9ee6-d1c95ced7055))
-    (pin "1" (uuid 09464869-ef3b-42ac-b62b-ef16390c9cb1))
-    (instances
-      (project "CRCW08053K30JNEA"
-        (path "/990ddf93-01dd-428b-a8b7-950f15b0f469"
-          (reference "J1") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -620,7 +620,7 @@
   (symbol (lib_id "FixedWing:CRCW08053K30JNEA") (at 144.78 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 40d338de-f82e-453a-9d4b-a06aa9ff68fa)
-    (property "Reference" "R4" (at 153.67 66.04 0)
+    (property "Reference" "R9" (at 153.67 66.04 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "3K3Ω" (at 153.67 68.58 0)
@@ -652,7 +652,7 @@
     (instances
       (project "CRCW08053K30JNEA"
         (path "/990ddf93-01dd-428b-a8b7-950f15b0f469"
-          (reference "R4") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -661,7 +661,7 @@
   (symbol (lib_id "FixedWing:CRCW08053K30JNEA") (at 144.78 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4a93a650-b727-4237-8292-07d7837ca230)
-    (property "Reference" "R11" (at 153.67 146.05 0)
+    (property "Reference" "R2" (at 153.67 146.05 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "3K3Ω" (at 153.67 148.59 0)
@@ -693,7 +693,7 @@
     (instances
       (project "CRCW08053K30JNEA"
         (path "/990ddf93-01dd-428b-a8b7-950f15b0f469"
-          (reference "R11") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -702,7 +702,7 @@
   (symbol (lib_id "FixedWing:CRCW08053K30JNEA") (at 144.78 140.97 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 584cdda2-25bd-4a28-84d7-639106c5dc64)
-    (property "Reference" "R10" (at 153.67 134.62 0)
+    (property "Reference" "R3" (at 153.67 134.62 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "3K3Ω" (at 153.67 137.16 0)
@@ -734,7 +734,7 @@
     (instances
       (project "CRCW08053K30JNEA"
         (path "/990ddf93-01dd-428b-a8b7-950f15b0f469"
-          (reference "R10") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -743,7 +743,7 @@
   (symbol (lib_id "FixedWing:CRCW08053K30JNEA") (at 144.78 163.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 59c92397-9404-4f09-aa71-05740b8a70d0)
-    (property "Reference" "R12" (at 153.67 157.48 0)
+    (property "Reference" "R1" (at 153.67 157.48 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "3K3Ω" (at 153.67 160.02 0)
@@ -775,7 +775,7 @@
     (instances
       (project "CRCW08053K30JNEA"
         (path "/990ddf93-01dd-428b-a8b7-950f15b0f469"
-          (reference "R12") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -784,7 +784,7 @@
   (symbol (lib_id "FixedWing:CRCW08053K30JNEA") (at 144.78 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a11fdaa6-6d6c-4f87-8281-fe0bd7b8728f)
-    (property "Reference" "R3" (at 153.67 54.61 0)
+    (property "Reference" "R10" (at 153.67 54.61 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "3K3Ω" (at 153.67 57.15 0)
@@ -816,43 +816,43 @@
     (instances
       (project "CRCW08053K30JNEA"
         (path "/990ddf93-01dd-428b-a8b7-950f15b0f469"
-          (reference "R3") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Connector_Generic:Conn_01x12") (at 196.85 102.87 0) (mirror x) (unit 1)
+  (symbol (lib_id "Connector_Generic:Conn_01x12") (at 110.49 101.6 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
-    (uuid aa7cda6d-f4e1-4924-89c9-b09f5fa6b0f3)
-    (property "Reference" "J2" (at 199.39 81.28 0)
+    (uuid beeb67fb-0684-484e-b986-cdff736d939b)
+    (property "Reference" "J1" (at 106.68 116.84 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "Conn_01x12" (at 199.39 83.82 0)
+    (property "Value" "Conn_01x12" (at 106.68 119.38 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" (at 196.85 102.87 0)
+    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" (at 110.49 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 196.85 102.87 0)
+    (property "Datasheet" "~" (at 110.49 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "8" (uuid cb6b4975-45ec-420a-9e2b-dafebeb908c8))
-    (pin "6" (uuid 9ba07197-1ece-4ec1-8bdf-dcc44120517e))
-    (pin "7" (uuid 924758a3-1d2a-4d00-917a-58eaea8a0fb0))
-    (pin "9" (uuid d37a8e56-50e7-43cb-8b44-d7886cc3da14))
-    (pin "3" (uuid 120713a7-e343-4e31-9bf7-18fa59e01960))
-    (pin "4" (uuid 97922cce-cb17-4430-ae1f-64bd3653ca17))
-    (pin "2" (uuid 047d2ecf-e8f6-4f88-b6d9-56e236ef14c5))
-    (pin "5" (uuid 6f905042-d6dd-4c38-89f5-97ea11c00095))
-    (pin "12" (uuid ae720721-3e6d-40dc-a3bd-599f05b8df3a))
-    (pin "10" (uuid 31d4db1d-ae69-4919-84c1-2fff10cb6993))
-    (pin "11" (uuid 38425bf1-8fc6-41d1-8d85-10d75b14c929))
-    (pin "1" (uuid e8900d9c-8c64-414b-9508-f34fd7acf173))
+    (pin "8" (uuid ec6a0187-aec0-4416-98f5-99ef577d7b02))
+    (pin "6" (uuid 06c4cd86-540e-4334-bbbb-0619f2ccc254))
+    (pin "7" (uuid 8cb3ed39-490e-4e37-adcd-44a33528ef8a))
+    (pin "9" (uuid bea40aa8-63ea-4f4a-9857-78db79954d77))
+    (pin "3" (uuid 86fadec9-cfae-412f-bc41-558feedb0fbb))
+    (pin "4" (uuid c9756131-1b34-46cb-931c-29814a809e1d))
+    (pin "2" (uuid d5c5e9b8-ed79-46d4-a7c1-5fcee6893872))
+    (pin "5" (uuid 626cddfd-27df-4c94-b493-c10aace88a36))
+    (pin "12" (uuid d58c74ed-e078-4bd3-84b6-dbcb817390a1))
+    (pin "10" (uuid 9be95a88-fa3c-495f-b345-6c53eabff4b2))
+    (pin "11" (uuid a1d028dc-4da2-4434-a558-2b51ee242be4))
+    (pin "1" (uuid c4b626d3-0828-473b-af67-95a350f02d82))
     (instances
       (project "CRCW08053K30JNEA"
         (path "/990ddf93-01dd-428b-a8b7-950f15b0f469"
-          (reference "J2") (unit 1)
+          (reference "J1") (unit 1)
         )
       )
     )
@@ -861,7 +861,7 @@
   (symbol (lib_id "FixedWing:CRCW08053K30JNEA") (at 144.78 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bfd4c7f5-1d16-402d-b091-fc14fa0bde86)
-    (property "Reference" "R7" (at 153.67 100.33 0)
+    (property "Reference" "R6" (at 153.67 100.33 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "3K3Ω" (at 153.67 102.87 0)
@@ -893,7 +893,7 @@
     (instances
       (project "CRCW08053K30JNEA"
         (path "/990ddf93-01dd-428b-a8b7-950f15b0f469"
-          (reference "R7") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -902,7 +902,7 @@
   (symbol (lib_id "FixedWing:CRCW08053K30JNEA") (at 144.78 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ca92f22d-3883-4445-93a6-b1cce7fc30ac)
-    (property "Reference" "R1" (at 153.67 31.75 0)
+    (property "Reference" "R12" (at 153.67 31.75 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "3K3Ω" (at 153.67 34.29 0)
@@ -934,7 +934,7 @@
     (instances
       (project "CRCW08053K30JNEA"
         (path "/990ddf93-01dd-428b-a8b7-950f15b0f469"
-          (reference "R1") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -943,7 +943,7 @@
   (symbol (lib_id "FixedWing:CRCW08053K30JNEA") (at 144.78 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid da696fa9-1339-48b6-8399-82e53bff9728)
-    (property "Reference" "R2" (at 153.67 43.18 0)
+    (property "Reference" "R11" (at 153.67 43.18 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "3K3Ω" (at 153.67 45.72 0)
@@ -975,7 +975,7 @@
     (instances
       (project "CRCW08053K30JNEA"
         (path "/990ddf93-01dd-428b-a8b7-950f15b0f469"
-          (reference "R2") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -984,7 +984,7 @@
   (symbol (lib_id "FixedWing:CRCW08053K30JNEA") (at 144.78 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f83c578f-7ddb-4627-a6cc-66f28138014b)
-    (property "Reference" "R8" (at 153.67 111.76 0)
+    (property "Reference" "R5" (at 153.67 111.76 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "3K3Ω" (at 153.67 114.3 0)
@@ -1016,7 +1016,7 @@
     (instances
       (project "CRCW08053K30JNEA"
         (path "/990ddf93-01dd-428b-a8b7-950f15b0f469"
-          (reference "R8") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )

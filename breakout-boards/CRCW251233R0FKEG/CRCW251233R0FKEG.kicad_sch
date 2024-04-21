@@ -461,7 +461,7 @@
   (symbol (lib_id "FixedWing:CRCW251233R0FKEG") (at 140.97 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1065762e-548f-46ae-ae4f-777480a0dcb4)
-    (property "Reference" "R8" (at 149.86 107.95 0)
+    (property "Reference" "R5" (at 149.86 107.95 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "33Ω" (at 149.86 110.49 0)
@@ -493,7 +493,7 @@
     (instances
       (project "CRCW251233R0FKEG"
         (path "/a1218e94-8cef-463a-8348-8be13b042018"
-          (reference "R8") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -502,7 +502,7 @@
   (symbol (lib_id "FixedWing:CRCW251233R0FKEG") (at 140.97 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 15c3d330-a48d-4779-adc6-b5b6e35594a0)
-    (property "Reference" "R5" (at 149.86 73.66 0)
+    (property "Reference" "R8" (at 149.86 73.66 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "33Ω" (at 149.86 76.2 0)
@@ -534,7 +534,7 @@
     (instances
       (project "CRCW251233R0FKEG"
         (path "/a1218e94-8cef-463a-8348-8be13b042018"
-          (reference "R5") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -543,7 +543,7 @@
   (symbol (lib_id "FixedWing:CRCW251233R0FKEG") (at 140.97 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 23b52b6e-84c3-44d2-bd8a-88f42f6f0754)
-    (property "Reference" "R7" (at 149.86 96.52 0)
+    (property "Reference" "R6" (at 149.86 96.52 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "33Ω" (at 149.86 99.06 0)
@@ -575,7 +575,7 @@
     (instances
       (project "CRCW251233R0FKEG"
         (path "/a1218e94-8cef-463a-8348-8be13b042018"
-          (reference "R7") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -584,7 +584,7 @@
   (symbol (lib_id "FixedWing:CRCW251233R0FKEG") (at 140.97 148.59 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 29fc382b-2900-40c7-8c8f-63135cee8af5)
-    (property "Reference" "R11" (at 149.86 142.24 0)
+    (property "Reference" "R2" (at 149.86 142.24 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "33Ω" (at 149.86 144.78 0)
@@ -616,7 +616,7 @@
     (instances
       (project "CRCW251233R0FKEG"
         (path "/a1218e94-8cef-463a-8348-8be13b042018"
-          (reference "R11") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -625,7 +625,7 @@
   (symbol (lib_id "FixedWing:CRCW251233R0FKEG") (at 140.97 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4dcd14ba-e92c-4b2c-a444-f8f410ef753d)
-    (property "Reference" "R6" (at 149.86 85.09 0)
+    (property "Reference" "R7" (at 149.86 85.09 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "33Ω" (at 149.86 87.63 0)
@@ -657,7 +657,7 @@
     (instances
       (project "CRCW251233R0FKEG"
         (path "/a1218e94-8cef-463a-8348-8be13b042018"
-          (reference "R6") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -666,7 +666,7 @@
   (symbol (lib_id "FixedWing:CRCW251233R0FKEG") (at 140.97 160.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 541472d7-48b8-47a2-a4a4-dd90639a7abb)
-    (property "Reference" "R12" (at 149.86 153.67 0)
+    (property "Reference" "R1" (at 149.86 153.67 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "33Ω" (at 149.86 156.21 0)
@@ -698,7 +698,7 @@
     (instances
       (project "CRCW251233R0FKEG"
         (path "/a1218e94-8cef-463a-8348-8be13b042018"
-          (reference "R12") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -707,10 +707,10 @@
   (symbol (lib_id "Connector_Generic:Conn_01x12") (at 106.68 97.79 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6c716825-45da-4959-831a-3a40fbfdda98)
-    (property "Reference" "J1" (at 104.14 76.2 0)
+    (property "Reference" "J1" (at 102.87 113.03 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "Conn_01x12" (at 104.14 78.74 0)
+    (property "Value" "Conn_01x12" (at 102.87 115.57 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" (at 106.68 97.79 0)
@@ -743,7 +743,7 @@
   (symbol (lib_id "FixedWing:CRCW251233R0FKEG") (at 140.97 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7b5f9cab-4223-41c8-ba88-bc521096d505)
-    (property "Reference" "R2" (at 149.86 39.37 0)
+    (property "Reference" "R11" (at 149.86 39.37 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "33Ω" (at 149.86 41.91 0)
@@ -775,7 +775,7 @@
     (instances
       (project "CRCW251233R0FKEG"
         (path "/a1218e94-8cef-463a-8348-8be13b042018"
-          (reference "R2") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -784,7 +784,7 @@
   (symbol (lib_id "FixedWing:CRCW251233R0FKEG") (at 140.97 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7fda2acf-37c6-4711-897c-20d3794dcc50)
-    (property "Reference" "R3" (at 149.86 50.8 0)
+    (property "Reference" "R10" (at 149.86 50.8 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "33Ω" (at 149.86 53.34 0)
@@ -816,7 +816,7 @@
     (instances
       (project "CRCW251233R0FKEG"
         (path "/a1218e94-8cef-463a-8348-8be13b042018"
-          (reference "R3") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -825,10 +825,10 @@
   (symbol (lib_id "Connector_Generic:Conn_01x12") (at 193.04 99.06 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8338144c-e8c6-4fbd-9df3-e709d82ac43c)
-    (property "Reference" "J2" (at 195.58 77.47 0)
+    (property "Reference" "J2" (at 196.85 113.03 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "Conn_01x12" (at 195.58 80.01 0)
+    (property "Value" "Conn_01x12" (at 196.85 115.57 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" (at 193.04 99.06 0)
@@ -861,7 +861,7 @@
   (symbol (lib_id "FixedWing:CRCW251233R0FKEG") (at 140.97 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8b505363-2dbb-4a14-ad51-b259c74a38b6)
-    (property "Reference" "R10" (at 149.86 130.81 0)
+    (property "Reference" "R3" (at 149.86 130.81 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "33Ω" (at 149.86 133.35 0)
@@ -893,7 +893,7 @@
     (instances
       (project "CRCW251233R0FKEG"
         (path "/a1218e94-8cef-463a-8348-8be13b042018"
-          (reference "R10") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -902,7 +902,7 @@
   (symbol (lib_id "FixedWing:CRCW251233R0FKEG") (at 140.97 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 92c589f2-f4dc-4efb-ae76-561b8be798cc)
-    (property "Reference" "R4" (at 149.86 62.23 0)
+    (property "Reference" "R9" (at 149.86 62.23 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "33Ω" (at 149.86 64.77 0)
@@ -934,7 +934,7 @@
     (instances
       (project "CRCW251233R0FKEG"
         (path "/a1218e94-8cef-463a-8348-8be13b042018"
-          (reference "R4") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -943,7 +943,7 @@
   (symbol (lib_id "FixedWing:CRCW251233R0FKEG") (at 140.97 125.73 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ddfa6ab2-d434-49ed-91da-da33d91c4431)
-    (property "Reference" "R9" (at 149.86 119.38 0)
+    (property "Reference" "R4" (at 149.86 119.38 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "33Ω" (at 149.86 121.92 0)
@@ -975,7 +975,7 @@
     (instances
       (project "CRCW251233R0FKEG"
         (path "/a1218e94-8cef-463a-8348-8be13b042018"
-          (reference "R9") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -984,7 +984,7 @@
   (symbol (lib_id "FixedWing:CRCW251233R0FKEG") (at 140.97 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f3be567b-8418-470a-9d90-d2573d83bf67)
-    (property "Reference" "R1" (at 149.86 27.94 0)
+    (property "Reference" "R12" (at 149.86 27.94 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "33Ω" (at 149.86 30.48 0)
@@ -1016,7 +1016,7 @@
     (instances
       (project "CRCW251233R0FKEG"
         (path "/a1218e94-8cef-463a-8348-8be13b042018"
-          (reference "R1") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )
