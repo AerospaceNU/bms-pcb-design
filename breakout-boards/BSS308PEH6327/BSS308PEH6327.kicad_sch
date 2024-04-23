@@ -627,7 +627,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x12") (at 273.05 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 01070ac9-5f95-4e61-830c-014d99210dca)
-    (property "Reference" "J2" (at 273.05 58.42 0)
+    (property "Reference" "J3" (at 273.05 58.42 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x12" (at 273.05 55.88 0)
@@ -654,7 +654,7 @@
     (instances
       (project "BSS308PEH6327"
         (path "/8fa9ade4-ce80-4c27-9e96-ce2c5051f917"
-          (reference "J2") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
     )
@@ -915,7 +915,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x12") (at 273.05 153.67 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7aa66a46-9e16-4df4-983e-9adaaa1a224f)
-    (property "Reference" "J3" (at 273.05 132.08 0)
+    (property "Reference" "J2" (at 273.05 132.08 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x12" (at 273.05 134.62 0)
@@ -942,7 +942,7 @@
     (instances
       (project "BSS308PEH6327"
         (path "/8fa9ade4-ce80-4c27-9e96-ce2c5051f917"
-          (reference "J3") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
     )
