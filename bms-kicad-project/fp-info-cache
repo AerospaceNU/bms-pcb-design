@@ -1,4 +1,4 @@
-22657807142449792
+22657044348267271
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -55251,6 +55251,20 @@ emi filter
 5
 5
 FixedWing
+AeroNU - Logo
+
+
+0
+0
+0
+FixedWing
+AeroNU - Logo (Smol)
+
+
+0
+0
+0
+FixedWing
 CAPC2012X95N
 0805 (2012)(H=0.95mm)
 Capacitor
@@ -55264,6 +55278,20 @@ S7B-XH-A
 0
 7
 7
+FixedWing
+FixedWing - Logo
+
+
+0
+0
+0
+FixedWing
+FixedWing - Logo (Smol)
+
+
+0
+0
+0
 FixedWing
 LEDC2012X90N
 SML-H12x Series-1
