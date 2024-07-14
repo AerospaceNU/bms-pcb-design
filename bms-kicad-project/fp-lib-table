@@ -1,4 +1,4 @@
 (fp_lib_table
   (version 7)
-  (lib (name "FixedWing")(type "KiCad")(uri "${KIPRJMOD}/../libraries/FixedWing.pretty")(options "")(descr ""))
+  (lib (name "FixedWing")(type "KiCad")(uri "C:/Users/matth/Desktop/AeroNU/FixedWing/BMS/bms-pcb-design/libraries/FixedWing.pretty")(options "")(descr ""))
 )

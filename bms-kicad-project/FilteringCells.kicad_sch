@@ -16,7 +16,7 @@
       (property "Reference" "C" (at 8.89 6.35 0)
         (effects (font (size 1.27 1.27)) (justify left top))
       )
-      (property "Value" "10nF" (at 8.89 3.81 0)
+      (property "Value" "10n" (at 8.89 3.81 0)
         (effects (font (size 1.27 1.27)) (justify left top))
       )
       (property "Footprint" "FixedWing:CAPC2012X95N" (at 8.89 -96.19 0)
@@ -230,7 +230,7 @@
       (property "Reference" "R" (at 13.97 6.35 0)
         (effects (font (size 1.27 1.27)) (justify left top))
       )
-      (property "Value" "100Ω" (at 13.97 3.81 0)
+      (property "Value" "100" (at 13.97 3.81 0)
         (effects (font (size 1.27 1.27)) (justify left top))
       )
       (property "Footprint" "RESC2012X50N" (at 13.97 -96.19 0)
@@ -276,7 +276,7 @@
       (property "Reference" "R" (at 12.7 6.35 0)
         (effects (font (size 1.27 1.27)) (justify left top))
       )
-      (property "Value" "3k3Ω" (at 12.7 3.81 0)
+      (property "Value" "3k3" (at 12.7 3.81 0)
         (effects (font (size 1.27 1.27)) (justify left top))
       )
       (property "Footprint" "RESC2012X50N" (at 13.97 -96.19 0)
@@ -322,7 +322,7 @@
       (property "Reference" "R" (at 13.97 6.35 0)
         (effects (font (size 1.27 1.27)) (justify left top))
       )
-      (property "Value" "475Ω" (at 13.97 3.81 0)
+      (property "Value" "475" (at 13.97 3.81 0)
         (effects (font (size 1.27 1.27)) (justify left top))
       )
       (property "Footprint" "RESC2012X50N" (at 13.97 -96.19 0)
@@ -368,10 +368,10 @@
       (property "Reference" "R" (at 13.97 6.35 0)
         (effects (font (size 1.27 1.27)) (justify left top))
       )
-      (property "Value" "33Ω" (at 13.97 3.81 0)
+      (property "Value" "33" (at 13.97 3.81 0)
         (effects (font (size 1.27 1.27)) (justify left top))
       )
-      (property "Footprint" "RESC6332X70N" (at 13.97 -96.19 0)
+      (property "Footprint" "FixedWing:RESC6332X70N" (at 13.97 -96.19 0)
         (effects (font (size 1.27 1.27)) (justify left top) hide)
       )
       (property "Datasheet" "http://www.vishay.com/docs/20035/dcrcwe3.pdf" (at 13.97 -196.19 0)
@@ -1750,15 +1750,22 @@
     (effects (font (size 1.27 1.27)) (justify left top))
     (uuid 45459144-b0d8-4ebb-9b5b-259f68a06fc3)
   )
-  (text_box "NOTE:\nBattery monitor voltage input and C12 tied to top of stack (C9) through 100Ω resistor per p.67 of LTC6804-2 datasheet."
-    (at 328.93 33.02 0) (size 38.1 12.7)
+  (text_box "NOTE:\nBattery monitor voltage input tied to top of stack (C9) through decoupling RC (100Ω/100nF) to protect against transients per p.58 of LTC6804-2 datasheet."
+    (at 328.93 27.94 0) (size 35.56 13.97)
     (stroke (width 0) (type default))
     (fill (type none))
     (effects (font (size 1.27 1.27)) (justify left top))
     (uuid adf2307f-946a-4569-bfd9-821708af1c3a)
   )
+  (text_box "NOTE:\nC12 tied to top of stack (C9 input) through 100Ω resistor per p.67 of LTC6804-2 datasheet."
+    (at 328.93 46.99 0) (size 35.56 10.16)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (effects (font (size 1.27 1.27)) (justify left top))
+    (uuid c467b573-3e30-45d4-9c46-b6a1c1f1d1f6)
+  )
   (text_box "NOTE:\nPWR_FLAG added to pass KiCad ERC, validating VIN_MONITOR as a power supply"
-    (at 328.93 17.78 0) (size 44.45 7.62)
+    (at 240.03 17.78 0) (size 44.45 7.62)
     (stroke (width 0) (type default))
     (fill (type none))
     (effects (font (size 1.27 1.27)) (justify left top))
@@ -1918,7 +1925,7 @@
   (symbol (lib_id "power:GND") (at 41.91 247.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 04744136-6ca2-42da-9e67-86a1962b22bb)
-    (property "Reference" "#PWR02" (at 41.91 254 0)
+    (property "Reference" "#PWR01" (at 41.91 254 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 41.91 252.73 0)
@@ -1934,7 +1941,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -1943,13 +1950,13 @@
   (symbol (lib_id "FixedWing:CRCW251233R0FKEG") (at 107.95 205.74 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0f44b8a9-e67a-4dd8-ae46-844a59628fd6)
-    (property "Reference" "R17" (at 110.49 196.85 90)
+    (property "Reference" "R11" (at 110.49 196.85 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "33Ω" (at 107.95 195.58 0)
+    (property "Value" "33" (at 107.95 195.58 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "RESC6332X70N" (at 204.14 191.77 0)
+    (property "Footprint" "FixedWing:RESC6332X70N" (at 204.14 191.77 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "http://www.vishay.com/docs/20035/dcrcwe3.pdf" (at 304.14 191.77 0)
@@ -1975,7 +1982,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R17") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -1984,10 +1991,10 @@
   (symbol (lib_id "FixedWing:AC0805KRX7R8BB103") (at 241.3 93.98 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1001e978-098c-4585-8382-93bfc7ae5ec2)
-    (property "Reference" "C7" (at 245.11 99.06 90)
+    (property "Reference" "C3" (at 245.11 99.06 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10nF" (at 245.11 101.6 90)
+    (property "Value" "10n" (at 245.11 101.6 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "FixedWing:CAPC2012X95N" (at 145.11 102.87 0)
@@ -2016,7 +2023,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "C7") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -2025,10 +2032,10 @@
   (symbol (lib_id "FixedWing:AC0805KRX7R8BB103") (at 266.7 213.36 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 120397ab-5b82-465c-be90-13867cdd2892)
-    (property "Reference" "C2" (at 270.51 218.44 90)
+    (property "Reference" "C7" (at 270.51 218.44 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10nF" (at 270.51 220.98 90)
+    (property "Value" "10n" (at 270.51 220.98 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "FixedWing:CAPC2012X95N" (at 170.51 222.25 0)
@@ -2057,7 +2064,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "C2") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -2066,7 +2073,7 @@
   (symbol (lib_id "FixedWing:BSS308PE_H6327") (at 133.35 195.58 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 14cdc4c3-2ceb-4242-b994-74b051d94a54)
-    (property "Reference" "Q2" (at 143.51 190.5 90)
+    (property "Reference" "Q5" (at 143.51 190.5 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "BSS308PE_H6327" (at 143.51 193.04 90)
@@ -2099,7 +2106,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "Q2") (unit 1)
+          (reference "Q5") (unit 1)
         )
       )
     )
@@ -2108,10 +2115,10 @@
   (symbol (lib_id "FixedWing:CRCW0805100RFKEA") (at 177.8 179.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 197d9987-2693-4137-b0a8-99cd9dfbe481)
-    (property "Reference" "R3" (at 186.69 176.53 0)
+    (property "Reference" "R20" (at 186.69 176.53 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "100Ω" (at 186.69 179.07 0)
+    (property "Value" "100" (at 186.69 179.07 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "RESC2012X50N" (at 191.77 275.26 0)
@@ -2140,7 +2147,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R3") (unit 1)
+          (reference "R20") (unit 1)
         )
       )
     )
@@ -2149,10 +2156,10 @@
   (symbol (lib_id "FixedWing:CRCW0805100RFKEA") (at 176.53 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1f90efc5-484a-4ae1-a711-f9897722218f)
-    (property "Reference" "R19" (at 185.42 31.75 0)
+    (property "Reference" "R13" (at 185.42 31.75 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "100Ω" (at 185.42 34.29 0)
+    (property "Value" "100" (at 185.42 34.29 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "RESC2012X50N" (at 190.5 130.48 0)
@@ -2181,7 +2188,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R19") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
     )
@@ -2190,10 +2197,10 @@
   (symbol (lib_id "FixedWing:CRCW0805475RFKEA") (at 80.01 86.36 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 20a733f0-2a72-43ec-86eb-947bb9a723dc)
-    (property "Reference" "R15" (at 73.66 77.47 90)
+    (property "Reference" "R1" (at 73.66 77.47 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "475Ω" (at 80.01 74.93 0)
+    (property "Value" "475" (at 80.01 74.93 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "RESC2012X50N" (at 176.2 72.39 0)
@@ -2222,7 +2229,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R15") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -2231,7 +2238,7 @@
   (symbol (lib_id "FixedWing:BSS308PE_H6327") (at 133.35 222.25 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 291b6574-cc37-4099-a69e-8013ad1e9fc3)
-    (property "Reference" "Q1" (at 143.51 217.17 90)
+    (property "Reference" "Q6" (at 143.51 217.17 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "BSS308PE_H6327" (at 143.51 219.71 90)
@@ -2264,7 +2271,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "Q1") (unit 1)
+          (reference "Q6") (unit 1)
         )
       )
     )
@@ -2273,7 +2280,7 @@
   (symbol (lib_id "FixedWing:LTST-C170KRKT") (at 87.63 187.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2942ed82-dfdd-40ce-9d12-9491b2f170b2)
-    (property "Reference" "LED2" (at 95.25 191.77 0)
+    (property "Reference" "LED5" (at 95.25 191.77 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LTST-C170KRKT" (at 95.25 194.31 0)
@@ -2305,7 +2312,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "LED2") (unit 1)
+          (reference "LED5") (unit 1)
         )
       )
     )
@@ -2314,10 +2321,10 @@
   (symbol (lib_id "FixedWing:CRCW08053K30JNEA") (at 222.25 81.28 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2cd7d074-3fea-4f29-a344-e5ded575bf99)
-    (property "Reference" "R29" (at 213.36 78.74 0)
+    (property "Reference" "R23" (at 213.36 78.74 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "3k3Ω" (at 213.36 81.28 0)
+    (property "Value" "3k3" (at 213.36 81.28 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "RESC2012X50N" (at 208.28 177.47 0)
@@ -2346,7 +2353,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R29") (unit 1)
+          (reference "R23") (unit 1)
         )
       )
     )
@@ -2355,10 +2362,10 @@
   (symbol (lib_id "FixedWing:CRCW0805475RFKEA") (at 80.01 139.7 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2d0bd28c-d7b5-4c48-9433-03b04e674359)
-    (property "Reference" "R13" (at 73.66 130.81 90)
+    (property "Reference" "R3" (at 73.66 130.81 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "475Ω" (at 80.01 128.27 0)
+    (property "Value" "475" (at 80.01 128.27 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "RESC2012X50N" (at 176.2 125.73 0)
@@ -2387,7 +2394,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R13") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -2396,10 +2403,10 @@
   (symbol (lib_id "FixedWing:AC0805KRX7R8BB103") (at 234.95 67.31 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 33041eca-cd83-4100-b2aa-07194313f809)
-    (property "Reference" "C8" (at 238.76 72.39 90)
+    (property "Reference" "C2" (at 238.76 72.39 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10nF" (at 238.76 74.93 90)
+    (property "Value" "10n" (at 238.76 74.93 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "FixedWing:CAPC2012X95N" (at 138.76 76.2 0)
@@ -2428,7 +2435,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "C8") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -2437,7 +2444,7 @@
   (symbol (lib_id "FixedWing:LTST-C170KRKT") (at 87.63 214.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 380f2151-9c72-4443-b021-e779e75cb16f)
-    (property "Reference" "LED1" (at 95.25 218.44 0)
+    (property "Reference" "LED6" (at 95.25 218.44 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LTST-C170KRKT" (at 95.25 220.98 0)
@@ -2469,7 +2476,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "LED1") (unit 1)
+          (reference "LED6") (unit 1)
         )
       )
     )
@@ -2481,7 +2488,7 @@
     (property "Reference" "C1" (at 191.77 241.3 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10nF" (at 191.77 243.84 90)
+    (property "Value" "10n" (at 191.77 243.84 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "FixedWing:CAPC2012X95N" (at 103.2 242.57 0)
@@ -2519,10 +2526,10 @@
   (symbol (lib_id "FixedWing:CRCW0805100RFKEA") (at 177.8 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3b383f33-a643-477e-a2b0-5d2b061229ae)
-    (property "Reference" "R5" (at 186.69 142.24 0)
+    (property "Reference" "R18" (at 186.69 142.24 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "100Ω" (at 186.69 144.78 0)
+    (property "Value" "100" (at 186.69 144.78 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "RESC2012X50N" (at 191.77 240.97 0)
@@ -2551,7 +2558,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R5") (unit 1)
+          (reference "R18") (unit 1)
         )
       )
     )
@@ -2560,10 +2567,10 @@
   (symbol (lib_id "FixedWing:CRCW0805475RFKEA") (at 80.01 113.03 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3eebbee7-a856-413b-bf90-3ac282dc3cfd)
-    (property "Reference" "R14" (at 73.66 104.14 90)
+    (property "Reference" "R2" (at 73.66 104.14 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "475Ω" (at 80.01 101.6 0)
+    (property "Value" "475" (at 80.01 101.6 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "RESC2012X50N" (at 176.2 99.06 0)
@@ -2592,7 +2599,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R14") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -2601,10 +2608,10 @@
   (symbol (lib_id "FixedWing:CRCW08053K30JNEA") (at 222.25 173.99 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 433dc146-7b04-4546-81b5-4749c0917863)
-    (property "Reference" "R25" (at 213.36 171.45 0)
+    (property "Reference" "R26" (at 213.36 171.45 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "3k3Ω" (at 213.36 173.99 0)
+    (property "Value" "3k3" (at 213.36 173.99 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "RESC2012X50N" (at 208.28 270.18 0)
@@ -2633,7 +2640,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R25") (unit 1)
+          (reference "R26") (unit 1)
         )
       )
     )
@@ -2642,7 +2649,7 @@
   (symbol (lib_id "FixedWing:LTST-C170KRKT") (at 87.63 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 47e7af04-2090-4c05-9df1-983c32a0d7d2)
-    (property "Reference" "LED6" (at 95.25 99.06 0)
+    (property "Reference" "LED2" (at 95.25 99.06 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LTST-C170KRKT" (at 95.25 101.6 0)
@@ -2674,7 +2681,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "LED6") (unit 1)
+          (reference "LED2") (unit 1)
         )
       )
     )
@@ -2683,10 +2690,10 @@
   (symbol (lib_id "FixedWing:CRCW0805100RFKEA") (at 177.8 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4dba7ec4-6b15-4d37-aeec-ac1f40c0c1a8)
-    (property "Reference" "R4" (at 186.69 149.86 0)
+    (property "Reference" "R19" (at 186.69 149.86 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "100Ω" (at 186.69 152.4 0)
+    (property "Value" "100" (at 186.69 152.4 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "RESC2012X50N" (at 191.77 248.59 0)
@@ -2715,7 +2722,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R4") (unit 1)
+          (reference "R19") (unit 1)
         )
       )
     )
@@ -2724,10 +2731,10 @@
   (symbol (lib_id "FixedWing:CRCW08053K30JNEA") (at 222.25 134.62 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 52ce5b00-59c0-4609-89d8-3b4291827922)
-    (property "Reference" "R27" (at 213.36 132.08 0)
+    (property "Reference" "R25" (at 213.36 132.08 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "3k3Ω" (at 213.36 134.62 0)
+    (property "Value" "3k3" (at 213.36 134.62 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "RESC2012X50N" (at 208.28 230.81 0)
@@ -2756,7 +2763,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R27") (unit 1)
+          (reference "R25") (unit 1)
         )
       )
     )
@@ -2765,7 +2772,7 @@
   (symbol (lib_id "FixedWing:BSS308PE_H6327") (at 133.35 102.87 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 625b58ad-d68f-43e2-8b7b-e1b0b86626f7)
-    (property "Reference" "Q6" (at 143.51 97.79 90)
+    (property "Reference" "Q2" (at 143.51 97.79 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "BSS308PE_H6327" (at 143.51 100.33 90)
@@ -2798,7 +2805,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "Q6") (unit 1)
+          (reference "Q2") (unit 1)
         )
       )
     )
@@ -2807,13 +2814,13 @@
   (symbol (lib_id "FixedWing:CRCW251233R0FKEG") (at 107.95 232.41 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 62ae6f28-ec79-40c9-b437-eb458c49a61a)
-    (property "Reference" "R16" (at 110.49 223.52 90)
+    (property "Reference" "R12" (at 110.49 223.52 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "33Ω" (at 107.95 222.25 0)
+    (property "Value" "33" (at 107.95 222.25 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "RESC6332X70N" (at 204.14 218.44 0)
+    (property "Footprint" "FixedWing:RESC6332X70N" (at 204.14 218.44 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "http://www.vishay.com/docs/20035/dcrcwe3.pdf" (at 304.14 218.44 0)
@@ -2839,7 +2846,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R16") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -2848,10 +2855,10 @@
   (symbol (lib_id "FixedWing:CRCW0805475RFKEA") (at 80.01 232.41 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 672937ca-7083-40a8-8436-0c83e99fe688)
-    (property "Reference" "R9" (at 74.93 223.52 90)
+    (property "Reference" "R6" (at 74.93 223.52 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "475Ω" (at 80.01 220.98 0)
+    (property "Value" "475" (at 80.01 220.98 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "RESC2012X50N" (at 176.2 218.44 0)
@@ -2880,7 +2887,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R9") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -2889,7 +2896,7 @@
   (symbol (lib_id "FixedWing:LTST-C170KRKT") (at 87.63 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6ddeb251-c375-4de3-b182-4568c7042e8e)
-    (property "Reference" "LED7" (at 95.25 72.39 0)
+    (property "Reference" "LED1" (at 95.25 72.39 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LTST-C170KRKT" (at 95.25 74.93 0)
@@ -2921,7 +2928,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "LED7") (unit 1)
+          (reference "LED1") (unit 1)
         )
       )
     )
@@ -2930,13 +2937,13 @@
   (symbol (lib_id "FixedWing:CRCW251233R0FKEG") (at 107.95 179.07 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 708ca8c4-65f0-4f48-a7a2-d7a470f156c3)
-    (property "Reference" "R18" (at 110.49 170.18 90)
+    (property "Reference" "R10" (at 110.49 170.18 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "33Ω" (at 107.95 168.91 0)
+    (property "Value" "33" (at 107.95 168.91 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "RESC6332X70N" (at 204.14 165.1 0)
+    (property "Footprint" "FixedWing:RESC6332X70N" (at 204.14 165.1 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "http://www.vishay.com/docs/20035/dcrcwe3.pdf" (at 304.14 165.1 0)
@@ -2962,7 +2969,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R18") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -2971,7 +2978,7 @@
   (symbol (lib_id "power:GND") (at 199.39 247.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 81b6325d-0021-4360-bfc9-a2cff93444c9)
-    (property "Reference" "#PWR03" (at 199.39 254 0)
+    (property "Reference" "#PWR02" (at 199.39 254 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 199.39 252.73 0)
@@ -2987,7 +2994,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -2996,13 +3003,13 @@
   (symbol (lib_id "FixedWing:CRCW251233R0FKEG") (at 107.95 139.7 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 868b7bce-88dd-43e5-b001-be22f2166675)
-    (property "Reference" "R20" (at 110.49 130.81 90)
+    (property "Reference" "R9" (at 110.49 130.81 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "33Ω" (at 107.95 129.54 0)
+    (property "Value" "33" (at 107.95 129.54 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "RESC6332X70N" (at 204.14 125.73 0)
+    (property "Footprint" "FixedWing:RESC6332X70N" (at 204.14 125.73 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "http://www.vishay.com/docs/20035/dcrcwe3.pdf" (at 304.14 125.73 0)
@@ -3028,7 +3035,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R20") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -3068,7 +3075,7 @@
   (symbol (lib_id "FixedWing:BSS308PE_H6327") (at 133.35 76.2 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8e982c5f-d008-4478-9b4e-8dee0e268bfd)
-    (property "Reference" "Q7" (at 143.51 71.12 90)
+    (property "Reference" "Q1" (at 143.51 71.12 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "BSS308PE_H6327" (at 143.51 73.66 90)
@@ -3101,7 +3108,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "Q7") (unit 1)
+          (reference "Q1") (unit 1)
         )
       )
     )
@@ -3135,10 +3142,10 @@
   (symbol (lib_id "FixedWing:AC0805KRX7R8BB103") (at 247.65 120.65 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9dd304a8-de33-4329-aa3a-87038533b00f)
-    (property "Reference" "C6" (at 251.46 125.73 90)
+    (property "Reference" "C4" (at 251.46 125.73 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10nF" (at 251.46 128.27 90)
+    (property "Value" "10n" (at 251.46 128.27 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "FixedWing:CAPC2012X95N" (at 151.46 129.54 0)
@@ -3167,7 +3174,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "C6") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -3176,10 +3183,10 @@
   (symbol (lib_id "FixedWing:CRCW0805475RFKEA") (at 80.01 205.74 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a678c80f-2436-411e-852c-927a11d3c84c)
-    (property "Reference" "R10" (at 73.66 196.85 90)
+    (property "Reference" "R5" (at 73.66 196.85 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "475Ω" (at 80.01 194.31 0)
+    (property "Value" "475" (at 80.01 194.31 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "RESC2012X50N" (at 176.2 191.77 0)
@@ -3208,7 +3215,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R10") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -3217,10 +3224,10 @@
   (symbol (lib_id "FixedWing:CRCW0805475RFKEA") (at 80.01 179.07 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid aef50dfd-3e8a-4962-92df-79a83e5b1339)
-    (property "Reference" "R11" (at 73.66 170.18 90)
+    (property "Reference" "R4" (at 73.66 170.18 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "475Ω" (at 80.01 167.64 0)
+    (property "Value" "475" (at 80.01 167.64 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "RESC2012X50N" (at 176.2 165.1 0)
@@ -3249,7 +3256,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R11") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -3258,10 +3265,10 @@
   (symbol (lib_id "FixedWing:AC0805KRX7R8BB103") (at 254 160.02 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b30bd707-1f43-466e-89fa-5a2f0a3d4e98)
-    (property "Reference" "C4" (at 257.81 165.1 90)
+    (property "Reference" "C5" (at 257.81 165.1 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10nF" (at 257.81 167.64 90)
+    (property "Value" "10n" (at 257.81 167.64 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "FixedWing:CAPC2012X95N" (at 157.81 168.91 0)
@@ -3290,7 +3297,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "C4") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -3299,13 +3306,13 @@
   (symbol (lib_id "FixedWing:CRCW251233R0FKEG") (at 107.95 86.36 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b8467ef8-a58a-4fab-bffa-5e1e843ebc1a)
-    (property "Reference" "R22" (at 110.49 77.47 90)
+    (property "Reference" "R7" (at 110.49 77.47 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "33Ω" (at 107.95 76.2 0)
+    (property "Value" "33" (at 107.95 76.2 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "RESC6332X70N" (at 204.14 72.39 0)
+    (property "Footprint" "FixedWing:RESC6332X70N" (at 204.14 72.39 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "http://www.vishay.com/docs/20035/dcrcwe3.pdf" (at 304.14 72.39 0)
@@ -3331,7 +3338,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R22") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -3340,7 +3347,7 @@
   (symbol (lib_id "FixedWing:LTST-C170KRKT") (at 87.63 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bf4d5360-366a-4392-8973-a247c1acbe2e)
-    (property "Reference" "LED5" (at 95.25 125.73 0)
+    (property "Reference" "LED3" (at 95.25 125.73 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LTST-C170KRKT" (at 95.25 128.27 0)
@@ -3372,7 +3379,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "LED5") (unit 1)
+          (reference "LED3") (unit 1)
         )
       )
     )
@@ -3381,10 +3388,10 @@
   (symbol (lib_id "FixedWing:CRCW0805100RFKEA") (at 177.8 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c44b5e1b-64e8-425a-aff7-b2a4c1ca737a)
-    (property "Reference" "R7" (at 186.69 83.82 0)
+    (property "Reference" "R16" (at 186.69 83.82 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "100Ω" (at 186.69 86.36 0)
+    (property "Value" "100" (at 186.69 86.36 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "RESC2012X50N" (at 191.77 182.55 0)
@@ -3413,7 +3420,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R7") (unit 1)
+          (reference "R16") (unit 1)
         )
       )
     )
@@ -3422,7 +3429,7 @@
   (symbol (lib_id "FixedWing:LTST-C170KRKT") (at 87.63 161.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c8bd9145-bf04-4bcc-9c96-576467cc3a73)
-    (property "Reference" "LED3" (at 95.25 165.1 0)
+    (property "Reference" "LED4" (at 95.25 165.1 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LTST-C170KRKT" (at 95.25 167.64 0)
@@ -3454,7 +3461,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "LED3") (unit 1)
+          (reference "LED4") (unit 1)
         )
       )
     )
@@ -3463,7 +3470,7 @@
   (symbol (lib_id "FixedWing:BSS308PE_H6327") (at 133.35 129.54 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c8e74496-5e32-4cd0-9184-4db62c4a007b)
-    (property "Reference" "Q5" (at 143.51 124.46 90)
+    (property "Reference" "Q3" (at 143.51 124.46 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "BSS308PE_H6327" (at 143.51 127 90)
@@ -3496,7 +3503,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "Q5") (unit 1)
+          (reference "Q3") (unit 1)
         )
       )
     )
@@ -3505,10 +3512,10 @@
   (symbol (lib_id "FixedWing:CRCW0805100RFKEA") (at 177.8 232.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ca1c7936-c3e5-4aa0-907f-a65c79924b39)
-    (property "Reference" "R1" (at 186.69 229.87 0)
+    (property "Reference" "R22" (at 186.69 229.87 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "100Ω" (at 186.69 232.41 0)
+    (property "Value" "100" (at 186.69 232.41 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "RESC2012X50N" (at 191.77 328.6 0)
@@ -3537,7 +3544,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R1") (unit 1)
+          (reference "R22") (unit 1)
         )
       )
     )
@@ -3546,10 +3553,10 @@
   (symbol (lib_id "FixedWing:CRCW08053K30JNEA") (at 222.25 200.66 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d3dc50f7-d6b8-4adc-b59f-54d573c892fb)
-    (property "Reference" "R24" (at 213.36 198.12 0)
+    (property "Reference" "R27" (at 213.36 198.12 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "3k3Ω" (at 213.36 200.66 0)
+    (property "Value" "3k3" (at 213.36 200.66 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "RESC2012X50N" (at 208.28 296.85 0)
@@ -3578,7 +3585,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R24") (unit 1)
+          (reference "R27") (unit 1)
         )
       )
     )
@@ -3587,10 +3594,10 @@
   (symbol (lib_id "FixedWing:AC0805KRX7R8BB103") (at 260.35 186.69 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d7c154ea-0335-49bc-b5cc-f1337610a363)
-    (property "Reference" "C3" (at 264.16 191.77 90)
+    (property "Reference" "C6" (at 264.16 191.77 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10nF" (at 264.16 194.31 90)
+    (property "Value" "10n" (at 264.16 194.31 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "FixedWing:CAPC2012X95N" (at 164.16 195.58 0)
@@ -3619,7 +3626,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "C3") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
@@ -3628,7 +3635,7 @@
   (symbol (lib_id "FixedWing:BSS308PE_H6327") (at 133.35 168.91 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ddb0fb99-9a92-4416-a90e-d0a9008b8b70)
-    (property "Reference" "Q3" (at 143.51 163.83 90)
+    (property "Reference" "Q4" (at 143.51 163.83 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "BSS308PE_H6327" (at 143.51 166.37 90)
@@ -3661,7 +3668,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "Q3") (unit 1)
+          (reference "Q4") (unit 1)
         )
       )
     )
@@ -3670,10 +3677,10 @@
   (symbol (lib_id "FixedWing:CRCW0805100RFKEA") (at 176.53 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid df201780-277b-4dcb-ad42-f89c9e0edb1c)
-    (property "Reference" "R12" (at 185.42 39.37 0)
+    (property "Reference" "R14" (at 185.42 39.37 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "100Ω" (at 185.42 41.91 0)
+    (property "Value" "100" (at 185.42 41.91 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "RESC2012X50N" (at 190.5 138.1 0)
@@ -3702,7 +3709,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R12") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
     )
@@ -3711,10 +3718,10 @@
   (symbol (lib_id "FixedWing:CRCW08053K30JNEA") (at 222.25 227.33 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e0c7f230-c53f-4e80-ae84-9dcb1f22452b)
-    (property "Reference" "R23" (at 213.36 224.79 0)
+    (property "Reference" "R28" (at 213.36 224.79 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "3k3Ω" (at 213.36 227.33 0)
+    (property "Value" "3k3" (at 213.36 227.33 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "RESC2012X50N" (at 208.28 323.52 0)
@@ -3743,7 +3750,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R23") (unit 1)
+          (reference "R28") (unit 1)
         )
       )
     )
@@ -3752,10 +3759,10 @@
   (symbol (lib_id "FixedWing:CRCW0805100RFKEA") (at 177.8 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e209a020-5c5a-4eb8-a02b-517371abd213)
-    (property "Reference" "R6" (at 186.69 110.49 0)
+    (property "Reference" "R17" (at 186.69 110.49 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "100Ω" (at 186.69 113.03 0)
+    (property "Value" "100" (at 186.69 113.03 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "RESC2012X50N" (at 191.77 209.22 0)
@@ -3784,7 +3791,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R6") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
     )
@@ -3793,13 +3800,13 @@
   (symbol (lib_id "FixedWing:CRCW251233R0FKEG") (at 107.95 113.03 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e8a5855e-6c3f-48d2-af98-3c8b33103bff)
-    (property "Reference" "R21" (at 110.49 105.41 90)
+    (property "Reference" "R8" (at 110.49 105.41 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "33Ω" (at 107.95 102.87 0)
+    (property "Value" "33" (at 107.95 102.87 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "RESC6332X70N" (at 204.14 99.06 0)
+    (property "Footprint" "FixedWing:RESC6332X70N" (at 204.14 99.06 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "http://www.vishay.com/docs/20035/dcrcwe3.pdf" (at 304.14 99.06 0)
@@ -3825,7 +3832,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R21") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -3834,10 +3841,10 @@
   (symbol (lib_id "FixedWing:CRCW0805100RFKEA") (at 177.8 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f2765b94-7e05-4e14-9590-61964f04dec4)
-    (property "Reference" "R8" (at 186.69 57.15 0)
+    (property "Reference" "R15" (at 186.69 57.15 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "100Ω" (at 186.69 59.69 0)
+    (property "Value" "100" (at 186.69 59.69 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "RESC2012X50N" (at 191.77 155.88 0)
@@ -3866,7 +3873,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R8") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
     )
@@ -3875,10 +3882,10 @@
   (symbol (lib_id "FixedWing:CRCW08053K30JNEA") (at 222.25 107.95 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f5d3fa80-bc33-4376-9587-804d38b92b79)
-    (property "Reference" "R28" (at 213.36 105.41 0)
+    (property "Reference" "R24" (at 213.36 105.41 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "3k3Ω" (at 213.36 107.95 0)
+    (property "Value" "3k3" (at 213.36 107.95 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "RESC2012X50N" (at 208.28 204.14 0)
@@ -3907,7 +3914,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R28") (unit 1)
+          (reference "R24") (unit 1)
         )
       )
     )
@@ -3916,10 +3923,10 @@
   (symbol (lib_id "FixedWing:CRCW0805100RFKEA") (at 177.8 205.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fa4c48ef-b8c2-41de-9781-1f1dcc28b82b)
-    (property "Reference" "R2" (at 186.69 203.2 0)
+    (property "Reference" "R21" (at 186.69 203.2 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "100Ω" (at 186.69 205.74 0)
+    (property "Value" "100" (at 186.69 205.74 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "RESC2012X50N" (at 191.77 301.93 0)
@@ -3948,7 +3955,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R2") (unit 1)
+          (reference "R21") (unit 1)
         )
       )
     )

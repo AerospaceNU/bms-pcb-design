@@ -1,4 +1,4 @@
-22657044348267271
+22674253705279358
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -55251,6 +55251,13 @@ emi filter
 5
 5
 FixedWing
+AMPHENOL_12402012E212A
+USB TYPE-C USB 2.0 Receptacle Connector 24 (16+8 Dummy) Position Surface Mount, Right Angle; Through Hole
+
+0
+16
+16
+FixedWing
 AeroNU - Logo
 
 
@@ -55268,6 +55275,34 @@ FixedWing
 CAPC2012X95N
 0805 (2012)(H=0.95mm)
 Capacitor
+0
+2
+2
+FixedWing
+CAPC2012X140N
+
+
+0
+2
+2
+FixedWing
+CAP_CL21B106KOQNNNE_SAM
+
+CL21B106KOQNNNE 
+0
+2
+2
+FixedWing
+CAP_CL21B106KOQNNNE_SAM-L
+
+CL21B106KOQNNNE 
+0
+2
+2
+FixedWing
+CAP_CL21B106KOQNNNE_SAM-M
+
+CL21B106KOQNNNE 
 0
 2
 2
@@ -55321,12 +55356,47 @@ Resistor
 2
 2
 FixedWing
+RP2040-QFN-56
+QFN, 56 Pin (http://www.cypress.com/file/416486/download#page=40), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
+QFN DFN_QFN
+0
+70
+57
+FixedWing
 SOT95P260X110-3N
 BSS308PE H6327
 MOSFET (P-Channel)
 0
 3
 3
+FixedWing
+SOT223-3_ONS
+
+NCP1117ST33T3G 
+0
+3
+3
+FixedWing
+SOT223-3_ONS-L
+
+NCP1117ST33T3G 
+0
+3
+3
+FixedWing
+SOT223-3_ONS-M
+
+NCP1117ST33T3G 
+0
+3
+3
+FixedWing
+SSOP-48_5.3x12.8mm_P0.5mm
+SSOP, 48 Pin (https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-ssop/05081887_A_G48.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SSOP SO
+0
+48
+48
 Fuse
 FuseHolder_Blade_ATO_Littelfuse_FLR_178.6165
 Littelfuse fuse holder for ATO/FKS blade fuses, 80V, vertical, 20 x 6mm, PCB thickness up to 1.5mm, http://www.littelfuse.com/~/media/commercial-vehicle/datasheets/automotive-fuse-holders/ato/littelfuse-fuse-holder-ato-flr-pcb-datasheet.pdf
