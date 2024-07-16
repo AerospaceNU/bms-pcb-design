@@ -315,10 +315,6 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid e6973d29-8d03-43d4-83d6-583614f70521)
     )
-    (pin "C6" input (at 116.84 100.33 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 2e80f00a-e0e2-4d60-a28a-6691913495ab)
-    )
     (pin "C7" input (at 116.84 91.44 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 4281df14-62ba-414f-a81f-713619eb7a4f)
@@ -374,6 +370,10 @@
     (pin "V^{+}_MONITOR" input (at 116.84 72.39 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid dfa1f80c-d4b0-492b-b2c7-1446743a7b8d)
+    )
+    (pin "C6" input (at 116.84 100.33 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 8564791d-4ca7-47a3-ac7c-a08e8d45dd69)
     )
     (instances
       (project "bms-board"
