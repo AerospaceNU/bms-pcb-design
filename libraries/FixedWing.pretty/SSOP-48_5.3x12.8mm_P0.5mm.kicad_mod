@@ -99,7 +99,7 @@
   (pad "46" smd roundrect (at 3.5 -4.75) (size 1.9 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp d86bd3d7-59d8-4af1-81de-1adede0f93be))
   (pad "47" smd roundrect (at 3.5 -5.25) (size 1.9 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 398b426e-bc74-4bb0-9ec3-a8d56d8a8434))
   (pad "48" smd roundrect (at 3.5 -5.75) (size 1.9 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp df398335-f344-481a-9aa4-823faae337ca))
-  (model "C:/Users/matth/Desktop/AeroNU/FixedWing/BMS/bms-pcb-design/libraries/FixedWing3D/SSOP-48_G_LIT.step"
+  (model "${KICAD7_3DMODEL_DIR}/SSOP-48_G_LIT.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

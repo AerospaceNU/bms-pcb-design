@@ -29,7 +29,7 @@
     (solder_mask_margin 0.102) (tstamp 2fe09901-67e0-4425-aad0-37c48c1e50c5))
   (pad "2" smd rect (at 0.895 0) (size 1.08 1.42) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_mask_margin 0.102) (tstamp 411eaabe-c92c-4534-b979-b20b14e69a46))
-  (model "C:/Users/matth/Desktop/AeroNU/FixedWing/BMS/bms-pcb-design/libraries/FixedWing3D/GCM21BR71C105KA58L.step"
+  (model "${KICAD7_3DMODEL_DIR}/GCM21BR71C105KA58L.step"
     (offset (xyz 0 -0.62 0.6))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
