@@ -1,4 +1,4 @@
-22674253705279358
+22679416685634526
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -55327,6 +55327,27 @@ FixedWing - Logo (Smol)
 0
 0
 0
+FixedWing
+G-21_MUR
+
+GCM21BR72A104KA37L 
+0
+2
+2
+FixedWing
+G-21_MUR-L
+
+GCM21BR72A104KA37L 
+0
+2
+2
+FixedWing
+G-21_MUR-M
+
+GCM21BR72A104KA37L 
+0
+2
+2
 FixedWing
 LEDC2012X90N
 SML-H12x Series-1

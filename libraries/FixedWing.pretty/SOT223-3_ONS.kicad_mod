@@ -120,7 +120,7 @@
   (pad "1" smd rect (at -2.2987 3.2258) (size 0.6096 1.5494) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 4359dad9-bc94-4a9a-b23a-d3cb22853352))
   (pad "2" smd rect (at 0 3.2258) (size 0.6096 1.5494) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 893cfa3f-7de7-4ec0-a143-6160365b7cb3))
   (pad "3" smd rect (at 2.2987 3.2258) (size 0.6096 1.5494) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 87d22d33-10e6-41c2-8d21-2b52d7ce0bf3))
-  (model "C:/Users/matth/Desktop/AeroNU/FixedWing/BMS/bms-pcb-design/libraries/FixedWing3D/SOT223-3_ONS.step"
+  (model "${KICAD7_3DMODEL_DIR}/SOT223-3_ONS.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
