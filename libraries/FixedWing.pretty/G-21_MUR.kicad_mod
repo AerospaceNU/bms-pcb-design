@@ -68,7 +68,7 @@
       )
     )
   )
-  (model "C:/Users/matth/Desktop/AeroNU/FixedWing/BMS/bms-pcb-design/libraries/FixedWing3D/G-21_MUR.step"
+  (model "${KICAD7_3DMODEL_DIR}/G-21_MUR.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
