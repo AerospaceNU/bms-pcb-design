@@ -1,4 +1,4 @@
-22684585272664741
+22696639428600266
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -55307,12 +55307,40 @@ CL21B106KOQNNNE
 2
 2
 FixedWing
+CAP_GCJ-18_MUR
+
+GCJ188R72A104KA01D 
+0
+2
+2
+FixedWing
+CAP_GCJ-18_MUR-L
+
+GCJ188R72A104KA01D 
+0
+2
+2
+FixedWing
+CAP_GCJ-18_MUR-M
+
+GCJ188R72A104KA01D 
+0
+2
+2
+FixedWing
 CONN_S7B-XH-A_JST
 
 S7B-XH-A 
 0
 7
 7
+FixedWing
+DIOM3616X98N
+
+
+0
+2
+2
 FixedWing
 FixedWing - Logo
 
@@ -55359,6 +55387,27 @@ FixedWing
 LEDC2012X120N
 LTST-C170TBKT
 LED
+0
+2
+2
+FixedWing
+RC0805N_YAG
+
+RC0805FR-0727RL 
+0
+2
+2
+FixedWing
+RC0805N_YAG-L
+
+RC0805FR-0727RL 
+0
+2
+2
+FixedWing
+RC0805N_YAG-M
+
+RC0805FR-0727RL 
 0
 2
 2

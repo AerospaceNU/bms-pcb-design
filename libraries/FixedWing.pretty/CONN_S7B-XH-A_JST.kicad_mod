@@ -52,7 +52,7 @@
   (pad "6" thru_hole circle (at 12.500001 0) (size 1.4986 1.4986) (drill 0.9906) (layers "*.Cu" "*.Mask") (tstamp 9b5f44bc-0c1c-4755-b738-07e4c321523c))
   (pad "7" thru_hole circle (at 15.000001 0) (size 1.4986 1.4986) (drill 0.9906) (layers "*.Cu" "*.Mask") (tstamp 5372092c-1383-46b9-aedd-3dc1ccfa253b))
   (model "${KICAD7_3DMODEL_DIR}/S7B-XH-A.step"
-    (offset (xyz 7.5 -5.5 0))
+    (offset (xyz 7.5 -5.7 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
   )
