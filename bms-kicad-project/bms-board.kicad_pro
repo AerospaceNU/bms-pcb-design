@@ -377,7 +377,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -420,7 +420,12 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Default",
+        "pattern": "/Battery Stack Monitor/C0"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -482,11 +487,15 @@
     ],
     [
       "95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e",
-      "FilteringCells"
+      "Cell Filtering And Balancing"
     ],
     [
       "1e9f81b4-c330-4dde-84b6-9168ce482c70",
-      "BatteryMonitor"
+      "Battery Stack Monitor"
+    ],
+    [
+      "449bb263-23d7-4f07-b4f7-6cd2e161d267",
+      "RP2040 Microcontroller"
     ]
   ],
   "text_variables": {}

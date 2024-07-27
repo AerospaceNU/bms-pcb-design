@@ -1,0 +1,2707 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\matth\Desktop\AeroNU\FixedWing\BMS\bms-pcb-design\bms-kicad-project\bms-board.kicad_sch</source>
+    <date>7/13/2024 9:53:43 PM</date>
+    <tool>Eeschema 7.0.10</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Top-Level Interconnect</title>
+        <company>AeroNU - FixedWing</company>
+        <rev/>
+        <date/>
+        <source>bms-board.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Cell Filtering And Balancing/" tstamps="/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e/">
+      <title_block>
+        <title>Cell Filtering and Balancing</title>
+        <company>AeroNU - FixedWing</company>
+        <rev>1</rev>
+        <date>2024-03-29</date>
+        <source>FilteringCells.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Battery Stack Monitor/" tstamps="/1e9f81b4-c330-4dde-84b6-9168ce482c70/">
+      <title_block>
+        <title>Battery Stack Monitor</title>
+        <company>AeroNU - FixedWing</company>
+        <rev/>
+        <date/>
+        <source>BatteryMonitor.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/RP2040 Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Microcontroller.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>10nF</value>
+      <footprint>FixedWing:CAPC2012X95N</footprint>
+      <datasheet>https://www.yageo.com/en/ProductSearch/PartNumberSearch?part_number=AC0805KRX7R8BB103</datasheet>
+      <fields>
+        <field name="Height">0.95</field>
+        <field name="Manufacturer_Name">YAGEO</field>
+        <field name="Manufacturer_Part_Number">AC0805KRX7R8BB103</field>
+        <field name="Mouser Part Number">603-AC805KRX7R8BB103</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/YAGEO/AC0805KRX7R8BB103?qs=WS5Jv%252B%252Bx1qWanT8XqjMqIQ%3D%3D</field>
+      </fields>
+      <libsource lib="FixedWing" part="AC0805KRX7R8BB103" description="10000 pF +/-10% 25V Ceramic Capacitor X7R 0805 (2012 Metric)"/>
+      <property name="Height" value="0.95"/>
+      <property name="Mouser Part Number" value="603-AC805KRX7R8BB103"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/YAGEO/AC0805KRX7R8BB103?qs=WS5Jv%252B%252Bx1qWanT8XqjMqIQ%3D%3D"/>
+      <property name="Manufacturer_Name" value="YAGEO"/>
+      <property name="Manufacturer_Part_Number" value="AC0805KRX7R8BB103"/>
+      <property name="Sheetname" value="Cell Filtering And Balancing"/>
+      <property name="Sheetfile" value="FilteringCells.kicad_sch"/>
+      <property name="ki_description" value="10000 pF +/-10% 25V Ceramic Capacitor X7R 0805 (2012 Metric)"/>
+      <sheetpath names="/Cell Filtering And Balancing/" tstamps="/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e/"/>
+      <tstamps>3aa3f999-8d05-49f1-9ecf-030d494141cf</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>10nF</value>
+      <footprint>FixedWing:CAPC2012X95N</footprint>
+      <datasheet>https://www.yageo.com/en/ProductSearch/PartNumberSearch?part_number=AC0805KRX7R8BB103</datasheet>
+      <fields>
+        <field name="Height">0.95</field>
+        <field name="Manufacturer_Name">YAGEO</field>
+        <field name="Manufacturer_Part_Number">AC0805KRX7R8BB103</field>
+        <field name="Mouser Part Number">603-AC805KRX7R8BB103</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/YAGEO/AC0805KRX7R8BB103?qs=WS5Jv%252B%252Bx1qWanT8XqjMqIQ%3D%3D</field>
+      </fields>
+      <libsource lib="FixedWing" part="AC0805KRX7R8BB103" description="10000 pF +/-10% 25V Ceramic Capacitor X7R 0805 (2012 Metric)"/>
+      <property name="Height" value="0.95"/>
+      <property name="Mouser Part Number" value="603-AC805KRX7R8BB103"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/YAGEO/AC0805KRX7R8BB103?qs=WS5Jv%252B%252Bx1qWanT8XqjMqIQ%3D%3D"/>
+      <property name="Manufacturer_Name" value="YAGEO"/>
+      <property name="Manufacturer_Part_Number" value="AC0805KRX7R8BB103"/>
+      <property name="Sheetname" value="Cell Filtering And Balancing"/>
+      <property name="Sheetfile" value="FilteringCells.kicad_sch"/>
+      <property name="ki_description" value="10000 pF +/-10% 25V Ceramic Capacitor X7R 0805 (2012 Metric)"/>
+      <sheetpath names="/Cell Filtering And Balancing/" tstamps="/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e/"/>
+      <tstamps>33041eca-cd83-4100-b2aa-07194313f809</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>10nF</value>
+      <footprint>FixedWing:CAPC2012X95N</footprint>
+      <datasheet>https://www.yageo.com/en/ProductSearch/PartNumberSearch?part_number=AC0805KRX7R8BB103</datasheet>
+      <fields>
+        <field name="Height">0.95</field>
+        <field name="Manufacturer_Name">YAGEO</field>
+        <field name="Manufacturer_Part_Number">AC0805KRX7R8BB103</field>
+        <field name="Mouser Part Number">603-AC805KRX7R8BB103</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/YAGEO/AC0805KRX7R8BB103?qs=WS5Jv%252B%252Bx1qWanT8XqjMqIQ%3D%3D</field>
+      </fields>
+      <libsource lib="FixedWing" part="AC0805KRX7R8BB103" description="10000 pF +/-10% 25V Ceramic Capacitor X7R 0805 (2012 Metric)"/>
+      <property name="Height" value="0.95"/>
+      <property name="Mouser Part Number" value="603-AC805KRX7R8BB103"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/YAGEO/AC0805KRX7R8BB103?qs=WS5Jv%252B%252Bx1qWanT8XqjMqIQ%3D%3D"/>
+      <property name="Manufacturer_Name" value="YAGEO"/>
+      <property name="Manufacturer_Part_Number" value="AC0805KRX7R8BB103"/>
+      <property name="Sheetname" value="Cell Filtering And Balancing"/>
+      <property name="Sheetfile" value="FilteringCells.kicad_sch"/>
+      <property name="ki_description" value="10000 pF +/-10% 25V Ceramic Capacitor X7R 0805 (2012 Metric)"/>
+      <sheetpath names="/Cell Filtering And Balancing/" tstamps="/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e/"/>
+      <tstamps>1001e978-098c-4585-8382-93bfc7ae5ec2</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>10nF</value>
+      <footprint>FixedWing:CAPC2012X95N</footprint>
+      <datasheet>https://www.yageo.com/en/ProductSearch/PartNumberSearch?part_number=AC0805KRX7R8BB103</datasheet>
+      <fields>
+        <field name="Height">0.95</field>
+        <field name="Manufacturer_Name">YAGEO</field>
+        <field name="Manufacturer_Part_Number">AC0805KRX7R8BB103</field>
+        <field name="Mouser Part Number">603-AC805KRX7R8BB103</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/YAGEO/AC0805KRX7R8BB103?qs=WS5Jv%252B%252Bx1qWanT8XqjMqIQ%3D%3D</field>
+      </fields>
+      <libsource lib="FixedWing" part="AC0805KRX7R8BB103" description="10000 pF +/-10% 25V Ceramic Capacitor X7R 0805 (2012 Metric)"/>
+      <property name="Height" value="0.95"/>
+      <property name="Mouser Part Number" value="603-AC805KRX7R8BB103"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/YAGEO/AC0805KRX7R8BB103?qs=WS5Jv%252B%252Bx1qWanT8XqjMqIQ%3D%3D"/>
+      <property name="Manufacturer_Name" value="YAGEO"/>
+      <property name="Manufacturer_Part_Number" value="AC0805KRX7R8BB103"/>
+      <property name="Sheetname" value="Cell Filtering And Balancing"/>
+      <property name="Sheetfile" value="FilteringCells.kicad_sch"/>
+      <property name="ki_description" value="10000 pF +/-10% 25V Ceramic Capacitor X7R 0805 (2012 Metric)"/>
+      <sheetpath names="/Cell Filtering And Balancing/" tstamps="/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e/"/>
+      <tstamps>9dd304a8-de33-4329-aa3a-87038533b00f</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>10nF</value>
+      <footprint>FixedWing:CAPC2012X95N</footprint>
+      <datasheet>https://www.yageo.com/en/ProductSearch/PartNumberSearch?part_number=AC0805KRX7R8BB103</datasheet>
+      <fields>
+        <field name="Height">0.95</field>
+        <field name="Manufacturer_Name">YAGEO</field>
+        <field name="Manufacturer_Part_Number">AC0805KRX7R8BB103</field>
+        <field name="Mouser Part Number">603-AC805KRX7R8BB103</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/YAGEO/AC0805KRX7R8BB103?qs=WS5Jv%252B%252Bx1qWanT8XqjMqIQ%3D%3D</field>
+      </fields>
+      <libsource lib="FixedWing" part="AC0805KRX7R8BB103" description="10000 pF +/-10% 25V Ceramic Capacitor X7R 0805 (2012 Metric)"/>
+      <property name="Height" value="0.95"/>
+      <property name="Mouser Part Number" value="603-AC805KRX7R8BB103"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/YAGEO/AC0805KRX7R8BB103?qs=WS5Jv%252B%252Bx1qWanT8XqjMqIQ%3D%3D"/>
+      <property name="Manufacturer_Name" value="YAGEO"/>
+      <property name="Manufacturer_Part_Number" value="AC0805KRX7R8BB103"/>
+      <property name="Sheetname" value="Cell Filtering And Balancing"/>
+      <property name="Sheetfile" value="FilteringCells.kicad_sch"/>
+      <property name="ki_description" value="10000 pF +/-10% 25V Ceramic Capacitor X7R 0805 (2012 Metric)"/>
+      <sheetpath names="/Cell Filtering And Balancing/" tstamps="/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e/"/>
+      <tstamps>b30bd707-1f43-466e-89fa-5a2f0a3d4e98</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>10nF</value>
+      <footprint>FixedWing:CAPC2012X95N</footprint>
+      <datasheet>https://www.yageo.com/en/ProductSearch/PartNumberSearch?part_number=AC0805KRX7R8BB103</datasheet>
+      <fields>
+        <field name="Height">0.95</field>
+        <field name="Manufacturer_Name">YAGEO</field>
+        <field name="Manufacturer_Part_Number">AC0805KRX7R8BB103</field>
+        <field name="Mouser Part Number">603-AC805KRX7R8BB103</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/YAGEO/AC0805KRX7R8BB103?qs=WS5Jv%252B%252Bx1qWanT8XqjMqIQ%3D%3D</field>
+      </fields>
+      <libsource lib="FixedWing" part="AC0805KRX7R8BB103" description="10000 pF +/-10% 25V Ceramic Capacitor X7R 0805 (2012 Metric)"/>
+      <property name="Height" value="0.95"/>
+      <property name="Mouser Part Number" value="603-AC805KRX7R8BB103"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/YAGEO/AC0805KRX7R8BB103?qs=WS5Jv%252B%252Bx1qWanT8XqjMqIQ%3D%3D"/>
+      <property name="Manufacturer_Name" value="YAGEO"/>
+      <property name="Manufacturer_Part_Number" value="AC0805KRX7R8BB103"/>
+      <property name="Sheetname" value="Cell Filtering And Balancing"/>
+      <property name="Sheetfile" value="FilteringCells.kicad_sch"/>
+      <property name="ki_description" value="10000 pF +/-10% 25V Ceramic Capacitor X7R 0805 (2012 Metric)"/>
+      <sheetpath names="/Cell Filtering And Balancing/" tstamps="/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e/"/>
+      <tstamps>d7c154ea-0335-49bc-b5cc-f1337610a363</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>10nF</value>
+      <footprint>FixedWing:CAPC2012X95N</footprint>
+      <datasheet>https://www.yageo.com/en/ProductSearch/PartNumberSearch?part_number=AC0805KRX7R8BB103</datasheet>
+      <fields>
+        <field name="Height">0.95</field>
+        <field name="Manufacturer_Name">YAGEO</field>
+        <field name="Manufacturer_Part_Number">AC0805KRX7R8BB103</field>
+        <field name="Mouser Part Number">603-AC805KRX7R8BB103</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/YAGEO/AC0805KRX7R8BB103?qs=WS5Jv%252B%252Bx1qWanT8XqjMqIQ%3D%3D</field>
+      </fields>
+      <libsource lib="FixedWing" part="AC0805KRX7R8BB103" description="10000 pF +/-10% 25V Ceramic Capacitor X7R 0805 (2012 Metric)"/>
+      <property name="Height" value="0.95"/>
+      <property name="Mouser Part Number" value="603-AC805KRX7R8BB103"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/YAGEO/AC0805KRX7R8BB103?qs=WS5Jv%252B%252Bx1qWanT8XqjMqIQ%3D%3D"/>
+      <property name="Manufacturer_Name" value="YAGEO"/>
+      <property name="Manufacturer_Part_Number" value="AC0805KRX7R8BB103"/>
+      <property name="Sheetname" value="Cell Filtering And Balancing"/>
+      <property name="Sheetfile" value="FilteringCells.kicad_sch"/>
+      <property name="ki_description" value="10000 pF +/-10% 25V Ceramic Capacitor X7R 0805 (2012 Metric)"/>
+      <sheetpath names="/Cell Filtering And Balancing/" tstamps="/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e/"/>
+      <tstamps>120397ab-5b82-465c-be90-13867cdd2892</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>S7B-XH-A</value>
+      <footprint>CONN_S7B-XH-A_JST</footprint>
+      <datasheet>S7B-XH-A</datasheet>
+      <libsource lib="FixedWing" part="S7B-XH-A" description=""/>
+      <property name="Sheetname" value="Cell Filtering And Balancing"/>
+      <property name="Sheetfile" value="FilteringCells.kicad_sch"/>
+      <property name="ki_keywords" value="S7B-XH-A"/>
+      <sheetpath names="/Cell Filtering And Balancing/" tstamps="/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e/"/>
+      <tstamps>8b6a3872-8100-4ab0-a43e-fe3da024b40b</tstamps>
+    </comp>
+    <comp ref="LED1">
+      <value>LTST-C170KRKT</value>
+      <footprint>LEDC2012X120N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/LTST-C170KRKT.pdf</datasheet>
+      <fields>
+        <field name="Height">1.2</field>
+        <field name="Manufacturer_Name">Lite-On</field>
+        <field name="Manufacturer_Part_Number">LTST-C170KRKT</field>
+        <field name="Mouser Part Number">859-LTST-C170KRKT</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C170KRKT?qs=NUb82WqeCyrVOID%2Fxt4rgA%3D%3D</field>
+      </fields>
+      <libsource lib="FixedWing" part="LTST-C170KRKT" description="Standard LEDs - SMD Red Clear 631nm"/>
+      <property name="Height" value="1.2"/>
+      <property name="Mouser Part Number" value="859-LTST-C170KRKT"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C170KRKT?qs=NUb82WqeCyrVOID%2Fxt4rgA%3D%3D"/>
+      <property name="Manufacturer_Name" value="Lite-On"/>
+      <property name="Manufacturer_Part_Number" value="LTST-C170KRKT"/>
+      <property name="Sheetname" value="Cell Filtering And Balancing"/>
+      <property name="Sheetfile" value="FilteringCells.kicad_sch"/>
+      <property name="ki_description" value="Standard LEDs - SMD Red Clear 631nm"/>
+      <sheetpath names="/Cell Filtering And Balancing/" tstamps="/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e/"/>
+      <tstamps>6ddeb251-c375-4de3-b182-4568c7042e8e</tstamps>
+    </comp>
+    <comp ref="LED2">
+      <value>LTST-C170KRKT</value>
+      <footprint>LEDC2012X120N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/LTST-C170KRKT.pdf</datasheet>
+      <fields>
+        <field name="Height">1.2</field>
+        <field name="Manufacturer_Name">Lite-On</field>
+        <field name="Manufacturer_Part_Number">LTST-C170KRKT</field>
+        <field name="Mouser Part Number">859-LTST-C170KRKT</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C170KRKT?qs=NUb82WqeCyrVOID%2Fxt4rgA%3D%3D</field>
+      </fields>
+      <libsource lib="FixedWing" part="LTST-C170KRKT" description="Standard LEDs - SMD Red Clear 631nm"/>
+      <property name="Height" value="1.2"/>
+      <property name="Mouser Part Number" value="859-LTST-C170KRKT"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C170KRKT?qs=NUb82WqeCyrVOID%2Fxt4rgA%3D%3D"/>
+      <property name="Manufacturer_Name" value="Lite-On"/>
+      <property name="Manufacturer_Part_Number" value="LTST-C170KRKT"/>
+      <property name="Sheetname" value="Cell Filtering And Balancing"/>
+      <property name="Sheetfile" value="FilteringCells.kicad_sch"/>
+      <property name="ki_description" value="Standard LEDs - SMD Red Clear 631nm"/>
+      <sheetpath names="/Cell Filtering And Balancing/" tstamps="/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e/"/>
+      <tstamps>47e7af04-2090-4c05-9df1-983c32a0d7d2</tstamps>
+    </comp>
+    <comp ref="LED3">
+      <value>LTST-C170KRKT</value>
+      <footprint>LEDC2012X120N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/LTST-C170KRKT.pdf</datasheet>
+      <fields>
+        <field name="Height">1.2</field>
+        <field name="Manufacturer_Name">Lite-On</field>
+        <field name="Manufacturer_Part_Number">LTST-C170KRKT</field>
+        <field name="Mouser Part Number">859-LTST-C170KRKT</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C170KRKT?qs=NUb82WqeCyrVOID%2Fxt4rgA%3D%3D</field>
+      </fields>
+      <libsource lib="FixedWing" part="LTST-C170KRKT" description="Standard LEDs - SMD Red Clear 631nm"/>
+      <property name="Height" value="1.2"/>
+      <property name="Mouser Part Number" value="859-LTST-C170KRKT"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C170KRKT?qs=NUb82WqeCyrVOID%2Fxt4rgA%3D%3D"/>
+      <property name="Manufacturer_Name" value="Lite-On"/>
+      <property name="Manufacturer_Part_Number" value="LTST-C170KRKT"/>
+      <property name="Sheetname" value="Cell Filtering And Balancing"/>
+      <property name="Sheetfile" value="FilteringCells.kicad_sch"/>
+      <property name="ki_description" value="Standard LEDs - SMD Red Clear 631nm"/>
+      <sheetpath names="/Cell Filtering And Balancing/" tstamps="/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e/"/>
+      <tstamps>bf4d5360-366a-4392-8973-a247c1acbe2e</tstamps>
+    </comp>
+    <comp ref="LED4">
+      <value>LTST-C170KRKT</value>
+      <footprint>LEDC2012X120N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/LTST-C170KRKT.pdf</datasheet>
+      <fields>
+        <field name="Height">1.2</field>
+        <field name="Manufacturer_Name">Lite-On</field>
+        <field name="Manufacturer_Part_Number">LTST-C170KRKT</field>
+        <field name="Mouser Part Number">859-LTST-C170KRKT</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C170KRKT?qs=NUb82WqeCyrVOID%2Fxt4rgA%3D%3D</field>
+      </fields>
+      <libsource lib="FixedWing" part="LTST-C170KRKT" description="Standard LEDs - SMD Red Clear 631nm"/>
+      <property name="Height" value="1.2"/>
+      <property name="Mouser Part Number" value="859-LTST-C170KRKT"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C170KRKT?qs=NUb82WqeCyrVOID%2Fxt4rgA%3D%3D"/>
+      <property name="Manufacturer_Name" value="Lite-On"/>
+      <property name="Manufacturer_Part_Number" value="LTST-C170KRKT"/>
+      <property name="Sheetname" value="Cell Filtering And Balancing"/>
+      <property name="Sheetfile" value="FilteringCells.kicad_sch"/>
+      <property name="ki_description" value="Standard LEDs - SMD Red Clear 631nm"/>
+      <sheetpath names="/Cell Filtering And Balancing/" tstamps="/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e/"/>
+      <tstamps>c8bd9145-bf04-4bcc-9c96-576467cc3a73</tstamps>
+    </comp>
+    <comp ref="LED5">
+      <value>LTST-C170KRKT</value>
+      <footprint>LEDC2012X120N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/LTST-C170KRKT.pdf</datasheet>
+      <fields>
+        <field name="Height">1.2</field>
+        <field name="Manufacturer_Name">Lite-On</field>
+        <field name="Manufacturer_Part_Number">LTST-C170KRKT</field>
+        <field name="Mouser Part Number">859-LTST-C170KRKT</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C170KRKT?qs=NUb82WqeCyrVOID%2Fxt4rgA%3D%3D</field>
+      </fields>
+      <libsource lib="FixedWing" part="LTST-C170KRKT" description="Standard LEDs - SMD Red Clear 631nm"/>
+      <property name="Height" value="1.2"/>
+      <property name="Mouser Part Number" value="859-LTST-C170KRKT"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C170KRKT?qs=NUb82WqeCyrVOID%2Fxt4rgA%3D%3D"/>
+      <property name="Manufacturer_Name" value="Lite-On"/>
+      <property name="Manufacturer_Part_Number" value="LTST-C170KRKT"/>
+      <property name="Sheetname" value="Cell Filtering And Balancing"/>
+      <property name="Sheetfile" value="FilteringCells.kicad_sch"/>
+      <property name="ki_description" value="Standard LEDs - SMD Red Clear 631nm"/>
+      <sheetpath names="/Cell Filtering And Balancing/" tstamps="/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e/"/>
+      <tstamps>2942ed82-dfdd-40ce-9d12-9491b2f170b2</tstamps>
+    </comp>
+    <comp ref="LED6">
+      <value>LTST-C170KRKT</value>
+      <footprint>LEDC2012X120N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/LTST-C170KRKT.pdf</datasheet>
+      <fields>
+        <field name="Height">1.2</field>
+        <field name="Manufacturer_Name">Lite-On</field>
+        <field name="Manufacturer_Part_Number">LTST-C170KRKT</field>
+        <field name="Mouser Part Number">859-LTST-C170KRKT</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C170KRKT?qs=NUb82WqeCyrVOID%2Fxt4rgA%3D%3D</field>
+      </fields>
+      <libsource lib="FixedWing" part="LTST-C170KRKT" description="Standard LEDs - SMD Red Clear 631nm"/>
+      <property name="Height" value="1.2"/>
+      <property name="Mouser Part Number" value="859-LTST-C170KRKT"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C170KRKT?qs=NUb82WqeCyrVOID%2Fxt4rgA%3D%3D"/>
+      <property name="Manufacturer_Name" value="Lite-On"/>
+      <property name="Manufacturer_Part_Number" value="LTST-C170KRKT"/>
+      <property name="Sheetname" value="Cell Filtering And Balancing"/>
+      <property name="Sheetfile" value="FilteringCells.kicad_sch"/>
+      <property name="ki_description" value="Standard LEDs - SMD Red Clear 631nm"/>
+      <sheetpath names="/Cell Filtering And Balancing/" tstamps="/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e/"/>
+      <tstamps>380f2151-9c72-4443-b021-e779e75cb16f</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>BSS308PE_H6327</value>
+      <footprint>SOT95P260X110-3N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/BSS308PE H6327.pdf</datasheet>
+      <fields>
+        <field name="Height">1.1</field>
+        <field name="Manufacturer_Name">Infineon</field>
+        <field name="Manufacturer_Part_Number">BSS308PE H6327</field>
+        <field name="Mouser Part Number">726-BSS308PEH6327</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BSS308PE-H6327?qs=oPPfIaWL1l0trIaeR9VW8A%3D%3D</field>
+      </fields>
+      <libsource lib="FixedWing" part="BSS308PE_H6327" description="MOSFET P-Ch -30V -2A SOT-23-3"/>
+      <property name="Height" value="1.1"/>
+      <property name="Mouser Part Number" value="726-BSS308PEH6327"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BSS308PE-H6327?qs=oPPfIaWL1l0trIaeR9VW8A%3D%3D"/>
+      <property name="Manufacturer_Name" value="Infineon"/>
+      <property name="Manufacturer_Part_Number" value="BSS308PE H6327"/>
+      <property name="Sheetname" value="Cell Filtering And Balancing"/>
+      <property name="Sheetfile" value="FilteringCells.kicad_sch"/>
+      <property name="ki_description" value="MOSFET P-Ch -30V -2A SOT-23-3"/>
+      <sheetpath names="/Cell Filtering And Balancing/" tstamps="/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e/"/>
+      <tstamps>8e982c5f-d008-4478-9b4e-8dee0e268bfd</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>BSS308PE_H6327</value>
+      <footprint>SOT95P260X110-3N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/BSS308PE H6327.pdf</datasheet>
+      <fields>
+        <field name="Height">1.1</field>
+        <field name="Manufacturer_Name">Infineon</field>
+        <field name="Manufacturer_Part_Number">BSS308PE H6327</field>
+        <field name="Mouser Part Number">726-BSS308PEH6327</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BSS308PE-H6327?qs=oPPfIaWL1l0trIaeR9VW8A%3D%3D</field>
+      </fields>
+      <libsource lib="FixedWing" part="BSS308PE_H6327" description="MOSFET P-Ch -30V -2A SOT-23-3"/>
+      <property name="Height" value="1.1"/>
+      <property name="Mouser Part Number" value="726-BSS308PEH6327"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BSS308PE-H6327?qs=oPPfIaWL1l0trIaeR9VW8A%3D%3D"/>
+      <property name="Manufacturer_Name" value="Infineon"/>
+      <property name="Manufacturer_Part_Number" value="BSS308PE H6327"/>
+      <property name="Sheetname" value="Cell Filtering And Balancing"/>
+      <property name="Sheetfile" value="FilteringCells.kicad_sch"/>
+      <property name="ki_description" value="MOSFET P-Ch -30V -2A SOT-23-3"/>
+      <sheetpath names="/Cell Filtering And Balancing/" tstamps="/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e/"/>
+      <tstamps>625b58ad-d68f-43e2-8b7b-e1b0b86626f7</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>BSS308PE_H6327</value>
+      <footprint>SOT95P260X110-3N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/BSS308PE H6327.pdf</datasheet>
+      <fields>
+        <field name="Height">1.1</field>
+        <field name="Manufacturer_Name">Infineon</field>
+        <field name="Manufacturer_Part_Number">BSS308PE H6327</field>
+        <field name="Mouser Part Number">726-BSS308PEH6327</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BSS308PE-H6327?qs=oPPfIaWL1l0trIaeR9VW8A%3D%3D</field>
+      </fields>
+      <libsource lib="FixedWing" part="BSS308PE_H6327" description="MOSFET P-Ch -30V -2A SOT-23-3"/>
+      <property name="Height" value="1.1"/>
+      <property name="Mouser Part Number" value="726-BSS308PEH6327"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BSS308PE-H6327?qs=oPPfIaWL1l0trIaeR9VW8A%3D%3D"/>
+      <property name="Manufacturer_Name" value="Infineon"/>
+      <property name="Manufacturer_Part_Number" value="BSS308PE H6327"/>
+      <property name="Sheetname" value="Cell Filtering And Balancing"/>
+      <property name="Sheetfile" value="FilteringCells.kicad_sch"/>
+      <property name="ki_description" value="MOSFET P-Ch -30V -2A SOT-23-3"/>
+      <sheetpath names="/Cell Filtering And Balancing/" tstamps="/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e/"/>
+      <tstamps>c8e74496-5e32-4cd0-9184-4db62c4a007b</tstamps>
+    </comp>
+    <comp ref="Q4">
+      <value>BSS308PE_H6327</value>
+      <footprint>SOT95P260X110-3N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/BSS308PE H6327.pdf</datasheet>
+      <fields>
+        <field name="Height">1.1</field>
+        <field name="Manufacturer_Name">Infineon</field>
+        <field name="Manufacturer_Part_Number">BSS308PE H6327</field>
+        <field name="Mouser Part Number">726-BSS308PEH6327</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BSS308PE-H6327?qs=oPPfIaWL1l0trIaeR9VW8A%3D%3D</field>
+      </fields>
+      <libsource lib="FixedWing" part="BSS308PE_H6327" description="MOSFET P-Ch -30V -2A SOT-23-3"/>
+      <property name="Height" value="1.1"/>
+      <property name="Mouser Part Number" value="726-BSS308PEH6327"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BSS308PE-H6327?qs=oPPfIaWL1l0trIaeR9VW8A%3D%3D"/>
+      <property name="Manufacturer_Name" value="Infineon"/>
+      <property name="Manufacturer_Part_Number" value="BSS308PE H6327"/>
+      <property name="Sheetname" value="Cell Filtering And Balancing"/>
+      <property name="Sheetfile" value="FilteringCells.kicad_sch"/>
+      <property name="ki_description" value="MOSFET P-Ch -30V -2A SOT-23-3"/>
+      <sheetpath names="/Cell Filtering And Balancing/" tstamps="/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e/"/>
+      <tstamps>ddb0fb99-9a92-4416-a90e-d0a9008b8b70</tstamps>
+    </comp>
+    <comp ref="Q5">
+      <value>BSS308PE_H6327</value>
+      <footprint>SOT95P260X110-3N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/BSS308PE H6327.pdf</datasheet>
+      <fields>
+        <field name="Height">1.1</field>
+        <field name="Manufacturer_Name">Infineon</field>
+        <field name="Manufacturer_Part_Number">BSS308PE H6327</field>
+        <field name="Mouser Part Number">726-BSS308PEH6327</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BSS308PE-H6327?qs=oPPfIaWL1l0trIaeR9VW8A%3D%3D</field>
+      </fields>
+      <libsource lib="FixedWing" part="BSS308PE_H6327" description="MOSFET P-Ch -30V -2A SOT-23-3"/>
+      <property name="Height" value="1.1"/>
+      <property name="Mouser Part Number" value="726-BSS308PEH6327"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BSS308PE-H6327?qs=oPPfIaWL1l0trIaeR9VW8A%3D%3D"/>
+      <property name="Manufacturer_Name" value="Infineon"/>
+      <property name="Manufacturer_Part_Number" value="BSS308PE H6327"/>
+      <property name="Sheetname" value="Cell Filtering And Balancing"/>
+      <property name="Sheetfile" value="FilteringCells.kicad_sch"/>
+      <property name="ki_description" value="MOSFET P-Ch -30V -2A SOT-23-3"/>
+      <sheetpath names="/Cell Filtering And Balancing/" tstamps="/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e/"/>
+      <tstamps>14cdc4c3-2ceb-4242-b994-74b051d94a54</tstamps>
+    </comp>
+    <comp ref="Q6">
+      <value>BSS308PE_H6327</value>
+      <footprint>SOT95P260X110-3N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/BSS308PE H6327.pdf</datasheet>
+      <fields>
+        <field name="Height">1.1</field>
+        <field name="Manufacturer_Name">Infineon</field>
+        <field name="Manufacturer_Part_Number">BSS308PE H6327</field>
+        <field name="Mouser Part Number">726-BSS308PEH6327</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BSS308PE-H6327?qs=oPPfIaWL1l0trIaeR9VW8A%3D%3D</field>
+      </fields>
+      <libsource lib="FixedWing" part="BSS308PE_H6327" description="MOSFET P-Ch -30V -2A SOT-23-3"/>
+      <property name="Height" value="1.1"/>
+      <property name="Mouser Part Number" value="726-BSS308PEH6327"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BSS308PE-H6327?qs=oPPfIaWL1l0trIaeR9VW8A%3D%3D"/>
+      <property name="Manufacturer_Name" value="Infineon"/>
+      <property name="Manufacturer_Part_Number" value="BSS308PE H6327"/>
+      <property name="Sheetname" value="Cell Filtering And Balancing"/>
+      <property name="Sheetfile" value="FilteringCells.kicad_sch"/>
+      <property name="ki_description" value="MOSFET P-Ch -30V -2A SOT-23-3"/>
+      <sheetpath names="/Cell Filtering And Balancing/" tstamps="/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e/"/>
+      <tstamps>291b6574-cc37-4099-a69e-8013ad1e9fc3</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>475Ω</value>
+      <footprint>RESC2012X50N</footprint>
+      <datasheet>http://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
+      <fields>
+        <field name="Height">0.5</field>
+        <field name="Manufacturer_Name">Vishay</field>
+        <field name="Manufacturer_Part_Number">CRCW0805475RFKEA</field>
+        <field name="Mouser Part Number">71-CRCW0805-475-E3</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0805475RFKEA?qs=H9nSDuxQXAGtYh6oNsznQg%3D%3D</field>
+      </fields>
+      <libsource lib="FixedWing" part="CRCW0805475RFKEA" description="Vishay CRCW Series Thick Film Surface Mount Resistor 0805 Case 475 +/-1% 0.125W +/-100ppm/C"/>
+      <property name="Height" value="0.5"/>
+      <property name="Mouser Part Number" value="71-CRCW0805-475-E3"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0805475RFKEA?qs=H9nSDuxQXAGtYh6oNsznQg%3D%3D"/>
+      <property name="Manufacturer_Name" value="Vishay"/>
+      <property name="Manufacturer_Part_Number" value="CRCW0805475RFKEA"/>
+      <property name="Sheetname" value="Cell Filtering And Balancing"/>
+      <property name="Sheetfile" value="FilteringCells.kicad_sch"/>
+      <property name="ki_description" value="Vishay CRCW Series Thick Film Surface Mount Resistor 0805 Case 475 +/-1% 0.125W +/-100ppm/C"/>
+      <sheetpath names="/Cell Filtering And Balancing/" tstamps="/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e/"/>
+      <tstamps>20a733f0-2a72-43ec-86eb-947bb9a723dc</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>475Ω</value>
+      <footprint>RESC2012X50N</footprint>
+      <datasheet>http://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
+      <fields>
+        <field name="Height">0.5</field>
+        <field name="Manufacturer_Name">Vishay</field>
+        <field name="Manufacturer_Part_Number">CRCW0805475RFKEA</field>
+        <field name="Mouser Part Number">71-CRCW0805-475-E3</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0805475RFKEA?qs=H9nSDuxQXAGtYh6oNsznQg%3D%3D</field>
+      </fields>
+      <libsource lib="FixedWing" part="CRCW0805475RFKEA" description="Vishay CRCW Series Thick Film Surface Mount Resistor 0805 Case 475 +/-1% 0.125W +/-100ppm/C"/>
+      <property name="Height" value="0.5"/>
+      <property name="Mouser Part Number" value="71-CRCW0805-475-E3"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0805475RFKEA?qs=H9nSDuxQXAGtYh6oNsznQg%3D%3D"/>
+      <property name="Manufacturer_Name" value="Vishay"/>
+      <property name="Manufacturer_Part_Number" value="CRCW0805475RFKEA"/>
+      <property name="Sheetname" value="Cell Filtering And Balancing"/>
+      <property name="Sheetfile" value="FilteringCells.kicad_sch"/>
+      <property name="ki_description" value="Vishay CRCW Series Thick Film Surface Mount Resistor 0805 Case 475 +/-1% 0.125W +/-100ppm/C"/>
+      <sheetpath names="/Cell Filtering And Balancing/" tstamps="/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e/"/>
+      <tstamps>3eebbee7-a856-413b-bf90-3ac282dc3cfd</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>475Ω</value>
+      <footprint>RESC2012X50N</footprint>
+      <datasheet>http://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
+      <fields>
+        <field name="Height">0.5</field>
+        <field name="Manufacturer_Name">Vishay</field>
+        <field name="Manufacturer_Part_Number">CRCW0805475RFKEA</field>
+        <field name="Mouser Part Number">71-CRCW0805-475-E3</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0805475RFKEA?qs=H9nSDuxQXAGtYh6oNsznQg%3D%3D</field>
+      </fields>
+      <libsource lib="FixedWing" part="CRCW0805475RFKEA" description="Vishay CRCW Series Thick Film Surface Mount Resistor 0805 Case 475 +/-1% 0.125W +/-100ppm/C"/>
+      <property name="Height" value="0.5"/>
+      <property name="Mouser Part Number" value="71-CRCW0805-475-E3"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0805475RFKEA?qs=H9nSDuxQXAGtYh6oNsznQg%3D%3D"/>
+      <property name="Manufacturer_Name" value="Vishay"/>
+      <property name="Manufacturer_Part_Number" value="CRCW0805475RFKEA"/>
+      <property name="Sheetname" value="Cell Filtering And Balancing"/>
+      <property name="Sheetfile" value="FilteringCells.kicad_sch"/>
+      <property name="ki_description" value="Vishay CRCW Series Thick Film Surface Mount Resistor 0805 Case 475 +/-1% 0.125W +/-100ppm/C"/>
+      <sheetpath names="/Cell Filtering And Balancing/" tstamps="/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e/"/>
+      <tstamps>2d0bd28c-d7b5-4c48-9433-03b04e674359</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>475Ω</value>
+      <footprint>RESC2012X50N</footprint>
+      <datasheet>http://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
+      <fields>
+        <field name="Height">0.5</field>
+        <field name="Manufacturer_Name">Vishay</field>
+        <field name="Manufacturer_Part_Number">CRCW0805475RFKEA</field>
+        <field name="Mouser Part Number">71-CRCW0805-475-E3</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0805475RFKEA?qs=H9nSDuxQXAGtYh6oNsznQg%3D%3D</field>
+      </fields>
+      <libsource lib="FixedWing" part="CRCW0805475RFKEA" description="Vishay CRCW Series Thick Film Surface Mount Resistor 0805 Case 475 +/-1% 0.125W +/-100ppm/C"/>
+      <property name="Height" value="0.5"/>
+      <property name="Mouser Part Number" value="71-CRCW0805-475-E3"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0805475RFKEA?qs=H9nSDuxQXAGtYh6oNsznQg%3D%3D"/>
+      <property name="Manufacturer_Name" value="Vishay"/>
+      <property name="Manufacturer_Part_Number" value="CRCW0805475RFKEA"/>
+      <property name="Sheetname" value="Cell Filtering And Balancing"/>
+      <property name="Sheetfile" value="FilteringCells.kicad_sch"/>
+      <property name="ki_description" value="Vishay CRCW Series Thick Film Surface Mount Resistor 0805 Case 475 +/-1% 0.125W +/-100ppm/C"/>
+      <sheetpath names="/Cell Filtering And Balancing/" tstamps="/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e/"/>
+      <tstamps>aef50dfd-3e8a-4962-92df-79a83e5b1339</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>475Ω</value>
+      <footprint>RESC2012X50N</footprint>
+      <datasheet>http://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
+      <fields>
+        <field name="Height">0.5</field>
+        <field name="Manufacturer_Name">Vishay</field>
+        <field name="Manufacturer_Part_Number">CRCW0805475RFKEA</field>
+        <field name="Mouser Part Number">71-CRCW0805-475-E3</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0805475RFKEA?qs=H9nSDuxQXAGtYh6oNsznQg%3D%3D</field>
+      </fields>
+      <libsource lib="FixedWing" part="CRCW0805475RFKEA" description="Vishay CRCW Series Thick Film Surface Mount Resistor 0805 Case 475 +/-1% 0.125W +/-100ppm/C"/>
+      <property name="Height" value="0.5"/>
+      <property name="Mouser Part Number" value="71-CRCW0805-475-E3"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0805475RFKEA?qs=H9nSDuxQXAGtYh6oNsznQg%3D%3D"/>
+      <property name="Manufacturer_Name" value="Vishay"/>
+      <property name="Manufacturer_Part_Number" value="CRCW0805475RFKEA"/>
+      <property name="Sheetname" value="Cell Filtering And Balancing"/>
+      <property name="Sheetfile" value="FilteringCells.kicad_sch"/>
+      <property name="ki_description" value="Vishay CRCW Series Thick Film Surface Mount Resistor 0805 Case 475 +/-1% 0.125W +/-100ppm/C"/>
+      <sheetpath names="/Cell Filtering And Balancing/" tstamps="/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e/"/>
+      <tstamps>a678c80f-2436-411e-852c-927a11d3c84c</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>475Ω</value>
+      <footprint>RESC2012X50N</footprint>
+      <datasheet>http://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
+      <fields>
+        <field name="Height">0.5</field>
+        <field name="Manufacturer_Name">Vishay</field>
+        <field name="Manufacturer_Part_Number">CRCW0805475RFKEA</field>
+        <field name="Mouser Part Number">71-CRCW0805-475-E3</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0805475RFKEA?qs=H9nSDuxQXAGtYh6oNsznQg%3D%3D</field>
+      </fields>
+      <libsource lib="FixedWing" part="CRCW0805475RFKEA" description="Vishay CRCW Series Thick Film Surface Mount Resistor 0805 Case 475 +/-1% 0.125W +/-100ppm/C"/>
+      <property name="Height" value="0.5"/>
+      <property name="Mouser Part Number" value="71-CRCW0805-475-E3"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0805475RFKEA?qs=H9nSDuxQXAGtYh6oNsznQg%3D%3D"/>
+      <property name="Manufacturer_Name" value="Vishay"/>
+      <property name="Manufacturer_Part_Number" value="CRCW0805475RFKEA"/>
+      <property name="Sheetname" value="Cell Filtering And Balancing"/>
+      <property name="Sheetfile" value="FilteringCells.kicad_sch"/>
+      <property name="ki_description" value="Vishay CRCW Series Thick Film Surface Mount Resistor 0805 Case 475 +/-1% 0.125W +/-100ppm/C"/>
+      <sheetpath names="/Cell Filtering And Balancing/" tstamps="/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e/"/>
+      <tstamps>672937ca-7083-40a8-8436-0c83e99fe688</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>33Ω</value>
+      <footprint>RESC6332X70N</footprint>
+      <datasheet>http://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
+      <fields>
+        <field name="Height">0.7</field>
+        <field name="Manufacturer_Name">Vishay</field>
+        <field name="Manufacturer_Part_Number">CRCW251233R0FKEG</field>
+      </fields>
+      <libsource lib="FixedWing" part="CRCW251233R0FKEG" description="Standard Thick Film Chip Resistors value 33R0 ohm."/>
+      <property name="Height" value="0.7"/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Manufacturer_Name" value="Vishay"/>
+      <property name="Manufacturer_Part_Number" value="CRCW251233R0FKEG"/>
+      <property name="Sheetname" value="Cell Filtering And Balancing"/>
+      <property name="Sheetfile" value="FilteringCells.kicad_sch"/>
+      <property name="ki_description" value="Standard Thick Film Chip Resistors value 33R0 ohm."/>
+      <sheetpath names="/Cell Filtering And Balancing/" tstamps="/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e/"/>
+      <tstamps>b8467ef8-a58a-4fab-bffa-5e1e843ebc1a</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>33Ω</value>
+      <footprint>RESC6332X70N</footprint>
+      <datasheet>http://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
+      <fields>
+        <field name="Height">0.7</field>
+        <field name="Manufacturer_Name">Vishay</field>
+        <field name="Manufacturer_Part_Number">CRCW251233R0FKEG</field>
+      </fields>
+      <libsource lib="FixedWing" part="CRCW251233R0FKEG" description="Standard Thick Film Chip Resistors value 33R0 ohm."/>
+      <property name="Height" value="0.7"/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Manufacturer_Name" value="Vishay"/>
+      <property name="Manufacturer_Part_Number" value="CRCW251233R0FKEG"/>
+      <property name="Sheetname" value="Cell Filtering And Balancing"/>
+      <property name="Sheetfile" value="FilteringCells.kicad_sch"/>
+      <property name="ki_description" value="Standard Thick Film Chip Resistors value 33R0 ohm."/>
+      <sheetpath names="/Cell Filtering And Balancing/" tstamps="/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e/"/>
+      <tstamps>e8a5855e-6c3f-48d2-af98-3c8b33103bff</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>33Ω</value>
+      <footprint>RESC6332X70N</footprint>
+      <datasheet>http://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
+      <fields>
+        <field name="Height">0.7</field>
+        <field name="Manufacturer_Name">Vishay</field>
+        <field name="Manufacturer_Part_Number">CRCW251233R0FKEG</field>
+      </fields>
+      <libsource lib="FixedWing" part="CRCW251233R0FKEG" description="Standard Thick Film Chip Resistors value 33R0 ohm."/>
+      <property name="Height" value="0.7"/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Manufacturer_Name" value="Vishay"/>
+      <property name="Manufacturer_Part_Number" value="CRCW251233R0FKEG"/>
+      <property name="Sheetname" value="Cell Filtering And Balancing"/>
+      <property name="Sheetfile" value="FilteringCells.kicad_sch"/>
+      <property name="ki_description" value="Standard Thick Film Chip Resistors value 33R0 ohm."/>
+      <sheetpath names="/Cell Filtering And Balancing/" tstamps="/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e/"/>
+      <tstamps>868b7bce-88dd-43e5-b001-be22f2166675</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>33Ω</value>
+      <footprint>RESC6332X70N</footprint>
+      <datasheet>http://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
+      <fields>
+        <field name="Height">0.7</field>
+        <field name="Manufacturer_Name">Vishay</field>
+        <field name="Manufacturer_Part_Number">CRCW251233R0FKEG</field>
+      </fields>
+      <libsource lib="FixedWing" part="CRCW251233R0FKEG" description="Standard Thick Film Chip Resistors value 33R0 ohm."/>
+      <property name="Height" value="0.7"/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Manufacturer_Name" value="Vishay"/>
+      <property name="Manufacturer_Part_Number" value="CRCW251233R0FKEG"/>
+      <property name="Sheetname" value="Cell Filtering And Balancing"/>
+      <property name="Sheetfile" value="FilteringCells.kicad_sch"/>
+      <property name="ki_description" value="Standard Thick Film Chip Resistors value 33R0 ohm."/>
+      <sheetpath names="/Cell Filtering And Balancing/" tstamps="/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e/"/>
+      <tstamps>708ca8c4-65f0-4f48-a7a2-d7a470f156c3</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>33Ω</value>
+      <footprint>RESC6332X70N</footprint>
+      <datasheet>http://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
+      <fields>
+        <field name="Height">0.7</field>
+        <field name="Manufacturer_Name">Vishay</field>
+        <field name="Manufacturer_Part_Number">CRCW251233R0FKEG</field>
+      </fields>
+      <libsource lib="FixedWing" part="CRCW251233R0FKEG" description="Standard Thick Film Chip Resistors value 33R0 ohm."/>
+      <property name="Height" value="0.7"/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Manufacturer_Name" value="Vishay"/>
+      <property name="Manufacturer_Part_Number" value="CRCW251233R0FKEG"/>
+      <property name="Sheetname" value="Cell Filtering And Balancing"/>
+      <property name="Sheetfile" value="FilteringCells.kicad_sch"/>
+      <property name="ki_description" value="Standard Thick Film Chip Resistors value 33R0 ohm."/>
+      <sheetpath names="/Cell Filtering And Balancing/" tstamps="/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e/"/>
+      <tstamps>0f44b8a9-e67a-4dd8-ae46-844a59628fd6</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>33Ω</value>
+      <footprint>RESC6332X70N</footprint>
+      <datasheet>http://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
+      <fields>
+        <field name="Height">0.7</field>
+        <field name="Manufacturer_Name">Vishay</field>
+        <field name="Manufacturer_Part_Number">CRCW251233R0FKEG</field>
+      </fields>
+      <libsource lib="FixedWing" part="CRCW251233R0FKEG" description="Standard Thick Film Chip Resistors value 33R0 ohm."/>
+      <property name="Height" value="0.7"/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Manufacturer_Name" value="Vishay"/>
+      <property name="Manufacturer_Part_Number" value="CRCW251233R0FKEG"/>
+      <property name="Sheetname" value="Cell Filtering And Balancing"/>
+      <property name="Sheetfile" value="FilteringCells.kicad_sch"/>
+      <property name="ki_description" value="Standard Thick Film Chip Resistors value 33R0 ohm."/>
+      <sheetpath names="/Cell Filtering And Balancing/" tstamps="/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e/"/>
+      <tstamps>62ae6f28-ec79-40c9-b437-eb458c49a61a</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>100Ω</value>
+      <footprint>RESC2012X50N</footprint>
+      <datasheet>http://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
+      <fields>
+        <field name="Height">0.5</field>
+        <field name="Manufacturer_Name">Vishay</field>
+        <field name="Manufacturer_Part_Number">CRCW0805100RFKEA</field>
+        <field name="Mouser Part Number">71-CRCW0805-100-E3</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0805100RFKEA?qs=LOX6nxTstiYDPDKmuLyNLw%3D%3D</field>
+      </fields>
+      <libsource lib="FixedWing" part="CRCW0805100RFKEA" description="Vishay CRCW Series Thick Film Surface Mount Resistor 0805 Case 100?? ??1% 0.125W ??100ppm/??C"/>
+      <property name="Height" value="0.5"/>
+      <property name="Mouser Part Number" value="71-CRCW0805-100-E3"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0805100RFKEA?qs=LOX6nxTstiYDPDKmuLyNLw%3D%3D"/>
+      <property name="Manufacturer_Name" value="Vishay"/>
+      <property name="Manufacturer_Part_Number" value="CRCW0805100RFKEA"/>
+      <property name="Sheetname" value="Cell Filtering And Balancing"/>
+      <property name="Sheetfile" value="FilteringCells.kicad_sch"/>
+      <property name="ki_description" value="Vishay CRCW Series Thick Film Surface Mount Resistor 0805 Case 100?? ??1% 0.125W ??100ppm/??C"/>
+      <sheetpath names="/Cell Filtering And Balancing/" tstamps="/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e/"/>
+      <tstamps>1f90efc5-484a-4ae1-a711-f9897722218f</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>100Ω</value>
+      <footprint>RESC2012X50N</footprint>
+      <datasheet>http://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
+      <fields>
+        <field name="Height">0.5</field>
+        <field name="Manufacturer_Name">Vishay</field>
+        <field name="Manufacturer_Part_Number">CRCW0805100RFKEA</field>
+        <field name="Mouser Part Number">71-CRCW0805-100-E3</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0805100RFKEA?qs=LOX6nxTstiYDPDKmuLyNLw%3D%3D</field>
+      </fields>
+      <libsource lib="FixedWing" part="CRCW0805100RFKEA" description="Vishay CRCW Series Thick Film Surface Mount Resistor 0805 Case 100?? ??1% 0.125W ??100ppm/??C"/>
+      <property name="Height" value="0.5"/>
+      <property name="Mouser Part Number" value="71-CRCW0805-100-E3"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0805100RFKEA?qs=LOX6nxTstiYDPDKmuLyNLw%3D%3D"/>
+      <property name="Manufacturer_Name" value="Vishay"/>
+      <property name="Manufacturer_Part_Number" value="CRCW0805100RFKEA"/>
+      <property name="Sheetname" value="Cell Filtering And Balancing"/>
+      <property name="Sheetfile" value="FilteringCells.kicad_sch"/>
+      <property name="ki_description" value="Vishay CRCW Series Thick Film Surface Mount Resistor 0805 Case 100?? ??1% 0.125W ??100ppm/??C"/>
+      <sheetpath names="/Cell Filtering And Balancing/" tstamps="/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e/"/>
+      <tstamps>df201780-277b-4dcb-ad42-f89c9e0edb1c</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>100Ω</value>
+      <footprint>RESC2012X50N</footprint>
+      <datasheet>http://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
+      <fields>
+        <field name="Height">0.5</field>
+        <field name="Manufacturer_Name">Vishay</field>
+        <field name="Manufacturer_Part_Number">CRCW0805100RFKEA</field>
+        <field name="Mouser Part Number">71-CRCW0805-100-E3</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0805100RFKEA?qs=LOX6nxTstiYDPDKmuLyNLw%3D%3D</field>
+      </fields>
+      <libsource lib="FixedWing" part="CRCW0805100RFKEA" description="Vishay CRCW Series Thick Film Surface Mount Resistor 0805 Case 100?? ??1% 0.125W ??100ppm/??C"/>
+      <property name="Height" value="0.5"/>
+      <property name="Mouser Part Number" value="71-CRCW0805-100-E3"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0805100RFKEA?qs=LOX6nxTstiYDPDKmuLyNLw%3D%3D"/>
+      <property name="Manufacturer_Name" value="Vishay"/>
+      <property name="Manufacturer_Part_Number" value="CRCW0805100RFKEA"/>
+      <property name="Sheetname" value="Cell Filtering And Balancing"/>
+      <property name="Sheetfile" value="FilteringCells.kicad_sch"/>
+      <property name="ki_description" value="Vishay CRCW Series Thick Film Surface Mount Resistor 0805 Case 100?? ??1% 0.125W ??100ppm/??C"/>
+      <sheetpath names="/Cell Filtering And Balancing/" tstamps="/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e/"/>
+      <tstamps>f2765b94-7e05-4e14-9590-61964f04dec4</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>100Ω</value>
+      <footprint>RESC2012X50N</footprint>
+      <datasheet>http://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
+      <fields>
+        <field name="Height">0.5</field>
+        <field name="Manufacturer_Name">Vishay</field>
+        <field name="Manufacturer_Part_Number">CRCW0805100RFKEA</field>
+        <field name="Mouser Part Number">71-CRCW0805-100-E3</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0805100RFKEA?qs=LOX6nxTstiYDPDKmuLyNLw%3D%3D</field>
+      </fields>
+      <libsource lib="FixedWing" part="CRCW0805100RFKEA" description="Vishay CRCW Series Thick Film Surface Mount Resistor 0805 Case 100?? ??1% 0.125W ??100ppm/??C"/>
+      <property name="Height" value="0.5"/>
+      <property name="Mouser Part Number" value="71-CRCW0805-100-E3"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0805100RFKEA?qs=LOX6nxTstiYDPDKmuLyNLw%3D%3D"/>
+      <property name="Manufacturer_Name" value="Vishay"/>
+      <property name="Manufacturer_Part_Number" value="CRCW0805100RFKEA"/>
+      <property name="Sheetname" value="Cell Filtering And Balancing"/>
+      <property name="Sheetfile" value="FilteringCells.kicad_sch"/>
+      <property name="ki_description" value="Vishay CRCW Series Thick Film Surface Mount Resistor 0805 Case 100?? ??1% 0.125W ??100ppm/??C"/>
+      <sheetpath names="/Cell Filtering And Balancing/" tstamps="/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e/"/>
+      <tstamps>c44b5e1b-64e8-425a-aff7-b2a4c1ca737a</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>100Ω</value>
+      <footprint>RESC2012X50N</footprint>
+      <datasheet>http://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
+      <fields>
+        <field name="Height">0.5</field>
+        <field name="Manufacturer_Name">Vishay</field>
+        <field name="Manufacturer_Part_Number">CRCW0805100RFKEA</field>
+        <field name="Mouser Part Number">71-CRCW0805-100-E3</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0805100RFKEA?qs=LOX6nxTstiYDPDKmuLyNLw%3D%3D</field>
+      </fields>
+      <libsource lib="FixedWing" part="CRCW0805100RFKEA" description="Vishay CRCW Series Thick Film Surface Mount Resistor 0805 Case 100?? ??1% 0.125W ??100ppm/??C"/>
+      <property name="Height" value="0.5"/>
+      <property name="Mouser Part Number" value="71-CRCW0805-100-E3"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0805100RFKEA?qs=LOX6nxTstiYDPDKmuLyNLw%3D%3D"/>
+      <property name="Manufacturer_Name" value="Vishay"/>
+      <property name="Manufacturer_Part_Number" value="CRCW0805100RFKEA"/>
+      <property name="Sheetname" value="Cell Filtering And Balancing"/>
+      <property name="Sheetfile" value="FilteringCells.kicad_sch"/>
+      <property name="ki_description" value="Vishay CRCW Series Thick Film Surface Mount Resistor 0805 Case 100?? ??1% 0.125W ??100ppm/??C"/>
+      <sheetpath names="/Cell Filtering And Balancing/" tstamps="/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e/"/>
+      <tstamps>e209a020-5c5a-4eb8-a02b-517371abd213</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>100Ω</value>
+      <footprint>RESC2012X50N</footprint>
+      <datasheet>http://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
+      <fields>
+        <field name="Height">0.5</field>
+        <field name="Manufacturer_Name">Vishay</field>
+        <field name="Manufacturer_Part_Number">CRCW0805100RFKEA</field>
+        <field name="Mouser Part Number">71-CRCW0805-100-E3</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0805100RFKEA?qs=LOX6nxTstiYDPDKmuLyNLw%3D%3D</field>
+      </fields>
+      <libsource lib="FixedWing" part="CRCW0805100RFKEA" description="Vishay CRCW Series Thick Film Surface Mount Resistor 0805 Case 100?? ??1% 0.125W ??100ppm/??C"/>
+      <property name="Height" value="0.5"/>
+      <property name="Mouser Part Number" value="71-CRCW0805-100-E3"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0805100RFKEA?qs=LOX6nxTstiYDPDKmuLyNLw%3D%3D"/>
+      <property name="Manufacturer_Name" value="Vishay"/>
+      <property name="Manufacturer_Part_Number" value="CRCW0805100RFKEA"/>
+      <property name="Sheetname" value="Cell Filtering And Balancing"/>
+      <property name="Sheetfile" value="FilteringCells.kicad_sch"/>
+      <property name="ki_description" value="Vishay CRCW Series Thick Film Surface Mount Resistor 0805 Case 100?? ??1% 0.125W ??100ppm/??C"/>
+      <sheetpath names="/Cell Filtering And Balancing/" tstamps="/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e/"/>
+      <tstamps>3b383f33-a643-477e-a2b0-5d2b061229ae</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>100Ω</value>
+      <footprint>RESC2012X50N</footprint>
+      <datasheet>http://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
+      <fields>
+        <field name="Height">0.5</field>
+        <field name="Manufacturer_Name">Vishay</field>
+        <field name="Manufacturer_Part_Number">CRCW0805100RFKEA</field>
+        <field name="Mouser Part Number">71-CRCW0805-100-E3</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0805100RFKEA?qs=LOX6nxTstiYDPDKmuLyNLw%3D%3D</field>
+      </fields>
+      <libsource lib="FixedWing" part="CRCW0805100RFKEA" description="Vishay CRCW Series Thick Film Surface Mount Resistor 0805 Case 100?? ??1% 0.125W ??100ppm/??C"/>
+      <property name="Height" value="0.5"/>
+      <property name="Mouser Part Number" value="71-CRCW0805-100-E3"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0805100RFKEA?qs=LOX6nxTstiYDPDKmuLyNLw%3D%3D"/>
+      <property name="Manufacturer_Name" value="Vishay"/>
+      <property name="Manufacturer_Part_Number" value="CRCW0805100RFKEA"/>
+      <property name="Sheetname" value="Cell Filtering And Balancing"/>
+      <property name="Sheetfile" value="FilteringCells.kicad_sch"/>
+      <property name="ki_description" value="Vishay CRCW Series Thick Film Surface Mount Resistor 0805 Case 100?? ??1% 0.125W ??100ppm/??C"/>
+      <sheetpath names="/Cell Filtering And Balancing/" tstamps="/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e/"/>
+      <tstamps>4dba7ec4-6b15-4d37-aeec-ac1f40c0c1a8</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>100Ω</value>
+      <footprint>RESC2012X50N</footprint>
+      <datasheet>http://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
+      <fields>
+        <field name="Height">0.5</field>
+        <field name="Manufacturer_Name">Vishay</field>
+        <field name="Manufacturer_Part_Number">CRCW0805100RFKEA</field>
+        <field name="Mouser Part Number">71-CRCW0805-100-E3</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0805100RFKEA?qs=LOX6nxTstiYDPDKmuLyNLw%3D%3D</field>
+      </fields>
+      <libsource lib="FixedWing" part="CRCW0805100RFKEA" description="Vishay CRCW Series Thick Film Surface Mount Resistor 0805 Case 100?? ??1% 0.125W ??100ppm/??C"/>
+      <property name="Height" value="0.5"/>
+      <property name="Mouser Part Number" value="71-CRCW0805-100-E3"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0805100RFKEA?qs=LOX6nxTstiYDPDKmuLyNLw%3D%3D"/>
+      <property name="Manufacturer_Name" value="Vishay"/>
+      <property name="Manufacturer_Part_Number" value="CRCW0805100RFKEA"/>
+      <property name="Sheetname" value="Cell Filtering And Balancing"/>
+      <property name="Sheetfile" value="FilteringCells.kicad_sch"/>
+      <property name="ki_description" value="Vishay CRCW Series Thick Film Surface Mount Resistor 0805 Case 100?? ??1% 0.125W ??100ppm/??C"/>
+      <sheetpath names="/Cell Filtering And Balancing/" tstamps="/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e/"/>
+      <tstamps>197d9987-2693-4137-b0a8-99cd9dfbe481</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>100Ω</value>
+      <footprint>RESC2012X50N</footprint>
+      <datasheet>http://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
+      <fields>
+        <field name="Height">0.5</field>
+        <field name="Manufacturer_Name">Vishay</field>
+        <field name="Manufacturer_Part_Number">CRCW0805100RFKEA</field>
+        <field name="Mouser Part Number">71-CRCW0805-100-E3</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0805100RFKEA?qs=LOX6nxTstiYDPDKmuLyNLw%3D%3D</field>
+      </fields>
+      <libsource lib="FixedWing" part="CRCW0805100RFKEA" description="Vishay CRCW Series Thick Film Surface Mount Resistor 0805 Case 100?? ??1% 0.125W ??100ppm/??C"/>
+      <property name="Height" value="0.5"/>
+      <property name="Mouser Part Number" value="71-CRCW0805-100-E3"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0805100RFKEA?qs=LOX6nxTstiYDPDKmuLyNLw%3D%3D"/>
+      <property name="Manufacturer_Name" value="Vishay"/>
+      <property name="Manufacturer_Part_Number" value="CRCW0805100RFKEA"/>
+      <property name="Sheetname" value="Cell Filtering And Balancing"/>
+      <property name="Sheetfile" value="FilteringCells.kicad_sch"/>
+      <property name="ki_description" value="Vishay CRCW Series Thick Film Surface Mount Resistor 0805 Case 100?? ??1% 0.125W ??100ppm/??C"/>
+      <sheetpath names="/Cell Filtering And Balancing/" tstamps="/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e/"/>
+      <tstamps>fa4c48ef-b8c2-41de-9781-1f1dcc28b82b</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>100Ω</value>
+      <footprint>RESC2012X50N</footprint>
+      <datasheet>http://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
+      <fields>
+        <field name="Height">0.5</field>
+        <field name="Manufacturer_Name">Vishay</field>
+        <field name="Manufacturer_Part_Number">CRCW0805100RFKEA</field>
+        <field name="Mouser Part Number">71-CRCW0805-100-E3</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0805100RFKEA?qs=LOX6nxTstiYDPDKmuLyNLw%3D%3D</field>
+      </fields>
+      <libsource lib="FixedWing" part="CRCW0805100RFKEA" description="Vishay CRCW Series Thick Film Surface Mount Resistor 0805 Case 100?? ??1% 0.125W ??100ppm/??C"/>
+      <property name="Height" value="0.5"/>
+      <property name="Mouser Part Number" value="71-CRCW0805-100-E3"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0805100RFKEA?qs=LOX6nxTstiYDPDKmuLyNLw%3D%3D"/>
+      <property name="Manufacturer_Name" value="Vishay"/>
+      <property name="Manufacturer_Part_Number" value="CRCW0805100RFKEA"/>
+      <property name="Sheetname" value="Cell Filtering And Balancing"/>
+      <property name="Sheetfile" value="FilteringCells.kicad_sch"/>
+      <property name="ki_description" value="Vishay CRCW Series Thick Film Surface Mount Resistor 0805 Case 100?? ??1% 0.125W ??100ppm/??C"/>
+      <sheetpath names="/Cell Filtering And Balancing/" tstamps="/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e/"/>
+      <tstamps>ca1c7936-c3e5-4aa0-907f-a65c79924b39</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>3k3Ω</value>
+      <footprint>RESC2012X50N</footprint>
+      <datasheet>http://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
+      <fields>
+        <field name="Height">0.5</field>
+        <field name="Manufacturer_Name">Vishay</field>
+        <field name="Manufacturer_Part_Number">CRCW08053K30JNEA</field>
+        <field name="Mouser Part Number">71-CRCW08053K30JNEA</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW08053K30JNEA?qs=kJXytlGtIWm66zs041a78Q%3D%3D</field>
+      </fields>
+      <libsource lib="FixedWing" part="CRCW08053K30JNEA" description="RESISTOR, 0805 3.3K Ohm +/-5% 0.125 W"/>
+      <property name="Height" value="0.5"/>
+      <property name="Mouser Part Number" value="71-CRCW08053K30JNEA"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW08053K30JNEA?qs=kJXytlGtIWm66zs041a78Q%3D%3D"/>
+      <property name="Manufacturer_Name" value="Vishay"/>
+      <property name="Manufacturer_Part_Number" value="CRCW08053K30JNEA"/>
+      <property name="Sheetname" value="Cell Filtering And Balancing"/>
+      <property name="Sheetfile" value="FilteringCells.kicad_sch"/>
+      <property name="ki_description" value="RESISTOR, 0805 3.3K Ohm +/-5% 0.125 W"/>
+      <sheetpath names="/Cell Filtering And Balancing/" tstamps="/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e/"/>
+      <tstamps>2cd7d074-3fea-4f29-a344-e5ded575bf99</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>3k3Ω</value>
+      <footprint>RESC2012X50N</footprint>
+      <datasheet>http://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
+      <fields>
+        <field name="Height">0.5</field>
+        <field name="Manufacturer_Name">Vishay</field>
+        <field name="Manufacturer_Part_Number">CRCW08053K30JNEA</field>
+        <field name="Mouser Part Number">71-CRCW08053K30JNEA</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW08053K30JNEA?qs=kJXytlGtIWm66zs041a78Q%3D%3D</field>
+      </fields>
+      <libsource lib="FixedWing" part="CRCW08053K30JNEA" description="RESISTOR, 0805 3.3K Ohm +/-5% 0.125 W"/>
+      <property name="Height" value="0.5"/>
+      <property name="Mouser Part Number" value="71-CRCW08053K30JNEA"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW08053K30JNEA?qs=kJXytlGtIWm66zs041a78Q%3D%3D"/>
+      <property name="Manufacturer_Name" value="Vishay"/>
+      <property name="Manufacturer_Part_Number" value="CRCW08053K30JNEA"/>
+      <property name="Sheetname" value="Cell Filtering And Balancing"/>
+      <property name="Sheetfile" value="FilteringCells.kicad_sch"/>
+      <property name="ki_description" value="RESISTOR, 0805 3.3K Ohm +/-5% 0.125 W"/>
+      <sheetpath names="/Cell Filtering And Balancing/" tstamps="/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e/"/>
+      <tstamps>f5d3fa80-bc33-4376-9587-804d38b92b79</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>3k3Ω</value>
+      <footprint>RESC2012X50N</footprint>
+      <datasheet>http://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
+      <fields>
+        <field name="Height">0.5</field>
+        <field name="Manufacturer_Name">Vishay</field>
+        <field name="Manufacturer_Part_Number">CRCW08053K30JNEA</field>
+        <field name="Mouser Part Number">71-CRCW08053K30JNEA</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW08053K30JNEA?qs=kJXytlGtIWm66zs041a78Q%3D%3D</field>
+      </fields>
+      <libsource lib="FixedWing" part="CRCW08053K30JNEA" description="RESISTOR, 0805 3.3K Ohm +/-5% 0.125 W"/>
+      <property name="Height" value="0.5"/>
+      <property name="Mouser Part Number" value="71-CRCW08053K30JNEA"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW08053K30JNEA?qs=kJXytlGtIWm66zs041a78Q%3D%3D"/>
+      <property name="Manufacturer_Name" value="Vishay"/>
+      <property name="Manufacturer_Part_Number" value="CRCW08053K30JNEA"/>
+      <property name="Sheetname" value="Cell Filtering And Balancing"/>
+      <property name="Sheetfile" value="FilteringCells.kicad_sch"/>
+      <property name="ki_description" value="RESISTOR, 0805 3.3K Ohm +/-5% 0.125 W"/>
+      <sheetpath names="/Cell Filtering And Balancing/" tstamps="/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e/"/>
+      <tstamps>52ce5b00-59c0-4609-89d8-3b4291827922</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>3k3Ω</value>
+      <footprint>RESC2012X50N</footprint>
+      <datasheet>http://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
+      <fields>
+        <field name="Height">0.5</field>
+        <field name="Manufacturer_Name">Vishay</field>
+        <field name="Manufacturer_Part_Number">CRCW08053K30JNEA</field>
+        <field name="Mouser Part Number">71-CRCW08053K30JNEA</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW08053K30JNEA?qs=kJXytlGtIWm66zs041a78Q%3D%3D</field>
+      </fields>
+      <libsource lib="FixedWing" part="CRCW08053K30JNEA" description="RESISTOR, 0805 3.3K Ohm +/-5% 0.125 W"/>
+      <property name="Height" value="0.5"/>
+      <property name="Mouser Part Number" value="71-CRCW08053K30JNEA"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW08053K30JNEA?qs=kJXytlGtIWm66zs041a78Q%3D%3D"/>
+      <property name="Manufacturer_Name" value="Vishay"/>
+      <property name="Manufacturer_Part_Number" value="CRCW08053K30JNEA"/>
+      <property name="Sheetname" value="Cell Filtering And Balancing"/>
+      <property name="Sheetfile" value="FilteringCells.kicad_sch"/>
+      <property name="ki_description" value="RESISTOR, 0805 3.3K Ohm +/-5% 0.125 W"/>
+      <sheetpath names="/Cell Filtering And Balancing/" tstamps="/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e/"/>
+      <tstamps>433dc146-7b04-4546-81b5-4749c0917863</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>3k3Ω</value>
+      <footprint>RESC2012X50N</footprint>
+      <datasheet>http://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
+      <fields>
+        <field name="Height">0.5</field>
+        <field name="Manufacturer_Name">Vishay</field>
+        <field name="Manufacturer_Part_Number">CRCW08053K30JNEA</field>
+        <field name="Mouser Part Number">71-CRCW08053K30JNEA</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW08053K30JNEA?qs=kJXytlGtIWm66zs041a78Q%3D%3D</field>
+      </fields>
+      <libsource lib="FixedWing" part="CRCW08053K30JNEA" description="RESISTOR, 0805 3.3K Ohm +/-5% 0.125 W"/>
+      <property name="Height" value="0.5"/>
+      <property name="Mouser Part Number" value="71-CRCW08053K30JNEA"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW08053K30JNEA?qs=kJXytlGtIWm66zs041a78Q%3D%3D"/>
+      <property name="Manufacturer_Name" value="Vishay"/>
+      <property name="Manufacturer_Part_Number" value="CRCW08053K30JNEA"/>
+      <property name="Sheetname" value="Cell Filtering And Balancing"/>
+      <property name="Sheetfile" value="FilteringCells.kicad_sch"/>
+      <property name="ki_description" value="RESISTOR, 0805 3.3K Ohm +/-5% 0.125 W"/>
+      <sheetpath names="/Cell Filtering And Balancing/" tstamps="/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e/"/>
+      <tstamps>d3dc50f7-d6b8-4adc-b59f-54d573c892fb</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>3k3Ω</value>
+      <footprint>RESC2012X50N</footprint>
+      <datasheet>http://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
+      <fields>
+        <field name="Height">0.5</field>
+        <field name="Manufacturer_Name">Vishay</field>
+        <field name="Manufacturer_Part_Number">CRCW08053K30JNEA</field>
+        <field name="Mouser Part Number">71-CRCW08053K30JNEA</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW08053K30JNEA?qs=kJXytlGtIWm66zs041a78Q%3D%3D</field>
+      </fields>
+      <libsource lib="FixedWing" part="CRCW08053K30JNEA" description="RESISTOR, 0805 3.3K Ohm +/-5% 0.125 W"/>
+      <property name="Height" value="0.5"/>
+      <property name="Mouser Part Number" value="71-CRCW08053K30JNEA"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW08053K30JNEA?qs=kJXytlGtIWm66zs041a78Q%3D%3D"/>
+      <property name="Manufacturer_Name" value="Vishay"/>
+      <property name="Manufacturer_Part_Number" value="CRCW08053K30JNEA"/>
+      <property name="Sheetname" value="Cell Filtering And Balancing"/>
+      <property name="Sheetfile" value="FilteringCells.kicad_sch"/>
+      <property name="ki_description" value="RESISTOR, 0805 3.3K Ohm +/-5% 0.125 W"/>
+      <sheetpath names="/Cell Filtering And Balancing/" tstamps="/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e/"/>
+      <tstamps>e0c7f230-c53f-4e80-ae84-9dcb1f22452b</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>LTC6804-2</value>
+      <footprint>Package_SO:SSOP-48_5.3x12.8mm_P0.5mm</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/680412fc.pdf</datasheet>
+      <libsource lib="FixedWing" part="LTC6804-2" description="Multicell Battery Stack Monitor, 12-cell max, multi-chemistry, integrated balancing, stackable, serial interface, SSOP-48"/>
+      <property name="Sheetname" value="Battery Stack Monitor"/>
+      <property name="Sheetfile" value="BatteryMonitor.kicad_sch"/>
+      <property name="ki_description" value="Multicell Battery Stack Monitor, 12-cell max, multi-chemistry, integrated balancing, stackable, serial interface, SSOP-48"/>
+      <property name="ki_keywords" value="battery balance afe"/>
+      <sheetpath names="/Battery Stack Monitor/" tstamps="/1e9f81b4-c330-4dde-84b6-9168ce482c70/"/>
+      <tstamps>1acc448b-5fd3-47b6-9b69-766a561db28b</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>15p</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="RP2040 Microcontroller"/>
+      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/RP2040 Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
+      <tstamps>5301fbf3-e5eb-458a-9cf5-0f13bb166547</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>15p</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="RP2040 Microcontroller"/>
+      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/RP2040 Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
+      <tstamps>d3605f56-0738-4e23-8ea5-8fa03833fdda</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="RP2040 Microcontroller"/>
+      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/RP2040 Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
+      <tstamps>00000000-0000-0000-0000-00005f09255d</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="RP2040 Microcontroller"/>
+      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/RP2040 Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
+      <tstamps>00000000-0000-0000-0000-00005f0930a1</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="RP2040 Microcontroller"/>
+      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/RP2040 Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
+      <tstamps>00000000-0000-0000-0000-00005edb1aa1</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="RP2040 Microcontroller"/>
+      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/RP2040 Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
+      <tstamps>00000000-0000-0000-0000-00005ef00505</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="RP2040 Microcontroller"/>
+      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/RP2040 Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
+      <tstamps>00000000-0000-0000-0000-00005ef0050f</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="RP2040 Microcontroller"/>
+      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/RP2040 Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
+      <tstamps>00000000-0000-0000-0000-00005ef07987</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="RP2040 Microcontroller"/>
+      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/RP2040 Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
+      <tstamps>00000000-0000-0000-0000-00005eeee897</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="RP2040 Microcontroller"/>
+      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/RP2040 Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
+      <tstamps>00000000-0000-0000-0000-00005ef08170</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="RP2040 Microcontroller"/>
+      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/RP2040 Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
+      <tstamps>00000000-0000-0000-0000-00005eef00bb</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="RP2040 Microcontroller"/>
+      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/RP2040 Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
+      <tstamps>00000000-0000-0000-0000-00005eef0473</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="RP2040 Microcontroller"/>
+      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/RP2040 Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
+      <tstamps>00000000-0000-0000-0000-00005eef0994</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="RP2040 Microcontroller"/>
+      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/RP2040 Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
+      <tstamps>00000000-0000-0000-0000-00005eef89b3</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="RP2040 Microcontroller"/>
+      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/RP2040 Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
+      <tstamps>00000000-0000-0000-0000-00005eef89bd</tstamps>
+    </comp>
+    <comp ref="C23">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="RP2040 Microcontroller"/>
+      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/RP2040 Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
+      <tstamps>00000000-0000-0000-0000-00005eef89c7</tstamps>
+    </comp>
+    <comp ref="C24">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="RP2040 Microcontroller"/>
+      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/RP2040 Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
+      <tstamps>00000000-0000-0000-0000-00005f1af96d</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="RP2040 Microcontroller"/>
+      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/RP2040 Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
+      <tstamps>00000000-0000-0000-0000-00005ef4c292</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="RP2040 Microcontroller"/>
+      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/RP2040 Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
+      <tstamps>00000000-0000-0000-0000-00005ef4cf1f</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="RP2040 Microcontroller"/>
+      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/RP2040 Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
+      <tstamps>00000000-0000-0000-0000-00005ef4d323</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="RP2040 Microcontroller"/>
+      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/RP2040 Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
+      <tstamps>00000000-0000-0000-0000-00005ef4d57b</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="RP2040 Microcontroller"/>
+      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/RP2040 Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
+      <tstamps>00000000-0000-0000-0000-00005f30f0ba</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>USB_B_Micro</value>
+      <footprint>RP2040_minimal:USB_Micro-B_Amphenol_10103594-0001LF_Horizontal_modified</footprint>
+      <libsource lib="Connector" part="USB_B_Micro" description="USB Micro Type B connector"/>
+      <property name="Sheetname" value="RP2040 Microcontroller"/>
+      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
+      <property name="ki_description" value="USB Micro Type B connector"/>
+      <property name="ki_keywords" value="connector USB micro"/>
+      <sheetpath names="/RP2040 Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
+      <tstamps>00000000-0000-0000-0000-00005edb7d8d</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_02x18_Odd_Even</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x18_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_02x18_Odd_Even" description="Generic connector, double row, 02x18, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="RP2040 Microcontroller"/>
+      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, double row, 02x18, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/RP2040 Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
+      <tstamps>00000000-0000-0000-0000-00005f4b4ce4</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_02x18_Odd_Even</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x18_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_02x18_Odd_Even" description="Generic connector, double row, 02x18, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="RP2040 Microcontroller"/>
+      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, double row, 02x18, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/RP2040 Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
+      <tstamps>00000000-0000-0000-0000-00005f4b0bc9</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>USB_C_Receptacle_USB2.0_14P</value>
+      <datasheet>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</datasheet>
+      <libsource lib="Connector" part="USB_C_Receptacle_USB2.0_14P" description="USB 2.0-only 14P Type-C Receptacle connector"/>
+      <property name="Sheetname" value="RP2040 Microcontroller"/>
+      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
+      <property name="ki_description" value="USB 2.0-only 14P Type-C Receptacle connector"/>
+      <property name="ki_keywords" value="usb universal serial bus type-C USB2.0"/>
+      <sheetpath names="/RP2040 Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
+      <tstamps>8477f7c4-dd82-4bcc-a84f-c8f23c612f10</tstamps>
+    </comp>
+    <comp ref="R29">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="RP2040 Microcontroller"/>
+      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/RP2040 Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
+      <tstamps>00000000-0000-0000-0000-00005edae9f0</tstamps>
+    </comp>
+    <comp ref="R30">
+      <value>DNF</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="RP2040 Microcontroller"/>
+      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/RP2040 Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
+      <tstamps>00000000-0000-0000-0000-00005edac067</tstamps>
+    </comp>
+    <comp ref="R31">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="RP2040 Microcontroller"/>
+      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/RP2040 Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
+      <tstamps>960c2bc7-2098-4c7f-a20d-3f6dfc61c0ce</tstamps>
+    </comp>
+    <comp ref="R32">
+      <value>27</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="RP2040 Microcontroller"/>
+      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/RP2040 Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
+      <tstamps>00000000-0000-0000-0000-00005ede0881</tstamps>
+    </comp>
+    <comp ref="R33">
+      <value>27</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="RP2040 Microcontroller"/>
+      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/RP2040 Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
+      <tstamps>00000000-0000-0000-0000-00005ede1624</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>NCP1117-3.3_SOT223</value>
+      <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF</datasheet>
+      <libsource lib="Regulator_Linear" part="NCP1117-3.3_SOT223" description="1A Low drop-out regulator, Fixed Output 3.3V, SOT-223"/>
+      <property name="Sheetname" value="RP2040 Microcontroller"/>
+      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
+      <property name="ki_description" value="1A Low drop-out regulator, Fixed Output 3.3V, SOT-223"/>
+      <property name="ki_keywords" value="REGULATOR LDO 3.3V"/>
+      <sheetpath names="/RP2040 Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
+      <tstamps>00000000-0000-0000-0000-00005f04c8b7</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>W25Q128JVS</value>
+      <footprint>Package_SO:SOIC-8_5.23x5.23mm_P1.27mm</footprint>
+      <datasheet>http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf</datasheet>
+      <libsource lib="Memory_Flash" part="W25Q128JVS" description="128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8"/>
+      <property name="Sheetname" value="RP2040 Microcontroller"/>
+      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
+      <property name="ki_description" value="128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8"/>
+      <property name="ki_keywords" value="flash memory SPI QPI DTR"/>
+      <sheetpath names="/RP2040 Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
+      <tstamps>00000000-0000-0000-0000-00005eda5f2c</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>RP2040</value>
+      <footprint>RP2040_minimal:RP2040-QFN-56</footprint>
+      <datasheet>https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf</datasheet>
+      <libsource lib="FixedWing" part="RP2040" description=""/>
+      <property name="Sheetname" value="RP2040 Microcontroller"/>
+      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
+      <sheetpath names="/RP2040 Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
+      <tstamps>00000000-0000-0000-0000-00005ed8f5d6</tstamps>
+    </comp>
+    <comp ref="Y1">
+      <value>ABM8-272-T3</value>
+      <footprint>Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm</footprint>
+      <libsource lib="Device" part="Crystal_GND24" description="Four pin crystal, GND on pins 2 and 4"/>
+      <property name="Sheetname" value="RP2040 Microcontroller"/>
+      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
+      <property name="ki_description" value="Four pin crystal, GND on pins 2 and 4"/>
+      <property name="ki_keywords" value="quartz ceramic resonator oscillator"/>
+      <sheetpath names="/RP2040 Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
+      <tstamps>3f164bbe-0cd7-477a-8f46-961f6ff809ad</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="USB_B_Micro">
+      <description>USB Micro Type B connector</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_B_Micro</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="bidirectional"/>
+        <pin num="3" name="D+" type="bidirectional"/>
+        <pin num="4" name="ID" type="passive"/>
+        <pin num="5" name="GND" type="power_out"/>
+        <pin num="6" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_C_Receptacle_USB2.0_14P">
+      <description>USB 2.0-only 14P Type-C Receptacle connector</description>
+      <docs>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</docs>
+      <footprints>
+        <fp>USB*C*Receptacle*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_C_Receptacle_USB2.0_14P</field>
+        <field name="Datasheet">https://www.usb.org/sites/default/files/documents/usb_type-c.zip</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND" type="passive"/>
+        <pin num="A4" name="VBUS" type="passive"/>
+        <pin num="A5" name="CC1" type="bidirectional"/>
+        <pin num="A6" name="D+" type="bidirectional"/>
+        <pin num="A7" name="D-" type="bidirectional"/>
+        <pin num="A9" name="VBUS" type="passive"/>
+        <pin num="A12" name="GND" type="passive"/>
+        <pin num="B1" name="GND" type="passive"/>
+        <pin num="B4" name="VBUS" type="passive"/>
+        <pin num="B5" name="CC2" type="bidirectional"/>
+        <pin num="B6" name="D+" type="bidirectional"/>
+        <pin num="B7" name="D-" type="bidirectional"/>
+        <pin num="B9" name="VBUS" type="passive"/>
+        <pin num="B12" name="GND" type="passive"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x18_Odd_Even">
+      <description>Generic connector, double row, 02x18, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x18_Odd_Even</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+        <pin num="21" name="Pin_21" type="passive"/>
+        <pin num="22" name="Pin_22" type="passive"/>
+        <pin num="23" name="Pin_23" type="passive"/>
+        <pin num="24" name="Pin_24" type="passive"/>
+        <pin num="25" name="Pin_25" type="passive"/>
+        <pin num="26" name="Pin_26" type="passive"/>
+        <pin num="27" name="Pin_27" type="passive"/>
+        <pin num="28" name="Pin_28" type="passive"/>
+        <pin num="29" name="Pin_29" type="passive"/>
+        <pin num="30" name="Pin_30" type="passive"/>
+        <pin num="31" name="Pin_31" type="passive"/>
+        <pin num="32" name="Pin_32" type="passive"/>
+        <pin num="33" name="Pin_33" type="passive"/>
+        <pin num="34" name="Pin_34" type="passive"/>
+        <pin num="35" name="Pin_35" type="passive"/>
+        <pin num="36" name="Pin_36" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal_GND24">
+      <description>Four pin crystal, GND on pins 2 and 4</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal_GND24</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="FixedWing" part="AC0805KRX7R8BB103">
+      <description>10000 pF +/-10% 25V Ceramic Capacitor X7R 0805 (2012 Metric)</description>
+      <docs>https://www.yageo.com/en/ProductSearch/PartNumberSearch?part_number=AC0805KRX7R8BB103</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">10nF</field>
+        <field name="Footprint">FixedWing:CAPC2012X95N</field>
+        <field name="Datasheet">https://www.yageo.com/en/ProductSearch/PartNumberSearch?part_number=AC0805KRX7R8BB103</field>
+        <field name="Height">0.95</field>
+        <field name="Mouser Part Number">603-AC805KRX7R8BB103</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/YAGEO/AC0805KRX7R8BB103?qs=WS5Jv%252B%252Bx1qWanT8XqjMqIQ%3D%3D</field>
+        <field name="Manufacturer_Name">YAGEO</field>
+        <field name="Manufacturer_Part_Number">AC0805KRX7R8BB103</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="FixedWing" part="BSS308PE_H6327">
+      <description>MOSFET P-Ch -30V -2A SOT-23-3</description>
+      <docs>https://componentsearchengine.com/Datasheets/1/BSS308PE H6327.pdf</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BSS308PE_H6327</field>
+        <field name="Footprint">SOT95P260X110-3N</field>
+        <field name="Datasheet">https://componentsearchengine.com/Datasheets/1/BSS308PE H6327.pdf</field>
+        <field name="Height">1.1</field>
+        <field name="Mouser Part Number">726-BSS308PEH6327</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BSS308PE-H6327?qs=oPPfIaWL1l0trIaeR9VW8A%3D%3D</field>
+        <field name="Manufacturer_Name">Infineon</field>
+        <field name="Manufacturer_Part_Number">BSS308PE H6327</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="FixedWing" part="CRCW0805100RFKEA">
+      <description>Vishay CRCW Series Thick Film Surface Mount Resistor 0805 Case 100?? ??1% 0.125W ??100ppm/??C</description>
+      <docs>http://www.vishay.com/docs/20035/dcrcwe3.pdf</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">100Ω</field>
+        <field name="Footprint">RESC2012X50N</field>
+        <field name="Datasheet">http://www.vishay.com/docs/20035/dcrcwe3.pdf</field>
+        <field name="Height">0.5</field>
+        <field name="Mouser Part Number">71-CRCW0805-100-E3</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0805100RFKEA?qs=LOX6nxTstiYDPDKmuLyNLw%3D%3D</field>
+        <field name="Manufacturer_Name">Vishay</field>
+        <field name="Manufacturer_Part_Number">CRCW0805100RFKEA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="FixedWing" part="CRCW08053K30JNEA">
+      <description>RESISTOR, 0805 3.3K Ohm +/-5% 0.125 W</description>
+      <docs>http://www.vishay.com/docs/20035/dcrcwe3.pdf</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">3k3Ω</field>
+        <field name="Footprint">RESC2012X50N</field>
+        <field name="Datasheet">http://www.vishay.com/docs/20035/dcrcwe3.pdf</field>
+        <field name="Height">0.5</field>
+        <field name="Mouser Part Number">71-CRCW08053K30JNEA</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW08053K30JNEA?qs=kJXytlGtIWm66zs041a78Q%3D%3D</field>
+        <field name="Manufacturer_Name">Vishay</field>
+        <field name="Manufacturer_Part_Number">CRCW08053K30JNEA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="FixedWing" part="CRCW0805475RFKEA">
+      <description>Vishay CRCW Series Thick Film Surface Mount Resistor 0805 Case 475 +/-1% 0.125W +/-100ppm/C</description>
+      <docs>http://www.vishay.com/docs/20035/dcrcwe3.pdf</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">475Ω</field>
+        <field name="Footprint">RESC2012X50N</field>
+        <field name="Datasheet">http://www.vishay.com/docs/20035/dcrcwe3.pdf</field>
+        <field name="Height">0.5</field>
+        <field name="Mouser Part Number">71-CRCW0805-475-E3</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0805475RFKEA?qs=H9nSDuxQXAGtYh6oNsznQg%3D%3D</field>
+        <field name="Manufacturer_Name">Vishay</field>
+        <field name="Manufacturer_Part_Number">CRCW0805475RFKEA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="FixedWing" part="CRCW251233R0FKEG">
+      <description>Standard Thick Film Chip Resistors value 33R0 ohm.</description>
+      <docs>http://www.vishay.com/docs/20035/dcrcwe3.pdf</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">33Ω</field>
+        <field name="Footprint">RESC6332X70N</field>
+        <field name="Datasheet">http://www.vishay.com/docs/20035/dcrcwe3.pdf</field>
+        <field name="Height">0.7</field>
+        <field name="Manufacturer_Name">Vishay</field>
+        <field name="Manufacturer_Part_Number">CRCW251233R0FKEG</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="FixedWing" part="LTC6804-2">
+      <description>Multicell Battery Stack Monitor, 12-cell max, multi-chemistry, integrated balancing, stackable, serial interface, SSOP-48</description>
+      <docs>https://www.analog.com/media/en/technical-documentation/data-sheets/680412fc.pdf</docs>
+      <footprints>
+        <fp>SSOP*5.3x12.8mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LTC6804-2</field>
+        <field name="Footprint">Package_SO:SSOP-48_5.3x12.8mm_P0.5mm</field>
+        <field name="Datasheet">https://www.analog.com/media/en/technical-documentation/data-sheets/680412fc.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="V+" type="power_in"/>
+        <pin num="2" name="C12" type="input"/>
+        <pin num="3" name="S12" type="bidirectional"/>
+        <pin num="4" name="C11" type="input"/>
+        <pin num="5" name="S11" type="bidirectional"/>
+        <pin num="6" name="C10" type="input"/>
+        <pin num="7" name="S10" type="bidirectional"/>
+        <pin num="8" name="C9" type="input"/>
+        <pin num="9" name="S9" type="bidirectional"/>
+        <pin num="10" name="C8" type="input"/>
+        <pin num="11" name="S8" type="bidirectional"/>
+        <pin num="12" name="C7" type="input"/>
+        <pin num="13" name="S7" type="bidirectional"/>
+        <pin num="14" name="C6" type="input"/>
+        <pin num="15" name="S6" type="bidirectional"/>
+        <pin num="16" name="C5" type="input"/>
+        <pin num="17" name="S5" type="bidirectional"/>
+        <pin num="18" name="C4" type="input"/>
+        <pin num="19" name="S4" type="bidirectional"/>
+        <pin num="20" name="C3" type="input"/>
+        <pin num="21" name="S3" type="bidirectional"/>
+        <pin num="22" name="C2" type="input"/>
+        <pin num="23" name="S2" type="bidirectional"/>
+        <pin num="24" name="C1" type="input"/>
+        <pin num="25" name="S1" type="bidirectional"/>
+        <pin num="26" name="C0" type="input"/>
+        <pin num="27" name="GPIO1" type="bidirectional"/>
+        <pin num="28" name="GPIO2" type="bidirectional"/>
+        <pin num="29" name="GPIO3" type="bidirectional"/>
+        <pin num="30" name="V-" type="passive"/>
+        <pin num="31" name="V-" type="passive"/>
+        <pin num="32" name="GPIO4" type="bidirectional"/>
+        <pin num="33" name="GPIO5" type="bidirectional"/>
+        <pin num="34" name="VREF2" type="output"/>
+        <pin num="35" name="VREF1" type="output"/>
+        <pin num="36" name="SWTEN" type="input"/>
+        <pin num="37" name="VREG" type="input"/>
+        <pin num="38" name="DRIVE" type="output"/>
+        <pin num="39" name="WDT" type="output"/>
+        <pin num="40" name="ISOMD" type="input"/>
+        <pin num="41" name="CSB(IMA)" type="bidirectional"/>
+        <pin num="42" name="SCK(IPA)" type="bidirectional"/>
+        <pin num="43" name="SDI(ICMP)" type="input"/>
+        <pin num="44" name="SDO(IBIAS)" type="open_collector"/>
+        <pin num="45" name="A0" type="passive"/>
+        <pin num="46" name="A1" type="passive"/>
+        <pin num="47" name="A2" type="bidirectional"/>
+        <pin num="48" name="A3" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="FixedWing" part="LTST-C170KRKT">
+      <description>Standard LEDs - SMD Red Clear 631nm</description>
+      <docs>https://componentsearchengine.com/Datasheets/1/LTST-C170KRKT.pdf</docs>
+      <fields>
+        <field name="Reference">LED</field>
+        <field name="Value">LTST-C170KRKT</field>
+        <field name="Footprint">LEDC2012X120N</field>
+        <field name="Datasheet">https://componentsearchengine.com/Datasheets/1/LTST-C170KRKT.pdf</field>
+        <field name="Height">1.2</field>
+        <field name="Mouser Part Number">859-LTST-C170KRKT</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C170KRKT?qs=NUb82WqeCyrVOID%2Fxt4rgA%3D%3D</field>
+        <field name="Manufacturer_Name">Lite-On</field>
+        <field name="Manufacturer_Part_Number">LTST-C170KRKT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="FixedWing" part="RP2040">
+      <docs>https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">RP2040</field>
+        <field name="Footprint">RP2040_minimal:RP2040-QFN-56</field>
+        <field name="Datasheet">https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IOVDD" type="power_in"/>
+        <pin num="2" name="GPIO0" type="bidirectional"/>
+        <pin num="3" name="GPIO1" type="bidirectional"/>
+        <pin num="4" name="GPIO2" type="bidirectional"/>
+        <pin num="5" name="GPIO3" type="bidirectional"/>
+        <pin num="6" name="GPIO4" type="bidirectional"/>
+        <pin num="7" name="GPIO5" type="bidirectional"/>
+        <pin num="8" name="GPIO6" type="bidirectional"/>
+        <pin num="9" name="GPIO7" type="bidirectional"/>
+        <pin num="10" name="IOVDD" type="power_in"/>
+        <pin num="11" name="GPIO8" type="bidirectional"/>
+        <pin num="12" name="GPIO9" type="bidirectional"/>
+        <pin num="13" name="GPIO10" type="bidirectional"/>
+        <pin num="14" name="GPIO11" type="bidirectional"/>
+        <pin num="15" name="GPIO12" type="bidirectional"/>
+        <pin num="16" name="GPIO13" type="bidirectional"/>
+        <pin num="17" name="GPIO14" type="bidirectional"/>
+        <pin num="18" name="GPIO15" type="bidirectional"/>
+        <pin num="19" name="TESTEN" type="passive"/>
+        <pin num="20" name="XIN" type="input"/>
+        <pin num="21" name="XOUT" type="passive"/>
+        <pin num="22" name="IOVDD" type="power_in"/>
+        <pin num="23" name="DVDD" type="power_in"/>
+        <pin num="24" name="SWCLK" type="output"/>
+        <pin num="25" name="SWD" type="bidirectional"/>
+        <pin num="26" name="RUN" type="input"/>
+        <pin num="27" name="GPIO16" type="bidirectional"/>
+        <pin num="28" name="GPIO17" type="bidirectional"/>
+        <pin num="29" name="GPIO18" type="bidirectional"/>
+        <pin num="30" name="GPIO19" type="bidirectional"/>
+        <pin num="31" name="GPIO20" type="bidirectional"/>
+        <pin num="32" name="GPIO21" type="bidirectional"/>
+        <pin num="33" name="IOVDD" type="power_in"/>
+        <pin num="34" name="GPIO22" type="bidirectional"/>
+        <pin num="35" name="GPIO23" type="bidirectional"/>
+        <pin num="36" name="GPIO24" type="bidirectional"/>
+        <pin num="37" name="GPIO25" type="bidirectional"/>
+        <pin num="38" name="GPIO26_ADC0" type="bidirectional"/>
+        <pin num="39" name="GPIO27_ADC1" type="bidirectional"/>
+        <pin num="40" name="GPIO28_ADC2" type="bidirectional"/>
+        <pin num="41" name="GPIO29_ADC3" type="bidirectional"/>
+        <pin num="42" name="IOVDD" type="power_in"/>
+        <pin num="43" name="ADC_AVDD" type="power_in"/>
+        <pin num="44" name="VREG_IN" type="power_in"/>
+        <pin num="45" name="VREG_VOUT" type="power_out"/>
+        <pin num="46" name="USB_DM" type="bidirectional"/>
+        <pin num="47" name="USB_DP" type="bidirectional"/>
+        <pin num="48" name="USB_VDD" type="power_in"/>
+        <pin num="49" name="IOVDD" type="power_in"/>
+        <pin num="50" name="DVDD" type="power_in"/>
+        <pin num="51" name="QSPI_SD3" type="bidirectional"/>
+        <pin num="52" name="QSPI_SCLK" type="output"/>
+        <pin num="53" name="QSPI_SD0" type="bidirectional"/>
+        <pin num="54" name="QSPI_SD2" type="bidirectional"/>
+        <pin num="55" name="QSPI_SD1" type="bidirectional"/>
+        <pin num="56" name="QSPI_SS" type="bidirectional"/>
+        <pin num="57" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="FixedWing" part="S7B-XH-A">
+      <docs>S7B-XH-A</docs>
+      <footprints>
+        <fp>CONN_S7B-XH-A_JST</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">S7B-XH-A</field>
+        <field name="Footprint">CONN_S7B-XH-A_JST</field>
+        <field name="Datasheet">S7B-XH-A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+        <pin num="3" name="3" type="unspecified"/>
+        <pin num="4" name="4" type="unspecified"/>
+        <pin num="5" name="5" type="unspecified"/>
+        <pin num="6" name="6" type="unspecified"/>
+        <pin num="7" name="7" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Memory_Flash" part="W25Q128JVS">
+      <description>128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8</description>
+      <docs>http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf</docs>
+      <footprints>
+        <fp>SOIC*5.23x5.23mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">W25Q128JVS</field>
+        <field name="Footprint">Package_SO:SOIC-8_5.23x5.23mm_P1.27mm</field>
+        <field name="Datasheet">http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{CS}" type="input"/>
+        <pin num="2" name="DO(IO1)" type="bidirectional"/>
+        <pin num="3" name="IO2" type="bidirectional"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="DI(IO0)" type="bidirectional"/>
+        <pin num="6" name="CLK" type="input"/>
+        <pin num="7" name="IO3" type="bidirectional"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="NCP1117-3.3_SOT223">
+      <description>1A Low drop-out regulator, Fixed Output 3.3V, SOT-223</description>
+      <docs>http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF</docs>
+      <footprints>
+        <fp>SOT?223*TabPin2*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NCP1117-3.3_SOT223</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-223-3_TabPin2</field>
+        <field name="Datasheet">http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Users\matth\AppData\Local\Programs\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Users\matth\AppData\Local\Programs\KiCad\7.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Users\matth\AppData\Local\Programs\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="FixedWing">
+      <uri>C:/Users/matth/Desktop/AeroNU/FixedWing/BMS/bms-pcb-design/libraries/FixedWing.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Users\matth\AppData\Local\Programs\KiCad\7.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Memory_Flash">
+      <uri>C:\Users\matth\AppData\Local\Programs\KiCad\7.0\share\kicad\symbols\/Memory_Flash.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Users\matth\AppData\Local\Programs\KiCad\7.0\share\kicad\symbols\/Regulator_Linear.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+1V1">
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="U4" pin="23" pinfunction="DVDD" pintype="power_in"/>
+      <node ref="U4" pin="45" pinfunction="VREG_VOUT" pintype="power_out"/>
+      <node ref="U4" pin="50" pinfunction="DVDD" pintype="power_in"/>
+    </net>
+    <net code="2" name="+3V3">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="C23" pin="1" pintype="passive"/>
+      <node ref="C24" pin="1" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R30" pin="1" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="VO" pintype="power_out"/>
+      <node ref="U3" pin="8" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U4" pin="1" pinfunction="IOVDD" pintype="power_in"/>
+      <node ref="U4" pin="10" pinfunction="IOVDD" pintype="power_in"/>
+      <node ref="U4" pin="22" pinfunction="IOVDD" pintype="power_in"/>
+      <node ref="U4" pin="33" pinfunction="IOVDD" pintype="power_in"/>
+      <node ref="U4" pin="42" pinfunction="IOVDD" pintype="power_in"/>
+      <node ref="U4" pin="43" pinfunction="ADC_AVDD" pintype="power_in"/>
+      <node ref="U4" pin="44" pinfunction="VREG_IN" pintype="power_in"/>
+      <node ref="U4" pin="48" pinfunction="USB_VDD" pintype="power_in"/>
+      <node ref="U4" pin="49" pinfunction="IOVDD" pintype="power_in"/>
+    </net>
+    <net code="3" name="+5V">
+      <node ref="U1" pin="37" pinfunction="VREG" pintype="input"/>
+    </net>
+    <net code="4" name="/Battery Stack Monitor/C0">
+      <node ref="C1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C7" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R22" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="26" pinfunction="C0" pintype="input"/>
+    </net>
+    <net code="5" name="/Battery Stack Monitor/C1">
+      <node ref="C6" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R21" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="24" pinfunction="C1" pintype="input"/>
+    </net>
+    <net code="6" name="/Battery Stack Monitor/C2">
+      <node ref="C5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R20" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="22" pinfunction="C2" pintype="input"/>
+    </net>
+    <net code="7" name="/Battery Stack Monitor/C3">
+      <node ref="C4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R19" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="20" pinfunction="C3" pintype="input"/>
+    </net>
+    <net code="8" name="/Battery Stack Monitor/C6">
+      <node ref="R18" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="C6" pintype="input"/>
+      <node ref="U1" pin="16" pinfunction="C5" pintype="input"/>
+      <node ref="U1" pin="18" pinfunction="C4" pintype="input"/>
+    </net>
+    <net code="9" name="/Battery Stack Monitor/C7">
+      <node ref="C3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R17" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="C7" pintype="input"/>
+    </net>
+    <net code="10" name="/Battery Stack Monitor/C8">
+      <node ref="C2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R16" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="C8" pintype="input"/>
+    </net>
+    <net code="11" name="/Battery Stack Monitor/C9">
+      <node ref="C2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R15" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="C9" pintype="input"/>
+    </net>
+    <net code="12" name="/Battery Stack Monitor/C12">
+      <node ref="R14" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="C12" pintype="input"/>
+      <node ref="U1" pin="4" pinfunction="C11" pintype="input"/>
+      <node ref="U1" pin="6" pinfunction="C10" pintype="input"/>
+    </net>
+    <net code="13" name="/Battery Stack Monitor/S1">
+      <node ref="R28" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="25" pinfunction="S1" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="/Battery Stack Monitor/S2">
+      <node ref="R27" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="23" pinfunction="S2" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="/Battery Stack Monitor/S3">
+      <node ref="R26" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="21" pinfunction="S3" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="/Battery Stack Monitor/S7">
+      <node ref="R25" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="S7" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="/Battery Stack Monitor/S8">
+      <node ref="R24" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="S8" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="/Battery Stack Monitor/S9">
+      <node ref="R23" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="S9" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="/Battery Stack Monitor/V^{+}_MONITOR">
+      <node ref="R13" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="V+" pintype="power_in"/>
+    </net>
+    <net code="20" name="/RP2040 Microcontroller/GPIO0">
+      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U4" pin="2" pinfunction="GPIO0" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="/RP2040 Microcontroller/GPIO1">
+      <node ref="J4" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="GPIO1" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="/RP2040 Microcontroller/GPIO2">
+      <node ref="J4" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="U4" pin="4" pinfunction="GPIO2" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="/RP2040 Microcontroller/GPIO3">
+      <node ref="J4" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="U4" pin="5" pinfunction="GPIO3" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="/RP2040 Microcontroller/GPIO4">
+      <node ref="J4" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="U4" pin="6" pinfunction="GPIO4" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="/RP2040 Microcontroller/GPIO5">
+      <node ref="J4" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="U4" pin="7" pinfunction="GPIO5" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="/RP2040 Microcontroller/GPIO6">
+      <node ref="J4" pin="16" pinfunction="Pin_16" pintype="passive"/>
+      <node ref="U4" pin="8" pinfunction="GPIO6" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="/RP2040 Microcontroller/GPIO7">
+      <node ref="J4" pin="18" pinfunction="Pin_18" pintype="passive"/>
+      <node ref="U4" pin="9" pinfunction="GPIO7" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="/RP2040 Microcontroller/GPIO8">
+      <node ref="J4" pin="20" pinfunction="Pin_20" pintype="passive"/>
+      <node ref="U4" pin="11" pinfunction="GPIO8" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="/RP2040 Microcontroller/GPIO9">
+      <node ref="J4" pin="22" pinfunction="Pin_22" pintype="passive"/>
+      <node ref="U4" pin="12" pinfunction="GPIO9" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="/RP2040 Microcontroller/GPIO10">
+      <node ref="J4" pin="24" pinfunction="Pin_24" pintype="passive"/>
+      <node ref="U4" pin="13" pinfunction="GPIO10" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="/RP2040 Microcontroller/GPIO11">
+      <node ref="J4" pin="26" pinfunction="Pin_26" pintype="passive"/>
+      <node ref="U4" pin="14" pinfunction="GPIO11" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="/RP2040 Microcontroller/GPIO12">
+      <node ref="J4" pin="28" pinfunction="Pin_28" pintype="passive"/>
+      <node ref="U4" pin="15" pinfunction="GPIO12" pintype="bidirectional"/>
+    </net>
+    <net code="33" name="/RP2040 Microcontroller/GPIO13">
+      <node ref="J4" pin="30" pinfunction="Pin_30" pintype="passive"/>
+      <node ref="U4" pin="16" pinfunction="GPIO13" pintype="bidirectional"/>
+    </net>
+    <net code="34" name="/RP2040 Microcontroller/GPIO14">
+      <node ref="J4" pin="32" pinfunction="Pin_32" pintype="passive"/>
+      <node ref="U4" pin="17" pinfunction="GPIO14" pintype="bidirectional"/>
+    </net>
+    <net code="35" name="/RP2040 Microcontroller/GPIO15">
+      <node ref="J4" pin="34" pinfunction="Pin_34" pintype="passive"/>
+      <node ref="U4" pin="18" pinfunction="GPIO15" pintype="bidirectional"/>
+    </net>
+    <net code="36" name="/RP2040 Microcontroller/GPIO16">
+      <node ref="J5" pin="27" pinfunction="Pin_27" pintype="passive"/>
+      <node ref="U4" pin="27" pinfunction="GPIO16" pintype="bidirectional"/>
+    </net>
+    <net code="37" name="/RP2040 Microcontroller/GPIO17">
+      <node ref="J5" pin="25" pinfunction="Pin_25" pintype="passive"/>
+      <node ref="U4" pin="28" pinfunction="GPIO17" pintype="bidirectional"/>
+    </net>
+    <net code="38" name="/RP2040 Microcontroller/GPIO18">
+      <node ref="J5" pin="23" pinfunction="Pin_23" pintype="passive"/>
+      <node ref="U4" pin="29" pinfunction="GPIO18" pintype="bidirectional"/>
+    </net>
+    <net code="39" name="/RP2040 Microcontroller/GPIO19">
+      <node ref="J5" pin="21" pinfunction="Pin_21" pintype="passive"/>
+      <node ref="U4" pin="30" pinfunction="GPIO19" pintype="bidirectional"/>
+    </net>
+    <net code="40" name="/RP2040 Microcontroller/GPIO20">
+      <node ref="J5" pin="19" pinfunction="Pin_19" pintype="passive"/>
+      <node ref="U4" pin="31" pinfunction="GPIO20" pintype="bidirectional"/>
+    </net>
+    <net code="41" name="/RP2040 Microcontroller/GPIO21">
+      <node ref="J5" pin="17" pinfunction="Pin_17" pintype="passive"/>
+      <node ref="U4" pin="32" pinfunction="GPIO21" pintype="bidirectional"/>
+    </net>
+    <net code="42" name="/RP2040 Microcontroller/GPIO22">
+      <node ref="J5" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="U4" pin="34" pinfunction="GPIO22" pintype="bidirectional"/>
+    </net>
+    <net code="43" name="/RP2040 Microcontroller/GPIO23">
+      <node ref="J5" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="U4" pin="35" pinfunction="GPIO23" pintype="bidirectional"/>
+    </net>
+    <net code="44" name="/RP2040 Microcontroller/GPIO24">
+      <node ref="J5" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="U4" pin="36" pinfunction="GPIO24" pintype="bidirectional"/>
+    </net>
+    <net code="45" name="/RP2040 Microcontroller/GPIO25">
+      <node ref="J5" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="U4" pin="37" pinfunction="GPIO25" pintype="bidirectional"/>
+    </net>
+    <net code="46" name="/RP2040 Microcontroller/GPIO26_ADC0">
+      <node ref="J5" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="U4" pin="38" pinfunction="GPIO26_ADC0" pintype="bidirectional"/>
+    </net>
+    <net code="47" name="/RP2040 Microcontroller/GPIO27_ADC1">
+      <node ref="J5" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U4" pin="39" pinfunction="GPIO27_ADC1" pintype="bidirectional"/>
+    </net>
+    <net code="48" name="/RP2040 Microcontroller/GPIO28_ADC2">
+      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U4" pin="40" pinfunction="GPIO28_ADC2" pintype="bidirectional"/>
+    </net>
+    <net code="49" name="/RP2040 Microcontroller/GPIO29_ADC3">
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U4" pin="41" pinfunction="GPIO29_ADC3" pintype="bidirectional"/>
+    </net>
+    <net code="50" name="/RP2040 Microcontroller/QSPI_SCLK">
+      <node ref="U3" pin="6" pinfunction="CLK" pintype="input"/>
+      <node ref="U4" pin="52" pinfunction="QSPI_SCLK" pintype="output"/>
+    </net>
+    <net code="51" name="/RP2040 Microcontroller/QSPI_SD0">
+      <node ref="U3" pin="5" pinfunction="DI(IO0)" pintype="bidirectional"/>
+      <node ref="U4" pin="53" pinfunction="QSPI_SD0" pintype="bidirectional"/>
+    </net>
+    <net code="52" name="/RP2040 Microcontroller/QSPI_SD1">
+      <node ref="U3" pin="2" pinfunction="DO(IO1)" pintype="bidirectional"/>
+      <node ref="U4" pin="55" pinfunction="QSPI_SD1" pintype="bidirectional"/>
+    </net>
+    <net code="53" name="/RP2040 Microcontroller/QSPI_SD2">
+      <node ref="U3" pin="3" pinfunction="IO2" pintype="bidirectional"/>
+      <node ref="U4" pin="54" pinfunction="QSPI_SD2" pintype="bidirectional"/>
+    </net>
+    <net code="54" name="/RP2040 Microcontroller/QSPI_SD3">
+      <node ref="U3" pin="7" pinfunction="IO3" pintype="bidirectional"/>
+      <node ref="U4" pin="51" pinfunction="QSPI_SD3" pintype="bidirectional"/>
+    </net>
+    <net code="55" name="/RP2040 Microcontroller/QSPI_SS">
+      <node ref="R29" pin="1" pintype="passive"/>
+      <node ref="R30" pin="2" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="~{CS}" pintype="input"/>
+      <node ref="U4" pin="56" pinfunction="QSPI_SS" pintype="bidirectional"/>
+    </net>
+    <net code="56" name="/RP2040 Microcontroller/RUN">
+      <node ref="J5" pin="29" pinfunction="Pin_29" pintype="passive"/>
+      <node ref="U4" pin="26" pinfunction="RUN" pintype="input"/>
+    </net>
+    <net code="57" name="/RP2040 Microcontroller/SWCLK">
+      <node ref="J5" pin="33" pinfunction="Pin_33" pintype="passive"/>
+      <node ref="U4" pin="24" pinfunction="SWCLK" pintype="output"/>
+    </net>
+    <net code="58" name="/RP2040 Microcontroller/SWD">
+      <node ref="J5" pin="31" pinfunction="Pin_31" pintype="passive"/>
+      <node ref="U4" pin="25" pinfunction="SWD" pintype="bidirectional"/>
+    </net>
+    <net code="59" name="/RP2040 Microcontroller/USB_D+">
+      <node ref="J3" pin="3" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="R32" pin="1" pintype="passive"/>
+    </net>
+    <net code="60" name="/RP2040 Microcontroller/USB_D-">
+      <node ref="J3" pin="2" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="R33" pin="1" pintype="passive"/>
+    </net>
+    <net code="61" name="/RP2040 Microcontroller/XIN">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="U4" pin="20" pinfunction="XIN" pintype="input"/>
+      <node ref="Y1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="62" name="/RP2040 Microcontroller/XOUT">
+      <node ref="R31" pin="1" pintype="passive"/>
+      <node ref="U4" pin="21" pinfunction="XOUT" pintype="passive"/>
+    </net>
+    <net code="63" name="/RP2040 Microcontroller/~{USB_BOOT}">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R29" pin="2" pintype="passive"/>
+    </net>
+    <net code="64" name="GND">
+      <node ref="C1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="C24" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J3" pin="5" pinfunction="GND" pintype="power_out"/>
+      <node ref="J3" pin="6" pinfunction="Shield" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="J4" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="J4" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="J4" pin="17" pinfunction="Pin_17" pintype="passive"/>
+      <node ref="J4" pin="19" pinfunction="Pin_19" pintype="passive"/>
+      <node ref="J4" pin="21" pinfunction="Pin_21" pintype="passive"/>
+      <node ref="J4" pin="23" pinfunction="Pin_23" pintype="passive"/>
+      <node ref="J4" pin="25" pinfunction="Pin_25" pintype="passive"/>
+      <node ref="J4" pin="27" pinfunction="Pin_27" pintype="passive"/>
+      <node ref="J4" pin="29" pinfunction="Pin_29" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J4" pin="31" pinfunction="Pin_31" pintype="passive"/>
+      <node ref="J4" pin="33" pinfunction="Pin_33" pintype="passive"/>
+      <node ref="J4" pin="35" pinfunction="Pin_35" pintype="passive"/>
+      <node ref="J4" pin="36" pinfunction="Pin_36" pintype="passive"/>
+      <node ref="J4" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J4" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J4" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="J5" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J5" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="J5" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="J5" pin="16" pinfunction="Pin_16" pintype="passive"/>
+      <node ref="J5" pin="18" pinfunction="Pin_18" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J5" pin="20" pinfunction="Pin_20" pintype="passive"/>
+      <node ref="J5" pin="22" pinfunction="Pin_22" pintype="passive"/>
+      <node ref="J5" pin="24" pinfunction="Pin_24" pintype="passive"/>
+      <node ref="J5" pin="26" pinfunction="Pin_26" pintype="passive"/>
+      <node ref="J5" pin="28" pinfunction="Pin_28" pintype="passive"/>
+      <node ref="J5" pin="30" pinfunction="Pin_30" pintype="passive"/>
+      <node ref="J5" pin="32" pinfunction="Pin_32" pintype="passive"/>
+      <node ref="J5" pin="34" pinfunction="Pin_34" pintype="passive"/>
+      <node ref="J5" pin="35" pinfunction="Pin_35" pintype="passive"/>
+      <node ref="J5" pin="36" pinfunction="Pin_36" pintype="passive"/>
+      <node ref="J5" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J5" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J5" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="R12" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R22" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="30" pinfunction="V-" pintype="passive"/>
+      <node ref="U1" pin="31" pinfunction="V-" pintype="passive"/>
+      <node ref="U1" pin="40" pinfunction="ISOMD" pintype="input"/>
+      <node ref="U2" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="19" pinfunction="TESTEN" pintype="passive"/>
+      <node ref="U4" pin="57" pinfunction="GND" pintype="power_in"/>
+      <node ref="Y1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Y1" pin="4" pinfunction="4" pintype="passive"/>
+    </net>
+    <net code="65" name="Net-(C9-Pad1)">
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="R31" pin="2" pintype="passive"/>
+      <node ref="Y1" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="66" name="Net-(J6-GND-PadA1)">
+      <node ref="J6" pin="A1" pinfunction="GND" pintype="passive"/>
+      <node ref="J6" pin="A12" pinfunction="GND" pintype="passive"/>
+      <node ref="J6" pin="B1" pinfunction="GND" pintype="passive"/>
+      <node ref="J6" pin="B12" pinfunction="GND" pintype="passive"/>
+    </net>
+    <net code="67" name="Net-(J6-VBUS-PadA4)">
+      <node ref="J6" pin="A4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J6" pin="A9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J6" pin="B4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J6" pin="B9" pinfunction="VBUS" pintype="passive"/>
+    </net>
+    <net code="68" name="Net-(LED1-A)">
+      <node ref="LED1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R7" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="69" name="Net-(LED1-K)">
+      <node ref="LED1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="70" name="Net-(LED2-A)">
+      <node ref="LED2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R8" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="71" name="Net-(LED2-K)">
+      <node ref="LED2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R2" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="72" name="Net-(LED3-A)">
+      <node ref="LED3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q3" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R9" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="73" name="Net-(LED3-K)">
+      <node ref="LED3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R3" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="74" name="Net-(LED4-A)">
+      <node ref="LED4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q4" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R10" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="75" name="Net-(LED4-K)">
+      <node ref="LED4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R4" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="76" name="Net-(LED5-A)">
+      <node ref="LED5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q5" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R11" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="77" name="Net-(LED5-K)">
+      <node ref="LED5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R5" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="78" name="Net-(LED6-A)">
+      <node ref="LED6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q6" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R12" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="79" name="Net-(LED6-K)">
+      <node ref="LED6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R6" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="80" name="Net-(Q1-G)">
+      <node ref="Q1" pin="1" pinfunction="G" pintype="passive"/>
+      <node ref="R23" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="81" name="Net-(Q1-S)">
+      <node ref="J1" pin="7" pinfunction="7" pintype="unspecified"/>
+      <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R13" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R14" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R15" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="82" name="Net-(Q2-G)">
+      <node ref="Q2" pin="1" pinfunction="G" pintype="passive"/>
+      <node ref="R24" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="83" name="Net-(Q2-S)">
+      <node ref="J1" pin="6" pinfunction="6" pintype="unspecified"/>
+      <node ref="Q2" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R16" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R7" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="84" name="Net-(Q3-G)">
+      <node ref="Q3" pin="1" pinfunction="G" pintype="passive"/>
+      <node ref="R25" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="85" name="Net-(Q3-S)">
+      <node ref="J1" pin="5" pinfunction="5" pintype="unspecified"/>
+      <node ref="Q3" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R17" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R8" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="86" name="Net-(Q4-G)">
+      <node ref="Q4" pin="1" pinfunction="G" pintype="passive"/>
+      <node ref="R26" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="87" name="Net-(Q4-S)">
+      <node ref="J1" pin="4" pinfunction="4" pintype="unspecified"/>
+      <node ref="Q4" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R18" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R19" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R9" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="88" name="Net-(Q5-G)">
+      <node ref="Q5" pin="1" pinfunction="G" pintype="passive"/>
+      <node ref="R27" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="89" name="Net-(Q5-S)">
+      <node ref="J1" pin="3" pinfunction="3" pintype="unspecified"/>
+      <node ref="Q5" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R10" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R20" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R4" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="90" name="Net-(Q6-G)">
+      <node ref="Q6" pin="1" pinfunction="G" pintype="passive"/>
+      <node ref="R28" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="91" name="Net-(Q6-S)">
+      <node ref="J1" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="Q6" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R11" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R21" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R5" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="92" name="Net-(U4-USB_DM)">
+      <node ref="R33" pin="2" pintype="passive"/>
+      <node ref="U4" pin="46" pinfunction="USB_DM" pintype="bidirectional"/>
+    </net>
+    <net code="93" name="Net-(U4-USB_DP)">
+      <node ref="R32" pin="2" pintype="passive"/>
+      <node ref="U4" pin="47" pinfunction="USB_DP" pintype="bidirectional"/>
+    </net>
+    <net code="94" name="VBUS">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="VBUS" pintype="power_out"/>
+      <node ref="U2" pin="3" pinfunction="VI" pintype="power_in"/>
+    </net>
+    <net code="95" name="unconnected-(J3-ID-Pad4)">
+      <node ref="J3" pin="4" pinfunction="ID" pintype="passive+no_connect"/>
+    </net>
+    <net code="96" name="unconnected-(J6-CC1-PadA5)">
+      <node ref="J6" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
+    </net>
+    <net code="97" name="unconnected-(J6-CC2-PadB5)">
+      <node ref="J6" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
+    </net>
+    <net code="98" name="unconnected-(J6-D+-PadA6)">
+      <node ref="J6" pin="A6" pinfunction="D+" pintype="bidirectional"/>
+    </net>
+    <net code="99" name="unconnected-(J6-D+-PadB6)">
+      <node ref="J6" pin="B6" pinfunction="D+" pintype="bidirectional"/>
+    </net>
+    <net code="100" name="unconnected-(J6-D--PadA7)">
+      <node ref="J6" pin="A7" pinfunction="D-" pintype="bidirectional"/>
+    </net>
+    <net code="101" name="unconnected-(J6-D--PadB7)">
+      <node ref="J6" pin="B7" pinfunction="D-" pintype="bidirectional"/>
+    </net>
+    <net code="102" name="unconnected-(J6-SHIELD-PadS1)">
+      <node ref="J6" pin="S1" pinfunction="SHIELD" pintype="passive"/>
+    </net>
+    <net code="103" name="unconnected-(U1-A0-Pad45)">
+      <node ref="U1" pin="45" pinfunction="A0" pintype="passive"/>
+    </net>
+    <net code="104" name="unconnected-(U1-A1-Pad46)">
+      <node ref="U1" pin="46" pinfunction="A1" pintype="passive"/>
+    </net>
+    <net code="105" name="unconnected-(U1-A2-Pad47)">
+      <node ref="U1" pin="47" pinfunction="A2" pintype="bidirectional"/>
+    </net>
+    <net code="106" name="unconnected-(U1-A3-Pad48)">
+      <node ref="U1" pin="48" pinfunction="A3" pintype="bidirectional"/>
+    </net>
+    <net code="107" name="unconnected-(U1-CSB(IMA)-Pad41)">
+      <node ref="U1" pin="41" pinfunction="CSB(IMA)" pintype="bidirectional"/>
+    </net>
+    <net code="108" name="unconnected-(U1-DRIVE-Pad38)">
+      <node ref="U1" pin="38" pinfunction="DRIVE" pintype="output+no_connect"/>
+    </net>
+    <net code="109" name="unconnected-(U1-GPIO1-Pad27)">
+      <node ref="U1" pin="27" pinfunction="GPIO1" pintype="bidirectional"/>
+    </net>
+    <net code="110" name="unconnected-(U1-GPIO2-Pad28)">
+      <node ref="U1" pin="28" pinfunction="GPIO2" pintype="bidirectional"/>
+    </net>
+    <net code="111" name="unconnected-(U1-GPIO3-Pad29)">
+      <node ref="U1" pin="29" pinfunction="GPIO3" pintype="bidirectional"/>
+    </net>
+    <net code="112" name="unconnected-(U1-GPIO4-Pad32)">
+      <node ref="U1" pin="32" pinfunction="GPIO4" pintype="bidirectional"/>
+    </net>
+    <net code="113" name="unconnected-(U1-GPIO5-Pad33)">
+      <node ref="U1" pin="33" pinfunction="GPIO5" pintype="bidirectional"/>
+    </net>
+    <net code="114" name="unconnected-(U1-S4-Pad19)">
+      <node ref="U1" pin="19" pinfunction="S4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="115" name="unconnected-(U1-S5-Pad17)">
+      <node ref="U1" pin="17" pinfunction="S5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="116" name="unconnected-(U1-S6-Pad15)">
+      <node ref="U1" pin="15" pinfunction="S6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="117" name="unconnected-(U1-S10-Pad7)">
+      <node ref="U1" pin="7" pinfunction="S10" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="118" name="unconnected-(U1-S11-Pad5)">
+      <node ref="U1" pin="5" pinfunction="S11" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="119" name="unconnected-(U1-S12-Pad3)">
+      <node ref="U1" pin="3" pinfunction="S12" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="120" name="unconnected-(U1-SCK(IPA)-Pad42)">
+      <node ref="U1" pin="42" pinfunction="SCK(IPA)" pintype="bidirectional"/>
+    </net>
+    <net code="121" name="unconnected-(U1-SDI(ICMP)-Pad43)">
+      <node ref="U1" pin="43" pinfunction="SDI(ICMP)" pintype="input"/>
+    </net>
+    <net code="122" name="unconnected-(U1-SDO(IBIAS)-Pad44)">
+      <node ref="U1" pin="44" pinfunction="SDO(IBIAS)" pintype="open_collector"/>
+    </net>
+    <net code="123" name="unconnected-(U1-SWTEN-Pad36)">
+      <node ref="U1" pin="36" pinfunction="SWTEN" pintype="input"/>
+    </net>
+    <net code="124" name="unconnected-(U1-VREF1-Pad35)">
+      <node ref="U1" pin="35" pinfunction="VREF1" pintype="output"/>
+    </net>
+    <net code="125" name="unconnected-(U1-VREF2-Pad34)">
+      <node ref="U1" pin="34" pinfunction="VREF2" pintype="output"/>
+    </net>
+    <net code="126" name="unconnected-(U1-WDT-Pad39)">
+      <node ref="U1" pin="39" pinfunction="WDT" pintype="output"/>
+    </net>
+  </nets>
+</export>
