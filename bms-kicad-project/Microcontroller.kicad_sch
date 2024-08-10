@@ -4335,8 +4335,8 @@
     (uuid fdf9dcd5-6d92-448e-b264-46e1f47f86cc)
   )
 
-  (text_box "To Do:\n\nAdd NEOPIX?\nFigure out what to do with extra GPIO\n"
-    (at 346.71 234.95 0) (size 71.12 10.16)
+  (text_box "To Do:\n\nSwitch 1uF decoupling caps to 0603\nSwitch USB CC pull downs to two 10k resistors in parallel\nAdd NEOPIX?\nFigure out what to do with extra GPIO\n"
+    (at 346.71 229.87 0) (size 71.12 15.24)
     (stroke (width 0) (type default) (color 132 0 132 1))
     (fill (type none))
     (effects (font (size 1.27 1.27) (color 132 0 132 1)) (justify left top))
