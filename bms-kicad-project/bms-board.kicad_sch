@@ -6,6 +6,8 @@
 
   (title_block
     (title "Top-Level Interconnect")
+    (date "2024-08-10")
+    (rev "A")
     (company "AeroNU - FixedWing")
   )
 
@@ -568,10 +570,10 @@
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e)
-    (property "Sheetname" "Cell Filtering And Balancing" (at 57.15 69.1384 0)
+    (property "Sheetname" "Cell Filtering and Balancing" (at 57.15 69.1384 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "FilteringCells.kicad_sch" (at 57.15 123.7746 0)
+    (property "Sheetfile" "CellFilteringAndBalancing.kicad_sch" (at 57.15 123.7746 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (pin "C2" output (at 85.09 110.49 0)
