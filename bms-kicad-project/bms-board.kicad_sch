@@ -643,6 +643,23 @@
     )
   )
 
+  (sheet (at 55.88 143.51) (size 30.48 34.29) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 9bfcf0e7-ef8d-4492-b04a-6397126b0bad)
+    (property "Sheetname" "5V Regulator" (at 55.88 142.7984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "5VRegulator.kicad_sch" (at 55.88 178.3846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "bms-board"
+        (path "/8a7831d1-a913-4f04-8780-225d2234b41d" (page "17"))
+      )
+    )
+  )
+
   (sheet_instances
     (path "/" (page "1"))
   )

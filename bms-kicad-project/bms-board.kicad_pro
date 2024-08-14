@@ -544,6 +544,10 @@
     [
       "832e06fe-b3b7-4813-97e8-44250ee140b5",
       "Filter and Balance Cell 12"
+    ],
+    [
+      "9bfcf0e7-ef8d-4492-b04a-6397126b0bad",
+      "5V Regulator"
     ]
   ],
   "text_variables": {}
