@@ -276,7 +276,7 @@
       (property "Reference" "R" (at 12.7 6.35 0)
         (effects (font (size 1.27 1.27)) (justify left top))
       )
-      (property "Value" "3k3" (at 12.7 3.81 0)
+      (property "Value" "3.3k" (at 12.7 3.81 0)
         (effects (font (size 1.27 1.27)) (justify left top))
       )
       (property "Footprint" "RESC2012X50N" (at 13.97 -96.19 0)
