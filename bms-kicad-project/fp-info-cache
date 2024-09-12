@@ -1,4 +1,4 @@
-22734621366035367
+22739760762593806
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -55317,6 +55317,27 @@ FixedWing
 CAPPRD500W60D1000H2500
 
 
+0
+2
+2
+FixedWing
+CAP_CC0805_YAG
+
+CC0805JRNPO9BN561 
+0
+2
+2
+FixedWing
+CAP_CC0805_YAG-L
+
+CC0805JRNPO9BN561 
+0
+2
+2
+FixedWing
+CAP_CC0805_YAG-M
+
+CC0805JRNPO9BN561 
 0
 2
 2
