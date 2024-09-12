@@ -62,7 +62,7 @@
       (property "Reference" "R" (at 12.7 6.35 0)
         (effects (font (size 1.27 1.27)) (justify left top))
       )
-      (property "Value" "3k3" (at 12.7 3.81 0)
+      (property "Value" "3.3k" (at 12.7 3.81 0)
         (effects (font (size 1.27 1.27)) (justify left top))
       )
       (property "Footprint" "RESC2012X50N" (at 13.97 -96.19 0)
@@ -1007,10 +1007,10 @@
   (symbol (lib_id "FixedWing:CRCW08053K30JNEA") (at 161.29 140.97 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 607d73c8-96b6-45ab-acce-e49b71cfeb6e)
-    (property "Reference" "R2" (at 154.94 128.27 90)
+    (property "Reference" "R?" (at 154.94 128.27 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "3k3" (at 161.29 130.81 0)
+    (property "Value" "3.3k" (at 161.29 130.81 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "RESC2012X50N" (at 257.48 127 0)
@@ -1039,7 +1039,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/1e9f81b4-c330-4dde-84b6-9168ce482c70"
-          (reference "R2") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
