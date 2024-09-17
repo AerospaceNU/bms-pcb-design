@@ -482,20 +482,8 @@
   },
   "sheets": [
     [
-      "8a7831d1-a913-4f04-8780-225d2234b41d",
-      ""
-    ],
-    [
       "95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e",
       "Cell Filtering and Balancing"
-    ],
-    [
-      "1e9f81b4-c330-4dde-84b6-9168ce482c70",
-      "Battery Stack Monitor"
-    ],
-    [
-      "449bb263-23d7-4f07-b4f7-6cd2e161d267",
-      "RP2040 Microcontroller"
     ],
     [
       "ac1001db-30e2-45f8-a5d0-23ab21f242ae",
@@ -542,8 +530,20 @@
       "Filter and Balance Cell 11"
     ],
     [
+      "8a7831d1-a913-4f04-8780-225d2234b41d",
+      ""
+    ],
+    [
       "832e06fe-b3b7-4813-97e8-44250ee140b5",
       "Filter and Balance Cell 12"
+    ],
+    [
+      "1e9f81b4-c330-4dde-84b6-9168ce482c70",
+      "Battery Stack Monitor"
+    ],
+    [
+      "449bb263-23d7-4f07-b4f7-6cd2e161d267",
+      "RP2040 Microcontroller"
     ],
     [
       "9bfcf0e7-ef8d-4492-b04a-6397126b0bad",

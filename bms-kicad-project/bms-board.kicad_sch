@@ -528,7 +528,7 @@
     )
     (instances
       (project "bms-board"
-        (path "/8a7831d1-a913-4f04-8780-225d2234b41d" (page "3"))
+        (path "/8a7831d1-a913-4f04-8780-225d2234b41d" (page "15"))
       )
     )
   )
@@ -561,7 +561,7 @@
     )
     (instances
       (project "bms-board"
-        (path "/8a7831d1-a913-4f04-8780-225d2234b41d" (page "4"))
+        (path "/8a7831d1-a913-4f04-8780-225d2234b41d" (page "16"))
       )
     )
   )
@@ -661,6 +661,6 @@
   )
 
   (sheet_instances
-    (path "/" (page "1"))
+    (path "/" (page "14"))
   )
 )
