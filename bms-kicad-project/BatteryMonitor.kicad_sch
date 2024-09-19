@@ -869,7 +869,7 @@
   (symbol (lib_id "FixedWing:CRCW0805100RFKEA") (at 193.04 69.85 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 16abe747-5f94-4727-acdf-d6fe4c312dea)
-    (property "Reference" "R3" (at 190.5 60.96 0)
+    (property "Reference" "R51" (at 190.5 60.96 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 193.04 60.96 0)
@@ -901,7 +901,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/1e9f81b4-c330-4dde-84b6-9168ce482c70"
-          (reference "R3") (unit 1)
+          (reference "R51") (unit 1)
         )
       )
     )
@@ -1007,7 +1007,7 @@
   (symbol (lib_id "FixedWing:CRCW08053K30JNEA") (at 161.29 140.97 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 607d73c8-96b6-45ab-acce-e49b71cfeb6e)
-    (property "Reference" "R?" (at 154.94 128.27 90)
+    (property "Reference" "R50" (at 154.94 128.27 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "3.3k" (at 161.29 130.81 0)
@@ -1039,7 +1039,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/1e9f81b4-c330-4dde-84b6-9168ce482c70"
-          (reference "R?") (unit 1)
+          (reference "R50") (unit 1)
         )
       )
     )
@@ -1123,7 +1123,7 @@
   (symbol (lib_id "FixedWing:GCJ188R72A104KA01D") (at 200.66 74.93 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bcd0c4cf-0a2b-4f4f-b157-17dd0c910e24)
-    (property "Reference" "C2" (at 203.2 73.66 0)
+    (property "Reference" "C14" (at 203.2 73.66 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0.1µ" (at 203.2 76.2 0)
@@ -1149,7 +1149,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/1e9f81b4-c330-4dde-84b6-9168ce482c70"
-          (reference "C2") (unit 1)
+          (reference "C14") (unit 1)
         )
       )
     )
