@@ -19,10 +19,10 @@
     (stroke (width 0.2) (type solid)) (fill none) (layer "F.Fab") (tstamp 1011d074-b165-4eb2-9753-806b07b10335))
   (fp_circle (center 0 0) (end 5 0)
     (stroke (width 0.127) (type solid)) (fill none) (layer "F.Fab") (tstamp cedf7474-6e8b-4639-a830-21a20404cfe0))
-  (pad "N" thru_hole circle (at 2.5 0) (size 1.2 1.2) (drill 0.85) (layers "*.Cu" "*.Mask")
-    (solder_mask_margin 0.102) (tstamp fe3b1520-635a-4fe8-836b-1f14877fb404))
-  (pad "P" thru_hole rect (at -2.5 0) (size 1.2 1.2) (drill 0.85) (layers "*.Cu" "*.Mask")
+  (pad "1" thru_hole rect (at -2.5 0) (size 1.2 1.2) (drill 0.85) (layers "*.Cu" "*.Mask")
     (solder_mask_margin 0.102) (tstamp 2e8a4cd3-4c55-432b-bcc6-833216234cff))
+  (pad "2" thru_hole circle (at 2.5 0) (size 1.2 1.2) (drill 0.85) (layers "*.Cu" "*.Mask")
+    (solder_mask_margin 0.102) (tstamp fe3b1520-635a-4fe8-836b-1f14877fb404))
   (model "${KICAD7_3DMODEL_DIR}/EEUFR1J221L.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))

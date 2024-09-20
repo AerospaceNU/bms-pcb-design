@@ -1,4 +1,4 @@
-22757070381601351
+22767396251301986
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -55475,6 +55475,27 @@ GRM32ER71A476KE15L
 2
 2
 FixedWing
+IND_BLM31PG391SN1L_MUR
+
+BLM31PG601SN1L 
+0
+2
+2
+FixedWing
+IND_BLM31PG391SN1L_MUR-L
+
+BLM31PG601SN1L 
+0
+2
+2
+FixedWing
+IND_BLM31PG391SN1L_MUR-M
+
+BLM31PG601SN1L 
+0
+2
+2
+FixedWing
 IND_IHLP-6767GZ_VIS
 
 IHLP6767GZER5R6M01 
@@ -55646,6 +55667,27 @@ FixedWing
 RC1206N_YAG-M
 
 RC1206JR-070RL 
+0
+2
+2
+FixedWing
+RC2512N_VIS
+
+CRCW251233R0FKEG 
+0
+2
+2
+FixedWing
+RC2512N_VIS-L
+
+CRCW251233R0FKEG 
+0
+2
+2
+FixedWing
+RC2512N_VIS-M
+
+CRCW251233R0FKEG 
 0
 2
 2
