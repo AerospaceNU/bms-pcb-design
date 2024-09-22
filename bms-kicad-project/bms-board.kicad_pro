@@ -487,7 +487,55 @@
     ],
     [
       "95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e",
-      "Cell Filtering And Balancing"
+      "Cell Filtering and Balancing"
+    ],
+    [
+      "ac1001db-30e2-45f8-a5d0-23ab21f242ae",
+      "Filter and Balance Cell 1"
+    ],
+    [
+      "907c65e9-53f3-46a0-88c3-53aa3c395c69",
+      "Filter and Balance Cell 2"
+    ],
+    [
+      "06318de9-34c2-4095-8ab2-fa7c6761c189",
+      "Filter and Balance Cell 3"
+    ],
+    [
+      "841f0fce-eb0c-41fa-958b-aa5ca04618c1",
+      "Filter and Balance Cell 4"
+    ],
+    [
+      "cf068a1a-acb0-422f-af6f-ccab6b8ceffe",
+      "Filter and Balance Cell 5"
+    ],
+    [
+      "1f6488d5-dd45-4e35-bc3f-ca8b7492d0c2",
+      "Filter and Balance Cell 6"
+    ],
+    [
+      "f6fcbc11-8cbd-4244-8971-29c84ec0af5d",
+      "Filter and Balance Cell 7"
+    ],
+    [
+      "b3ecb1db-76b6-4a10-9dd1-ce24dfd3cdea",
+      "Filter and Balance Cell 8"
+    ],
+    [
+      "45389985-061c-4366-94a2-f2291801023c",
+      "Filter and Balance Cell 9"
+    ],
+    [
+      "0cf23de6-ef6f-4a81-ad43-84518cd9ce5e",
+      "Filter and Balance Cell 10"
+    ],
+    [
+      "934dcfeb-e7d5-4968-a03f-59f2aec43b96",
+      "Filter and Balance Cell 11"
+    ],
+    [
+      "832e06fe-b3b7-4813-97e8-44250ee140b5",
+      "Filter and Balance Cell 12"
     ],
     [
       "1e9f81b4-c330-4dde-84b6-9168ce482c70",
@@ -496,6 +544,10 @@
     [
       "449bb263-23d7-4f07-b4f7-6cd2e161d267",
       "RP2040 Microcontroller"
+    ],
+    [
+      "9bfcf0e7-ef8d-4492-b04a-6397126b0bad",
+      "5V Regulator"
     ]
   ],
   "text_variables": {}
