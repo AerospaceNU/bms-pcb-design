@@ -1,4 +1,4 @@
-22789944705124976
+22791673571868143
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -55250,6 +55250,13 @@ emi filter
 0
 5
 5
+FixedWing
+1N4448XTP
+1N4448X-TP-2
+Diode
+0
+2
+2
 FixedWing
 ABM8-272-T3_ABR
 

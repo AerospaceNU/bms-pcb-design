@@ -1147,7 +1147,7 @@
     (property "Reference" "D" (at 5.08 4.445 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "CMHD4448 TR PBFREE" (at 5.08 -3.81 0)
+    (property "Value" "CMHD4448" (at 5.08 -3.81 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "FixedWing:CR_SOD-123F_CNS" (at 0 0 0)
