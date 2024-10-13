@@ -343,6 +343,10 @@
     (stroke (width 0) (type default))
     (uuid 1171262e-ac9c-46ff-9e4b-42564790bb84)
   )
+  (wire (pts (xy 146.05 87.63) (xy 165.1 87.63))
+    (stroke (width 0) (type default))
+    (uuid 19804817-d3c8-4bb9-a474-fd01bda3c077)
+  )
   (wire (pts (xy 85.09 90.17) (xy 116.84 90.17))
     (stroke (width 0) (type default))
     (uuid 23e96e69-f172-474a-b339-35c80fce8a67)
@@ -915,6 +919,10 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 37492936-38e5-42e1-ad80-b981e7679cd9)
     )
+    (pin "4S_OR_LESS" output (at 146.05 87.63 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid ad6c9375-cd58-4a0a-9e8f-2ce37071967d)
+    )
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d" (page "15"))
@@ -947,6 +955,10 @@
     (pin "SPI0_TX" output (at 165.1 80.01 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 8d25e475-abde-4067-a307-ce2143567468)
+    )
+    (pin "4S_OR_LESS" input (at 165.1 87.63 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid b3828d3b-b309-4434-8ce8-10aa8a3ae1de)
     )
     (instances
       (project "bms-board"
