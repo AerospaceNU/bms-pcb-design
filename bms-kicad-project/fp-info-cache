@@ -1,4 +1,4 @@
-22791673571868143
+22798595641916556
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -55265,6 +55265,13 @@ ABM8-272-T3
 4
 4
 FixedWing
+ACS780LLRTR050BT
+LR, 7-Pin PSOF Package
+Integrated Circuit
+0
+7
+7
+FixedWing
 AMPHENOL_12402012E212A
 USB TYPE-C USB 2.0 Receptacle Connector 24 (16+8 Dummy) Position Surface Mount, Right Angle; Through Hole
 
@@ -55404,6 +55411,27 @@ GCJ188R72A104KA01D
 0
 2
 2
+FixedWing
+COM-16347_SPK
+
+COM-16347 
+0
+4
+4
+FixedWing
+COM-16347_SPK-L
+
+COM-16347 
+0
+4
+4
+FixedWing
+COM-16347_SPK-M
+
+COM-16347 
+0
+4
+4
 FixedWing
 CONN_S7B-XH-A_JST
 

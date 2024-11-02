@@ -1101,6 +1101,23 @@
     )
   )
 
+  (sheet (at 116.84 147.32) (size 85.09 43.18) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 9cf0d325-c2d4-4535-a4db-163de33edbd1)
+    (property "Sheetname" "External Connections and Sensing" (at 116.84 146.6084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "SensingConnections.kicad_sch" (at 116.84 191.0846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "bms-board"
+        (path "/8a7831d1-a913-4f04-8780-225d2234b41d" (page "18"))
+      )
+    )
+  )
+
   (sheet_instances
     (path "/" (page "1"))
   )
