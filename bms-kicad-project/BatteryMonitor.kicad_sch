@@ -2755,7 +2755,7 @@
   (symbol (lib_id "FixedWing:RC0805FR-0733K2L") (at 77.47 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 064eded4-dfa2-410f-9109-bb567f4fbbf3)
-    (property "Reference" "R103" (at 81.28 142.24 0)
+    (property "Reference" "R78" (at 81.28 142.24 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "33k2" (at 81.28 144.78 0)
@@ -2778,7 +2778,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/1e9f81b4-c330-4dde-84b6-9168ce482c70"
-          (reference "R103") (unit 1)
+          (reference "R78") (unit 1)
         )
       )
     )
@@ -2828,7 +2828,7 @@
   (symbol (lib_id "power:GND") (at 361.95 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 14b57cf1-eb50-4ba5-b829-af8b03beead0)
-    (property "Reference" "#PWR010" (at 361.95 60.96 0)
+    (property "Reference" "#PWR014" (at 361.95 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 361.95 59.69 0)
@@ -2844,7 +2844,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/1e9f81b4-c330-4dde-84b6-9168ce482c70"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -2853,7 +2853,7 @@
   (symbol (lib_id "FixedWing:CRCW0805100RFKEA") (at 358.14 41.91 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 16abe747-5f94-4727-acdf-d6fe4c312dea)
-    (property "Reference" "R76" (at 354.33 44.45 0)
+    (property "Reference" "R83" (at 354.33 44.45 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 354.33 41.91 0)
@@ -2885,7 +2885,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/1e9f81b4-c330-4dde-84b6-9168ce482c70"
-          (reference "R76") (unit 1)
+          (reference "R83") (unit 1)
         )
       )
     )
@@ -2894,7 +2894,7 @@
   (symbol (lib_id "FixedWing:LTC6804-2") (at 370.84 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1acc448b-5fd3-47b6-9b69-766a561db28b)
-    (property "Reference" "U1" (at 373.38 69.85 0)
+    (property "Reference" "U3" (at 373.38 69.85 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LTC6804-2" (at 373.38 72.39 0)
@@ -2972,7 +2972,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/1e9f81b4-c330-4dde-84b6-9168ce482c70"
-          (reference "U1") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
     )
@@ -2981,7 +2981,7 @@
   (symbol (lib_id "FixedWing:SN74LVC1G17DCKR") (at 54.61 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 208c37e3-5ca9-4d6a-9399-60783b3c130b)
-    (property "Reference" "U7" (at 68.58 63.5 0)
+    (property "Reference" "U2" (at 68.58 63.5 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SN74LVC1G17DCKR" (at 68.58 66.04 0)
@@ -3007,7 +3007,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/1e9f81b4-c330-4dde-84b6-9168ce482c70"
-          (reference "U7") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -3016,7 +3016,7 @@
   (symbol (lib_id "FixedWing:08053C333KAT2A") (at 87.63 170.18 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 245f990d-d8f6-49fa-b114-cb5d2210cc01)
-    (property "Reference" "C63" (at 90.17 165.1 90)
+    (property "Reference" "C17" (at 90.17 165.1 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "33n" (at 90.17 167.64 90)
@@ -3039,7 +3039,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/1e9f81b4-c330-4dde-84b6-9168ce482c70"
-          (reference "C63") (unit 1)
+          (reference "C17") (unit 1)
         )
       )
     )
@@ -3048,7 +3048,7 @@
   (symbol (lib_id "power:+BATT") (at 137.16 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2d42d6d5-987c-4e53-bcb3-0396a0557721)
-    (property "Reference" "#PWR08" (at 137.16 36.83 0)
+    (property "Reference" "#PWR010" (at 137.16 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+BATT" (at 133.35 27.94 0)
@@ -3064,7 +3064,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/1e9f81b4-c330-4dde-84b6-9168ce482c70"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -3073,7 +3073,7 @@
   (symbol (lib_id "FixedWing:TPS61170DRVR") (at 44.45 132.08 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2f103801-41e1-48a0-97a6-9082a92263fb)
-    (property "Reference" "U6" (at 60.325 121.92 0)
+    (property "Reference" "U1" (at 60.325 121.92 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TPS61170DRVR" (at 60.325 124.46 0)
@@ -3101,7 +3101,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/1e9f81b4-c330-4dde-84b6-9168ce482c70"
-          (reference "U6") (unit 1)
+          (reference "U1") (unit 1)
         )
       )
     )
@@ -3110,7 +3110,7 @@
   (symbol (lib_id "FixedWing:BSS308PE_H6327") (at 36.83 48.26 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2f958f1a-05b1-4779-ac33-801bac96a4cf)
-    (property "Reference" "Q14" (at 45.72 41.91 0)
+    (property "Reference" "Q13" (at 45.72 41.91 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "BSS308PE_H6327" (at 45.72 44.45 0)
@@ -3143,7 +3143,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/1e9f81b4-c330-4dde-84b6-9168ce482c70"
-          (reference "Q14") (unit 1)
+          (reference "Q13") (unit 1)
         )
       )
     )
@@ -3152,7 +3152,7 @@
   (symbol (lib_id "power:GND") (at 339.09 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 350007da-e7df-43f6-a301-80cdd94a09ef)
-    (property "Reference" "#PWR06" (at 339.09 88.9 0)
+    (property "Reference" "#PWR012" (at 339.09 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 339.09 87.63 0)
@@ -3168,7 +3168,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/1e9f81b4-c330-4dde-84b6-9168ce482c70"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -3270,7 +3270,7 @@
   (symbol (lib_id "FixedWing:GCM21BC71E475KE36L") (at 137.16 139.7 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 53fb4a74-c5fc-4598-b43e-39684e263477)
-    (property "Reference" "C61" (at 139.7 134.62 90)
+    (property "Reference" "C20" (at 139.7 134.62 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "4.7u" (at 139.7 137.16 90)
@@ -3293,7 +3293,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/1e9f81b4-c330-4dde-84b6-9168ce482c70"
-          (reference "C61") (unit 1)
+          (reference "C20") (unit 1)
         )
       )
     )
@@ -3302,7 +3302,7 @@
   (symbol (lib_id "power:+5V") (at 44.45 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 57cca0bf-e87f-4d3d-b950-1d877fb45d1b)
-    (property "Reference" "#PWR050" (at 44.45 40.64 0)
+    (property "Reference" "#PWR05" (at 44.45 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 44.45 31.75 0)
@@ -3318,7 +3318,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/1e9f81b4-c330-4dde-84b6-9168ce482c70"
-          (reference "#PWR050") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -3327,7 +3327,7 @@
   (symbol (lib_id "FixedWing:GCM21BC71E475KE36L") (at 33.02 149.86 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5c4bc11e-b459-42ce-8ec3-af604d864b11)
-    (property "Reference" "C60" (at 35.56 144.78 90)
+    (property "Reference" "C15" (at 35.56 144.78 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "4.7u" (at 35.56 147.32 90)
@@ -3350,7 +3350,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/1e9f81b4-c330-4dde-84b6-9168ce482c70"
-          (reference "C60") (unit 1)
+          (reference "C15") (unit 1)
         )
       )
     )
@@ -3359,7 +3359,7 @@
   (symbol (lib_id "FixedWing:GCJ188R72A104KA01D") (at 361.95 45.72 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6ae920fb-dcd6-47cf-b3e3-0e9cac53571b)
-    (property "Reference" "C14" (at 369.57 45.72 90)
+    (property "Reference" "C21" (at 369.57 45.72 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0.1µ" (at 369.57 48.26 90)
@@ -3385,7 +3385,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/1e9f81b4-c330-4dde-84b6-9168ce482c70"
-          (reference "C14") (unit 1)
+          (reference "C21") (unit 1)
         )
       )
     )
@@ -3394,7 +3394,7 @@
   (symbol (lib_id "FixedWing:RC0805FR-0733K2L") (at 29.21 60.96 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 71b6ba82-c7eb-42d5-937e-7709cf618447)
-    (property "Reference" "R104" (at 22.86 55.88 90)
+    (property "Reference" "R76" (at 22.86 55.88 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "33k2" (at 29.21 54.61 0)
@@ -3417,7 +3417,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/1e9f81b4-c330-4dde-84b6-9168ce482c70"
-          (reference "R104") (unit 1)
+          (reference "R76") (unit 1)
         )
       )
     )
@@ -3426,7 +3426,7 @@
   (symbol (lib_id "FixedWing:08053C333KAT2A") (at 87.63 160.02 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 78262455-8022-40ec-9616-919a6658402f)
-    (property "Reference" "C62" (at 90.17 154.94 90)
+    (property "Reference" "C16" (at 90.17 154.94 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "33n" (at 90.17 157.48 90)
@@ -3449,7 +3449,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/1e9f81b4-c330-4dde-84b6-9168ce482c70"
-          (reference "C62") (unit 1)
+          (reference "C16") (unit 1)
         )
       )
     )
@@ -3458,7 +3458,7 @@
   (symbol (lib_id "power:+5V") (at 339.09 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7bc7ef84-22da-4e0b-839c-9a006277bbb1)
-    (property "Reference" "#PWR05" (at 339.09 80.01 0)
+    (property "Reference" "#PWR011" (at 339.09 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 339.09 71.12 0)
@@ -3474,7 +3474,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/1e9f81b4-c330-4dde-84b6-9168ce482c70"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -3483,7 +3483,7 @@
   (symbol (lib_id "power:+5V") (at 339.09 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 83c7b987-8b67-40d9-98e2-fb6d1ed2b028)
-    (property "Reference" "#PWR07" (at 339.09 105.41 0)
+    (property "Reference" "#PWR013" (at 339.09 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 335.28 100.33 0)
@@ -3499,7 +3499,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/1e9f81b4-c330-4dde-84b6-9168ce482c70"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -3508,7 +3508,7 @@
   (symbol (lib_id "power:+BATT") (at 29.21 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 85c8d34c-223c-4239-970d-af08bac9454d)
-    (property "Reference" "#PWR052" (at 29.21 36.83 0)
+    (property "Reference" "#PWR03" (at 29.21 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+BATT" (at 29.21 27.94 0)
@@ -3524,7 +3524,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/1e9f81b4-c330-4dde-84b6-9168ce482c70"
-          (reference "#PWR052") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -3533,7 +3533,7 @@
   (symbol (lib_id "power:GND") (at 370.84 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8a79bace-2f90-479f-baa2-111a1e0705da)
-    (property "Reference" "#PWR09" (at 370.84 156.21 0)
+    (property "Reference" "#PWR015" (at 370.84 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 370.84 154.94 0)
@@ -3549,7 +3549,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/1e9f81b4-c330-4dde-84b6-9168ce482c70"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -3558,7 +3558,7 @@
   (symbol (lib_id "power:GND") (at 60.96 175.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8da806e1-3e3a-4ad4-8e05-5fbd36c94376)
-    (property "Reference" "#PWR049" (at 60.96 181.61 0)
+    (property "Reference" "#PWR06" (at 60.96 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 60.96 180.34 0)
@@ -3574,7 +3574,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/1e9f81b4-c330-4dde-84b6-9168ce482c70"
-          (reference "#PWR049") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -3583,7 +3583,7 @@
   (symbol (lib_id "power:+BATT") (at 116.84 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 93511e2d-8b1d-47c8-8dcb-d2186f519d53)
-    (property "Reference" "#PWR055" (at 116.84 36.83 0)
+    (property "Reference" "#PWR09" (at 116.84 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+BATT" (at 116.84 27.94 0)
@@ -3599,7 +3599,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/1e9f81b4-c330-4dde-84b6-9168ce482c70"
-          (reference "#PWR055") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -3608,7 +3608,7 @@
   (symbol (lib_id "FixedWing:RC0805FR-07100KL") (at 104.14 163.83 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a68bd435-7f12-4541-acdb-2da55bb987f0)
-    (property "Reference" "R101" (at 105.41 158.75 90)
+    (property "Reference" "R81" (at 105.41 158.75 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100k" (at 104.14 157.48 0)
@@ -3631,7 +3631,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/1e9f81b4-c330-4dde-84b6-9168ce482c70"
-          (reference "R101") (unit 1)
+          (reference "R81") (unit 1)
         )
       )
     )
@@ -3640,7 +3640,7 @@
   (symbol (lib_id "FixedWing:RK73H2ATTD5601F") (at 339.09 115.57 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid aefe8e89-abb5-4f3b-9886-f2fe4a533870)
-    (property "Reference" "R75" (at 334.01 110.49 90)
+    (property "Reference" "R82" (at 334.01 110.49 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "5.6k" (at 339.09 109.22 0)
@@ -3663,7 +3663,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/1e9f81b4-c330-4dde-84b6-9168ce482c70"
-          (reference "R75") (unit 1)
+          (reference "R82") (unit 1)
         )
       )
     )
@@ -3672,7 +3672,7 @@
   (symbol (lib_id "FixedWing:SDR0302-120ML") (at 49.53 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b373fb10-d221-4dff-8501-b480cfcb31d1)
-    (property "Reference" "L17" (at 59.69 105.41 0)
+    (property "Reference" "L15" (at 59.69 105.41 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SDR0302-120ML" (at 59.69 107.95 0)
@@ -3710,7 +3710,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/1e9f81b4-c330-4dde-84b6-9168ce482c70"
-          (reference "L17") (unit 1)
+          (reference "L15") (unit 1)
         )
       )
     )
@@ -3719,7 +3719,7 @@
   (symbol (lib_id "FixedWing:GCM21BC71E475KE36L") (at 114.3 139.7 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b8df4124-3523-4f45-8e3d-8e3df1d083be)
-    (property "Reference" "C57" (at 116.84 134.62 90)
+    (property "Reference" "C18" (at 116.84 134.62 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "4.7u" (at 116.84 137.16 90)
@@ -3742,7 +3742,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/1e9f81b4-c330-4dde-84b6-9168ce482c70"
-          (reference "C57") (unit 1)
+          (reference "C18") (unit 1)
         )
       )
     )
@@ -3751,7 +3751,7 @@
   (symbol (lib_id "FixedWing:RC0805FR-0711K5L") (at 104.14 129.54 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b90b7ade-a26c-4838-91c4-d8e6a8b545e7)
-    (property "Reference" "R100" (at 105.41 124.46 90)
+    (property "Reference" "R79" (at 105.41 124.46 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "11k5" (at 104.14 123.19 0)
@@ -3774,7 +3774,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/1e9f81b4-c330-4dde-84b6-9168ce482c70"
-          (reference "R100") (unit 1)
+          (reference "R79") (unit 1)
         )
       )
     )
@@ -3783,7 +3783,7 @@
   (symbol (lib_id "FixedWing:RK73H2ATTD1002F") (at 44.45 72.39 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bd83b70c-c9fb-4c28-befa-b98ac31dccb0)
-    (property "Reference" "R106" (at 38.1 67.31 90)
+    (property "Reference" "R77" (at 38.1 67.31 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 44.45 67.31 0)
@@ -3878,7 +3878,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/1e9f81b4-c330-4dde-84b6-9168ce482c70"
-          (reference "R106") (unit 1)
+          (reference "R77") (unit 1)
         )
       )
     )
@@ -3887,7 +3887,7 @@
   (symbol (lib_id "FixedWing:RC0805FR-0756K2L") (at 104.14 152.4 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c83332cb-7af6-4aae-978f-06863823a29d)
-    (property "Reference" "R102" (at 105.41 147.32 90)
+    (property "Reference" "R80" (at 105.41 147.32 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "56k2" (at 104.14 146.05 0)
@@ -3910,7 +3910,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/1e9f81b4-c330-4dde-84b6-9168ce482c70"
-          (reference "R102") (unit 1)
+          (reference "R80") (unit 1)
         )
       )
     )
@@ -3919,7 +3919,7 @@
   (symbol (lib_id "FixedWing:GCM21BC71E475KE36L") (at 125.73 139.7 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c8e7902e-2cd2-4c66-9d9f-53c3f1f8af25)
-    (property "Reference" "C58" (at 128.27 134.62 90)
+    (property "Reference" "C19" (at 128.27 134.62 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "4.7u" (at 128.27 137.16 90)
@@ -3942,7 +3942,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/1e9f81b4-c330-4dde-84b6-9168ce482c70"
-          (reference "C58") (unit 1)
+          (reference "C19") (unit 1)
         )
       )
     )
@@ -3951,7 +3951,7 @@
   (symbol (lib_id "FixedWing:BLM31PG601SN1L") (at 334.01 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ccab596d-e804-4dff-b73d-37724c83085d)
-    (property "Reference" "L15" (at 341.63 34.29 0)
+    (property "Reference" "L16" (at 341.63 34.29 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "600Ω" (at 341.63 36.83 0)
@@ -3974,7 +3974,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/1e9f81b4-c330-4dde-84b6-9168ce482c70"
-          (reference "L15") (unit 1)
+          (reference "L16") (unit 1)
         )
       )
     )
@@ -3983,7 +3983,7 @@
   (symbol (lib_id "power:GND") (at 38.1 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d08268c8-e626-4403-9bec-2d23efa3184b)
-    (property "Reference" "#PWR051" (at 38.1 82.55 0)
+    (property "Reference" "#PWR04" (at 38.1 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 38.1 81.28 0)
@@ -3999,7 +3999,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/1e9f81b4-c330-4dde-84b6-9168ce482c70"
-          (reference "#PWR051") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -4008,7 +4008,7 @@
   (symbol (lib_id "FixedWing:GCM21BC71E475KE36L") (at 20.32 149.86 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d2035497-a370-4db0-b38a-0980d5971ee6)
-    (property "Reference" "C59" (at 22.86 144.78 90)
+    (property "Reference" "C14" (at 22.86 144.78 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "4.7u" (at 22.86 147.32 90)
@@ -4031,7 +4031,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/1e9f81b4-c330-4dde-84b6-9168ce482c70"
-          (reference "C59") (unit 1)
+          (reference "C14") (unit 1)
         )
       )
     )
@@ -4040,7 +4040,7 @@
   (symbol (lib_id "power:+5V") (at 82.55 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d23d97b9-7149-498b-b3ea-e900a1bcc962)
-    (property "Reference" "#PWR053" (at 82.55 40.64 0)
+    (property "Reference" "#PWR07" (at 82.55 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 82.55 31.75 0)
@@ -4056,7 +4056,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/1e9f81b4-c330-4dde-84b6-9168ce482c70"
-          (reference "#PWR053") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -4112,7 +4112,7 @@
   (symbol (lib_id "power:GND") (at 82.55 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ecd8ece0-979e-490d-b1b6-272bf46bc358)
-    (property "Reference" "#PWR054" (at 82.55 81.28 0)
+    (property "Reference" "#PWR08" (at 82.55 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 82.55 80.01 0)
@@ -4128,7 +4128,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/1e9f81b4-c330-4dde-84b6-9168ce482c70"
-          (reference "#PWR054") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -4137,7 +4137,7 @@
   (symbol (lib_id "FixedWing:RC0805FR-0756K2L") (at 29.21 43.18 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f57acd92-0efc-4349-8356-1cb980ac9ef7)
-    (property "Reference" "R105" (at 22.86 38.1 90)
+    (property "Reference" "R75" (at 22.86 38.1 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "56k2" (at 29.21 36.83 0)
@@ -4160,7 +4160,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/1e9f81b4-c330-4dde-84b6-9168ce482c70"
-          (reference "R105") (unit 1)
+          (reference "R75") (unit 1)
         )
       )
     )

@@ -2112,7 +2112,7 @@
   (symbol (lib_id "power:GND") (at 46.99 254 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 814ec4ed-2ad5-4d9f-bd0a-f88d822f4cf8)
-    (property "Reference" "#PWR03" (at 46.99 260.35 0)
+    (property "Reference" "#PWR01" (at 46.99 260.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 46.99 259.08 0)
@@ -2128,7 +2128,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -2795,7 +2795,7 @@
   (symbol (lib_id "FixedWing:S13B-XH-A") (at 39.37 147.32 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f5779a7c-f001-42a0-b209-b6dc2e0ac6d5)
-    (property "Reference" "J5" (at 29.21 109.22 0)
+    (property "Reference" "J1" (at 29.21 109.22 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "S13B-XH-A" (at 29.21 111.76 0)
@@ -2844,7 +2844,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "J5") (unit 1)
+          (reference "J1") (unit 1)
         )
       )
     )
@@ -2853,7 +2853,7 @@
   (symbol (lib_id "power:GND") (at 294.64 250.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fd93f8fc-8e0d-44d6-8e61-75806bd9795d)
-    (property "Reference" "#PWR04" (at 294.64 256.54 0)
+    (property "Reference" "#PWR02" (at 294.64 256.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 294.64 255.27 0)
@@ -2869,7 +2869,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
