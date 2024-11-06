@@ -402,7 +402,7 @@
       )
     )
   )
-  (symbol "502494-0670" (in_bom yes) (on_board yes)
+  (symbol "5024940670" (in_bom yes) (on_board yes)
     (property "Reference" "J" (at 19.05 7.62 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
@@ -439,7 +439,7 @@
     (property "ki_description" "Molex 502494 Series 2mm 6 Way 1 Row Right Angle PCB Socket Surface Mount Wire to Board" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "502494-0670_1_1"
+    (symbol "5024940670_1_1"
       (rectangle (start 5.08 2.54) (end 17.78 -15.24)
         (stroke (width 0.254) (type default))
         (fill (type background))
