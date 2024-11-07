@@ -548,6 +548,10 @@
     [
       "9bfcf0e7-ef8d-4492-b04a-6397126b0bad",
       "5V Regulator"
+    ],
+    [
+      "9cf0d325-c2d4-4535-a4db-163de33edbd1",
+      "External Connections and Sensing"
     ]
   ],
   "text_variables": {}
