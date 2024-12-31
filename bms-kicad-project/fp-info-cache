@@ -1,4 +1,4 @@
-22824629015768093
+22847190975598132
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -55370,6 +55370,27 @@ CAPC2012X145N
 2
 2
 FixedWing
+CAPC220145_88N_KEM
+
+C0805C101J1GACTU 
+0
+2
+2
+FixedWing
+CAPC220145_88N_KEM-L
+
+C0805C101J1GACTU 
+0
+2
+2
+FixedWing
+CAPC220145_88N_KEM-M
+
+C0805C101J1GACTU 
+0
+2
+2
+FixedWing
 CAPPRD500W60D1000H2500
 
 
@@ -55415,6 +55436,27 @@ FixedWing
 CAP_CL21B106KOQNNNE_SAM-M
 
 CL21B106KOQNNNE 
+0
+2
+2
+FixedWing
+CAP_CL31_SAM
+
+CL31B105KCHNNNE 
+0
+2
+2
+FixedWing
+CAP_CL31_SAM-L
+
+CL31B105KCHNNNE 
+0
+2
+2
+FixedWing
+CAP_CL31_SAM-M
+
+CL31B105KCHNNNE 
 0
 2
 2
@@ -55565,6 +55607,13 @@ TPS61170DRVR
 0
 9
 8
+FixedWing
+D_SOD-123
+SOD-123
+SOD-123
+0
+2
+2
 FixedWing
 FixedWing - Logo
 
@@ -55726,6 +55775,20 @@ LTST-C170KGKT
 0
 2
 2
+FixedWing
+LED_LTST-C170KGKT_LTO-M
+
+LTST-C170KGKT 
+0
+2
+2
+FixedWing
+QFP50P900X900X120-48N
+PFB (S-PQFP-G48
+Integrated Circuit
+0
+48
+48
 FixedWing
 RC0805N_PAN
 
@@ -55916,12 +55979,40 @@ Connector
 8
 8
 FixedWing
+SOD123_FAS
+
+MBR0540 
+0
+2
+2
+FixedWing
+SOD123_FAS-L
+
+MBR0540 
+0
+2
+2
+FixedWing
+SOD123_FAS-M
+
+MBR0540 
+0
+2
+2
+FixedWing
 SOD3716X145N
 SOD 123
 Diode
 0
 2
 2
+FixedWing
+SOIC-24W_7.5x15.4mm_P1.27mm
+SOIC, 24 Pin (JEDEC MS-013AD, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_wide-rw/RW_24.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
+0
+24
+24
 FixedWing
 SOIC_208MIL_WIN
 
