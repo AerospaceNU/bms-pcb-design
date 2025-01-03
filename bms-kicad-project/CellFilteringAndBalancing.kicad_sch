@@ -430,7 +430,7 @@
       (property "Value" "15" (at 2.54 0 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Footprint" "RES_R1632_ROM" (at 0 6.35 0)
+      (property "Footprint" "FixedWing:RES_R1632_ROM" (at 0 6.35 0)
         (effects (font (size 1.27 1.27) italic) hide)
       )
       (property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/ltr-e.pdf" (at 0 6.35 0)
@@ -1083,9 +1083,6 @@
   )
   (junction (at 215.9 143.51) (diameter 0) (color 0 0 0 0)
     (uuid 9c81a078-052b-4608-9a01-d373204ec645)
-  )
-  (junction (at 414.02 38.1) (diameter 0) (color 0 0 0 0)
-    (uuid 9f4869b7-761c-47d0-a6dc-3a57a814147a)
   )
   (junction (at 17.78 81.28) (diameter 0) (color 0 0 0 0)
     (uuid a02f0dae-7fa4-434d-8fa3-e9d21d46a481)
@@ -2075,10 +2072,6 @@
     (stroke (width 0) (type default))
     (uuid 993dbd6a-53e8-4dc7-8fba-46f3fc6a3fc3)
   )
-  (wire (pts (xy 414.02 34.29) (xy 414.02 38.1))
-    (stroke (width 0) (type default))
-    (uuid 9a897b4d-6f91-4a0b-9085-d7a7b1212aa1)
-  )
   (wire (pts (xy 339.09 123.19) (xy 337.82 123.19))
     (stroke (width 0) (type default))
     (uuid 9a9a360e-3b88-4072-b664-2a9bfce654ba)
@@ -2644,10 +2637,6 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid bbcce8e6-3427-4429-a454-3876c56edc81)
   )
-  (hierarchical_label "STACK_TOP" (shape output) (at 414.02 34.29 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid e62a94a1-b2d0-436f-9646-e36f29a4f675)
-  )
   (hierarchical_label "C0" (shape output) (at 30.48 236.22 270) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid fbc3ed87-bb67-4508-89c1-f9787829f245)
@@ -2656,7 +2645,7 @@
   (symbol (lib_id "FixedWing:S13B-XH-A") (at 200.66 35.56 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 00da8ff6-08ff-43fb-a873-163401eaf7fd)
-    (property "Reference" "J18" (at 215.9 15.24 90)
+    (property "Reference" "J1" (at 215.9 15.24 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "S13B-XH-A" (at 215.9 17.78 90)
@@ -2705,7 +2694,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "J18") (unit 1)
+          (reference "J1") (unit 1)
         )
       )
     )
@@ -2714,7 +2703,7 @@
   (symbol (lib_id "FixedWing:RC0805FR-0727RL") (at 228.6 161.29 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00e33a9f-d554-4c8d-9a77-9f729bc1faf2)
-    (property "Reference" "R41" (at 232.41 156.21 90)
+    (property "Reference" "R32" (at 232.41 156.21 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "27" (at 228.6 157.48 0)
@@ -2737,7 +2726,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R41") (unit 1)
+          (reference "R32") (unit 1)
         )
       )
     )
@@ -2746,7 +2735,7 @@
   (symbol (lib_id "FixedWing:DNBT8105-7") (at 327.66 91.44 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 03fc20a4-1648-494f-8c59-5a8a332e2770)
-    (property "Reference" "Q24" (at 320.04 73.66 90)
+    (property "Reference" "Q10" (at 320.04 73.66 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DNBT8105-7" (at 320.04 76.2 90)
@@ -2785,7 +2774,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "Q24") (unit 1)
+          (reference "Q10") (unit 1)
         )
       )
     )
@@ -2841,7 +2830,7 @@
   (symbol (lib_id "power:GND") (at 50.8 215.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0ae19932-6ac5-4e43-9cef-dfb6de2b9e19)
-    (property "Reference" "#PWR076" (at 50.8 222.25 0)
+    (property "Reference" "#PWR05" (at 50.8 222.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 50.8 220.98 0)
@@ -2857,7 +2846,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "#PWR076") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -2866,13 +2855,13 @@
   (symbol (lib_id "FixedWing:LTR18EZPF15R0") (at 107.95 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0b2487db-05a5-498d-b6ef-42227778a447)
-    (property "Reference" "R115" (at 111.76 78.74 0)
+    (property "Reference" "R13" (at 111.76 78.74 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "15" (at 111.76 81.28 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "RES_R1632_ROM" (at 107.95 74.93 0)
+    (property "Footprint" "FixedWing:RES_R1632_ROM" (at 107.95 74.93 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/ltr-e.pdf" (at 107.95 74.93 0)
@@ -2889,7 +2878,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R115") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
     )
@@ -2898,7 +2887,7 @@
   (symbol (lib_id "FixedWing:CRCW0805100RFKEA") (at 215.9 179.07 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0fee4c90-92db-47ea-b0d7-8999e9e5b9d8)
-    (property "Reference" "R51" (at 219.71 181.61 90)
+    (property "Reference" "R31" (at 219.71 181.61 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 215.9 182.88 0)
@@ -2930,7 +2919,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R51") (unit 1)
+          (reference "R31") (unit 1)
         )
       )
     )
@@ -2939,7 +2928,7 @@
   (symbol (lib_id "FixedWing:DNBT8105-7") (at 360.68 91.44 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 13359507-e8e1-48cf-a21f-fe95e370acdb)
-    (property "Reference" "Q25" (at 353.06 73.66 90)
+    (property "Reference" "Q11" (at 353.06 73.66 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DNBT8105-7" (at 353.06 76.2 90)
@@ -2978,7 +2967,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "Q25") (unit 1)
+          (reference "Q11") (unit 1)
         )
       )
     )
@@ -3034,7 +3023,7 @@
   (symbol (lib_id "FixedWing:CRCW0805475RFKEA") (at 41.91 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1a569064-64de-450b-9612-8b4ae39537c6)
-    (property "Reference" "R128" (at 45.72 120.65 0)
+    (property "Reference" "R5" (at 45.72 120.65 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "475" (at 45.72 123.19 0)
@@ -3066,7 +3055,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R128") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -3075,7 +3064,7 @@
   (symbol (lib_id "FixedWing:CRCW0805475RFKEA") (at 273.05 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1a7330ff-ddeb-4d23-a66d-0660d7a649cd)
-    (property "Reference" "R135" (at 276.86 120.65 0)
+    (property "Reference" "R40" (at 276.86 120.65 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "475" (at 276.86 123.19 0)
@@ -3107,7 +3096,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R135") (unit 1)
+          (reference "R40") (unit 1)
         )
       )
     )
@@ -3116,7 +3105,7 @@
   (symbol (lib_id "FixedWing:LTST-C170KRKT") (at 139.7 100.33 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1aa9514e-6c97-4b97-9189-cdcdfdd4f22c)
-    (property "Reference" "LED19" (at 140.97 101.6 90)
+    (property "Reference" "LED4" (at 140.97 101.6 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LTST-C170KRKT" (at 142.24 103.8225 90)
@@ -3148,7 +3137,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "LED19") (unit 1)
+          (reference "LED4") (unit 1)
         )
       )
     )
@@ -3157,13 +3146,13 @@
   (symbol (lib_id "FixedWing:LTR18EZPF15R0") (at 339.09 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1b5aa7ff-d297-4268-9816-09b103a540df)
-    (property "Reference" "R121" (at 342.9 78.74 0)
+    (property "Reference" "R48" (at 342.9 78.74 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "15" (at 342.9 81.28 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "RES_R1632_ROM" (at 339.09 74.93 0)
+    (property "Footprint" "FixedWing:RES_R1632_ROM" (at 339.09 74.93 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/ltr-e.pdf" (at 339.09 74.93 0)
@@ -3180,7 +3169,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R121") (unit 1)
+          (reference "R48") (unit 1)
         )
       )
     )
@@ -3189,7 +3178,7 @@
   (symbol (lib_id "FixedWing:DNBT8105-7") (at 294.64 91.44 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1bab940b-0cc3-4837-88a8-bb393a6b1524)
-    (property "Reference" "Q23" (at 287.02 73.66 90)
+    (property "Reference" "Q9" (at 287.02 73.66 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DNBT8105-7" (at 287.02 76.2 90)
@@ -3228,7 +3217,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "Q23") (unit 1)
+          (reference "Q9") (unit 1)
         )
       )
     )
@@ -3237,7 +3226,7 @@
   (symbol (lib_id "FixedWing:CRCW0805475RFKEA") (at 173.99 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1d6953a7-f290-4177-907e-52bd0cd1cbfe)
-    (property "Reference" "R132" (at 177.8 120.65 0)
+    (property "Reference" "R25" (at 177.8 120.65 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "475" (at 177.8 123.19 0)
@@ -3269,7 +3258,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R132") (unit 1)
+          (reference "R25") (unit 1)
         )
       )
     )
@@ -3278,7 +3267,7 @@
   (symbol (lib_id "FixedWing:LTST-C170KRKT") (at 205.74 100.33 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1f549dba-7123-491e-9f33-876b0abe47aa)
-    (property "Reference" "LED21" (at 207.01 101.6 90)
+    (property "Reference" "LED6" (at 207.01 101.6 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LTST-C170KRKT" (at 208.28 103.8225 90)
@@ -3310,7 +3299,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "LED21") (unit 1)
+          (reference "LED6") (unit 1)
         )
       )
     )
@@ -3319,7 +3308,7 @@
   (symbol (lib_id "FixedWing:BZT52C5V6T-7") (at 327.66 143.51 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2077f5ec-3b4a-4e02-851c-118faead312c)
-    (property "Reference" "Z9" (at 321.31 139.7 0)
+    (property "Reference" "Z10" (at 321.31 139.7 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "BZT52C5V6T-7" (at 322.58 139.7 0)
@@ -3357,7 +3346,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "Z9") (unit 1)
+          (reference "Z10") (unit 1)
         )
       )
     )
@@ -3366,7 +3355,7 @@
   (symbol (lib_id "FixedWing:RC0805FR-0727RL") (at 294.64 161.29 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 21999040-cdb0-4b5d-b157-480060fc241b)
-    (property "Reference" "R43" (at 298.45 156.21 90)
+    (property "Reference" "R42" (at 298.45 156.21 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "27" (at 294.64 157.48 0)
@@ -3389,7 +3378,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R43") (unit 1)
+          (reference "R42") (unit 1)
         )
       )
     )
@@ -3398,7 +3387,7 @@
   (symbol (lib_id "FixedWing:LTST-C170KRKT") (at 337.82 100.33 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 29b4d1fe-76f1-4636-a610-23590847c7cc)
-    (property "Reference" "LED25" (at 339.09 101.6 90)
+    (property "Reference" "LED10" (at 339.09 101.6 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LTST-C170KRKT" (at 340.36 103.8225 90)
@@ -3430,7 +3419,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "LED25") (unit 1)
+          (reference "LED10") (unit 1)
         )
       )
     )
@@ -3439,7 +3428,7 @@
   (symbol (lib_id "FixedWing:RC0805FR-0727RL") (at 195.58 161.29 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2a9247b7-0097-44a2-b9b8-7b07880d5446)
-    (property "Reference" "R40" (at 199.39 156.21 90)
+    (property "Reference" "R27" (at 199.39 156.21 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "27" (at 195.58 157.48 0)
@@ -3462,7 +3451,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R40") (unit 1)
+          (reference "R27") (unit 1)
         )
       )
     )
@@ -3471,7 +3460,7 @@
   (symbol (lib_id "FixedWing:CRCW0805475RFKEA") (at 74.93 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2db65d95-604d-4b2c-b10a-d43f1d31ea6e)
-    (property "Reference" "R129" (at 78.74 120.65 0)
+    (property "Reference" "R10" (at 78.74 120.65 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "475" (at 78.74 123.19 0)
@@ -3503,7 +3492,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R129") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -3512,7 +3501,7 @@
   (symbol (lib_id "FixedWing:BZT52C5V6T-7") (at 63.5 143.51 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2e98c381-019a-41bd-a534-534c06d8c518)
-    (property "Reference" "Z1" (at 57.15 139.7 0)
+    (property "Reference" "Z2" (at 57.15 139.7 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "BZT52C5V6T-7" (at 58.42 139.7 0)
@@ -3550,7 +3539,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "Z1") (unit 1)
+          (reference "Z2") (unit 1)
         )
       )
     )
@@ -3559,7 +3548,7 @@
   (symbol (lib_id "FixedWing:CRCW0805475RFKEA") (at 107.95 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 308b7ab8-ab0d-49d8-b1c5-19a5bbb4458e)
-    (property "Reference" "R130" (at 111.76 120.65 0)
+    (property "Reference" "R15" (at 111.76 120.65 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "475" (at 111.76 123.19 0)
@@ -3591,7 +3580,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R130") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
     )
@@ -3600,7 +3589,7 @@
   (symbol (lib_id "power:GND") (at 17.78 215.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 34877cf8-541c-4269-8cdc-0c4817c0f228)
-    (property "Reference" "#PWR077" (at 17.78 222.25 0)
+    (property "Reference" "#PWR04" (at 17.78 222.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 17.78 220.98 0)
@@ -3616,7 +3605,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "#PWR077") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -3625,7 +3614,7 @@
   (symbol (lib_id "FixedWing:LTST-C170KRKT") (at 106.68 100.33 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3575362b-febf-4801-94aa-b55288bf3b05)
-    (property "Reference" "LED18" (at 107.95 101.6 90)
+    (property "Reference" "LED3" (at 107.95 101.6 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LTST-C170KRKT" (at 109.22 103.8225 90)
@@ -3657,7 +3646,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "LED18") (unit 1)
+          (reference "LED3") (unit 1)
         )
       )
     )
@@ -3666,7 +3655,7 @@
   (symbol (lib_id "FixedWing:GCJ188R72A104KA01D") (at 50.8 210.82 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3657fd68-21b6-4e5b-8812-61efba8512a6)
-    (property "Reference" "C67" (at 45.72 205.74 90)
+    (property "Reference" "C2" (at 45.72 205.74 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0.1µ" (at 45.72 208.28 90)
@@ -3689,7 +3678,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "C67") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -3698,13 +3687,13 @@
   (symbol (lib_id "FixedWing:LTR18EZPF15R0") (at 372.11 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 39541f7d-ed30-4fbe-af72-9d2d4d3a2474)
-    (property "Reference" "R122" (at 375.92 78.74 0)
+    (property "Reference" "R53" (at 375.92 78.74 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "15" (at 375.92 81.28 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "RES_R1632_ROM" (at 372.11 74.93 0)
+    (property "Footprint" "FixedWing:RES_R1632_ROM" (at 372.11 74.93 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/ltr-e.pdf" (at 372.11 74.93 0)
@@ -3721,7 +3710,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R122") (unit 1)
+          (reference "R53") (unit 1)
         )
       )
     )
@@ -3771,7 +3760,7 @@
   (symbol (lib_id "FixedWing:CRCW0805100RFKEA") (at 149.86 179.07 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3e662812-7014-4ab3-b762-730762bcb692)
-    (property "Reference" "R49" (at 153.67 181.61 90)
+    (property "Reference" "R21" (at 153.67 181.61 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 149.86 182.88 0)
@@ -3803,7 +3792,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R49") (unit 1)
+          (reference "R21") (unit 1)
         )
       )
     )
@@ -3812,7 +3801,7 @@
   (symbol (lib_id "FixedWing:GCJ188R72A104KA01D") (at 267.97 199.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 406e730b-be81-41f6-be64-a2f454e2221d)
-    (property "Reference" "C74" (at 271.78 195.58 0)
+    (property "Reference" "C9" (at 271.78 195.58 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0.1µ" (at 271.78 203.2 0)
@@ -3835,7 +3824,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "C74") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
     )
@@ -3844,7 +3833,7 @@
   (symbol (lib_id "FixedWing:RC0805FR-0727RL") (at 360.68 161.29 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 415f916a-a345-467e-98dd-2c301a37aaa5)
-    (property "Reference" "R45" (at 364.49 156.21 90)
+    (property "Reference" "R52" (at 364.49 156.21 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "27" (at 360.68 157.48 0)
@@ -3867,7 +3856,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R45") (unit 1)
+          (reference "R52") (unit 1)
         )
       )
     )
@@ -3876,13 +3865,13 @@
   (symbol (lib_id "FixedWing:LTR18EZPF15R0") (at 339.09 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 43f1a55b-2e7a-4fb9-9239-c3bc732b01a5)
-    (property "Reference" "R67" (at 342.9 87.63 0)
+    (property "Reference" "R49" (at 342.9 87.63 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "15" (at 342.9 85.09 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "RES_R1632_ROM" (at 339.09 78.74 0)
+    (property "Footprint" "FixedWing:RES_R1632_ROM" (at 339.09 78.74 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/ltr-e.pdf" (at 339.09 78.74 0)
@@ -3899,7 +3888,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R67") (unit 1)
+          (reference "R49") (unit 1)
         )
       )
     )
@@ -3908,7 +3897,7 @@
   (symbol (lib_id "FixedWing:RC0805FR-0727RL") (at 30.48 160.02 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 45d1a5f8-77cc-43a5-bf64-e9e59ee585cf)
-    (property "Reference" "R27" (at 34.29 154.94 90)
+    (property "Reference" "R2" (at 34.29 154.94 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "27" (at 30.48 156.21 0)
@@ -3931,7 +3920,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R27") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -3940,7 +3929,7 @@
   (symbol (lib_id "FixedWing:BZT52C5V6T-7") (at 393.7 143.51 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 47aa2726-a7a3-401c-9b19-4a08d550e7ce)
-    (property "Reference" "Z11" (at 387.35 139.7 0)
+    (property "Reference" "Z12" (at 387.35 139.7 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "BZT52C5V6T-7" (at 388.62 139.7 0)
@@ -3978,7 +3967,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "Z11") (unit 1)
+          (reference "Z12") (unit 1)
         )
       )
     )
@@ -3987,7 +3976,7 @@
   (symbol (lib_id "FixedWing:CRCW0805100RFKEA") (at 83.82 179.07 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 48227641-47f2-41d2-883a-3d186e4474a1)
-    (property "Reference" "R47" (at 87.63 181.61 90)
+    (property "Reference" "R11" (at 87.63 181.61 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 83.82 182.88 0)
@@ -4019,7 +4008,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R47") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -4028,7 +4017,7 @@
   (symbol (lib_id "FixedWing:RC0805FR-0727RL") (at 63.5 161.29 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 487d8877-7b2c-4627-acb3-13ad5023d6c9)
-    (property "Reference" "R28" (at 67.31 156.21 90)
+    (property "Reference" "R7" (at 67.31 156.21 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "27" (at 63.5 157.48 0)
@@ -4051,7 +4040,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R28") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -4060,7 +4049,7 @@
   (symbol (lib_id "FixedWing:RC0805FR-0727RL") (at 162.56 161.29 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 48d82931-4f59-48a1-bb78-83c85d96cf73)
-    (property "Reference" "R39" (at 166.37 156.21 90)
+    (property "Reference" "R22" (at 166.37 156.21 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "27" (at 162.56 157.48 0)
@@ -4083,7 +4072,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R39") (unit 1)
+          (reference "R22") (unit 1)
         )
       )
     )
@@ -4092,7 +4081,7 @@
   (symbol (lib_id "FixedWing:LTST-C170KRKT") (at 40.64 100.33 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4a48547e-ace4-40df-9711-9c13230f53bc)
-    (property "Reference" "LED16" (at 41.91 101.6 90)
+    (property "Reference" "LED1" (at 41.91 101.6 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LTST-C170KRKT" (at 43.18 103.8225 90)
@@ -4124,7 +4113,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "LED16") (unit 1)
+          (reference "LED1") (unit 1)
         )
       )
     )
@@ -4133,13 +4122,13 @@
   (symbol (lib_id "FixedWing:LTR18EZPF15R0") (at 41.91 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4bd8c67e-2734-49ae-b4a3-ffb240a276df)
-    (property "Reference" "R112" (at 45.72 78.74 0)
+    (property "Reference" "R3" (at 45.72 78.74 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "15" (at 45.72 81.28 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "RES_R1632_ROM" (at 41.91 74.93 0)
+    (property "Footprint" "FixedWing:RES_R1632_ROM" (at 41.91 74.93 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/ltr-e.pdf" (at 41.91 74.93 0)
@@ -4156,7 +4145,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R112") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -4165,7 +4154,7 @@
   (symbol (lib_id "FixedWing:CRCW0805100RFKEA") (at 182.88 179.07 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4de04147-f6a8-435c-859c-18cb76552bd0)
-    (property "Reference" "R50" (at 186.69 181.61 90)
+    (property "Reference" "R26" (at 186.69 181.61 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 182.88 182.88 0)
@@ -4197,7 +4186,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R50") (unit 1)
+          (reference "R26") (unit 1)
         )
       )
     )
@@ -4206,13 +4195,13 @@
   (symbol (lib_id "FixedWing:LTR18EZPF15R0") (at 74.93 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4fd807ea-b1ff-4afb-9094-5d14e343607f)
-    (property "Reference" "R114" (at 78.74 78.74 0)
+    (property "Reference" "R8" (at 78.74 78.74 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "15" (at 78.74 81.28 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "RES_R1632_ROM" (at 74.93 74.93 0)
+    (property "Footprint" "FixedWing:RES_R1632_ROM" (at 74.93 74.93 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/ltr-e.pdf" (at 74.93 74.93 0)
@@ -4229,7 +4218,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R114") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -4238,7 +4227,7 @@
   (symbol (lib_id "FixedWing:LTST-C170KRKT") (at 304.8 100.33 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 51015d8e-770a-4466-934e-40df65d6a3c9)
-    (property "Reference" "LED24" (at 306.07 101.6 90)
+    (property "Reference" "LED9" (at 306.07 101.6 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LTST-C170KRKT" (at 307.34 103.8225 90)
@@ -4270,7 +4259,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "LED24") (unit 1)
+          (reference "LED9") (unit 1)
         )
       )
     )
@@ -4279,7 +4268,7 @@
   (symbol (lib_id "FixedWing:DNBT8105-7") (at 261.62 91.44 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5788fdf0-d4e3-4b0b-ae1e-3b04e406f83d)
-    (property "Reference" "Q22" (at 254 73.66 90)
+    (property "Reference" "Q8" (at 254 73.66 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DNBT8105-7" (at 254 76.2 90)
@@ -4318,7 +4307,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "Q22") (unit 1)
+          (reference "Q8") (unit 1)
         )
       )
     )
@@ -4327,7 +4316,7 @@
   (symbol (lib_id "FixedWing:RC0805FR-0727RL") (at 327.66 161.29 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 602721cb-a038-4630-9af1-400414f92955)
-    (property "Reference" "R44" (at 331.47 156.21 90)
+    (property "Reference" "R47" (at 331.47 156.21 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "27" (at 327.66 157.48 0)
@@ -4350,7 +4339,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R44") (unit 1)
+          (reference "R47") (unit 1)
         )
       )
     )
@@ -4359,7 +4348,7 @@
   (symbol (lib_id "FixedWing:GCJ188R72A104KA01D") (at 300.99 199.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 61a4762d-de18-4375-b791-7947726dfc82)
-    (property "Reference" "C75" (at 304.8 195.58 0)
+    (property "Reference" "C10" (at 304.8 195.58 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0.1µ" (at 304.8 203.2 0)
@@ -4382,7 +4371,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "C75") (unit 1)
+          (reference "C10") (unit 1)
         )
       )
     )
@@ -4391,7 +4380,7 @@
   (symbol (lib_id "FixedWing:DNBT8105-7") (at 393.7 91.44 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 61b651be-a117-4efd-a70f-53f7971690b4)
-    (property "Reference" "Q26" (at 386.08 73.66 90)
+    (property "Reference" "Q12" (at 386.08 73.66 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DNBT8105-7" (at 386.08 76.2 90)
@@ -4430,7 +4419,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "Q26") (unit 1)
+          (reference "Q12") (unit 1)
         )
       )
     )
@@ -4439,13 +4428,13 @@
   (symbol (lib_id "FixedWing:LTR18EZPF15R0") (at 405.13 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 637c480f-e9fc-4d0e-b29e-4d9032aaaa60)
-    (property "Reference" "R69" (at 408.94 87.63 0)
+    (property "Reference" "R59" (at 408.94 87.63 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "15" (at 408.94 85.09 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "RES_R1632_ROM" (at 405.13 78.74 0)
+    (property "Footprint" "FixedWing:RES_R1632_ROM" (at 405.13 78.74 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/ltr-e.pdf" (at 405.13 78.74 0)
@@ -4462,7 +4451,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R69") (unit 1)
+          (reference "R59") (unit 1)
         )
       )
     )
@@ -4471,13 +4460,13 @@
   (symbol (lib_id "FixedWing:LTR18EZPF15R0") (at 140.97 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 63ce4cd3-c467-40be-88f1-39a73e6df45e)
-    (property "Reference" "R116" (at 144.78 78.74 0)
+    (property "Reference" "R18" (at 144.78 78.74 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "15" (at 144.78 81.28 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "RES_R1632_ROM" (at 140.97 74.93 0)
+    (property "Footprint" "FixedWing:RES_R1632_ROM" (at 140.97 74.93 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/ltr-e.pdf" (at 140.97 74.93 0)
@@ -4494,7 +4483,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R116") (unit 1)
+          (reference "R18") (unit 1)
         )
       )
     )
@@ -4503,7 +4492,7 @@
   (symbol (lib_id "FixedWing:CRCW0805100RFKEA") (at 281.94 179.07 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6434aceb-d2eb-4d2e-abcb-545e5df218af)
-    (property "Reference" "R53" (at 285.75 181.61 90)
+    (property "Reference" "R41" (at 285.75 181.61 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 281.94 182.88 0)
@@ -4535,7 +4524,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R53") (unit 1)
+          (reference "R41") (unit 1)
         )
       )
     )
@@ -4544,7 +4533,7 @@
   (symbol (lib_id "FixedWing:CRCW0805100RFKEA") (at 17.78 179.07 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 663dc231-42f8-492d-9fdd-8b6706a13977)
-    (property "Reference" "R160" (at 21.59 181.61 90)
+    (property "Reference" "R1" (at 21.59 181.61 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 17.78 182.88 0)
@@ -4576,7 +4565,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R160") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -4585,7 +4574,7 @@
   (symbol (lib_id "FixedWing:CRCW0805100RFKEA") (at 50.8 179.07 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 66d49477-ddc9-49d6-8a07-5a312532c704)
-    (property "Reference" "R26" (at 54.61 181.61 90)
+    (property "Reference" "R6" (at 54.61 181.61 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 50.8 182.88 0)
@@ -4617,7 +4606,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R26") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -4626,7 +4615,7 @@
   (symbol (lib_id "FixedWing:CRCW0805100RFKEA") (at 414.02 179.07 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 67025c66-e63f-400b-a0fc-5d0172c736dc)
-    (property "Reference" "R57" (at 410.21 181.61 90)
+    (property "Reference" "R61" (at 410.21 181.61 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 414.02 182.88 0)
@@ -4658,7 +4647,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R57") (unit 1)
+          (reference "R61") (unit 1)
         )
       )
     )
@@ -4667,7 +4656,7 @@
   (symbol (lib_id "FixedWing:BZT52C5V6T-7") (at 294.64 143.51 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6871b7a6-d496-494d-be53-5bb7d555d0cf)
-    (property "Reference" "Z8" (at 288.29 139.7 0)
+    (property "Reference" "Z9" (at 288.29 139.7 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "BZT52C5V6T-7" (at 289.56 139.7 0)
@@ -4705,7 +4694,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "Z8") (unit 1)
+          (reference "Z9") (unit 1)
         )
       )
     )
@@ -4714,13 +4703,13 @@
   (symbol (lib_id "FixedWing:LTR18EZPF15R0") (at 273.05 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 68ed52b6-df6c-48d3-8930-de46a485e017)
-    (property "Reference" "R119" (at 276.86 78.74 0)
+    (property "Reference" "R38" (at 276.86 78.74 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "15" (at 276.86 81.28 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "RES_R1632_ROM" (at 273.05 74.93 0)
+    (property "Footprint" "FixedWing:RES_R1632_ROM" (at 273.05 74.93 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/ltr-e.pdf" (at 273.05 74.93 0)
@@ -4737,7 +4726,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R119") (unit 1)
+          (reference "R38") (unit 1)
         )
       )
     )
@@ -4746,7 +4735,7 @@
   (symbol (lib_id "FixedWing:CRCW0805100RFKEA") (at 116.84 179.07 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 697715ef-30e6-4b56-ad84-18489afe48bd)
-    (property "Reference" "R48" (at 120.65 181.61 90)
+    (property "Reference" "R16" (at 120.65 181.61 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 116.84 182.88 0)
@@ -4778,7 +4767,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R48") (unit 1)
+          (reference "R16") (unit 1)
         )
       )
     )
@@ -4787,7 +4776,7 @@
   (symbol (lib_id "FixedWing:LTST-C170KRKT") (at 403.86 100.33 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7010d58d-0af5-4b8c-b2eb-271ddb893123)
-    (property "Reference" "LED27" (at 405.13 101.6 90)
+    (property "Reference" "LED12" (at 405.13 101.6 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LTST-C170KRKT" (at 406.4 103.8225 90)
@@ -4819,7 +4808,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "LED27") (unit 1)
+          (reference "LED12") (unit 1)
         )
       )
     )
@@ -4828,7 +4817,7 @@
   (symbol (lib_id "FixedWing:LTST-C170KRKT") (at 238.76 100.33 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 70f4222e-9db4-4ee4-b76a-f72b96a4629f)
-    (property "Reference" "LED22" (at 240.03 101.6 90)
+    (property "Reference" "LED7" (at 240.03 101.6 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LTST-C170KRKT" (at 241.3 103.8225 90)
@@ -4860,7 +4849,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "LED22") (unit 1)
+          (reference "LED7") (unit 1)
         )
       )
     )
@@ -4869,7 +4858,7 @@
   (symbol (lib_id "FixedWing:DNBT8105-7") (at 129.54 91.44 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 713dd533-0ede-41b6-be50-f2662c093ad3)
-    (property "Reference" "Q18" (at 121.92 73.66 90)
+    (property "Reference" "Q4" (at 121.92 73.66 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DNBT8105-7" (at 121.92 76.2 90)
@@ -4908,7 +4897,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "Q18") (unit 1)
+          (reference "Q4") (unit 1)
         )
       )
     )
@@ -4917,7 +4906,7 @@
   (symbol (lib_id "FixedWing:CRCW0805100RFKEA") (at 347.98 179.07 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 75d792b5-2285-4f57-ae16-337ce1bd347d)
-    (property "Reference" "R55" (at 351.79 181.61 90)
+    (property "Reference" "R51" (at 351.79 181.61 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 347.98 182.88 0)
@@ -4949,7 +4938,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R55") (unit 1)
+          (reference "R51") (unit 1)
         )
       )
     )
@@ -4958,13 +4947,13 @@
   (symbol (lib_id "FixedWing:LTR18EZPF15R0") (at 405.13 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7a817606-481b-425f-8fb0-f46827c595ca)
-    (property "Reference" "R123" (at 408.94 78.74 0)
+    (property "Reference" "R58" (at 408.94 78.74 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "15" (at 408.94 81.28 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "RES_R1632_ROM" (at 405.13 74.93 0)
+    (property "Footprint" "FixedWing:RES_R1632_ROM" (at 405.13 74.93 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/ltr-e.pdf" (at 405.13 74.93 0)
@@ -4981,7 +4970,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R123") (unit 1)
+          (reference "R58") (unit 1)
         )
       )
     )
@@ -4990,13 +4979,13 @@
   (symbol (lib_id "FixedWing:LTR18EZPF15R0") (at 41.91 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7d05989d-2c9d-4c74-b3e1-80c0af67984f)
-    (property "Reference" "R58" (at 45.72 88.9 0)
+    (property "Reference" "R4" (at 45.72 88.9 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "15" (at 45.72 86.36 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "RES_R1632_ROM" (at 41.91 80.01 0)
+    (property "Footprint" "FixedWing:RES_R1632_ROM" (at 41.91 80.01 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/ltr-e.pdf" (at 41.91 80.01 0)
@@ -5013,7 +5002,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R58") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -5022,7 +5011,7 @@
   (symbol (lib_id "FixedWing:DNBT8105-7") (at 195.58 91.44 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 81d28eea-8ce5-45fd-a1a1-cf0499f9f09b)
-    (property "Reference" "Q20" (at 187.96 73.66 90)
+    (property "Reference" "Q6" (at 187.96 73.66 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DNBT8105-7" (at 187.96 76.2 90)
@@ -5061,7 +5050,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "Q20") (unit 1)
+          (reference "Q6") (unit 1)
         )
       )
     )
@@ -5070,7 +5059,7 @@
   (symbol (lib_id "FixedWing:CRCW0805475RFKEA") (at 140.97 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 81ecda80-ac68-4080-afd2-e0bc9c61e746)
-    (property "Reference" "R131" (at 144.78 120.65 0)
+    (property "Reference" "R20" (at 144.78 120.65 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "475" (at 144.78 123.19 0)
@@ -5102,7 +5091,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R131") (unit 1)
+          (reference "R20") (unit 1)
         )
       )
     )
@@ -5111,7 +5100,7 @@
   (symbol (lib_id "FixedWing:DNBT8105-7") (at 96.52 91.44 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 82c2553d-69d9-4d7d-af6c-07b32413db2b)
-    (property "Reference" "Q17" (at 88.9 73.66 90)
+    (property "Reference" "Q3" (at 88.9 73.66 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DNBT8105-7" (at 88.9 76.2 90)
@@ -5150,7 +5139,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "Q17") (unit 1)
+          (reference "Q3") (unit 1)
         )
       )
     )
@@ -5159,7 +5148,7 @@
   (symbol (lib_id "FixedWing:RC0805FR-0727RL") (at 129.54 161.29 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 85c4ab38-7df9-4438-91c1-49d8d0c1c68e)
-    (property "Reference" "R38" (at 133.35 156.21 90)
+    (property "Reference" "R17" (at 133.35 156.21 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "27" (at 129.54 157.48 0)
@@ -5182,7 +5171,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R38") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
     )
@@ -5191,7 +5180,7 @@
   (symbol (lib_id "FixedWing:GCJ188R72A104KA01D") (at 400.05 199.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8d1ea745-b49c-4b62-8767-7b32df80fc28)
-    (property "Reference" "C78" (at 403.86 195.58 0)
+    (property "Reference" "C13" (at 403.86 195.58 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0.1µ" (at 403.86 203.2 0)
@@ -5214,7 +5203,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "C78") (unit 1)
+          (reference "C13") (unit 1)
         )
       )
     )
@@ -5223,7 +5212,7 @@
   (symbol (lib_id "FixedWing:CRCW0805100RFKEA") (at 248.92 179.07 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8f68f084-c905-4c34-9f2e-1362aa8d1572)
-    (property "Reference" "R52" (at 252.73 181.61 90)
+    (property "Reference" "R36" (at 252.73 181.61 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 248.92 182.88 0)
@@ -5255,7 +5244,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R52") (unit 1)
+          (reference "R36") (unit 1)
         )
       )
     )
@@ -5264,7 +5253,7 @@
   (symbol (lib_id "FixedWing:DNBT8105-7") (at 30.48 91.44 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8fd39bad-96fa-4043-b559-b9772c35194c)
-    (property "Reference" "Q15" (at 22.86 73.66 90)
+    (property "Reference" "Q1" (at 22.86 73.66 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DNBT8105-7" (at 22.86 76.2 90)
@@ -5303,7 +5292,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "Q15") (unit 1)
+          (reference "Q1") (unit 1)
         )
       )
     )
@@ -5312,7 +5301,7 @@
   (symbol (lib_id "FixedWing:BZT52C5V6T-7") (at 30.48 143.51 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 936b4519-300b-49f1-97ba-51db84e452df)
-    (property "Reference" "Z12" (at 24.13 139.7 0)
+    (property "Reference" "Z1" (at 24.13 139.7 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "BZT52C5V6T-7" (at 25.4 139.7 0)
@@ -5350,7 +5339,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "Z12") (unit 1)
+          (reference "Z1") (unit 1)
         )
       )
     )
@@ -5359,13 +5348,13 @@
   (symbol (lib_id "FixedWing:LTR18EZPF15R0") (at 306.07 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9e2e0efb-70f6-42d2-b813-01fa2a5755bd)
-    (property "Reference" "R66" (at 309.88 87.63 0)
+    (property "Reference" "R44" (at 309.88 87.63 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "15" (at 309.88 85.09 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "RES_R1632_ROM" (at 306.07 78.74 0)
+    (property "Footprint" "FixedWing:RES_R1632_ROM" (at 306.07 78.74 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/ltr-e.pdf" (at 306.07 78.74 0)
@@ -5382,7 +5371,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R66") (unit 1)
+          (reference "R44") (unit 1)
         )
       )
     )
@@ -5391,7 +5380,7 @@
   (symbol (lib_id "FixedWing:LTST-C170KRKT") (at 73.66 100.33 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a06a234b-d92a-4418-a960-eed4b98872cf)
-    (property "Reference" "LED17" (at 74.93 101.6 90)
+    (property "Reference" "LED2" (at 74.93 101.6 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LTST-C170KRKT" (at 76.2 103.8225 90)
@@ -5423,7 +5412,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "LED17") (unit 1)
+          (reference "LED2") (unit 1)
         )
       )
     )
@@ -5432,7 +5421,7 @@
   (symbol (lib_id "FixedWing:RC0805FR-0727RL") (at 261.62 161.29 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid aa59ee9b-fdc9-4ce7-a9ce-d0709203f0f4)
-    (property "Reference" "R42" (at 265.43 156.21 90)
+    (property "Reference" "R37" (at 265.43 156.21 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "27" (at 261.62 157.48 0)
@@ -5455,7 +5444,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R42") (unit 1)
+          (reference "R37") (unit 1)
         )
       )
     )
@@ -5464,7 +5453,7 @@
   (symbol (lib_id "FixedWing:LTST-C170KRKT") (at 370.84 100.33 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ab544bc1-9d30-454d-8c62-f4b745e6e354)
-    (property "Reference" "LED26" (at 372.11 101.6 90)
+    (property "Reference" "LED11" (at 372.11 101.6 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LTST-C170KRKT" (at 373.38 103.8225 90)
@@ -5496,7 +5485,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "LED26") (unit 1)
+          (reference "LED11") (unit 1)
         )
       )
     )
@@ -5505,13 +5494,13 @@
   (symbol (lib_id "FixedWing:LTR18EZPF15R0") (at 207.01 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ab61a3ea-1d6a-440d-9fb6-404cabb0aad3)
-    (property "Reference" "R63" (at 210.82 87.63 0)
+    (property "Reference" "R29" (at 210.82 87.63 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "15" (at 210.82 85.09 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "RES_R1632_ROM" (at 207.01 78.74 0)
+    (property "Footprint" "FixedWing:RES_R1632_ROM" (at 207.01 78.74 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/ltr-e.pdf" (at 207.01 78.74 0)
@@ -5528,7 +5517,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R63") (unit 1)
+          (reference "R29") (unit 1)
         )
       )
     )
@@ -5537,7 +5526,7 @@
   (symbol (lib_id "FixedWing:GCJ188R72A104KA01D") (at 367.03 199.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid aca8fe4c-c51d-436e-b133-739786d5c90b)
-    (property "Reference" "C77" (at 370.84 195.58 0)
+    (property "Reference" "C12" (at 370.84 195.58 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0.1µ" (at 370.84 203.2 0)
@@ -5560,7 +5549,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "C77") (unit 1)
+          (reference "C12") (unit 1)
         )
       )
     )
@@ -5569,13 +5558,13 @@
   (symbol (lib_id "FixedWing:LTR18EZPF15R0") (at 240.03 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid acc24ef2-d324-4563-b2c4-8e072b73c6d0)
-    (property "Reference" "R113" (at 243.84 78.74 0)
+    (property "Reference" "R33" (at 243.84 78.74 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "15" (at 243.84 81.28 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "RES_R1632_ROM" (at 240.03 74.93 0)
+    (property "Footprint" "FixedWing:RES_R1632_ROM" (at 240.03 74.93 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/ltr-e.pdf" (at 240.03 74.93 0)
@@ -5592,7 +5581,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R113") (unit 1)
+          (reference "R33") (unit 1)
         )
       )
     )
@@ -5601,7 +5590,7 @@
   (symbol (lib_id "FixedWing:LTST-C170KRKT") (at 271.78 100.33 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b10933d1-9eb2-4604-a215-746e248a373d)
-    (property "Reference" "LED23" (at 273.05 101.6 90)
+    (property "Reference" "LED8" (at 273.05 101.6 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LTST-C170KRKT" (at 274.32 103.8225 90)
@@ -5633,7 +5622,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "LED23") (unit 1)
+          (reference "LED8") (unit 1)
         )
       )
     )
@@ -5642,13 +5631,13 @@
   (symbol (lib_id "FixedWing:LTR18EZPF15R0") (at 173.99 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b24d4d80-cb22-45ff-901c-3d23e5f03104)
-    (property "Reference" "R62" (at 177.8 87.63 0)
+    (property "Reference" "R24" (at 177.8 87.63 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "15" (at 177.8 85.09 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "RES_R1632_ROM" (at 173.99 78.74 0)
+    (property "Footprint" "FixedWing:RES_R1632_ROM" (at 173.99 78.74 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/ltr-e.pdf" (at 173.99 78.74 0)
@@ -5665,7 +5654,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R62") (unit 1)
+          (reference "R24") (unit 1)
         )
       )
     )
@@ -5721,13 +5710,13 @@
   (symbol (lib_id "FixedWing:LTR18EZPF15R0") (at 273.05 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b4daddf7-457f-4cc8-8c90-047654a26d71)
-    (property "Reference" "R65" (at 276.86 87.63 0)
+    (property "Reference" "R39" (at 276.86 87.63 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "15" (at 276.86 85.09 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "RES_R1632_ROM" (at 273.05 78.74 0)
+    (property "Footprint" "FixedWing:RES_R1632_ROM" (at 273.05 78.74 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/ltr-e.pdf" (at 273.05 78.74 0)
@@ -5744,7 +5733,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R65") (unit 1)
+          (reference "R39") (unit 1)
         )
       )
     )
@@ -5753,7 +5742,7 @@
   (symbol (lib_id "FixedWing:DNBT8105-7") (at 162.56 91.44 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b69ab5b9-acda-4d83-86e8-5380f2fc130d)
-    (property "Reference" "Q19" (at 154.94 73.66 90)
+    (property "Reference" "Q5" (at 154.94 73.66 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DNBT8105-7" (at 154.94 76.2 90)
@@ -5792,7 +5781,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "Q19") (unit 1)
+          (reference "Q5") (unit 1)
         )
       )
     )
@@ -5848,7 +5837,7 @@
   (symbol (lib_id "FixedWing:BZT52C5V6T-7") (at 360.68 143.51 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bd0094eb-f0b9-40a7-8645-a4bbed3fe4a9)
-    (property "Reference" "Z10" (at 354.33 139.7 0)
+    (property "Reference" "Z11" (at 354.33 139.7 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "BZT52C5V6T-7" (at 355.6 139.7 0)
@@ -5886,7 +5875,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "Z10") (unit 1)
+          (reference "Z11") (unit 1)
         )
       )
     )
@@ -5895,7 +5884,7 @@
   (symbol (lib_id "FixedWing:CRCW0805475RFKEA") (at 339.09 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bd4e6092-6a2d-4bc2-927a-dae465bf1762)
-    (property "Reference" "R137" (at 342.9 120.65 0)
+    (property "Reference" "R50" (at 342.9 120.65 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "475" (at 342.9 123.19 0)
@@ -5927,7 +5916,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R137") (unit 1)
+          (reference "R50") (unit 1)
         )
       )
     )
@@ -5936,7 +5925,7 @@
   (symbol (lib_id "FixedWing:CRCW0805475RFKEA") (at 207.01 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c254d98e-9718-4d46-8813-5932780c655a)
-    (property "Reference" "R133" (at 210.82 120.65 0)
+    (property "Reference" "R30" (at 210.82 120.65 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "475" (at 210.82 123.19 0)
@@ -5968,7 +5957,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R133") (unit 1)
+          (reference "R30") (unit 1)
         )
       )
     )
@@ -5977,7 +5966,7 @@
   (symbol (lib_id "FixedWing:DNBT8105-7") (at 63.5 91.44 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c8f8f149-ce75-4e89-834d-fe88dc47528e)
-    (property "Reference" "Q16" (at 55.88 73.66 90)
+    (property "Reference" "Q2" (at 55.88 73.66 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DNBT8105-7" (at 55.88 76.2 90)
@@ -6016,7 +6005,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "Q16") (unit 1)
+          (reference "Q2") (unit 1)
         )
       )
     )
@@ -6025,7 +6014,7 @@
   (symbol (lib_id "FixedWing:BZT52C5V6T-7") (at 261.62 143.51 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cc763a7a-308c-4eea-b17d-f363a1d9f524)
-    (property "Reference" "Z2" (at 255.27 139.7 0)
+    (property "Reference" "Z8" (at 255.27 139.7 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "BZT52C5V6T-7" (at 256.54 139.7 0)
@@ -6063,7 +6052,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "Z2") (unit 1)
+          (reference "Z8") (unit 1)
         )
       )
     )
@@ -6072,7 +6061,7 @@
   (symbol (lib_id "FixedWing:CRCW0805475RFKEA") (at 372.11 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cc7830f3-89af-4d5d-94fb-b5342f35ef64)
-    (property "Reference" "R138" (at 375.92 120.65 0)
+    (property "Reference" "R55" (at 375.92 120.65 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "475" (at 375.92 123.19 0)
@@ -6104,7 +6093,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R138") (unit 1)
+          (reference "R55") (unit 1)
         )
       )
     )
@@ -6113,7 +6102,7 @@
   (symbol (lib_id "FixedWing:GCJ188R72A104KA01D") (at 17.78 210.82 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d14374fb-bea0-4013-8fbb-b762256657f5)
-    (property "Reference" "C79" (at 22.86 205.74 90)
+    (property "Reference" "C1" (at 22.86 205.74 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0.1µ" (at 22.86 208.28 90)
@@ -6136,7 +6125,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "C79") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
     )
@@ -6145,13 +6134,13 @@
   (symbol (lib_id "FixedWing:LTR18EZPF15R0") (at 207.01 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d2915efc-18b1-472b-b10f-c134997b3a4b)
-    (property "Reference" "R118" (at 210.82 78.74 0)
+    (property "Reference" "R28" (at 210.82 78.74 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "15" (at 210.82 81.28 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "RES_R1632_ROM" (at 207.01 74.93 0)
+    (property "Footprint" "FixedWing:RES_R1632_ROM" (at 207.01 74.93 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/ltr-e.pdf" (at 207.01 74.93 0)
@@ -6168,7 +6157,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R118") (unit 1)
+          (reference "R28") (unit 1)
         )
       )
     )
@@ -6177,7 +6166,7 @@
   (symbol (lib_id "FixedWing:CRCW0805475RFKEA") (at 306.07 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d49f4130-121a-4fb3-84fa-0ca7a42f231a)
-    (property "Reference" "R136" (at 309.88 120.65 0)
+    (property "Reference" "R45" (at 309.88 120.65 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "475" (at 309.88 123.19 0)
@@ -6209,7 +6198,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R136") (unit 1)
+          (reference "R45") (unit 1)
         )
       )
     )
@@ -6218,13 +6207,13 @@
   (symbol (lib_id "FixedWing:LTR18EZPF15R0") (at 107.95 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d7e93d31-e72c-4a55-ae50-c3c490ff0105)
-    (property "Reference" "R60" (at 111.76 88.9 0)
+    (property "Reference" "R14" (at 111.76 88.9 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "15" (at 111.76 86.36 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "RES_R1632_ROM" (at 107.95 80.01 0)
+    (property "Footprint" "FixedWing:RES_R1632_ROM" (at 107.95 80.01 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/ltr-e.pdf" (at 107.95 80.01 0)
@@ -6241,7 +6230,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R60") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
     )
@@ -6250,7 +6239,7 @@
   (symbol (lib_id "FixedWing:GCJ188R72A104KA01D") (at 69.85 199.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d835646a-044d-4a86-8feb-7c24b9b9cfa1)
-    (property "Reference" "C68" (at 73.66 195.58 0)
+    (property "Reference" "C3" (at 73.66 195.58 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0.1µ" (at 73.66 203.2 0)
@@ -6273,7 +6262,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "C68") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -6282,13 +6271,13 @@
   (symbol (lib_id "FixedWing:LTR18EZPF15R0") (at 372.11 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid db517b42-cb71-476a-80c8-8cb625387eba)
-    (property "Reference" "R68" (at 375.92 87.63 0)
+    (property "Reference" "R54" (at 375.92 87.63 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "15" (at 375.92 85.09 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "RES_R1632_ROM" (at 372.11 78.74 0)
+    (property "Footprint" "FixedWing:RES_R1632_ROM" (at 372.11 78.74 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/ltr-e.pdf" (at 372.11 78.74 0)
@@ -6305,7 +6294,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R68") (unit 1)
+          (reference "R54") (unit 1)
         )
       )
     )
@@ -6314,7 +6303,7 @@
   (symbol (lib_id "FixedWing:GCJ188R72A104KA01D") (at 201.93 199.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dcf47f54-165e-4c52-837b-728d4394e594)
-    (property "Reference" "C72" (at 205.74 195.58 0)
+    (property "Reference" "C7" (at 205.74 195.58 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0.1µ" (at 205.74 203.2 0)
@@ -6337,7 +6326,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "C72") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -6346,7 +6335,7 @@
   (symbol (lib_id "FixedWing:LTST-C170KRKT") (at 172.72 100.33 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ddbf89ed-7d66-4e01-9140-146487f14e10)
-    (property "Reference" "LED20" (at 173.99 101.6 90)
+    (property "Reference" "LED5" (at 173.99 101.6 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LTST-C170KRKT" (at 175.26 103.8225 90)
@@ -6378,7 +6367,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "LED20") (unit 1)
+          (reference "LED5") (unit 1)
         )
       )
     )
@@ -6387,7 +6376,7 @@
   (symbol (lib_id "FixedWing:DNBT8105-7") (at 228.6 91.44 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e00777e1-d873-416a-bdee-984cfbf2c6d6)
-    (property "Reference" "Q21" (at 220.98 73.66 90)
+    (property "Reference" "Q7" (at 220.98 73.66 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DNBT8105-7" (at 220.98 76.2 90)
@@ -6426,7 +6415,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "Q21") (unit 1)
+          (reference "Q7") (unit 1)
         )
       )
     )
@@ -6435,7 +6424,7 @@
   (symbol (lib_id "FixedWing:GCJ188R72A104KA01D") (at 135.89 199.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e00b7316-5e60-46c3-bdf7-e2f661f0c4ac)
-    (property "Reference" "C70" (at 139.7 195.58 0)
+    (property "Reference" "C5" (at 139.7 195.58 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0.1µ" (at 139.7 203.2 0)
@@ -6458,7 +6447,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "C70") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -6467,13 +6456,13 @@
   (symbol (lib_id "FixedWing:LTR18EZPF15R0") (at 173.99 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e39b937e-5874-4b50-9f76-026eeb9f30d6)
-    (property "Reference" "R117" (at 177.8 78.74 0)
+    (property "Reference" "R23" (at 177.8 78.74 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "15" (at 177.8 81.28 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "RES_R1632_ROM" (at 173.99 74.93 0)
+    (property "Footprint" "FixedWing:RES_R1632_ROM" (at 173.99 74.93 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/ltr-e.pdf" (at 173.99 74.93 0)
@@ -6490,7 +6479,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R117") (unit 1)
+          (reference "R23") (unit 1)
         )
       )
     )
@@ -6499,13 +6488,13 @@
   (symbol (lib_id "FixedWing:LTR18EZPF15R0") (at 240.03 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e55b66d2-e35a-485a-82ba-c7a6299277af)
-    (property "Reference" "R64" (at 243.84 87.63 0)
+    (property "Reference" "R34" (at 243.84 87.63 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "15" (at 243.84 85.09 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "RES_R1632_ROM" (at 240.03 78.74 0)
+    (property "Footprint" "FixedWing:RES_R1632_ROM" (at 240.03 78.74 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/ltr-e.pdf" (at 240.03 78.74 0)
@@ -6522,7 +6511,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R64") (unit 1)
+          (reference "R34") (unit 1)
         )
       )
     )
@@ -6531,7 +6520,7 @@
   (symbol (lib_id "FixedWing:CRCW0805475RFKEA") (at 240.03 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e5dc20b2-09a2-4726-977b-b746a2e760ec)
-    (property "Reference" "R134" (at 243.84 120.65 0)
+    (property "Reference" "R35" (at 243.84 120.65 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "475" (at 243.84 123.19 0)
@@ -6563,7 +6552,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R134") (unit 1)
+          (reference "R35") (unit 1)
         )
       )
     )
@@ -6619,7 +6608,7 @@
   (symbol (lib_id "FixedWing:RC0805FR-0727RL") (at 393.7 161.29 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ea471da4-5070-4f41-a220-7d1c11f798c4)
-    (property "Reference" "R46" (at 397.51 156.21 90)
+    (property "Reference" "R57" (at 397.51 156.21 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "27" (at 393.7 157.48 0)
@@ -6642,7 +6631,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R46") (unit 1)
+          (reference "R57") (unit 1)
         )
       )
     )
@@ -6651,7 +6640,7 @@
   (symbol (lib_id "FixedWing:GCJ188R72A104KA01D") (at 168.91 199.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ec8bc64d-017c-4a7b-9a5c-26f857c2cbef)
-    (property "Reference" "C71" (at 172.72 195.58 0)
+    (property "Reference" "C6" (at 172.72 195.58 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0.1µ" (at 172.72 203.2 0)
@@ -6674,7 +6663,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "C71") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
@@ -6683,7 +6672,7 @@
   (symbol (lib_id "FixedWing:CRCW0805100RFKEA") (at 314.96 179.07 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ee4408e9-49cb-4202-965c-fbecbfb8aca5)
-    (property "Reference" "R54" (at 318.77 181.61 90)
+    (property "Reference" "R46" (at 318.77 181.61 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 314.96 182.88 0)
@@ -6715,7 +6704,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R54") (unit 1)
+          (reference "R46") (unit 1)
         )
       )
     )
@@ -6724,13 +6713,13 @@
   (symbol (lib_id "FixedWing:LTR18EZPF15R0") (at 306.07 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ee5bb63d-7cf3-44ac-9b83-5a2dea293d57)
-    (property "Reference" "R120" (at 309.88 78.74 0)
+    (property "Reference" "R43" (at 309.88 78.74 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "15" (at 309.88 81.28 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "RES_R1632_ROM" (at 306.07 74.93 0)
+    (property "Footprint" "FixedWing:RES_R1632_ROM" (at 306.07 74.93 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/ltr-e.pdf" (at 306.07 74.93 0)
@@ -6747,7 +6736,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R120") (unit 1)
+          (reference "R43") (unit 1)
         )
       )
     )
@@ -6756,7 +6745,7 @@
   (symbol (lib_id "FixedWing:GCJ188R72A104KA01D") (at 334.01 199.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f0e8c863-7aff-4230-bb4e-55e554e8f377)
-    (property "Reference" "C76" (at 337.82 195.58 0)
+    (property "Reference" "C11" (at 337.82 195.58 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0.1µ" (at 337.82 203.2 0)
@@ -6779,7 +6768,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "C76") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
     )
@@ -6788,7 +6777,7 @@
   (symbol (lib_id "FixedWing:RC0805FR-0727RL") (at 96.52 161.29 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f2611ff8-6d42-4790-9e1a-6da8a4a5ebfc)
-    (property "Reference" "R37" (at 100.33 156.21 90)
+    (property "Reference" "R12" (at 100.33 156.21 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "27" (at 96.52 157.48 0)
@@ -6811,7 +6800,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R37") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -6820,13 +6809,13 @@
   (symbol (lib_id "FixedWing:LTR18EZPF15R0") (at 140.97 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f480d80f-9c26-4be8-ae7d-c2b3df4a5149)
-    (property "Reference" "R61" (at 144.78 88.9 0)
+    (property "Reference" "R19" (at 144.78 88.9 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "15" (at 144.78 86.36 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "RES_R1632_ROM" (at 140.97 80.01 0)
+    (property "Footprint" "FixedWing:RES_R1632_ROM" (at 140.97 80.01 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/ltr-e.pdf" (at 140.97 80.01 0)
@@ -6843,7 +6832,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R61") (unit 1)
+          (reference "R19") (unit 1)
         )
       )
     )
@@ -6852,7 +6841,7 @@
   (symbol (lib_id "FixedWing:GCJ188R72A104KA01D") (at 234.95 199.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f575fb2f-07b5-4ffa-ad8e-604aa960334f)
-    (property "Reference" "C73" (at 238.76 195.58 0)
+    (property "Reference" "C8" (at 238.76 195.58 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0.1µ" (at 238.76 203.2 0)
@@ -6875,7 +6864,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "C73") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
     )
@@ -6884,13 +6873,13 @@
   (symbol (lib_id "FixedWing:LTR18EZPF15R0") (at 74.93 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fa02ffd8-e9ed-402b-96cc-d16f8c27a61c)
-    (property "Reference" "R59" (at 78.74 88.9 0)
+    (property "Reference" "R9" (at 78.74 88.9 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "15" (at 78.74 86.36 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "RES_R1632_ROM" (at 74.93 80.01 0)
+    (property "Footprint" "FixedWing:RES_R1632_ROM" (at 74.93 80.01 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/ltr-e.pdf" (at 74.93 80.01 0)
@@ -6907,7 +6896,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R59") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -6916,7 +6905,7 @@
   (symbol (lib_id "FixedWing:GCJ188R72A104KA01D") (at 102.87 199.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fd72874a-3ef4-41f8-aa50-94076c2350fb)
-    (property "Reference" "C69" (at 106.68 195.58 0)
+    (property "Reference" "C4" (at 106.68 195.58 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0.1µ" (at 106.68 203.2 0)
@@ -6939,7 +6928,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "C69") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -6948,7 +6937,7 @@
   (symbol (lib_id "FixedWing:CRCW0805475RFKEA") (at 405.13 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid feb64d63-1583-4d31-b96e-598fee4e53dc)
-    (property "Reference" "R139" (at 408.94 120.65 0)
+    (property "Reference" "R60" (at 408.94 120.65 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "475" (at 408.94 123.19 0)
@@ -6980,7 +6969,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "R139") (unit 1)
+          (reference "R60") (unit 1)
         )
       )
     )
