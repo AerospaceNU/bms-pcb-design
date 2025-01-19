@@ -1,4 +1,4 @@
-22850662741464732
+22857609727147618
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -55517,6 +55517,13 @@ S7B-XH-A
 7
 7
 FixedWing
+CONN_SD-105314-100_10_MOL
+
+1053141210 
+0
+10
+10
+FixedWing
 CONV_SIC461ED-T1-GE3
 
 
@@ -55926,6 +55933,27 @@ FixedWing
 RES_3920R
 CSI2H-3920R-L300F
 Resistor
+0
+2
+2
+FixedWing
+RES_CRCW_0805_VIS
+
+CRCW08050000Z0EA 
+0
+2
+2
+FixedWing
+RES_CRCW_0805_VIS-L
+
+CRCW08050000Z0EA 
+0
+2
+2
+FixedWing
+RES_CRCW_0805_VIS-M
+
+CRCW08050000Z0EA 
 0
 2
 2

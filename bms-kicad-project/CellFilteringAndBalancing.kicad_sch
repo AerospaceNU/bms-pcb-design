@@ -6,7 +6,7 @@
 
   (title_block
     (title "Cell Filtering and Balancing")
-    (date "2024-08-10")
+    (date "2025-01-19")
     (rev "A")
     (company "AeroNU - FixedWing")
   )
@@ -1036,9 +1036,6 @@
   (junction (at 347.98 143.51) (diameter 0) (color 0 0 0 0)
     (uuid 78891652-b531-4b4e-bcd8-027c2cfdea12)
   )
-  (junction (at 30.48 152.4) (diameter 0) (color 0 0 0 0)
-    (uuid 78e149e6-66b2-4514-b721-fa57f8f06c1f)
-  )
   (junction (at 195.58 143.51) (diameter 0) (color 0 0 0 0)
     (uuid 808cf573-de0b-4dee-9f33-12d2de6a79b9)
   )
@@ -1128,9 +1125,6 @@
   )
   (junction (at 360.68 143.51) (diameter 0) (color 0 0 0 0)
     (uuid bff3fd16-d49f-4bc0-bb62-780b93955349)
-  )
-  (junction (at 30.48 160.02) (diameter 0) (color 0 0 0 0)
-    (uuid c0269b60-f1f4-46cb-a0ad-e6d260a2f76e)
   )
   (junction (at 294.64 199.39) (diameter 0) (color 0 0 0 0)
     (uuid c5007393-2e4e-4cca-8e8e-a8de97db2e15)
@@ -2472,10 +2466,6 @@
     (stroke (width 0) (type default))
     (uuid e68ff91b-4d78-418f-8dbc-263a2d8f7166)
   )
-  (wire (pts (xy 30.48 152.4) (xy 30.48 160.02))
-    (stroke (width 0) (type default))
-    (uuid e6951a54-168e-48c3-b9de-0bb90bf02cfa)
-  )
   (wire (pts (xy 379.73 85.09) (xy 381 85.09))
     (stroke (width 0) (type default))
     (uuid e74c10cb-fb52-4b44-8bcc-cf1e135b4e51)
@@ -2582,10 +2572,10 @@
   )
 
   (text_box "NOTE:\nDesign based on section 2.4 (External Cell-Balancing Circuit Design Using BJTs) of the Cell Balancing With BQ769x2 Battery Monitors guide by TI, available at http://www.ti.com/lit/pdf/sluaa81"
-    (at 13.97 257.81 0) (size 160.02 7.62)
+    (at 111.76 255.27 0) (size 194.31 6.35)
     (stroke (width 0) (type default))
     (fill (type none))
-    (effects (font (size 1.27 1.27)) (justify left top))
+    (effects (font (size 1.27 1.27)) (justify left top) (href "http://www.ti.com/lit/pdf/sluaa81"))
     (uuid 6d90a450-1320-4bf9-9ace-c0563149c8aa)
   )
 
@@ -2643,12 +2633,12 @@
   )
 
   (symbol (lib_id "FixedWing:S13B-XH-A") (at 200.66 35.56 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 00da8ff6-08ff-43fb-a873-163401eaf7fd)
-    (property "Reference" "J1" (at 215.9 15.24 90)
+    (property "Reference" "J1" (at 215.9 16.51 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "S13B-XH-A" (at 215.9 17.78 90)
+    (property "Value" "S13B-XH-A" (at 215.9 19.05 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "FixedWing:S13BXHALFSN" (at 295.58 19.05 0)
@@ -2830,7 +2820,7 @@
   (symbol (lib_id "power:GND") (at 50.8 215.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0ae19932-6ac5-4e43-9cef-dfb6de2b9e19)
-    (property "Reference" "#PWR05" (at 50.8 222.25 0)
+    (property "Reference" "#PWR02" (at 50.8 222.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 50.8 220.98 0)
@@ -2846,7 +2836,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -3589,7 +3579,7 @@
   (symbol (lib_id "power:GND") (at 17.78 215.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 34877cf8-541c-4269-8cdc-0c4817c0f228)
-    (property "Reference" "#PWR04" (at 17.78 222.25 0)
+    (property "Reference" "#PWR01" (at 17.78 222.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 17.78 220.98 0)
@@ -3605,7 +3595,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
     )
