@@ -5699,7 +5699,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "MCP4726A0T-E_CH_0_1"
-      (pin output line (at 10.16 2.54 0) (length 7.62)
+      (pin output line (at 10.16 -7.62 0) (length 7.62)
         (name "VOUT" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
@@ -5707,7 +5707,7 @@
         (name "VSS" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 10.16 -7.62 0) (length 7.62)
+      (pin power_in line (at 10.16 2.54 0) (length 7.62)
         (name "VDD" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
