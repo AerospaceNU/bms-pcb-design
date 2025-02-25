@@ -531,7 +531,7 @@
       (property "Reference" "R" (at 3.81 2.54 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "41.2" (at 3.81 -2.54 0)
+      (property "Value" "41.2k" (at 3.81 -2.54 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "FixedWing:RC0805N_VIS" (at 0 13.97 0)
@@ -4093,7 +4093,7 @@
   (symbol (lib_id "power:GNDA") (at 49.53 240.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2498191d-ed79-48b7-b336-2857f5845a1a)
-    (property "Reference" "#PWR051" (at 49.53 246.38 0)
+    (property "Reference" "#PWR052" (at 49.53 246.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (at 49.53 243.84 0)
@@ -4109,7 +4109,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/9bfcf0e7-ef8d-4492-b04a-6397126b0bad"
-          (reference "#PWR051") (unit 1)
+          (reference "#PWR052") (unit 1)
         )
       )
     )
@@ -4143,7 +4143,7 @@
   (symbol (lib_id "power:GNDA") (at 231.14 201.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2820dd49-009f-4cf8-935c-08482c0a790e)
-    (property "Reference" "#PWR055" (at 231.14 208.28 0)
+    (property "Reference" "#PWR056" (at 231.14 208.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (at 231.14 205.74 0)
@@ -4159,7 +4159,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/9bfcf0e7-ef8d-4492-b04a-6397126b0bad"
-          (reference "#PWR055") (unit 1)
+          (reference "#PWR056") (unit 1)
         )
       )
     )
@@ -4281,7 +4281,7 @@
   (symbol (lib_id "power:+5V") (at 318.77 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 33f16722-cc74-4e85-af94-73dd54329ab3)
-    (property "Reference" "#PWR057" (at 318.77 54.61 0)
+    (property "Reference" "#PWR058" (at 318.77 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 318.77 45.72 0)
@@ -4297,7 +4297,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/9bfcf0e7-ef8d-4492-b04a-6397126b0bad"
-          (reference "#PWR057") (unit 1)
+          (reference "#PWR058") (unit 1)
         )
       )
     )
@@ -4390,7 +4390,7 @@
   (symbol (lib_id "power:GNDPWR") (at 236.22 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3c4428be-92ba-483d-8b95-18c396b034b0)
-    (property "Reference" "#PWR056" (at 236.22 138.43 0)
+    (property "Reference" "#PWR057" (at 236.22 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDPWR" (at 242.57 134.62 0)
@@ -4406,7 +4406,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/9bfcf0e7-ef8d-4492-b04a-6397126b0bad"
-          (reference "#PWR056") (unit 1)
+          (reference "#PWR057") (unit 1)
         )
       )
     )
@@ -4447,7 +4447,7 @@
   (symbol (lib_id "power:GNDPWR") (at 396.24 210.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 42d421c7-09e6-41f2-9ed9-623e60b6cbf2)
-    (property "Reference" "#PWR060" (at 396.24 215.9 0)
+    (property "Reference" "#PWR061" (at 396.24 215.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDPWR" (at 396.113 214.63 0)
@@ -4463,7 +4463,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/9bfcf0e7-ef8d-4492-b04a-6397126b0bad"
-          (reference "#PWR060") (unit 1)
+          (reference "#PWR061") (unit 1)
         )
       )
     )
@@ -4571,7 +4571,7 @@
   (symbol (lib_id "power:GNDPWR") (at 44.45 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 571038bc-f648-4e8c-93ac-66c9b143acf0)
-    (property "Reference" "#PWR050" (at 44.45 92.71 0)
+    (property "Reference" "#PWR051" (at 44.45 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDPWR" (at 44.323 91.44 0)
@@ -4587,7 +4587,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/9bfcf0e7-ef8d-4492-b04a-6397126b0bad"
-          (reference "#PWR050") (unit 1)
+          (reference "#PWR051") (unit 1)
         )
       )
     )
@@ -4749,7 +4749,7 @@
   (symbol (lib_id "power:GNDPWR") (at 64.77 240.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 71d4b777-c2bd-4885-9282-a785b7d029c5)
-    (property "Reference" "#PWR052" (at 64.77 245.11 0)
+    (property "Reference" "#PWR053" (at 64.77 245.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDPWR" (at 64.643 243.84 0)
@@ -4765,7 +4765,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/9bfcf0e7-ef8d-4492-b04a-6397126b0bad"
-          (reference "#PWR052") (unit 1)
+          (reference "#PWR053") (unit 1)
         )
       )
     )
@@ -4835,7 +4835,7 @@
     (property "Reference" "R110" (at 168.91 167.64 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "41.2" (at 168.91 170.18 0)
+    (property "Value" "41.2k" (at 168.91 170.18 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "FixedWing:RC0805N_VIS" (at 165.1 156.21 0)
@@ -4864,7 +4864,7 @@
   (symbol (lib_id "power:+BATT") (at 44.45 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 879297d4-5c7a-4696-abf6-13881d033803)
-    (property "Reference" "#PWR049" (at 44.45 71.12 0)
+    (property "Reference" "#PWR050" (at 44.45 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+BATT" (at 44.45 62.23 0)
@@ -4880,7 +4880,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/9bfcf0e7-ef8d-4492-b04a-6397126b0bad"
-          (reference "#PWR049") (unit 1)
+          (reference "#PWR050") (unit 1)
         )
       )
     )
@@ -5648,7 +5648,7 @@
   (symbol (lib_id "power:GNDPWR") (at 344.17 171.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d8a97ba1-3948-4047-8bbc-cefc9ab08a33)
-    (property "Reference" "#PWR059" (at 344.17 176.53 0)
+    (property "Reference" "#PWR060" (at 344.17 176.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDPWR" (at 344.17 174.752 0)
@@ -5664,7 +5664,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/9bfcf0e7-ef8d-4492-b04a-6397126b0bad"
-          (reference "#PWR059") (unit 1)
+          (reference "#PWR060") (unit 1)
         )
       )
     )
@@ -5769,7 +5769,7 @@
   (symbol (lib_id "power:GNDPWR") (at 87.63 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e2c67d6b-3f37-4195-af1d-40a514530493)
-    (property "Reference" "#PWR054" (at 87.63 107.95 0)
+    (property "Reference" "#PWR055" (at 87.63 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDPWR" (at 87.503 106.68 0)
@@ -5785,7 +5785,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/9bfcf0e7-ef8d-4492-b04a-6397126b0bad"
-          (reference "#PWR054") (unit 1)
+          (reference "#PWR055") (unit 1)
         )
       )
     )
@@ -5794,7 +5794,7 @@
   (symbol (lib_id "power:GNDPWR") (at 322.58 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid eaa8e8b8-1c8d-4d13-81fd-5a91d334cc34)
-    (property "Reference" "#PWR058" (at 322.58 120.65 0)
+    (property "Reference" "#PWR059" (at 322.58 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDPWR" (at 322.453 119.38 0)
@@ -5810,7 +5810,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/9bfcf0e7-ef8d-4492-b04a-6397126b0bad"
-          (reference "#PWR058") (unit 1)
+          (reference "#PWR059") (unit 1)
         )
       )
     )
@@ -5851,7 +5851,7 @@
   (symbol (lib_id "power:GND") (at 80.01 240.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f1ab0a44-d4e4-441e-9179-2ff52304bbe6)
-    (property "Reference" "#PWR053" (at 80.01 246.38 0)
+    (property "Reference" "#PWR054" (at 80.01 246.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 80.01 243.84 0)
@@ -5867,7 +5867,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/9bfcf0e7-ef8d-4492-b04a-6397126b0bad"
-          (reference "#PWR053") (unit 1)
+          (reference "#PWR054") (unit 1)
         )
       )
     )
