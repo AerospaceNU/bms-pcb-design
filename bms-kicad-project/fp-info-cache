@@ -1,4 +1,4 @@
-22869391630843539
+22874613220716779
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -56104,6 +56104,27 @@ MCP9700AT-E/TT
 0
 3
 3
+FixedWing
+SOT23-6L_STM
+
+USBLC6-2SC6 
+0
+6
+6
+FixedWing
+SOT23-6L_STM-L
+
+USBLC6-2SC6 
+0
+6
+6
+FixedWing
+SOT23-6L_STM-M
+
+USBLC6-2SC6 
+0
+6
+6
 FixedWing
 SOT95P240X105-3N
 

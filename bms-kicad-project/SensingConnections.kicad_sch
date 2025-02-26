@@ -3764,7 +3764,7 @@
     (property "Datasheet" "" (at 21.59 254 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c1dabc43-f992-487f-b6bf-17616e36fe64))
+    (pin "1" (uuid c1dabc43-f992-487f-b6bf-17616e36fe65))
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/9cf0d325-c2d4-4535-a4db-163de33edbd1"
