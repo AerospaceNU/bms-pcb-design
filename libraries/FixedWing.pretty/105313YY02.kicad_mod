@@ -54,8 +54,8 @@
   (pad "1" thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1.2) (layers "*.Cu" "*.Mask") (tstamp 7af1f17a-4509-41e1-b091-12880f84ed24))
   (pad "2" thru_hole circle (at -2.5 0) (size 1.7 1.7) (drill 1.2) (layers "*.Cu" "*.Mask") (tstamp 55d7303b-7feb-4dae-bcc4-c0e075af98f9))
   (model "${KICAD7_3DMODEL_DIR}/1053131302.stp"
-    (offset (xyz -1.25 -1 2))
+    (offset (xyz -1.25 -6.15 2))
     (scale (xyz 1 1 1))
-    (rotate (xyz 90 180 0))
+    (rotate (xyz 90 180 180))
   )
 )

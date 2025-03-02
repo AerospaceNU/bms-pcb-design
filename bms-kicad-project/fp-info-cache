@@ -1,4 +1,4 @@
-22874613220716779
+22878515416678560
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -55558,6 +55558,27 @@ CMHD4448 TR PBFREE
 0
 2
 2
+FixedWing
+DB0024A_L
+
+CD74HC4067SM96 
+0
+24
+24
+FixedWing
+DB0024A_M
+
+CD74HC4067SM96 
+0
+24
+24
+FixedWing
+DB0024A_N
+
+CD74HC4067SM96 
+0
+24
+24
 FixedWing
 DCK5
 

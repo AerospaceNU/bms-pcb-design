@@ -7285,7 +7285,7 @@
   (symbol (lib_id "power:GND") (at 66.04 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 807f55b8-250b-4b5f-91ec-f47550d2e73c)
-    (property "Reference" "#PWR?" (at 66.04 74.93 0)
+    (property "Reference" "#PWR0101" (at 66.04 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 66.04 72.39 0)
@@ -7301,7 +7301,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/449bb263-23d7-4f07-b4f7-6cd2e161d267"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0101") (unit 1)
         )
       )
     )
