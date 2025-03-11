@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Fixed Wing")(type "KiCad")(uri "C:/Users/ronan/Documents/Fixed Wing/bms-pcb-design/libraries/FixedWing.kicad_sym")(options "")(descr ""))
+)
