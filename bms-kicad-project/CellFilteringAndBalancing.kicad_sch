@@ -3565,7 +3565,7 @@
   (symbol (lib_id "power:GND") (at 20.32 215.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 34877cf8-541c-4269-8cdc-0c4817c0f228)
-    (property "Reference" "#PWR01" (at 20.32 222.25 0)
+    (property "Reference" "#PWR02" (at 20.32 222.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 20.32 220.98 0)
@@ -3581,7 +3581,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -6954,7 +6954,7 @@
   (symbol (lib_id "power:GND") (at 16.51 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ff0591e2-0d68-4a6c-b8f2-165754c7f7d5)
-    (property "Reference" "#PWR088" (at 16.51 63.5 0)
+    (property "Reference" "#PWR01" (at 16.51 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 16.51 62.23 0)
@@ -6970,7 +6970,7 @@
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e"
-          (reference "#PWR088") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
     )
