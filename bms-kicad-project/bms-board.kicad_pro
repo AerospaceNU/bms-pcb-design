@@ -202,7 +202,7 @@
         0,
         0,
         0,
-        1,
+        0,
         0,
         0,
         0,
@@ -216,7 +216,7 @@
         1,
         0,
         0,
-        1,
+        0,
         0,
         2,
         2,
@@ -230,7 +230,7 @@
         0,
         0,
         0,
-        1,
+        0,
         0,
         1,
         0,
@@ -244,25 +244,11 @@
         0,
         0,
         0,
-        1,
+        0,
         1,
         2,
         1,
         1,
-        2
-      ],
-      [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
         2
       ],
       [
@@ -280,17 +266,31 @@
         2
       ],
       [
-        1,
-        1,
-        1,
-        1,
-        1,
         0,
-        1,
-        1,
-        1,
-        1,
-        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
         2
       ],
       [
@@ -300,37 +300,9 @@
         1,
         0,
         0,
-        1,
         0,
         0,
         0,
-        0,
-        2
-      ],
-      [
-        0,
-        2,
-        1,
-        2,
-        0,
-        0,
-        1,
-        0,
-        2,
-        2,
-        2,
-        2
-      ],
-      [
-        0,
-        2,
-        0,
-        1,
-        0,
-        0,
-        1,
-        0,
-        2,
         0,
         0,
         2
@@ -339,10 +311,38 @@
         0,
         2,
         1,
+        2,
+        0,
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
         1,
         0,
         0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
         1,
+        1,
+        0,
+        0,
+        0,
         0,
         2,
         0,
@@ -488,7 +488,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "${KIPRJMOD}/../libraries/AeroNU - FixedWing Template.kicad_wks",
-    "plot_directory": "",
+    "plot_directory": "C:/Users/matth/Downloads/",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
@@ -503,6 +503,10 @@
       ""
     ],
     [
+      "646e2e1b-1aff-440f-95d3-31cac2f5f41a",
+      "Power Tree"
+    ],
+    [
       "95f820cc-7b9f-45ce-aa8e-ca8cb50aec5e",
       "Cell Filtering and Balancing"
     ],
@@ -511,12 +515,12 @@
       "Battery Stack Monitor"
     ],
     [
-      "449bb263-23d7-4f07-b4f7-6cd2e161d267",
-      "Microcontroller"
-    ],
-    [
       "9bfcf0e7-ef8d-4492-b04a-6397126b0bad",
       "5V Regulator"
+    ],
+    [
+      "449bb263-23d7-4f07-b4f7-6cd2e161d267",
+      "Microcontroller"
     ],
     [
       "9cf0d325-c2d4-4535-a4db-163de33edbd1",
