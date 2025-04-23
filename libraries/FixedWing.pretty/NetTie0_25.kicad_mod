@@ -1,0 +1,27 @@
+(footprint "NetTie0_25" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr smd)
+  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.1)))
+    (tstamp f2c81578-48d9-47b7-a1e1-0ed3a36623ce)
+  )
+  (fp_text value "NetTie0_25" (at 0 1 unlocked) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 0b9c5ab2-7930-4fa4-b4c5-c8d3052b998b)
+  )
+  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 3969b71b-18af-4c12-b3a4-c9c5d8369956)
+  )
+  (fp_poly
+    (pts
+      (xy 4.24 -0.125)
+      (xy 4.49 -0.125)
+      (xy 4.49 0.125)
+      (xy 4.24 0.125)
+    )
+
+    (stroke (width 0) (type solid)) (fill solid) (layer "F.Cu") (tstamp a1526de7-c188-40a9-a77b-6160bac2b4de))
+  (pad "1" smd circle (at 4.24 0) (size 0.25 0.25) (layers "F.Cu") (tstamp a5e9faca-4e3b-419e-abbc-dbb7b1b959bc))
+  (pad "2" smd circle (at 4.49 0) (size 0.25 0.25) (layers "F.Cu") (tstamp 9f9dc8ed-7316-49a6-a06f-21c3323032df))
+)
