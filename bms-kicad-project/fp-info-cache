@@ -1,4 +1,4 @@
-22894421008314118
+22904935645272997
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -55601,6 +55601,27 @@ CD74HC4067SM96
 24
 24
 FixedWing
+DBZ3_TEX
+
+LM4040D30IDBZR 
+0
+3
+3
+FixedWing
+DBZ3_TEX-L
+
+LM4040D30IDBZR 
+0
+3
+3
+FixedWing
+DBZ3_TEX-M
+
+LM4040D30IDBZR 
+0
+3
+3
+FixedWing
 DCK5
 
 SN74LVC1G17DCKR 
@@ -55842,6 +55863,27 @@ FixedWing
 NetTie0_25
 
 
+0
+2
+2
+FixedWing
+PKMCS0909E4000-R1_MUR
+
+PKMCS0909E4000-R1 
+0
+2
+2
+FixedWing
+PKMCS0909E4000-R1_MUR-L
+
+PKMCS0909E4000-R1 
+0
+2
+2
+FixedWing
+PKMCS0909E4000-R1_MUR-M
+
+PKMCS0909E4000-R1 
 0
 2
 2
