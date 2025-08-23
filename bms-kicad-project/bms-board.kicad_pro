@@ -488,7 +488,7 @@
       "step": "",
       "vrml": ""
     },
-    "page_layout_descr_file": ""
+    "page_layout_descr_file": "C:/Users/matth/Desktop/AeroNU/FixedWing/BMS/bms-pcb-design/libraries/AeroNU - FixedWing Template With Author.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
@@ -522,7 +522,7 @@
       "model_mode": 0,
       "workbook_filename": ""
     },
-    "page_layout_descr_file": "${KIPRJMOD}/../libraries/AeroNU - FixedWing Template.kicad_wks",
+    "page_layout_descr_file": "C:\\Users\\matth\\Desktop\\AeroNU\\FixedWing\\BMS\\bms-pcb-design\\libraries\\AeroNU - FixedWing Template With Author.kicad_wks",
     "plot_directory": "C:/Users/matth/Downloads/",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -562,5 +562,7 @@
       "External Connections and Sensing"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "AUTHOR": ""
+  }
 }

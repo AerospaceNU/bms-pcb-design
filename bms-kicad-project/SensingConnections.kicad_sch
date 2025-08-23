@@ -5,9 +5,11 @@
   (paper "B")
 
   (title_block
-    (date "2025-03-26")
+    (title "External Connections and Sensing")
+    (date "2025-08-13")
     (rev "A")
     (company "AeroNU - FixedWing")
+    (comment 1 "Matthew Friedman")
   )
 
   (lib_symbols

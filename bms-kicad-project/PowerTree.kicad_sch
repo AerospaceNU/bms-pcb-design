@@ -6,9 +6,10 @@
 
   (title_block
     (title "Power Tree")
-    (date "2025-03-26")
+    (date "2025-08-13")
     (rev "A")
     (company "AeroNU - FixedWing")
+    (comment 1 "Matthew Friedman")
   )
 
   (lib_symbols

@@ -2,16 +2,17 @@
 <export version="E">
   <design>
     <source>C:\Users\matth\Desktop\AeroNU\FixedWing\BMS\bms-pcb-design\bms-kicad-project\bms-board.kicad_sch</source>
-    <date>5/18/2025 2:34:43 AM</date>
+    <date>8/13/2025 9:22:09 PM</date>
     <tool>Eeschema 7.0.10</tool>
+    <textvar name="AUTHOR"/>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Top-Level Interconnect</title>
         <company>AeroNU - FixedWing</company>
         <rev>A</rev>
-        <date>2025-03-26</date>
+        <date>2025-08-13</date>
         <source>bms-board.kicad_sch</source>
-        <comment number="1" value=""/>
+        <comment number="1" value="Matthew Friedman"/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
@@ -27,9 +28,9 @@
         <title>Power Tree</title>
         <company>AeroNU - FixedWing</company>
         <rev>A</rev>
-        <date>2025-03-26</date>
+        <date>2025-08-13</date>
         <source>PowerTree.kicad_sch</source>
-        <comment number="1" value=""/>
+        <comment number="1" value="Matthew Friedman"/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
@@ -45,9 +46,9 @@
         <title>Cell Filtering and Balancing</title>
         <company>AeroNU - FixedWing</company>
         <rev>A</rev>
-        <date>2025-03-26</date>
+        <date>2025-08-13</date>
         <source>CellFilteringAndBalancing.kicad_sch</source>
-        <comment number="1" value=""/>
+        <comment number="1" value="Matthew Friedman"/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
@@ -63,9 +64,9 @@
         <title>Battery Stack Monitor</title>
         <company>AeroNU - FixedWing</company>
         <rev>A</rev>
-        <date>2025-03-26</date>
+        <date>2025-08-13</date>
         <source>BatteryMonitor.kicad_sch</source>
-        <comment number="1" value=""/>
+        <comment number="1" value="Matthew Friedman"/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
@@ -81,9 +82,9 @@
         <title>5V Regulator</title>
         <company>AeroNU - FixedWing</company>
         <rev>A</rev>
-        <date>2025-03-26</date>
+        <date>2025-08-13</date>
         <source>5VRegulator.kicad_sch</source>
-        <comment number="1" value=""/>
+        <comment number="1" value="Matthew Friedman"/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
@@ -96,12 +97,12 @@
     </sheet>
     <sheet number="6" name="/Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/">
       <title_block>
-        <title/>
+        <title>Microcontroller</title>
         <company>AeroNU - FixedWing</company>
         <rev>A</rev>
-        <date>2025-03-26</date>
+        <date>2025-08-13</date>
         <source>Microcontroller.kicad_sch</source>
-        <comment number="1" value=""/>
+        <comment number="1" value="Matthew Friedman"/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
@@ -114,12 +115,12 @@
     </sheet>
     <sheet number="7" name="/External Connections and Sensing/" tstamps="/9cf0d325-c2d4-4535-a4db-163de33edbd1/">
       <title_block>
-        <title/>
+        <title>External Connections and Sensing</title>
         <company>AeroNU - FixedWing</company>
         <rev>A</rev>
-        <date>2025-03-26</date>
+        <date>2025-08-13</date>
         <source>SensingConnections.kicad_sch</source>
-        <comment number="1" value=""/>
+        <comment number="1" value="Matthew Friedman"/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
@@ -2965,9 +2966,75 @@
       <property name="dnp"/>
       <property name="ki_description" value="RES 10K OHM 1% 1/4W 0805"/>
       <sheetpath names="/Battery Stack Monitor/" tstamps="/1e9f81b4-c330-4dde-84b6-9168ce482c70/"/>
-      <tstamps>3b18a735-f540-43c1-9004-5b2a7e7c1957</tstamps>
+      <tstamps>425a3594-e3b1-41da-bdd5-98e4d688cf5f</tstamps>
     </comp>
     <comp ref="R64">
+      <value>10k</value>
+      <footprint>FixedWing:KOA_Speer-RK73H2A-0-0-MFG</footprint>
+      <datasheet>http://www.koaspeer.com/catimages/Products/RK73H/RK73H.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">KOA Speer</field>
+        <field name="Manufacturer Part Number">RK73H2ATTD1002F</field>
+        <field name="category">Res</field>
+        <field name="composition">Thick Film</field>
+        <field name="device class L1">Passive Components</field>
+        <field name="device class L2">Resistors</field>
+        <field name="device class L3">Chip SMD Resistors</field>
+        <field name="digikey description">RES 10K OHM 1% 1/4W 0805</field>
+        <field name="digikey part number">2019-RK73H2ATTD1002FCT-ND</field>
+        <field name="height">0.5mm</field>
+        <field name="ipc land pattern name">RESC200125X45</field>
+        <field name="lead free">yes</field>
+        <field name="library id">42e29ab38bd19d07</field>
+        <field name="mouser description">Resistor Thick Film 0805 10K Ohm 1% 1/8W ±100ppm/°C SMD Punched Paper Tape and Reel</field>
+        <field name="mouser part number">660-RK73H2ATTD1002F</field>
+        <field name="package">0805 (2012 metric)</field>
+        <field name="power">125mW</field>
+        <field name="power rating">0.125W</field>
+        <field name="resistance">10kΩ</field>
+        <field name="rohs">yes</field>
+        <field name="series">RK73H</field>
+        <field name="temperature coefficient">100ppm/°C</field>
+        <field name="temperature range high">+155 °C</field>
+        <field name="temperature range low">-55°C</field>
+        <field name="tolerance">1%</field>
+        <field name="voltage rating">150V</field>
+      </fields>
+      <libsource lib="FixedWing" part="RK73H2ATTD1002F" description="RES 10K OHM 1% 1/4W 0805"/>
+      <property name="category" value="Res"/>
+      <property name="composition" value="Thick Film"/>
+      <property name="device class L1" value="Passive Components"/>
+      <property name="device class L2" value="Resistors"/>
+      <property name="device class L3" value="Chip SMD Resistors"/>
+      <property name="digikey description" value="RES 10K OHM 1% 1/4W 0805"/>
+      <property name="digikey part number" value="2019-RK73H2ATTD1002FCT-ND"/>
+      <property name="height" value="0.5mm"/>
+      <property name="ipc land pattern name" value="RESC200125X45"/>
+      <property name="lead free" value="yes"/>
+      <property name="library id" value="42e29ab38bd19d07"/>
+      <property name="Manufacturer" value="KOA Speer"/>
+      <property name="Manufacturer Part Number" value="RK73H2ATTD1002F"/>
+      <property name="mouser description" value="Resistor Thick Film 0805 10K Ohm 1% 1/8W ±100ppm/°C SMD Punched Paper Tape and Reel"/>
+      <property name="mouser part number" value="660-RK73H2ATTD1002F"/>
+      <property name="package" value="0805 (2012 metric)"/>
+      <property name="power" value="125mW"/>
+      <property name="power rating" value="0.125W"/>
+      <property name="resistance" value="10kΩ"/>
+      <property name="rohs" value="yes"/>
+      <property name="series" value="RK73H"/>
+      <property name="temperature coefficient" value="100ppm/°C"/>
+      <property name="temperature range high" value="+155 °C"/>
+      <property name="temperature range low" value="-55°C"/>
+      <property name="tolerance" value="1%"/>
+      <property name="voltage rating" value="150V"/>
+      <property name="Sheetname" value="Battery Stack Monitor"/>
+      <property name="Sheetfile" value="BatteryMonitor.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="RES 10K OHM 1% 1/4W 0805"/>
+      <sheetpath names="/Battery Stack Monitor/" tstamps="/1e9f81b4-c330-4dde-84b6-9168ce482c70/"/>
+      <tstamps>3b18a735-f540-43c1-9004-5b2a7e7c1957</tstamps>
+    </comp>
+    <comp ref="R65">
       <value>10k</value>
       <footprint>FixedWing:KOA_Speer-RK73H2A-0-0-MFG</footprint>
       <datasheet>http://www.koaspeer.com/catimages/Products/RK73H/RK73H.pdf</datasheet>
@@ -3032,7 +3099,7 @@
       <sheetpath names="/Battery Stack Monitor/" tstamps="/1e9f81b4-c330-4dde-84b6-9168ce482c70/"/>
       <tstamps>3a44b856-e57a-41ee-884e-4edc7c994ecf</tstamps>
     </comp>
-    <comp ref="R65">
+    <comp ref="R66">
       <value>0</value>
       <footprint>FixedWing:RES_CRCW_0805_VIS</footprint>
       <datasheet>https://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
@@ -3050,7 +3117,7 @@
       <sheetpath names="/Battery Stack Monitor/" tstamps="/1e9f81b4-c330-4dde-84b6-9168ce482c70/"/>
       <tstamps>201eed48-b68d-4d8d-8098-50cd1d2548d0</tstamps>
     </comp>
-    <comp ref="R66">
+    <comp ref="R67">
       <value>10k</value>
       <footprint>FixedWing:KOA_Speer-RK73H2A-0-0-MFG</footprint>
       <datasheet>http://www.koaspeer.com/catimages/Products/RK73H/RK73H.pdf</datasheet>
@@ -3115,7 +3182,7 @@
       <sheetpath names="/Battery Stack Monitor/" tstamps="/1e9f81b4-c330-4dde-84b6-9168ce482c70/"/>
       <tstamps>fd4fafa6-9baa-41fb-b70f-ddabe211f337</tstamps>
     </comp>
-    <comp ref="R67">
+    <comp ref="R68">
       <value>10k</value>
       <footprint>FixedWing:KOA_Speer-RK73H2A-0-0-MFG</footprint>
       <datasheet>http://www.koaspeer.com/catimages/Products/RK73H/RK73H.pdf</datasheet>
@@ -3181,7 +3248,7 @@
       <sheetpath names="/Battery Stack Monitor/" tstamps="/1e9f81b4-c330-4dde-84b6-9168ce482c70/"/>
       <tstamps>278ce631-8ecd-4bcb-818d-494f0a8e53ec</tstamps>
     </comp>
-    <comp ref="R69">
+    <comp ref="R70">
       <value>10k</value>
       <footprint>FixedWing:KOA_Speer-RK73H2A-0-0-MFG</footprint>
       <datasheet>http://www.koaspeer.com/catimages/Products/RK73H/RK73H.pdf</datasheet>
@@ -3246,7 +3313,7 @@
       <sheetpath names="/Battery Stack Monitor/" tstamps="/1e9f81b4-c330-4dde-84b6-9168ce482c70/"/>
       <tstamps>898f7914-241b-41d9-b6e2-fd4fd581bbec</tstamps>
     </comp>
-    <comp ref="R70">
+    <comp ref="R71">
       <value>0</value>
       <footprint>FixedWing:RES_CRCW_0805_VIS</footprint>
       <datasheet>https://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
@@ -3264,7 +3331,7 @@
       <sheetpath names="/Battery Stack Monitor/" tstamps="/1e9f81b4-c330-4dde-84b6-9168ce482c70/"/>
       <tstamps>ddc40e71-6be6-4909-918d-89ae514d5664</tstamps>
     </comp>
-    <comp ref="R71">
+    <comp ref="R72">
       <value>0</value>
       <footprint>FixedWing:RES_CRCW_0805_VIS</footprint>
       <datasheet>https://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
@@ -3281,25 +3348,6 @@
       <property name="ki_keywords" value="CRCW08050000Z0EA"/>
       <sheetpath names="/Battery Stack Monitor/" tstamps="/1e9f81b4-c330-4dde-84b6-9168ce482c70/"/>
       <tstamps>b03911a8-02af-4f87-ba63-598082dc5f80</tstamps>
-    </comp>
-    <comp ref="R72">
-      <value>0</value>
-      <footprint>FixedWing:RES_CRCW_0805_VIS</footprint>
-      <datasheet>https://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
-      <fields>
-        <field name="Manufacturer">Vishay Dale</field>
-        <field name="Manufacturer Part Number">CRCW08050000Z0EA</field>
-      </fields>
-      <libsource lib="FixedWing" part="CRCW08050000Z0EA" description="RES SMD 0 OHM JUMPER 1/8W 0805"/>
-      <property name="Manufacturer" value="Vishay Dale"/>
-      <property name="Manufacturer Part Number" value="CRCW08050000Z0EA"/>
-      <property name="Sheetname" value="Battery Stack Monitor"/>
-      <property name="Sheetfile" value="BatteryMonitor.kicad_sch"/>
-      <property name="dnp"/>
-      <property name="ki_description" value="RES SMD 0 OHM JUMPER 1/8W 0805"/>
-      <property name="ki_keywords" value="CRCW08050000Z0EA"/>
-      <sheetpath names="/Battery Stack Monitor/" tstamps="/1e9f81b4-c330-4dde-84b6-9168ce482c70/"/>
-      <tstamps>2da3a31a-1136-4595-ac8a-54f550666cfc</tstamps>
     </comp>
     <comp ref="R73">
       <value>0</value>
@@ -3318,7 +3366,7 @@
       <property name="ki_description" value="RES SMD 0 OHM JUMPER 1/8W 0805"/>
       <property name="ki_keywords" value="CRCW08050000Z0EA"/>
       <sheetpath names="/Battery Stack Monitor/" tstamps="/1e9f81b4-c330-4dde-84b6-9168ce482c70/"/>
-      <tstamps>70d3616b-05da-4796-939e-f4f3aefdaf98</tstamps>
+      <tstamps>2da3a31a-1136-4595-ac8a-54f550666cfc</tstamps>
     </comp>
     <comp ref="R74">
       <value>0</value>
@@ -3337,7 +3385,7 @@
       <property name="ki_description" value="RES SMD 0 OHM JUMPER 1/8W 0805"/>
       <property name="ki_keywords" value="CRCW08050000Z0EA"/>
       <sheetpath names="/Battery Stack Monitor/" tstamps="/1e9f81b4-c330-4dde-84b6-9168ce482c70/"/>
-      <tstamps>343289eb-080e-4bbb-83d7-a89f6ced9a51</tstamps>
+      <tstamps>70d3616b-05da-4796-939e-f4f3aefdaf98</tstamps>
     </comp>
     <comp ref="R75">
       <value>0</value>
@@ -3356,7 +3404,7 @@
       <property name="ki_description" value="RES SMD 0 OHM JUMPER 1/8W 0805"/>
       <property name="ki_keywords" value="CRCW08050000Z0EA"/>
       <sheetpath names="/Battery Stack Monitor/" tstamps="/1e9f81b4-c330-4dde-84b6-9168ce482c70/"/>
-      <tstamps>09b6b7c3-2404-4868-84ce-c28ca4e5a250</tstamps>
+      <tstamps>343289eb-080e-4bbb-83d7-a89f6ced9a51</tstamps>
     </comp>
     <comp ref="R76">
       <value>0</value>
@@ -3375,7 +3423,7 @@
       <property name="ki_description" value="RES SMD 0 OHM JUMPER 1/8W 0805"/>
       <property name="ki_keywords" value="CRCW08050000Z0EA"/>
       <sheetpath names="/Battery Stack Monitor/" tstamps="/1e9f81b4-c330-4dde-84b6-9168ce482c70/"/>
-      <tstamps>443f1284-3d14-4d1c-84bb-1ec6468b8ca8</tstamps>
+      <tstamps>09b6b7c3-2404-4868-84ce-c28ca4e5a250</tstamps>
     </comp>
     <comp ref="R77">
       <value>0</value>
@@ -3394,7 +3442,7 @@
       <property name="ki_description" value="RES SMD 0 OHM JUMPER 1/8W 0805"/>
       <property name="ki_keywords" value="CRCW08050000Z0EA"/>
       <sheetpath names="/Battery Stack Monitor/" tstamps="/1e9f81b4-c330-4dde-84b6-9168ce482c70/"/>
-      <tstamps>d9df3de3-53cf-4c09-97fb-26202e5e15f4</tstamps>
+      <tstamps>443f1284-3d14-4d1c-84bb-1ec6468b8ca8</tstamps>
     </comp>
     <comp ref="R78">
       <value>0</value>
@@ -3409,10 +3457,11 @@
       <property name="Manufacturer Part Number" value="CRCW08050000Z0EA"/>
       <property name="Sheetname" value="Battery Stack Monitor"/>
       <property name="Sheetfile" value="BatteryMonitor.kicad_sch"/>
+      <property name="dnp"/>
       <property name="ki_description" value="RES SMD 0 OHM JUMPER 1/8W 0805"/>
       <property name="ki_keywords" value="CRCW08050000Z0EA"/>
       <sheetpath names="/Battery Stack Monitor/" tstamps="/1e9f81b4-c330-4dde-84b6-9168ce482c70/"/>
-      <tstamps>89af8aea-bd23-490d-ab4c-d24190f9452b</tstamps>
+      <tstamps>d9df3de3-53cf-4c09-97fb-26202e5e15f4</tstamps>
     </comp>
     <comp ref="R79">
       <value>0</value>
@@ -3430,7 +3479,7 @@
       <property name="ki_description" value="RES SMD 0 OHM JUMPER 1/8W 0805"/>
       <property name="ki_keywords" value="CRCW08050000Z0EA"/>
       <sheetpath names="/Battery Stack Monitor/" tstamps="/1e9f81b4-c330-4dde-84b6-9168ce482c70/"/>
-      <tstamps>31062394-bcb9-41f4-91f7-2c353ee30f2f</tstamps>
+      <tstamps>89af8aea-bd23-490d-ab4c-d24190f9452b</tstamps>
     </comp>
     <comp ref="R80">
       <value>0</value>
@@ -3448,9 +3497,27 @@
       <property name="ki_description" value="RES SMD 0 OHM JUMPER 1/8W 0805"/>
       <property name="ki_keywords" value="CRCW08050000Z0EA"/>
       <sheetpath names="/Battery Stack Monitor/" tstamps="/1e9f81b4-c330-4dde-84b6-9168ce482c70/"/>
-      <tstamps>c14a3c94-35af-4c08-b7ce-904f284bd62a</tstamps>
+      <tstamps>31062394-bcb9-41f4-91f7-2c353ee30f2f</tstamps>
     </comp>
     <comp ref="R81">
+      <value>0</value>
+      <footprint>FixedWing:RES_CRCW_0805_VIS</footprint>
+      <datasheet>https://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Vishay Dale</field>
+        <field name="Manufacturer Part Number">CRCW08050000Z0EA</field>
+      </fields>
+      <libsource lib="FixedWing" part="CRCW08050000Z0EA" description="RES SMD 0 OHM JUMPER 1/8W 0805"/>
+      <property name="Manufacturer" value="Vishay Dale"/>
+      <property name="Manufacturer Part Number" value="CRCW08050000Z0EA"/>
+      <property name="Sheetname" value="Battery Stack Monitor"/>
+      <property name="Sheetfile" value="BatteryMonitor.kicad_sch"/>
+      <property name="ki_description" value="RES SMD 0 OHM JUMPER 1/8W 0805"/>
+      <property name="ki_keywords" value="CRCW08050000Z0EA"/>
+      <sheetpath names="/Battery Stack Monitor/" tstamps="/1e9f81b4-c330-4dde-84b6-9168ce482c70/"/>
+      <tstamps>c14a3c94-35af-4c08-b7ce-904f284bd62a</tstamps>
+    </comp>
+    <comp ref="R82">
       <value>100</value>
       <footprint>RESC2012X50N</footprint>
       <datasheet>http://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
@@ -3473,7 +3540,7 @@
       <sheetpath names="/Battery Stack Monitor/" tstamps="/1e9f81b4-c330-4dde-84b6-9168ce482c70/"/>
       <tstamps>2d01d8f4-8458-4bf3-851f-3ab57bb881fa</tstamps>
     </comp>
-    <comp ref="R82">
+    <comp ref="R83">
       <value>0</value>
       <footprint>FixedWing:RES_CRCW_0805_VIS</footprint>
       <datasheet>https://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
@@ -3491,7 +3558,7 @@
       <sheetpath names="/Battery Stack Monitor/" tstamps="/1e9f81b4-c330-4dde-84b6-9168ce482c70/"/>
       <tstamps>cae7d150-0ec4-4081-ad13-1ef68436e644</tstamps>
     </comp>
-    <comp ref="R83">
+    <comp ref="R84">
       <value>0</value>
       <footprint>FixedWing:RES_CRCW_0805_VIS</footprint>
       <datasheet>https://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
@@ -3509,7 +3576,7 @@
       <sheetpath names="/Battery Stack Monitor/" tstamps="/1e9f81b4-c330-4dde-84b6-9168ce482c70/"/>
       <tstamps>ad3a883b-bd48-4c30-b5f6-11488246f6a8</tstamps>
     </comp>
-    <comp ref="R84">
+    <comp ref="R85">
       <value>0</value>
       <footprint>FixedWing:RES_CRCW_0805_VIS</footprint>
       <datasheet>https://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
@@ -3527,7 +3594,7 @@
       <sheetpath names="/Battery Stack Monitor/" tstamps="/1e9f81b4-c330-4dde-84b6-9168ce482c70/"/>
       <tstamps>263d46e2-30c1-4a0f-9d19-8e3666441110</tstamps>
     </comp>
-    <comp ref="R85">
+    <comp ref="R86">
       <value>0</value>
       <footprint>FixedWing:RES_CRCW_0805_VIS</footprint>
       <datasheet>https://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
@@ -3545,7 +3612,7 @@
       <sheetpath names="/Battery Stack Monitor/" tstamps="/1e9f81b4-c330-4dde-84b6-9168ce482c70/"/>
       <tstamps>15ff4b8d-33c0-4582-9a9e-fd584f3911d1</tstamps>
     </comp>
-    <comp ref="R86">
+    <comp ref="R87">
       <value>0</value>
       <footprint>FixedWing:RES_CRCW_0805_VIS</footprint>
       <datasheet>https://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
@@ -3563,7 +3630,7 @@
       <sheetpath names="/Battery Stack Monitor/" tstamps="/1e9f81b4-c330-4dde-84b6-9168ce482c70/"/>
       <tstamps>4405b3b8-c3ad-4b88-b56e-3566367dae70</tstamps>
     </comp>
-    <comp ref="R87">
+    <comp ref="R88">
       <value>0</value>
       <footprint>FixedWing:RES_CRCW_0805_VIS</footprint>
       <datasheet>https://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
@@ -3580,25 +3647,6 @@
       <property name="ki_keywords" value="CRCW08050000Z0EA"/>
       <sheetpath names="/Battery Stack Monitor/" tstamps="/1e9f81b4-c330-4dde-84b6-9168ce482c70/"/>
       <tstamps>4c83b242-57af-4534-aea2-21ee9ba91b18</tstamps>
-    </comp>
-    <comp ref="R88">
-      <value>0</value>
-      <footprint>FixedWing:RES_CRCW_0805_VIS</footprint>
-      <datasheet>https://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
-      <fields>
-        <field name="Manufacturer">Vishay Dale</field>
-        <field name="Manufacturer Part Number">CRCW08050000Z0EA</field>
-      </fields>
-      <libsource lib="FixedWing" part="CRCW08050000Z0EA" description="RES SMD 0 OHM JUMPER 1/8W 0805"/>
-      <property name="Manufacturer" value="Vishay Dale"/>
-      <property name="Manufacturer Part Number" value="CRCW08050000Z0EA"/>
-      <property name="Sheetname" value="Battery Stack Monitor"/>
-      <property name="Sheetfile" value="BatteryMonitor.kicad_sch"/>
-      <property name="dnp"/>
-      <property name="ki_description" value="RES SMD 0 OHM JUMPER 1/8W 0805"/>
-      <property name="ki_keywords" value="CRCW08050000Z0EA"/>
-      <sheetpath names="/Battery Stack Monitor/" tstamps="/1e9f81b4-c330-4dde-84b6-9168ce482c70/"/>
-      <tstamps>0a09620c-5b0f-468d-a549-cf335088080d</tstamps>
     </comp>
     <comp ref="R89">
       <value>0</value>
@@ -3617,7 +3665,7 @@
       <property name="ki_description" value="RES SMD 0 OHM JUMPER 1/8W 0805"/>
       <property name="ki_keywords" value="CRCW08050000Z0EA"/>
       <sheetpath names="/Battery Stack Monitor/" tstamps="/1e9f81b4-c330-4dde-84b6-9168ce482c70/"/>
-      <tstamps>a6dbb706-abd6-4e14-9ca4-e96b27557551</tstamps>
+      <tstamps>0a09620c-5b0f-468d-a549-cf335088080d</tstamps>
     </comp>
     <comp ref="R90">
       <value>0</value>
@@ -3636,9 +3684,28 @@
       <property name="ki_description" value="RES SMD 0 OHM JUMPER 1/8W 0805"/>
       <property name="ki_keywords" value="CRCW08050000Z0EA"/>
       <sheetpath names="/Battery Stack Monitor/" tstamps="/1e9f81b4-c330-4dde-84b6-9168ce482c70/"/>
-      <tstamps>2ca650a4-be23-430a-82ee-128800dc4c79</tstamps>
+      <tstamps>a6dbb706-abd6-4e14-9ca4-e96b27557551</tstamps>
     </comp>
     <comp ref="R91">
+      <value>0</value>
+      <footprint>FixedWing:RES_CRCW_0805_VIS</footprint>
+      <datasheet>https://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Vishay Dale</field>
+        <field name="Manufacturer Part Number">CRCW08050000Z0EA</field>
+      </fields>
+      <libsource lib="FixedWing" part="CRCW08050000Z0EA" description="RES SMD 0 OHM JUMPER 1/8W 0805"/>
+      <property name="Manufacturer" value="Vishay Dale"/>
+      <property name="Manufacturer Part Number" value="CRCW08050000Z0EA"/>
+      <property name="Sheetname" value="Battery Stack Monitor"/>
+      <property name="Sheetfile" value="BatteryMonitor.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="RES SMD 0 OHM JUMPER 1/8W 0805"/>
+      <property name="ki_keywords" value="CRCW08050000Z0EA"/>
+      <sheetpath names="/Battery Stack Monitor/" tstamps="/1e9f81b4-c330-4dde-84b6-9168ce482c70/"/>
+      <tstamps>2ca650a4-be23-430a-82ee-128800dc4c79</tstamps>
+    </comp>
+    <comp ref="R92">
       <value>100</value>
       <footprint>RESC2012X50N</footprint>
       <datasheet>http://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
@@ -3661,7 +3728,7 @@
       <sheetpath names="/Battery Stack Monitor/" tstamps="/1e9f81b4-c330-4dde-84b6-9168ce482c70/"/>
       <tstamps>225df098-ff81-4e7d-8f7e-854855305938</tstamps>
     </comp>
-    <comp ref="R92">
+    <comp ref="R93">
       <value>10k</value>
       <footprint>FixedWing:KOA_Speer-RK73H2A-0-0-MFG</footprint>
       <datasheet>http://www.koaspeer.com/catimages/Products/RK73H/RK73H.pdf</datasheet>
@@ -3726,7 +3793,7 @@
       <sheetpath names="/Battery Stack Monitor/" tstamps="/1e9f81b4-c330-4dde-84b6-9168ce482c70/"/>
       <tstamps>275f3658-c509-4df6-8344-45944d9eb4e1</tstamps>
     </comp>
-    <comp ref="R93">
+    <comp ref="R94">
       <value>1m</value>
       <footprint>FixedWing:RES_5930R</footprint>
       <datasheet>https://s.resistor.today/shop/products/epdf/SEWF5930.pdf</datasheet>
@@ -3743,7 +3810,7 @@
       <sheetpath names="/Battery Stack Monitor/" tstamps="/1e9f81b4-c330-4dde-84b6-9168ce482c70/"/>
       <tstamps>2052bbd0-754e-4a80-a0b5-4e3df9b5d265</tstamps>
     </comp>
-    <comp ref="R94">
+    <comp ref="R95">
       <value>100</value>
       <footprint>RESC2012X50N</footprint>
       <datasheet>http://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
@@ -3766,7 +3833,7 @@
       <sheetpath names="/Battery Stack Monitor/" tstamps="/1e9f81b4-c330-4dde-84b6-9168ce482c70/"/>
       <tstamps>63f28db2-c07f-40ee-87ee-edb0306aa29a</tstamps>
     </comp>
-    <comp ref="R95">
+    <comp ref="R96">
       <value>1k</value>
       <footprint>FixedWing:RC0805N_YAG</footprint>
       <datasheet>https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
@@ -3784,52 +3851,7 @@
       <sheetpath names="/Battery Stack Monitor/" tstamps="/1e9f81b4-c330-4dde-84b6-9168ce482c70/"/>
       <tstamps>1bfbf443-77c2-49f1-9972-c01f5c3fc54e</tstamps>
     </comp>
-    <comp ref="TP1">
-      <value>5261</value>
-      <footprint>FixedWing:KEYSTONE_5261</footprint>
-      <datasheet>https://www.keyelco.com/product-pdf.cfm?p=14608</datasheet>
-      <fields>
-        <field name="MAXIMUM_PACKAGE_HEIGHT">4.57 mm</field>
-        <field name="Manufacturer">Keystone</field>
-        <field name="Manufacturer Part Number">5261</field>
-        <field name="PARTREV">H</field>
-        <field name="SNAPEDA_PN">5000</field>
-        <field name="STANDARD">Manufacturer Recommendations</field>
-      </fields>
-      <libsource lib="FixedWing" part="5261" description="PC TEST POINT MINIATURE BLACK"/>
-      <property name="PARTREV" value="H"/>
-      <property name="STANDARD" value="Manufacturer Recommendations"/>
-      <property name="SNAPEDA_PN" value="5000"/>
-      <property name="MAXIMUM_PACKAGE_HEIGHT" value="4.57 mm"/>
-      <property name="Manufacturer" value="Keystone"/>
-      <property name="Manufacturer Part Number" value="5261"/>
-      <property name="Sheetname" value="Battery Stack Monitor"/>
-      <property name="Sheetfile" value="BatteryMonitor.kicad_sch"/>
-      <property name="ki_description" value="PC TEST POINT MINIATURE BLACK"/>
-      <sheetpath names="/Battery Stack Monitor/" tstamps="/1e9f81b4-c330-4dde-84b6-9168ce482c70/"/>
-      <tstamps>e9664da3-6050-4f3f-9478-926875145121</tstamps>
-    </comp>
     <comp ref="TP2">
-      <value>~</value>
-      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
-      <libsource lib="FixedWing" part="TestPoint" description="Test Point, Round, 1mm diameter"/>
-      <property name="Sheetname" value="Battery Stack Monitor"/>
-      <property name="Sheetfile" value="BatteryMonitor.kicad_sch"/>
-      <property name="ki_description" value="Test Point, Round, 1mm diameter"/>
-      <sheetpath names="/Battery Stack Monitor/" tstamps="/1e9f81b4-c330-4dde-84b6-9168ce482c70/"/>
-      <tstamps>d2080f80-1b4a-4c11-90c4-ef85b75441e8</tstamps>
-    </comp>
-    <comp ref="TP3">
-      <value>~</value>
-      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
-      <libsource lib="FixedWing" part="TestPoint" description="Test Point, Round, 1mm diameter"/>
-      <property name="Sheetname" value="Battery Stack Monitor"/>
-      <property name="Sheetfile" value="BatteryMonitor.kicad_sch"/>
-      <property name="ki_description" value="Test Point, Round, 1mm diameter"/>
-      <sheetpath names="/Battery Stack Monitor/" tstamps="/1e9f81b4-c330-4dde-84b6-9168ce482c70/"/>
-      <tstamps>3aabcb29-2e2c-4c60-8425-7d592a5b5dda</tstamps>
-    </comp>
-    <comp ref="TP4">
       <value>5261</value>
       <footprint>FixedWing:KEYSTONE_5261</footprint>
       <datasheet>https://www.keyelco.com/product-pdf.cfm?p=14608</datasheet>
@@ -4164,18 +4186,6 @@
       <tstamps>95d648ea-5e65-4fec-917e-a4ded5c1c0b1</tstamps>
     </comp>
     <comp ref="C43">
-      <value>C</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Sheetname" value="5V Regulator"/>
-      <property name="Sheetfile" value="5VRegulator.kicad_sch"/>
-      <property name="dnp"/>
-      <property name="ki_description" value="Unpolarized capacitor"/>
-      <property name="ki_keywords" value="cap capacitor"/>
-      <sheetpath names="/5V Regulator/" tstamps="/9bfcf0e7-ef8d-4492-b04a-6397126b0bad/"/>
-      <tstamps>33ee4325-443f-4d45-b76d-cf1eb1cea3a5</tstamps>
-    </comp>
-    <comp ref="C44">
       <value>0.1µ</value>
       <footprint>FixedWing:CAP_GCJ-18_MUR</footprint>
       <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCJ21BR71A106KE01-01A.pdf</datasheet>
@@ -4195,7 +4205,7 @@
       <sheetpath names="/5V Regulator/" tstamps="/9bfcf0e7-ef8d-4492-b04a-6397126b0bad/"/>
       <tstamps>a95da411-ebff-4040-9c7d-aab51d82d813</tstamps>
     </comp>
-    <comp ref="C45">
+    <comp ref="C44">
       <value>47µ</value>
       <footprint>FixedWing:G-32_MUR</footprint>
       <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32ER71A476KE15-04CA.pdf</datasheet>
@@ -4213,7 +4223,7 @@
       <sheetpath names="/5V Regulator/" tstamps="/9bfcf0e7-ef8d-4492-b04a-6397126b0bad/"/>
       <tstamps>c260b95d-2604-419e-847e-85e5de7af1c3</tstamps>
     </comp>
-    <comp ref="C46">
+    <comp ref="C45">
       <value>47µ</value>
       <footprint>FixedWing:G-32_MUR</footprint>
       <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32ER71A476KE15-04CA.pdf</datasheet>
@@ -4231,7 +4241,7 @@
       <sheetpath names="/5V Regulator/" tstamps="/9bfcf0e7-ef8d-4492-b04a-6397126b0bad/"/>
       <tstamps>9117221a-7f93-45b3-b5e4-1534ec6c90f7</tstamps>
     </comp>
-    <comp ref="C47">
+    <comp ref="C46">
       <value>47µ</value>
       <footprint>FixedWing:G-32_MUR</footprint>
       <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32ER71A476KE15-04CA.pdf</datasheet>
@@ -4249,7 +4259,7 @@
       <sheetpath names="/5V Regulator/" tstamps="/9bfcf0e7-ef8d-4492-b04a-6397126b0bad/"/>
       <tstamps>68b29787-2721-40cd-ae68-adde60126199</tstamps>
     </comp>
-    <comp ref="C48">
+    <comp ref="C47">
       <value>47µ</value>
       <footprint>FixedWing:G-32_MUR</footprint>
       <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32ER71A476KE15-04CA.pdf</datasheet>
@@ -4267,7 +4277,7 @@
       <sheetpath names="/5V Regulator/" tstamps="/9bfcf0e7-ef8d-4492-b04a-6397126b0bad/"/>
       <tstamps>eac8c55b-3786-4daf-bc80-7431c983c29c</tstamps>
     </comp>
-    <comp ref="C49">
+    <comp ref="C48">
       <value>47µ</value>
       <footprint>FixedWing:G-32_MUR</footprint>
       <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32ER71A476KE15-04CA.pdf</datasheet>
@@ -4285,7 +4295,7 @@
       <sheetpath names="/5V Regulator/" tstamps="/9bfcf0e7-ef8d-4492-b04a-6397126b0bad/"/>
       <tstamps>3a7f45d3-727a-4f8f-ba37-667c91e0e44c</tstamps>
     </comp>
-    <comp ref="C50">
+    <comp ref="C49">
       <value>47µ</value>
       <footprint>FixedWing:G-32_MUR</footprint>
       <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32ER71A476KE15-04CA.pdf</datasheet>
@@ -4303,7 +4313,7 @@
       <sheetpath names="/5V Regulator/" tstamps="/9bfcf0e7-ef8d-4492-b04a-6397126b0bad/"/>
       <tstamps>4ac39739-db33-48eb-9973-8cd8785b3b5a</tstamps>
     </comp>
-    <comp ref="C51">
+    <comp ref="C50">
       <value>47µ</value>
       <footprint>FixedWing:G-32_MUR</footprint>
       <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32ER71A476KE15-04CA.pdf</datasheet>
@@ -4321,7 +4331,7 @@
       <sheetpath names="/5V Regulator/" tstamps="/9bfcf0e7-ef8d-4492-b04a-6397126b0bad/"/>
       <tstamps>686652ca-32ff-4a00-a620-280ad3a4196c</tstamps>
     </comp>
-    <comp ref="C52">
+    <comp ref="C51">
       <value>47µ</value>
       <footprint>FixedWing:G-32_MUR</footprint>
       <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32ER71A476KE15-04CA.pdf</datasheet>
@@ -4339,7 +4349,7 @@
       <sheetpath names="/5V Regulator/" tstamps="/9bfcf0e7-ef8d-4492-b04a-6397126b0bad/"/>
       <tstamps>099fb384-bf2b-4d92-8a11-4054093c5d98</tstamps>
     </comp>
-    <comp ref="C53">
+    <comp ref="C52">
       <value>47µ</value>
       <footprint>FixedWing:G-32_MUR</footprint>
       <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32ER71A476KE15-04CA.pdf</datasheet>
@@ -4357,7 +4367,7 @@
       <sheetpath names="/5V Regulator/" tstamps="/9bfcf0e7-ef8d-4492-b04a-6397126b0bad/"/>
       <tstamps>59cb70d8-f016-4ace-a04d-fb19fb277b91</tstamps>
     </comp>
-    <comp ref="C54">
+    <comp ref="C53">
       <value>47µ</value>
       <footprint>FixedWing:G-32_MUR</footprint>
       <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32ER71A476KE15-04CA.pdf</datasheet>
@@ -4375,7 +4385,7 @@
       <sheetpath names="/5V Regulator/" tstamps="/9bfcf0e7-ef8d-4492-b04a-6397126b0bad/"/>
       <tstamps>b82ae1e4-cb73-4d32-8f4b-89eddb1a368d</tstamps>
     </comp>
-    <comp ref="C55">
+    <comp ref="C54">
       <value>47µ</value>
       <footprint>FixedWing:G-32_MUR</footprint>
       <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32ER71A476KE15-04CA.pdf</datasheet>
@@ -4393,7 +4403,7 @@
       <sheetpath names="/5V Regulator/" tstamps="/9bfcf0e7-ef8d-4492-b04a-6397126b0bad/"/>
       <tstamps>c8318df2-e257-4411-94e6-724606b3c2dd</tstamps>
     </comp>
-    <comp ref="C56">
+    <comp ref="C55">
       <value>47µ</value>
       <footprint>FixedWing:G-32_MUR</footprint>
       <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32ER71A476KE15-04CA.pdf</datasheet>
@@ -4411,7 +4421,7 @@
       <sheetpath names="/5V Regulator/" tstamps="/9bfcf0e7-ef8d-4492-b04a-6397126b0bad/"/>
       <tstamps>52a425d8-07b0-43ed-a349-1e82d804411b</tstamps>
     </comp>
-    <comp ref="C57">
+    <comp ref="C56">
       <value>47µ</value>
       <footprint>FixedWing:G-32_MUR</footprint>
       <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32ER71A476KE15-04CA.pdf</datasheet>
@@ -4429,7 +4439,7 @@
       <sheetpath names="/5V Regulator/" tstamps="/9bfcf0e7-ef8d-4492-b04a-6397126b0bad/"/>
       <tstamps>b8d90ac3-97cb-4896-9658-ed0afb4171e7</tstamps>
     </comp>
-    <comp ref="C58">
+    <comp ref="C57">
       <value>47µ</value>
       <footprint>FixedWing:G-32_MUR</footprint>
       <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32ER71A476KE15-04CA.pdf</datasheet>
@@ -4447,7 +4457,7 @@
       <sheetpath names="/5V Regulator/" tstamps="/9bfcf0e7-ef8d-4492-b04a-6397126b0bad/"/>
       <tstamps>e113cfa5-7f6b-44b2-bfcc-ee1fbfef4e27</tstamps>
     </comp>
-    <comp ref="C59">
+    <comp ref="C58">
       <value>47µ</value>
       <footprint>FixedWing:G-32_MUR</footprint>
       <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32ER71A476KE15-04CA.pdf</datasheet>
@@ -4501,7 +4511,7 @@
       <sheetpath names="/5V Regulator/" tstamps="/9bfcf0e7-ef8d-4492-b04a-6397126b0bad/"/>
       <tstamps>356826bb-f258-432f-b8a2-cbbd3b811588</tstamps>
     </comp>
-    <comp ref="R96">
+    <comp ref="R97">
       <value>562k</value>
       <footprint>FixedWing:RESC2012X60N</footprint>
       <datasheet>https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
@@ -4518,7 +4528,7 @@
       <sheetpath names="/5V Regulator/" tstamps="/9bfcf0e7-ef8d-4492-b04a-6397126b0bad/"/>
       <tstamps>0b652b96-6a02-42bf-b658-edc38f50498c</tstamps>
     </comp>
-    <comp ref="R97">
+    <comp ref="R98">
       <value>100k</value>
       <footprint>FixedWing:RESC2012X60N</footprint>
       <datasheet>https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
@@ -4535,7 +4545,7 @@
       <sheetpath names="/5V Regulator/" tstamps="/9bfcf0e7-ef8d-4492-b04a-6397126b0bad/"/>
       <tstamps>c30a5fc7-c944-4755-95b9-383513d90ab5</tstamps>
     </comp>
-    <comp ref="R98">
+    <comp ref="R99">
       <value>100k</value>
       <footprint>FixedWing:RESC2012X60N</footprint>
       <datasheet>https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
@@ -4552,7 +4562,7 @@
       <sheetpath names="/5V Regulator/" tstamps="/9bfcf0e7-ef8d-4492-b04a-6397126b0bad/"/>
       <tstamps>de8f1864-e1c2-4527-aeae-da5d6905bc74</tstamps>
     </comp>
-    <comp ref="R99">
+    <comp ref="R100">
       <value>523k</value>
       <footprint>FixedWing:RC0805N_YAG</footprint>
       <datasheet>https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
@@ -4570,7 +4580,7 @@
       <sheetpath names="/5V Regulator/" tstamps="/9bfcf0e7-ef8d-4492-b04a-6397126b0bad/"/>
       <tstamps>ae1e7bcc-9b57-4dd9-b1d2-1115f1ad4c23</tstamps>
     </comp>
-    <comp ref="R100">
+    <comp ref="R101">
       <value>93.1k</value>
       <footprint>FixedWing:RESC2012X60N</footprint>
       <datasheet>https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
@@ -4587,7 +4597,7 @@
       <sheetpath names="/5V Regulator/" tstamps="/9bfcf0e7-ef8d-4492-b04a-6397126b0bad/"/>
       <tstamps>8a901f2e-6ccf-48f0-b276-2b22a959eff1</tstamps>
     </comp>
-    <comp ref="R101">
+    <comp ref="R102">
       <value>1k</value>
       <footprint>FixedWing:RC0805N_YAG</footprint>
       <datasheet>https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
@@ -4607,7 +4617,7 @@
       <sheetpath names="/5V Regulator/" tstamps="/9bfcf0e7-ef8d-4492-b04a-6397126b0bad/"/>
       <tstamps>5686cdb9-bd1d-446b-aff7-8da1edd20ae0</tstamps>
     </comp>
-    <comp ref="R102">
+    <comp ref="R103">
       <value>41.2k</value>
       <footprint>FixedWing:RC0805N_VIS</footprint>
       <datasheet>https://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
@@ -4625,7 +4635,7 @@
       <sheetpath names="/5V Regulator/" tstamps="/9bfcf0e7-ef8d-4492-b04a-6397126b0bad/"/>
       <tstamps>8486dc8f-bd28-4ad2-9517-1897dc1d03da</tstamps>
     </comp>
-    <comp ref="R103">
+    <comp ref="R104">
       <value>0</value>
       <footprint>FixedWing:RES_CRCW_0805_VIS</footprint>
       <datasheet>https://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
@@ -4643,7 +4653,7 @@
       <sheetpath names="/5V Regulator/" tstamps="/9bfcf0e7-ef8d-4492-b04a-6397126b0bad/"/>
       <tstamps>cccc4620-76ce-47d7-859c-3614ac1f94a2</tstamps>
     </comp>
-    <comp ref="R104">
+    <comp ref="R105">
       <value>1k</value>
       <footprint>FixedWing:RC0805N_YAG</footprint>
       <datasheet>https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
@@ -4663,7 +4673,7 @@
       <sheetpath names="/5V Regulator/" tstamps="/9bfcf0e7-ef8d-4492-b04a-6397126b0bad/"/>
       <tstamps>b2ef382d-4f83-4c9f-a12a-2c3f527f0a75</tstamps>
     </comp>
-    <comp ref="R105">
+    <comp ref="R106">
       <value>93.1k</value>
       <footprint>FixedWing:RESC2012X60N</footprint>
       <datasheet>https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
@@ -4680,7 +4690,7 @@
       <sheetpath names="/5V Regulator/" tstamps="/9bfcf0e7-ef8d-4492-b04a-6397126b0bad/"/>
       <tstamps>daff2cbe-60df-4b93-938d-abc6249f0961</tstamps>
     </comp>
-    <comp ref="R106">
+    <comp ref="R107">
       <value>3.3</value>
       <footprint>FixedWing:RESC1608X55N</footprint>
       <datasheet>https://www.koaspeer.com/pdfs/RK73H.pdf</datasheet>
@@ -4697,7 +4707,7 @@
       <sheetpath names="/5V Regulator/" tstamps="/9bfcf0e7-ef8d-4492-b04a-6397126b0bad/"/>
       <tstamps>59407704-4546-44e7-bf2f-bd964b21bc46</tstamps>
     </comp>
-    <comp ref="R107">
+    <comp ref="R108">
       <value>5.1k</value>
       <footprint>FixedWing:RESC2012X60N</footprint>
       <datasheet>https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
@@ -4714,7 +4724,7 @@
       <sheetpath names="/5V Regulator/" tstamps="/9bfcf0e7-ef8d-4492-b04a-6397126b0bad/"/>
       <tstamps>c11f32d6-88c7-4151-8228-d66af869e465</tstamps>
     </comp>
-    <comp ref="R108">
+    <comp ref="R109">
       <value>10k</value>
       <footprint>FixedWing:KOA_Speer-RK73H2A-0-0-MFG</footprint>
       <datasheet>http://www.koaspeer.com/catimages/Products/RK73H/RK73H.pdf</datasheet>
@@ -4779,7 +4789,7 @@
       <sheetpath names="/5V Regulator/" tstamps="/9bfcf0e7-ef8d-4492-b04a-6397126b0bad/"/>
       <tstamps>1eac6064-0b75-49b9-841f-21889b63aa9b</tstamps>
     </comp>
-    <comp ref="R109">
+    <comp ref="R110">
       <value>11.5k</value>
       <footprint>FixedWing:RC0805N_YAG</footprint>
       <datasheet>https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
@@ -4796,18 +4806,6 @@
       <property name="ki_keywords" value="RC0805FR-0711K5L"/>
       <sheetpath names="/5V Regulator/" tstamps="/9bfcf0e7-ef8d-4492-b04a-6397126b0bad/"/>
       <tstamps>90feddfd-4cab-41eb-8867-393a028d4ff2</tstamps>
-    </comp>
-    <comp ref="R110">
-      <value>R</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Sheetname" value="5V Regulator"/>
-      <property name="Sheetfile" value="5VRegulator.kicad_sch"/>
-      <property name="dnp"/>
-      <property name="ki_description" value="Resistor"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <sheetpath names="/5V Regulator/" tstamps="/9bfcf0e7-ef8d-4492-b04a-6397126b0bad/"/>
-      <tstamps>cdb26737-a6f3-46ce-8f15-d0598df2e885</tstamps>
     </comp>
     <comp ref="R111">
       <value>56.2k</value>
@@ -4827,7 +4825,7 @@
       <sheetpath names="/5V Regulator/" tstamps="/9bfcf0e7-ef8d-4492-b04a-6397126b0bad/"/>
       <tstamps>930deba5-8eab-4427-9cee-cb79afad65be</tstamps>
     </comp>
-    <comp ref="TP5">
+    <comp ref="TP3">
       <value>5261</value>
       <footprint>FixedWing:KEYSTONE_5261</footprint>
       <datasheet>https://www.keyelco.com/product-pdf.cfm?p=14608</datasheet>
@@ -4852,7 +4850,7 @@
       <sheetpath names="/5V Regulator/" tstamps="/9bfcf0e7-ef8d-4492-b04a-6397126b0bad/"/>
       <tstamps>d7f6f51e-4a8b-455f-87c9-053343796802</tstamps>
     </comp>
-    <comp ref="TP6">
+    <comp ref="TP4">
       <value>5261</value>
       <footprint>FixedWing:KEYSTONE_5261</footprint>
       <datasheet>https://www.keyelco.com/product-pdf.cfm?p=14608</datasheet>
@@ -4877,7 +4875,7 @@
       <sheetpath names="/5V Regulator/" tstamps="/9bfcf0e7-ef8d-4492-b04a-6397126b0bad/"/>
       <tstamps>39cc2ee1-2356-419b-8b4e-b86c74a71519</tstamps>
     </comp>
-    <comp ref="TP7">
+    <comp ref="TP5">
       <value>~</value>
       <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <libsource lib="FixedWing" part="TestPoint" description="Test Point, Round, 1mm diameter"/>
@@ -4887,17 +4885,7 @@
       <sheetpath names="/5V Regulator/" tstamps="/9bfcf0e7-ef8d-4492-b04a-6397126b0bad/"/>
       <tstamps>25a7aec1-dd64-4831-bdd9-70115b054b39</tstamps>
     </comp>
-    <comp ref="TP8">
-      <value>~</value>
-      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
-      <libsource lib="FixedWing" part="TestPoint" description="Test Point, Round, 1mm diameter"/>
-      <property name="Sheetname" value="5V Regulator"/>
-      <property name="Sheetfile" value="5VRegulator.kicad_sch"/>
-      <property name="ki_description" value="Test Point, Round, 1mm diameter"/>
-      <sheetpath names="/5V Regulator/" tstamps="/9bfcf0e7-ef8d-4492-b04a-6397126b0bad/"/>
-      <tstamps>32f6f936-22f6-496e-802b-22b307afb716</tstamps>
-    </comp>
-    <comp ref="TP9">
+    <comp ref="TP6">
       <value>~</value>
       <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <libsource lib="FixedWing" part="TestPoint" description="Test Point, Round, 1mm diameter"/>
@@ -4928,7 +4916,7 @@
       <sheetpath names="/5V Regulator/" tstamps="/9bfcf0e7-ef8d-4492-b04a-6397126b0bad/"/>
       <tstamps>95dccd14-d36a-416c-8986-b9875541bd01</tstamps>
     </comp>
-    <comp ref="C60">
+    <comp ref="C59">
       <value>15p</value>
       <footprint>FixedWing:CAPC2012X70</footprint>
       <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GP_NP0_16V-to-50V_18.pdf</datasheet>
@@ -4947,7 +4935,7 @@
       <sheetpath names="/Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
       <tstamps>d3605f56-0738-4e23-8ea5-8fa03833fdda</tstamps>
     </comp>
-    <comp ref="C61">
+    <comp ref="C60">
       <value>15p</value>
       <footprint>FixedWing:CAPC2012X70</footprint>
       <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GP_NP0_16V-to-50V_18.pdf</datasheet>
@@ -4966,7 +4954,7 @@
       <sheetpath names="/Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
       <tstamps>5301fbf3-e5eb-458a-9cf5-0f13bb166547</tstamps>
     </comp>
-    <comp ref="C62">
+    <comp ref="C61">
       <value>0.1µ</value>
       <footprint>FixedWing:CAP_GCJ-18_MUR</footprint>
       <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCJ21BR71A106KE01-01A.pdf</datasheet>
@@ -4986,7 +4974,7 @@
       <sheetpath names="/Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
       <tstamps>00000000-0000-0000-0000-00005edb1aa1</tstamps>
     </comp>
-    <comp ref="C63">
+    <comp ref="C62">
       <value>10µ</value>
       <footprint>FixedWing:CAP_CL21B106KOQNNNE_SAM</footprint>
       <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/926/CL_Series_MLCC_ds.pdf</datasheet>
@@ -5004,7 +4992,7 @@
       <sheetpath names="/Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
       <tstamps>9a347010-e090-416f-9eb9-94e230067372</tstamps>
     </comp>
-    <comp ref="C64">
+    <comp ref="C63">
       <value>10µ</value>
       <footprint>FixedWing:CAP_CL21B106KOQNNNE_SAM</footprint>
       <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/926/CL_Series_MLCC_ds.pdf</datasheet>
@@ -5022,7 +5010,7 @@
       <sheetpath names="/Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
       <tstamps>9032289b-6036-47c3-930a-beccde8c7281</tstamps>
     </comp>
-    <comp ref="C65">
+    <comp ref="C64">
       <value>0.1µ</value>
       <footprint>FixedWing:CAP_GCJ-18_MUR</footprint>
       <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCJ21BR71A106KE01-01A.pdf</datasheet>
@@ -5042,7 +5030,7 @@
       <sheetpath names="/Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
       <tstamps>00000000-0000-0000-0000-00005ef00505</tstamps>
     </comp>
-    <comp ref="C66">
+    <comp ref="C65">
       <value>0.1µ</value>
       <footprint>FixedWing:CAP_GCJ-18_MUR</footprint>
       <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCJ21BR71A106KE01-01A.pdf</datasheet>
@@ -5062,7 +5050,7 @@
       <sheetpath names="/Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
       <tstamps>00000000-0000-0000-0000-00005ef0050f</tstamps>
     </comp>
-    <comp ref="C67">
+    <comp ref="C66">
       <value>1µ</value>
       <footprint>FixedWing:CAPC1608X90N</footprint>
       <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM033R71A103KA03-01A.pdf</datasheet>
@@ -5079,7 +5067,7 @@
       <sheetpath names="/Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
       <tstamps>00000000-0000-0000-0000-00005ef07987</tstamps>
     </comp>
-    <comp ref="C68">
+    <comp ref="C67">
       <value>0.1µ</value>
       <footprint>FixedWing:CAP_GCJ-18_MUR</footprint>
       <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCJ21BR71A106KE01-01A.pdf</datasheet>
@@ -5099,7 +5087,7 @@
       <sheetpath names="/Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
       <tstamps>00000000-0000-0000-0000-00005eeee897</tstamps>
     </comp>
-    <comp ref="C69">
+    <comp ref="C68">
       <value>0.1µ</value>
       <footprint>FixedWing:CAP_GCJ-18_MUR</footprint>
       <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCJ21BR71A106KE01-01A.pdf</datasheet>
@@ -5119,7 +5107,7 @@
       <sheetpath names="/Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
       <tstamps>00000000-0000-0000-0000-00005eef00bb</tstamps>
     </comp>
-    <comp ref="C70">
+    <comp ref="C69">
       <value>0.1µ</value>
       <footprint>FixedWing:CAP_GCJ-18_MUR</footprint>
       <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCJ21BR71A106KE01-01A.pdf</datasheet>
@@ -5138,6 +5126,23 @@
       <property name="ki_keywords" value="GCJ188R72A104KA01D"/>
       <sheetpath names="/Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
       <tstamps>00000000-0000-0000-0000-00005eef0473</tstamps>
+    </comp>
+    <comp ref="C70">
+      <value>1µ</value>
+      <footprint>FixedWing:CAPC1608X90N</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM033R71A103KA03-01A.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Manufacturer Part Number">GCM188R71C105KA64D</field>
+      </fields>
+      <libsource lib="FixedWing" part="GCM188R71C105KA64D" description="CAP CER 1UF 16V X7R 0603"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="Manufacturer Part Number" value="GCM188R71C105KA64D"/>
+      <property name="Sheetname" value="Microcontroller"/>
+      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
+      <property name="ki_description" value="CAP CER 1UF 16V X7R 0603"/>
+      <sheetpath names="/Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
+      <tstamps>00000000-0000-0000-0000-00005ef08170</tstamps>
     </comp>
     <comp ref="C71">
       <value>0.1µ</value>
@@ -5160,23 +5165,6 @@
       <tstamps>00000000-0000-0000-0000-00005eef0994</tstamps>
     </comp>
     <comp ref="C72">
-      <value>1µ</value>
-      <footprint>FixedWing:CAPC1608X90N</footprint>
-      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM033R71A103KA03-01A.pdf</datasheet>
-      <fields>
-        <field name="Manufacturer">Murata Electronics</field>
-        <field name="Manufacturer Part Number">GCM188R71C105KA64D</field>
-      </fields>
-      <libsource lib="FixedWing" part="GCM188R71C105KA64D" description="CAP CER 1UF 16V X7R 0603"/>
-      <property name="Manufacturer" value="Murata Electronics"/>
-      <property name="Manufacturer Part Number" value="GCM188R71C105KA64D"/>
-      <property name="Sheetname" value="Microcontroller"/>
-      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
-      <property name="ki_description" value="CAP CER 1UF 16V X7R 0603"/>
-      <sheetpath names="/Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
-      <tstamps>00000000-0000-0000-0000-00005ef08170</tstamps>
-    </comp>
-    <comp ref="C73">
       <value>0.1µ</value>
       <footprint>FixedWing:CAP_GCJ-18_MUR</footprint>
       <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCJ21BR71A106KE01-01A.pdf</datasheet>
@@ -5196,7 +5184,7 @@
       <sheetpath names="/Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
       <tstamps>00000000-0000-0000-0000-00005eef89b3</tstamps>
     </comp>
-    <comp ref="C74">
+    <comp ref="C73">
       <value>0.1µ</value>
       <footprint>FixedWing:CAP_GCJ-18_MUR</footprint>
       <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCJ21BR71A106KE01-01A.pdf</datasheet>
@@ -5216,7 +5204,7 @@
       <sheetpath names="/Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
       <tstamps>00000000-0000-0000-0000-00005eef89bd</tstamps>
     </comp>
-    <comp ref="C75">
+    <comp ref="C74">
       <value>0.1µ</value>
       <footprint>FixedWing:CAP_GCJ-18_MUR</footprint>
       <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCJ21BR71A106KE01-01A.pdf</datasheet>
@@ -5236,7 +5224,7 @@
       <sheetpath names="/Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
       <tstamps>00000000-0000-0000-0000-00005eef89c7</tstamps>
     </comp>
-    <comp ref="C76">
+    <comp ref="C75">
       <value>0.1µ</value>
       <footprint>FixedWing:CAP_GCJ-18_MUR</footprint>
       <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCJ21BR71A106KE01-01A.pdf</datasheet>
@@ -5256,7 +5244,7 @@
       <sheetpath names="/Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
       <tstamps>b95ba7bd-1d3e-4cdb-ac79-6cf1e0fc5b44</tstamps>
     </comp>
-    <comp ref="C77">
+    <comp ref="C76">
       <value>0.1µ</value>
       <footprint>FixedWing:CAP_GCJ-18_MUR</footprint>
       <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCJ21BR71A106KE01-01A.pdf</datasheet>
@@ -5274,7 +5262,7 @@
       <sheetpath names="/Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
       <tstamps>f1be8dc2-854d-413f-97af-1a2aefc498a9</tstamps>
     </comp>
-    <comp ref="C78">
+    <comp ref="C77">
       <value>1µ</value>
       <footprint>FixedWing:CAPC1608X90N</footprint>
       <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM033R71A103KA03-01A.pdf</datasheet>
@@ -5291,7 +5279,7 @@
       <sheetpath names="/Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
       <tstamps>b3eb005c-bd19-4d82-9af1-5a2b0cfc70e8</tstamps>
     </comp>
-    <comp ref="C79">
+    <comp ref="C78">
       <value>0.1µ</value>
       <footprint>FixedWing:CAP_GCJ-18_MUR</footprint>
       <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCJ21BR71A106KE01-01A.pdf</datasheet>
@@ -5309,7 +5297,7 @@
       <sheetpath names="/Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
       <tstamps>efd33a9e-0bd5-4d29-bdef-c7e7408a4daa</tstamps>
     </comp>
-    <comp ref="C80">
+    <comp ref="C79">
       <value>1µ</value>
       <footprint>FixedWing:CAPC1608X90N</footprint>
       <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM033R71A103KA03-01A.pdf</datasheet>
@@ -5518,7 +5506,7 @@
       <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
       <property name="ki_description" value="RES 5.1K OHM 5% 1/8W 0805"/>
       <sheetpath names="/Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
-      <tstamps>ca441555-edb4-40c0-98da-5d6a8d637d38</tstamps>
+      <tstamps>e25e4158-fdbb-45a5-8b40-c3f7f16560f6</tstamps>
     </comp>
     <comp ref="R113">
       <value>5.1k</value>
@@ -5535,9 +5523,26 @@
       <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
       <property name="ki_description" value="RES 5.1K OHM 5% 1/8W 0805"/>
       <sheetpath names="/Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
-      <tstamps>310984c7-711c-492c-a13b-4a5944982806</tstamps>
+      <tstamps>ca441555-edb4-40c0-98da-5d6a8d637d38</tstamps>
     </comp>
     <comp ref="R114">
+      <value>5.1k</value>
+      <footprint>FixedWing:RESC2012X60N</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Manufacturer Part Number">RC0805JR-075K1L</field>
+      </fields>
+      <libsource lib="FixedWing" part="RC0805JR-075K1L" description="RES 5.1K OHM 5% 1/8W 0805"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Manufacturer Part Number" value="RC0805JR-075K1L"/>
+      <property name="Sheetname" value="Microcontroller"/>
+      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
+      <property name="ki_description" value="RES 5.1K OHM 5% 1/8W 0805"/>
+      <sheetpath names="/Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
+      <tstamps>310984c7-711c-492c-a13b-4a5944982806</tstamps>
+    </comp>
+    <comp ref="R115">
       <value>1k</value>
       <footprint>FixedWing:RC0805N_YAG</footprint>
       <datasheet>https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
@@ -5557,44 +5562,7 @@
       <sheetpath names="/Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
       <tstamps>960c2bc7-2098-4c7f-a20d-3f6dfc61c0ce</tstamps>
     </comp>
-    <comp ref="R115">
-      <value>5.1k</value>
-      <footprint>FixedWing:RESC2012X60N</footprint>
-      <datasheet>https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
-      <fields>
-        <field name="Manufacturer">YAGEO</field>
-        <field name="Manufacturer Part Number">RC0805JR-075K1L</field>
-      </fields>
-      <libsource lib="FixedWing" part="RC0805JR-075K1L" description="RES 5.1K OHM 5% 1/8W 0805"/>
-      <property name="Manufacturer" value="YAGEO"/>
-      <property name="Manufacturer Part Number" value="RC0805JR-075K1L"/>
-      <property name="Sheetname" value="Microcontroller"/>
-      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
-      <property name="ki_description" value="RES 5.1K OHM 5% 1/8W 0805"/>
-      <sheetpath names="/Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
-      <tstamps>e25e4158-fdbb-45a5-8b40-c3f7f16560f6</tstamps>
-    </comp>
     <comp ref="R116">
-      <value>1k</value>
-      <footprint>FixedWing:RC0805N_YAG</footprint>
-      <datasheet>https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
-      <fields>
-        <field name="Manufacturer">YAGEO</field>
-        <field name="Manufacturer Part Number">RC0805FR-071KL</field>
-        <field name="Manufacturer_Part_Number">RC0805FR-071KL</field>
-      </fields>
-      <libsource lib="FixedWing" part="RC0805FR-071KL" description="RES 1K OHM 1% 1/8W 0805"/>
-      <property name="Manufacturer" value="YAGEO"/>
-      <property name="Manufacturer_Part_Number" value="RC0805FR-071KL"/>
-      <property name="Manufacturer Part Number" value="RC0805FR-071KL"/>
-      <property name="Sheetname" value="Microcontroller"/>
-      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
-      <property name="ki_description" value="RES 1K OHM 1% 1/8W 0805"/>
-      <property name="ki_keywords" value="RC0805FR-071KL"/>
-      <sheetpath names="/Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
-      <tstamps>00000000-0000-0000-0000-00005edae9f0</tstamps>
-    </comp>
-    <comp ref="R117">
       <value>10k</value>
       <footprint>FixedWing:KOA_Speer-RK73H2A-0-0-MFG</footprint>
       <datasheet>http://www.koaspeer.com/catimages/Products/RK73H/RK73H.pdf</datasheet>
@@ -5657,7 +5625,27 @@
       <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
       <property name="ki_description" value="RES 10K OHM 1% 1/4W 0805"/>
       <sheetpath names="/Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
-      <tstamps>fc4a665c-ac9d-4a68-b31f-5b82ed9e3c5c</tstamps>
+      <tstamps>cf7e590a-4d4c-4f30-ba2f-89b366eae111</tstamps>
+    </comp>
+    <comp ref="R117">
+      <value>1k</value>
+      <footprint>FixedWing:RC0805N_YAG</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Manufacturer Part Number">RC0805FR-071KL</field>
+        <field name="Manufacturer_Part_Number">RC0805FR-071KL</field>
+      </fields>
+      <libsource lib="FixedWing" part="RC0805FR-071KL" description="RES 1K OHM 1% 1/8W 0805"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Manufacturer_Part_Number" value="RC0805FR-071KL"/>
+      <property name="Manufacturer Part Number" value="RC0805FR-071KL"/>
+      <property name="Sheetname" value="Microcontroller"/>
+      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
+      <property name="ki_description" value="RES 1K OHM 1% 1/8W 0805"/>
+      <property name="ki_keywords" value="RC0805FR-071KL"/>
+      <sheetpath names="/Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
+      <tstamps>00000000-0000-0000-0000-00005edae9f0</tstamps>
     </comp>
     <comp ref="R118">
       <value>10k</value>
@@ -5725,24 +5713,69 @@
       <tstamps>d05f3e32-ffc7-4e02-9393-bca8be219d1d</tstamps>
     </comp>
     <comp ref="R119">
-      <value>27</value>
-      <footprint>FixedWing:RC0805N_YAG</footprint>
-      <datasheet>https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <value>10k</value>
+      <footprint>FixedWing:KOA_Speer-RK73H2A-0-0-MFG</footprint>
+      <datasheet>http://www.koaspeer.com/catimages/Products/RK73H/RK73H.pdf</datasheet>
       <fields>
-        <field name="Manufacturer">YAGEO</field>
-        <field name="Manufacturer Part Number">RC0805FR-0727RL</field>
-        <field name="Manufacturer_Part_Number">RC0805FR-0727RL</field>
+        <field name="Manufacturer">KOA Speer</field>
+        <field name="Manufacturer Part Number">RK73H2ATTD1002F</field>
+        <field name="category">Res</field>
+        <field name="composition">Thick Film</field>
+        <field name="device class L1">Passive Components</field>
+        <field name="device class L2">Resistors</field>
+        <field name="device class L3">Chip SMD Resistors</field>
+        <field name="digikey description">RES 10K OHM 1% 1/4W 0805</field>
+        <field name="digikey part number">2019-RK73H2ATTD1002FCT-ND</field>
+        <field name="height">0.5mm</field>
+        <field name="ipc land pattern name">RESC200125X45</field>
+        <field name="lead free">yes</field>
+        <field name="library id">42e29ab38bd19d07</field>
+        <field name="mouser description">Resistor Thick Film 0805 10K Ohm 1% 1/8W ±100ppm/°C SMD Punched Paper Tape and Reel</field>
+        <field name="mouser part number">660-RK73H2ATTD1002F</field>
+        <field name="package">0805 (2012 metric)</field>
+        <field name="power">125mW</field>
+        <field name="power rating">0.125W</field>
+        <field name="resistance">10kΩ</field>
+        <field name="rohs">yes</field>
+        <field name="series">RK73H</field>
+        <field name="temperature coefficient">100ppm/°C</field>
+        <field name="temperature range high">+155 °C</field>
+        <field name="temperature range low">-55°C</field>
+        <field name="tolerance">1%</field>
+        <field name="voltage rating">150V</field>
       </fields>
-      <libsource lib="FixedWing" part="RC0805FR-0727RL" description="RES 27 OHM 1% 1/8W 0805"/>
-      <property name="Manufacturer" value="YAGEO"/>
-      <property name="Manufacturer_Part_Number" value="RC0805FR-0727RL"/>
-      <property name="Manufacturer Part Number" value="RC0805FR-0727RL"/>
+      <libsource lib="FixedWing" part="RK73H2ATTD1002F" description="RES 10K OHM 1% 1/4W 0805"/>
+      <property name="category" value="Res"/>
+      <property name="composition" value="Thick Film"/>
+      <property name="device class L1" value="Passive Components"/>
+      <property name="device class L2" value="Resistors"/>
+      <property name="device class L3" value="Chip SMD Resistors"/>
+      <property name="digikey description" value="RES 10K OHM 1% 1/4W 0805"/>
+      <property name="digikey part number" value="2019-RK73H2ATTD1002FCT-ND"/>
+      <property name="height" value="0.5mm"/>
+      <property name="ipc land pattern name" value="RESC200125X45"/>
+      <property name="lead free" value="yes"/>
+      <property name="library id" value="42e29ab38bd19d07"/>
+      <property name="Manufacturer" value="KOA Speer"/>
+      <property name="Manufacturer Part Number" value="RK73H2ATTD1002F"/>
+      <property name="mouser description" value="Resistor Thick Film 0805 10K Ohm 1% 1/8W ±100ppm/°C SMD Punched Paper Tape and Reel"/>
+      <property name="mouser part number" value="660-RK73H2ATTD1002F"/>
+      <property name="package" value="0805 (2012 metric)"/>
+      <property name="power" value="125mW"/>
+      <property name="power rating" value="0.125W"/>
+      <property name="resistance" value="10kΩ"/>
+      <property name="rohs" value="yes"/>
+      <property name="series" value="RK73H"/>
+      <property name="temperature coefficient" value="100ppm/°C"/>
+      <property name="temperature range high" value="+155 °C"/>
+      <property name="temperature range low" value="-55°C"/>
+      <property name="tolerance" value="1%"/>
+      <property name="voltage rating" value="150V"/>
       <property name="Sheetname" value="Microcontroller"/>
       <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
-      <property name="ki_description" value="RES 27 OHM 1% 1/8W 0805"/>
-      <property name="ki_keywords" value="RC0805FR-0727RL"/>
+      <property name="ki_description" value="RES 10K OHM 1% 1/4W 0805"/>
       <sheetpath names="/Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
-      <tstamps>00000000-0000-0000-0000-00005ede0881</tstamps>
+      <tstamps>fc4a665c-ac9d-4a68-b31f-5b82ed9e3c5c</tstamps>
     </comp>
     <comp ref="R120">
       <value>27</value>
@@ -5762,9 +5795,47 @@
       <property name="ki_description" value="RES 27 OHM 1% 1/8W 0805"/>
       <property name="ki_keywords" value="RC0805FR-0727RL"/>
       <sheetpath names="/Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
-      <tstamps>00000000-0000-0000-0000-00005ede1624</tstamps>
+      <tstamps>00000000-0000-0000-0000-00005ede0881</tstamps>
     </comp>
     <comp ref="R121">
+      <value>27</value>
+      <footprint>FixedWing:RC0805N_YAG</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Manufacturer Part Number">RC0805FR-0727RL</field>
+        <field name="Manufacturer_Part_Number">RC0805FR-0727RL</field>
+      </fields>
+      <libsource lib="FixedWing" part="RC0805FR-0727RL" description="RES 27 OHM 1% 1/8W 0805"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Manufacturer_Part_Number" value="RC0805FR-0727RL"/>
+      <property name="Manufacturer Part Number" value="RC0805FR-0727RL"/>
+      <property name="Sheetname" value="Microcontroller"/>
+      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
+      <property name="ki_description" value="RES 27 OHM 1% 1/8W 0805"/>
+      <property name="ki_keywords" value="RC0805FR-0727RL"/>
+      <sheetpath names="/Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
+      <tstamps>00000000-0000-0000-0000-00005ede1624</tstamps>
+    </comp>
+    <comp ref="R122">
+      <value>1k</value>
+      <footprint>FixedWing:RC0805N_YAG</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Manufacturer Part Number">RC0805FR-071KL</field>
+      </fields>
+      <libsource lib="FixedWing" part="RC0805FR-071KL" description="RES 1K OHM 1% 1/8W 0805"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Manufacturer Part Number" value="RC0805FR-071KL"/>
+      <property name="Sheetname" value="Microcontroller"/>
+      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
+      <property name="ki_description" value="RES 1K OHM 1% 1/8W 0805"/>
+      <property name="ki_keywords" value="RC0805FR-071KL"/>
+      <sheetpath names="/Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
+      <tstamps>a4f34ebe-19be-4aec-90f2-462f66b7920f</tstamps>
+    </comp>
+    <comp ref="R123">
       <value>10k</value>
       <footprint>FixedWing:KOA_Speer-RK73H2A-0-0-MFG</footprint>
       <datasheet>http://www.koaspeer.com/catimages/Products/RK73H/RK73H.pdf</datasheet>
@@ -5829,7 +5900,7 @@
       <sheetpath names="/Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
       <tstamps>9421b087-e201-409f-9906-63438556d28a</tstamps>
     </comp>
-    <comp ref="R122">
+    <comp ref="R124">
       <value>475</value>
       <footprint>RESC2012X50N</footprint>
       <datasheet>http://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
@@ -5856,7 +5927,7 @@
       <sheetpath names="/Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
       <tstamps>d4cea4a8-0bc4-42d8-93c3-534c7b89617a</tstamps>
     </comp>
-    <comp ref="R123">
+    <comp ref="R125">
       <value>5.1k</value>
       <footprint>FixedWing:RESC2012X60N</footprint>
       <datasheet>https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
@@ -5873,7 +5944,7 @@
       <sheetpath names="/Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
       <tstamps>a6140174-b2c6-4ddf-970b-0ace2ba20761</tstamps>
     </comp>
-    <comp ref="R124">
+    <comp ref="R126">
       <value>5.1k</value>
       <footprint>FixedWing:RESC2012X60N</footprint>
       <datasheet>https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
@@ -5890,7 +5961,7 @@
       <sheetpath names="/Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
       <tstamps>c6a0862f-5c1d-4727-b6c9-2e05511d97b0</tstamps>
     </comp>
-    <comp ref="R125">
+    <comp ref="R127">
       <value>8.16k</value>
       <footprint>FixedWing:RC0805N_YAG</footprint>
       <datasheet>https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rt_1-to-0.01_rohs_l.pdf</datasheet>
@@ -5908,7 +5979,7 @@
       <sheetpath names="/Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
       <tstamps>cdb99a67-ef30-48d1-a7d2-385c08e1ad90</tstamps>
     </comp>
-    <comp ref="R126">
+    <comp ref="R128">
       <value>475</value>
       <footprint>RESC2012X50N</footprint>
       <datasheet>http://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
@@ -5971,7 +6042,7 @@
       <sheetpath names="/Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
       <tstamps>704e154e-1aff-40fc-905f-fbdca6471aa1</tstamps>
     </comp>
-    <comp ref="TP10">
+    <comp ref="TP7">
       <value>~</value>
       <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <libsource lib="FixedWing" part="TestPoint" description="Test Point, Round, 1mm diameter"/>
@@ -5981,7 +6052,7 @@
       <sheetpath names="/Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
       <tstamps>6a7a8498-ee8d-4113-ab46-7f9821c7f277</tstamps>
     </comp>
-    <comp ref="TP11">
+    <comp ref="TP8">
       <value>~</value>
       <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <libsource lib="FixedWing" part="TestPoint" description="Test Point, Round, 1mm diameter"/>
@@ -5991,7 +6062,7 @@
       <sheetpath names="/Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
       <tstamps>36a8c85f-e2cc-4138-839c-bc302f4c6ab7</tstamps>
     </comp>
-    <comp ref="TP12">
+    <comp ref="TP9">
       <value>~</value>
       <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <libsource lib="FixedWing" part="TestPoint" description="Test Point, Round, 1mm diameter"/>
@@ -6001,7 +6072,7 @@
       <sheetpath names="/Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
       <tstamps>dc4e392f-7daa-43a3-9fb1-937523bb2e8c</tstamps>
     </comp>
-    <comp ref="TP13">
+    <comp ref="TP10">
       <value>~</value>
       <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <libsource lib="FixedWing" part="TestPoint" description="Test Point, Round, 1mm diameter"/>
@@ -6011,52 +6082,7 @@
       <sheetpath names="/Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
       <tstamps>9ae5db91-4544-428e-b72b-f03adee6de2b</tstamps>
     </comp>
-    <comp ref="TP14">
-      <value>~</value>
-      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
-      <libsource lib="FixedWing" part="TestPoint" description="Test Point, Round, 1mm diameter"/>
-      <property name="Sheetname" value="Microcontroller"/>
-      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
-      <property name="ki_description" value="Test Point, Round, 1mm diameter"/>
-      <sheetpath names="/Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
-      <tstamps>b2a1a704-977f-46c1-bfe1-d3e2c7993cc0</tstamps>
-    </comp>
-    <comp ref="TP15">
-      <value>~</value>
-      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
-      <libsource lib="FixedWing" part="TestPoint" description="Test Point, Round, 1mm diameter"/>
-      <property name="Sheetname" value="Microcontroller"/>
-      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
-      <property name="ki_description" value="Test Point, Round, 1mm diameter"/>
-      <sheetpath names="/Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
-      <tstamps>c1c2eb7f-bb2e-4a66-b73b-537940cf0eb2</tstamps>
-    </comp>
-    <comp ref="TP16">
-      <value>5261</value>
-      <footprint>FixedWing:KEYSTONE_5261</footprint>
-      <datasheet>https://www.keyelco.com/product-pdf.cfm?p=14608</datasheet>
-      <fields>
-        <field name="MAXIMUM_PACKAGE_HEIGHT">4.57 mm</field>
-        <field name="Manufacturer">Keystone</field>
-        <field name="Manufacturer Part Number">5261</field>
-        <field name="PARTREV">H</field>
-        <field name="SNAPEDA_PN">5000</field>
-        <field name="STANDARD">Manufacturer Recommendations</field>
-      </fields>
-      <libsource lib="FixedWing" part="5261" description="PC TEST POINT MINIATURE BLACK"/>
-      <property name="PARTREV" value="H"/>
-      <property name="STANDARD" value="Manufacturer Recommendations"/>
-      <property name="SNAPEDA_PN" value="5000"/>
-      <property name="MAXIMUM_PACKAGE_HEIGHT" value="4.57 mm"/>
-      <property name="Manufacturer" value="Keystone"/>
-      <property name="Manufacturer Part Number" value="5261"/>
-      <property name="Sheetname" value="Microcontroller"/>
-      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
-      <property name="ki_description" value="PC TEST POINT MINIATURE BLACK"/>
-      <sheetpath names="/Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
-      <tstamps>814aa47b-f1b3-440b-8726-8b1bbbe8a6aa</tstamps>
-    </comp>
-    <comp ref="TP17">
+    <comp ref="TP11">
       <value>~</value>
       <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <libsource lib="FixedWing" part="TestPoint" description="Test Point, Round, 1mm diameter"/>
@@ -6066,7 +6092,7 @@
       <sheetpath names="/Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
       <tstamps>ffba4f7c-5632-4f22-8cef-883f7b9e9efc</tstamps>
     </comp>
-    <comp ref="TP18">
+    <comp ref="TP12">
       <value>~</value>
       <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <libsource lib="FixedWing" part="TestPoint" description="Test Point, Round, 1mm diameter"/>
@@ -6076,7 +6102,7 @@
       <sheetpath names="/Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
       <tstamps>af37c9e6-bc1c-43c1-9841-b6fee965b534</tstamps>
     </comp>
-    <comp ref="TP19">
+    <comp ref="TP13">
       <value>~</value>
       <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <libsource lib="FixedWing" part="TestPoint" description="Test Point, Round, 1mm diameter"/>
@@ -6086,7 +6112,7 @@
       <sheetpath names="/Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
       <tstamps>7d939897-2815-458d-b204-5f5c5a25b608</tstamps>
     </comp>
-    <comp ref="TP20">
+    <comp ref="TP14">
       <value>~</value>
       <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <libsource lib="FixedWing" part="TestPoint" description="Test Point, Round, 1mm diameter"/>
@@ -6096,7 +6122,7 @@
       <sheetpath names="/Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
       <tstamps>ad45b292-d76f-4206-9e26-bfd5d5ab1ab6</tstamps>
     </comp>
-    <comp ref="TP21">
+    <comp ref="TP15">
       <value>~</value>
       <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <libsource lib="FixedWing" part="TestPoint" description="Test Point, Round, 1mm diameter"/>
@@ -6106,7 +6132,7 @@
       <sheetpath names="/Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
       <tstamps>e488e91a-5682-49da-b094-3e317045d1ff</tstamps>
     </comp>
-    <comp ref="TP22">
+    <comp ref="TP16">
       <value>~</value>
       <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <libsource lib="FixedWing" part="TestPoint" description="Test Point, Round, 1mm diameter"/>
@@ -6116,7 +6142,7 @@
       <sheetpath names="/Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
       <tstamps>af42d4cd-b420-4230-88ab-02a10be7076d</tstamps>
     </comp>
-    <comp ref="TP23">
+    <comp ref="TP17">
       <value>~</value>
       <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <libsource lib="FixedWing" part="TestPoint" description="Test Point, Round, 1mm diameter"/>
@@ -6126,7 +6152,7 @@
       <sheetpath names="/Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
       <tstamps>42c6bd53-91e2-44bd-9e98-d5a551d114eb</tstamps>
     </comp>
-    <comp ref="TP24">
+    <comp ref="TP18">
       <value>~</value>
       <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <libsource lib="FixedWing" part="TestPoint" description="Test Point, Round, 1mm diameter"/>
@@ -6136,7 +6162,7 @@
       <sheetpath names="/Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
       <tstamps>119aa41f-ebe8-475e-922a-958ef7ea16e4</tstamps>
     </comp>
-    <comp ref="TP25">
+    <comp ref="TP19">
       <value>~</value>
       <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <libsource lib="FixedWing" part="TestPoint" description="Test Point, Round, 1mm diameter"/>
@@ -6146,7 +6172,7 @@
       <sheetpath names="/Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
       <tstamps>a65dc417-d9cb-446f-891e-cd218c97e8f8</tstamps>
     </comp>
-    <comp ref="TP26">
+    <comp ref="TP20">
       <value>~</value>
       <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <libsource lib="FixedWing" part="TestPoint" description="Test Point, Round, 1mm diameter"/>
@@ -6156,7 +6182,7 @@
       <sheetpath names="/Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
       <tstamps>df311640-9006-4ce7-b5fb-0bf64499b1a0</tstamps>
     </comp>
-    <comp ref="TP27">
+    <comp ref="TP21">
       <value>~</value>
       <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <libsource lib="FixedWing" part="TestPoint" description="Test Point, Round, 1mm diameter"/>
@@ -6166,7 +6192,7 @@
       <sheetpath names="/Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
       <tstamps>50684878-ddf7-41fe-8687-6abe3bf4aa92</tstamps>
     </comp>
-    <comp ref="TP28">
+    <comp ref="TP22">
       <value>~</value>
       <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <libsource lib="FixedWing" part="TestPoint" description="Test Point, Round, 1mm diameter"/>
@@ -6176,7 +6202,7 @@
       <sheetpath names="/Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
       <tstamps>5a158556-9776-40a3-a472-b74716e7a160</tstamps>
     </comp>
-    <comp ref="TP29">
+    <comp ref="TP23">
       <value>~</value>
       <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <libsource lib="FixedWing" part="TestPoint" description="Test Point, Round, 1mm diameter"/>
@@ -6186,7 +6212,7 @@
       <sheetpath names="/Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
       <tstamps>58f3abec-b194-4a4c-9ac4-f91ae7b56df4</tstamps>
     </comp>
-    <comp ref="TP30">
+    <comp ref="TP24">
       <value>~</value>
       <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <libsource lib="FixedWing" part="TestPoint" description="Test Point, Round, 1mm diameter"/>
@@ -6255,6 +6281,18 @@
       <sheetpath names="/Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
       <tstamps>00000000-0000-0000-0000-00005ed8f5d6</tstamps>
     </comp>
+    <comp ref="U7">
+      <value>LM4040D30IDBZR</value>
+      <footprint>FixedWing:DBZ3_TEX</footprint>
+      <datasheet>LM4040D30IDBZR</datasheet>
+      <libsource lib="FixedWing" part="LM4040D30IDBZR" description="3.000V Precision Micropower Shunt Voltage Reference, SOT-23"/>
+      <property name="Sheetname" value="Microcontroller"/>
+      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
+      <property name="ki_description" value="3.000V Precision Micropower Shunt Voltage Reference, SOT-23"/>
+      <property name="ki_keywords" value="LM4040D30IDBZR"/>
+      <sheetpath names="/Microcontroller/" tstamps="/449bb263-23d7-4f07-b4f7-6cd2e161d267/"/>
+      <tstamps>4e931244-91eb-49f7-8d0f-b587c1d53fcd</tstamps>
+    </comp>
     <comp ref="X1">
       <value>ABM8-272-T3</value>
       <footprint>FixedWing:ABM8-272-T3_ABR</footprint>
@@ -6309,7 +6347,7 @@
       <sheetpath names="/External Connections and Sensing/" tstamps="/9cf0d325-c2d4-4535-a4db-163de33edbd1/"/>
       <tstamps>fe22d442-2a73-4035-b629-d64091a8ddcb</tstamps>
     </comp>
-    <comp ref="C81">
+    <comp ref="C80">
       <value>0.1µ</value>
       <footprint>FixedWing:CAP_GCJ-18_MUR</footprint>
       <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCJ21BR71A106KE01-01A.pdf</datasheet>
@@ -6327,7 +6365,7 @@
       <sheetpath names="/External Connections and Sensing/" tstamps="/9cf0d325-c2d4-4535-a4db-163de33edbd1/"/>
       <tstamps>44ec90f3-40fa-4040-9a07-81d7c16eea53</tstamps>
     </comp>
-    <comp ref="C82">
+    <comp ref="C81">
       <value>10µ</value>
       <footprint>FixedWing:CAP_CL21B106KOQNNNE_SAM</footprint>
       <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/926/CL_Series_MLCC_ds.pdf</datasheet>
@@ -6345,7 +6383,7 @@
       <sheetpath names="/External Connections and Sensing/" tstamps="/9cf0d325-c2d4-4535-a4db-163de33edbd1/"/>
       <tstamps>d5a7fba8-34ea-4a48-841d-0f6422b44c46</tstamps>
     </comp>
-    <comp ref="C83">
+    <comp ref="C82">
       <value>0.1µ</value>
       <footprint>FixedWing:CAP_GCJ-18_MUR</footprint>
       <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCJ21BR71A106KE01-01A.pdf</datasheet>
@@ -6363,7 +6401,7 @@
       <sheetpath names="/External Connections and Sensing/" tstamps="/9cf0d325-c2d4-4535-a4db-163de33edbd1/"/>
       <tstamps>5383855e-38f4-4f8a-86de-f4f0efb97824</tstamps>
     </comp>
-    <comp ref="C84">
+    <comp ref="C83">
       <value>0.1µ</value>
       <footprint>FixedWing:CAP_GCJ-18_MUR</footprint>
       <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCJ21BR71A106KE01-01A.pdf</datasheet>
@@ -6381,7 +6419,7 @@
       <sheetpath names="/External Connections and Sensing/" tstamps="/9cf0d325-c2d4-4535-a4db-163de33edbd1/"/>
       <tstamps>a685875e-fc76-4b15-9b0a-6107461ca961</tstamps>
     </comp>
-    <comp ref="C85">
+    <comp ref="C84">
       <value>0.1µ</value>
       <footprint>FixedWing:CAP_GCJ-18_MUR</footprint>
       <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCJ21BR71A106KE01-01A.pdf</datasheet>
@@ -6399,7 +6437,7 @@
       <sheetpath names="/External Connections and Sensing/" tstamps="/9cf0d325-c2d4-4535-a4db-163de33edbd1/"/>
       <tstamps>b87678bf-ac0b-43eb-8d56-a6771eac37e5</tstamps>
     </comp>
-    <comp ref="C86">
+    <comp ref="C85">
       <value>0.1µ</value>
       <footprint>FixedWing:CAP_GCJ-18_MUR</footprint>
       <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCJ21BR71A106KE01-01A.pdf</datasheet>
@@ -6417,7 +6455,7 @@
       <sheetpath names="/External Connections and Sensing/" tstamps="/9cf0d325-c2d4-4535-a4db-163de33edbd1/"/>
       <tstamps>d4c52338-a817-4292-ae47-314509911327</tstamps>
     </comp>
-    <comp ref="C87">
+    <comp ref="C86">
       <value>10µ</value>
       <footprint>FixedWing:CAP_CL21B106KOQNNNE_SAM</footprint>
       <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/926/CL_Series_MLCC_ds.pdf</datasheet>
@@ -6435,7 +6473,7 @@
       <sheetpath names="/External Connections and Sensing/" tstamps="/9cf0d325-c2d4-4535-a4db-163de33edbd1/"/>
       <tstamps>db33e2ff-8e22-441b-ab4e-51890875db52</tstamps>
     </comp>
-    <comp ref="C88">
+    <comp ref="C87">
       <value>1µ</value>
       <footprint>FixedWing:CAPC1608X90N</footprint>
       <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM033R71A103KA03-01A.pdf</datasheet>
@@ -6942,7 +6980,7 @@
       <sheetpath names="/External Connections and Sensing/" tstamps="/9cf0d325-c2d4-4535-a4db-163de33edbd1/"/>
       <tstamps>5069f594-4f2a-4ca2-9d65-99e655446ccb</tstamps>
     </comp>
-    <comp ref="R127">
+    <comp ref="R129">
       <value>5.1k</value>
       <footprint>FixedWing:RESC2012X60N</footprint>
       <datasheet>https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
@@ -6959,7 +6997,7 @@
       <sheetpath names="/External Connections and Sensing/" tstamps="/9cf0d325-c2d4-4535-a4db-163de33edbd1/"/>
       <tstamps>4bb292a4-506a-4abf-bdc4-3fdd02dbe930</tstamps>
     </comp>
-    <comp ref="R128">
+    <comp ref="R130">
       <value>5.1k</value>
       <footprint>FixedWing:RESC2012X60N</footprint>
       <datasheet>https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
@@ -6976,7 +7014,7 @@
       <sheetpath names="/External Connections and Sensing/" tstamps="/9cf0d325-c2d4-4535-a4db-163de33edbd1/"/>
       <tstamps>09646768-b45a-4b54-9528-576b15c5c572</tstamps>
     </comp>
-    <comp ref="R129">
+    <comp ref="R131">
       <value>5.1k</value>
       <footprint>FixedWing:RESC2012X60N</footprint>
       <datasheet>https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
@@ -6993,7 +7031,7 @@
       <sheetpath names="/External Connections and Sensing/" tstamps="/9cf0d325-c2d4-4535-a4db-163de33edbd1/"/>
       <tstamps>586f3af8-ed0c-4eae-b774-2822f283d841</tstamps>
     </comp>
-    <comp ref="R130">
+    <comp ref="R132">
       <value>5.1k</value>
       <footprint>FixedWing:RESC2012X60N</footprint>
       <datasheet>https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
@@ -7010,7 +7048,7 @@
       <sheetpath names="/External Connections and Sensing/" tstamps="/9cf0d325-c2d4-4535-a4db-163de33edbd1/"/>
       <tstamps>8a1254bb-4228-485f-b653-268e0b83dd86</tstamps>
     </comp>
-    <comp ref="R131">
+    <comp ref="R133">
       <value>8.16k</value>
       <footprint>FixedWing:RC0805N_YAG</footprint>
       <datasheet>https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rt_1-to-0.01_rohs_l.pdf</datasheet>
@@ -7028,7 +7066,7 @@
       <sheetpath names="/External Connections and Sensing/" tstamps="/9cf0d325-c2d4-4535-a4db-163de33edbd1/"/>
       <tstamps>815923b8-3b69-4554-afcf-444e569555e0</tstamps>
     </comp>
-    <comp ref="R132">
+    <comp ref="R134">
       <value>475</value>
       <footprint>RESC2012X50N</footprint>
       <datasheet>http://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
@@ -7051,7 +7089,7 @@
       <sheetpath names="/External Connections and Sensing/" tstamps="/9cf0d325-c2d4-4535-a4db-163de33edbd1/"/>
       <tstamps>2fba48d2-52c1-44d3-a1ca-4c820add5333</tstamps>
     </comp>
-    <comp ref="R133">
+    <comp ref="R135">
       <value>100</value>
       <footprint>RESC2012X50N</footprint>
       <datasheet>http://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
@@ -7074,7 +7112,7 @@
       <sheetpath names="/External Connections and Sensing/" tstamps="/9cf0d325-c2d4-4535-a4db-163de33edbd1/"/>
       <tstamps>7af3f213-8f70-4e1c-9e6d-ac4f4bf0147d</tstamps>
     </comp>
-    <comp ref="R134">
+    <comp ref="R136">
       <value>100</value>
       <footprint>RESC2012X50N</footprint>
       <datasheet>http://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
@@ -7097,7 +7135,7 @@
       <sheetpath names="/External Connections and Sensing/" tstamps="/9cf0d325-c2d4-4535-a4db-163de33edbd1/"/>
       <tstamps>cdbd5bfc-1f6d-42d7-a72a-7dfb55a7d476</tstamps>
     </comp>
-    <comp ref="R135">
+    <comp ref="R137">
       <value>1k</value>
       <footprint>FixedWing:RC0805N_YAG</footprint>
       <datasheet>https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
@@ -7115,7 +7153,7 @@
       <sheetpath names="/External Connections and Sensing/" tstamps="/9cf0d325-c2d4-4535-a4db-163de33edbd1/"/>
       <tstamps>e46dca74-98b7-4e61-bffd-08ed76b53b57</tstamps>
     </comp>
-    <comp ref="R136">
+    <comp ref="R138">
       <value>1k</value>
       <footprint>FixedWing:RC0805N_YAG</footprint>
       <datasheet>https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
@@ -7133,7 +7171,7 @@
       <sheetpath names="/External Connections and Sensing/" tstamps="/9cf0d325-c2d4-4535-a4db-163de33edbd1/"/>
       <tstamps>b9e2d338-d870-4fd9-884b-57d90a421acb</tstamps>
     </comp>
-    <comp ref="TP31">
+    <comp ref="TP25">
       <value>~</value>
       <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <libsource lib="FixedWing" part="TestPoint" description="Test Point, Round, 1mm diameter"/>
@@ -7143,17 +7181,7 @@
       <sheetpath names="/External Connections and Sensing/" tstamps="/9cf0d325-c2d4-4535-a4db-163de33edbd1/"/>
       <tstamps>fd351ece-f0e7-4bd9-a4ee-9897cf151377</tstamps>
     </comp>
-    <comp ref="TP32">
-      <value>~</value>
-      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
-      <libsource lib="FixedWing" part="TestPoint" description="Test Point, Round, 1mm diameter"/>
-      <property name="Sheetname" value="External Connections and Sensing"/>
-      <property name="Sheetfile" value="SensingConnections.kicad_sch"/>
-      <property name="ki_description" value="Test Point, Round, 1mm diameter"/>
-      <sheetpath names="/External Connections and Sensing/" tstamps="/9cf0d325-c2d4-4535-a4db-163de33edbd1/"/>
-      <tstamps>bb486d78-8c2d-41e7-9ecd-787c32d526a1</tstamps>
-    </comp>
-    <comp ref="U7">
+    <comp ref="U8">
       <value>MCP4726A0T-E/CH</value>
       <footprint>FixedWing:SOT-23-6_MC_MCH</footprint>
       <datasheet>https://ww1.microchip.com/downloads/en/DeviceDoc/22272C.pdf</datasheet>
@@ -7171,7 +7199,7 @@
       <sheetpath names="/External Connections and Sensing/" tstamps="/9cf0d325-c2d4-4535-a4db-163de33edbd1/"/>
       <tstamps>f8900fc5-fd5b-466c-8126-a6d34c3d53a8</tstamps>
     </comp>
-    <comp ref="U8">
+    <comp ref="U9">
       <value>MCP9700AT-E/TT</value>
       <footprint>FixedWing:SOT-23_MC_MCH</footprint>
       <datasheet>https://ww1.microchip.com/downloads/aemDocuments/documents/MSLD/ProductDocuments/DataSheets/MCP970X-Family-Data-Sheet-DS20001942.pdf</datasheet>
@@ -7246,38 +7274,6 @@
         <pin num="6" name="Pin_6" type="passive"/>
         <pin num="7" name="Pin_7" type="passive"/>
         <pin num="8" name="Pin_8" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Device" part="C">
-      <description>Unpolarized capacitor</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>C_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">C</field>
-        <field name="Value">C</field>
-        <field name="Datasheet">~</field>
-      </fields>
-      <pins>
-        <pin num="1" name="" type="passive"/>
-        <pin num="2" name="" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Device" part="R">
-      <description>Resistor</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>R_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">R</field>
-        <field name="Value">R</field>
-        <field name="Datasheet">~</field>
-      </fields>
-      <pins>
-        <pin num="1" name="" type="passive"/>
-        <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="FixedWing" part="08053C333KAT2A">
@@ -7995,6 +7991,25 @@
         <pin num="3" name="3" type="unspecified"/>
         <pin num="4" name="4" type="unspecified"/>
         <pin num="5" name="5" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="FixedWing" part="LM4040D30IDBZR">
+      <description>3.000V Precision Micropower Shunt Voltage Reference, SOT-23</description>
+      <docs>LM4040D30IDBZR</docs>
+      <footprints>
+        <fp>DBZ3_TEX</fp>
+        <fp>DBZ3_TEX-M</fp>
+        <fp>DBZ3_TEX-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM4040D30IDBZR</field>
+        <field name="Footprint">FixedWing:DBZ3_TEX</field>
+        <field name="Datasheet">LM4040D30IDBZR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="FixedWing" part="LTR18EZPF15R0">
@@ -8739,9 +8754,6 @@
     <library logical="Connector_Generic">
       <uri>C:\Users\matth\AppData\Local\Programs\KiCad\7.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
     </library>
-    <library logical="Device">
-      <uri>C:\Users\matth\AppData\Local\Programs\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
-    </library>
     <library logical="FixedWing">
       <uri>C:/Users/matth/Desktop/AeroNU/FixedWing/BMS/bms-pcb-design/libraries/FixedWing.kicad_sym</uri>
     </library>
@@ -8751,42 +8763,40 @@
   </libraries>
   <nets>
     <net code="1" name="+1V1">
+      <node ref="C64" pin="2" pintype="passive"/>
       <node ref="C65" pin="2" pintype="passive"/>
       <node ref="C66" pin="2" pintype="passive"/>
-      <node ref="C67" pin="2" pintype="passive"/>
-      <node ref="TP14" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U6" pin="23" pinfunction="DVDD" pintype="power_in"/>
       <node ref="U6" pin="45" pinfunction="VREG_VOUT" pintype="power_out"/>
       <node ref="U6" pin="50" pinfunction="DVDD" pintype="power_in"/>
     </net>
     <net code="2" name="+3V3">
-      <node ref="C62" pin="1" pintype="passive"/>
-      <node ref="C64" pin="2" pintype="passive"/>
+      <node ref="C61" pin="1" pintype="passive"/>
+      <node ref="C63" pin="2" pintype="passive"/>
+      <node ref="C67" pin="1" pintype="passive"/>
       <node ref="C68" pin="1" pintype="passive"/>
-      <node ref="C69" pin="1" pintype="passive"/>
-      <node ref="C70" pin="2" pintype="passive"/>
+      <node ref="C69" pin="2" pintype="passive"/>
       <node ref="C71" pin="1" pintype="passive"/>
-      <node ref="C72" pin="2" pintype="passive"/>
+      <node ref="C72" pin="1" pintype="passive"/>
       <node ref="C73" pin="1" pintype="passive"/>
       <node ref="C74" pin="1" pintype="passive"/>
       <node ref="C75" pin="1" pintype="passive"/>
-      <node ref="C76" pin="1" pintype="passive"/>
+      <node ref="C81" pin="2" pintype="passive"/>
       <node ref="C82" pin="2" pintype="passive"/>
-      <node ref="C83" pin="2" pintype="passive"/>
       <node ref="D3" pin="2" pintype="passive"/>
       <node ref="D4" pin="1" pintype="passive"/>
       <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="R100" pin="2" pintype="passive"/>
-      <node ref="R115" pin="1" pintype="passive"/>
-      <node ref="R117" pin="2" pintype="passive"/>
+      <node ref="R101" pin="2" pintype="passive"/>
+      <node ref="R112" pin="1" pintype="passive"/>
       <node ref="R118" pin="1" pintype="passive"/>
-      <node ref="R121" pin="2" pintype="passive"/>
-      <node ref="R127" pin="2" pintype="passive"/>
-      <node ref="R128" pin="2" pintype="passive"/>
+      <node ref="R119" pin="2" pintype="passive"/>
+      <node ref="R122" pin="2" pintype="passive"/>
+      <node ref="R123" pin="2" pintype="passive"/>
       <node ref="R129" pin="2" pintype="passive"/>
       <node ref="R130" pin="2" pintype="passive"/>
-      <node ref="TP12" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="TP15" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R131" pin="2" pintype="passive"/>
+      <node ref="R132" pin="2" pintype="passive"/>
+      <node ref="TP9" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U4" pin="8" pinfunction="VCC" pintype="power_in"/>
       <node ref="U5" pin="2" pinfunction="VO" pintype="power_out"/>
       <node ref="U6" pin="1" pinfunction="IOVDD" pintype="power_in"/>
@@ -8794,14 +8804,14 @@
       <node ref="U6" pin="22" pinfunction="IOVDD" pintype="power_in"/>
       <node ref="U6" pin="33" pinfunction="IOVDD" pintype="power_in"/>
       <node ref="U6" pin="42" pinfunction="IOVDD" pintype="power_in"/>
-      <node ref="U6" pin="43" pinfunction="ADC_AVDD" pintype="power_in"/>
       <node ref="U6" pin="44" pinfunction="VREG_IN" pintype="power_in"/>
       <node ref="U6" pin="48" pinfunction="USB_VDD" pintype="power_in"/>
       <node ref="U6" pin="49" pinfunction="IOVDD" pintype="power_in"/>
-      <node ref="U7" pin="6" pinfunction="VREF" pintype="unspecified"/>
+      <node ref="U8" pin="6" pinfunction="VREF" pintype="unspecified"/>
     </net>
     <net code="3" name="+5V">
       <node ref="C42" pin="2" pintype="passive"/>
+      <node ref="C43" pin="2" pintype="passive"/>
       <node ref="C44" pin="2" pintype="passive"/>
       <node ref="C45" pin="2" pintype="passive"/>
       <node ref="C46" pin="2" pintype="passive"/>
@@ -8817,10 +8827,9 @@
       <node ref="C56" pin="2" pintype="passive"/>
       <node ref="C57" pin="2" pintype="passive"/>
       <node ref="C58" pin="2" pintype="passive"/>
-      <node ref="C59" pin="2" pintype="passive"/>
-      <node ref="C81" pin="2" pintype="passive"/>
-      <node ref="C85" pin="2" pintype="passive"/>
-      <node ref="C87" pin="2" pintype="passive"/>
+      <node ref="C80" pin="2" pintype="passive"/>
+      <node ref="C84" pin="2" pintype="passive"/>
+      <node ref="C86" pin="2" pintype="passive"/>
       <node ref="CR2" pin="5" pinfunction="5" pintype="unspecified"/>
       <node ref="CR3" pin="5" pinfunction="5" pintype="unspecified"/>
       <node ref="J11" pin="1" pinfunction="1" pintype="passive"/>
@@ -8835,13 +8844,13 @@
       <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="LED16" pin="1" pinfunction="VDD" pintype="power_in"/>
       <node ref="Q13" pin="3" pinfunction="D" pintype="passive"/>
-      <node ref="R107" pin="2" pintype="passive"/>
+      <node ref="R108" pin="2" pintype="passive"/>
       <node ref="R111" pin="2" pintype="passive"/>
-      <node ref="R123" pin="2" pintype="passive"/>
-      <node ref="R133" pin="1" pintype="passive"/>
-      <node ref="R136" pin="2" pintype="passive"/>
-      <node ref="TP9" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U7" pin="3" pinfunction="VDD" pintype="power_in"/>
+      <node ref="R125" pin="2" pintype="passive"/>
+      <node ref="R135" pin="1" pintype="passive"/>
+      <node ref="R138" pin="2" pintype="passive"/>
+      <node ref="TP6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U8" pin="3" pinfunction="VDD" pintype="power_in"/>
       <node ref="X2" pin="2" pinfunction="2" pintype="unspecified"/>
     </net>
     <net code="4" name="+BATT">
@@ -8862,14 +8871,14 @@
       <node ref="J7" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="J8" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="J9" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="R125" pin="1" pintype="passive"/>
-      <node ref="R131" pin="1" pintype="passive"/>
+      <node ref="R127" pin="1" pintype="passive"/>
+      <node ref="R133" pin="1" pintype="passive"/>
       <node ref="R62" pin="2" pintype="passive"/>
-      <node ref="R63" pin="2" pintype="passive"/>
-      <node ref="R66" pin="2" pintype="passive"/>
-      <node ref="R92" pin="2" pintype="passive"/>
-      <node ref="R96" pin="2" pintype="passive"/>
-      <node ref="TP31" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R64" pin="2" pintype="passive"/>
+      <node ref="R67" pin="2" pintype="passive"/>
+      <node ref="R93" pin="2" pintype="passive"/>
+      <node ref="R97" pin="2" pintype="passive"/>
+      <node ref="TP25" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="13" pinfunction="VDD" pintype="power_in"/>
       <node ref="U3" pin="1" pinfunction="VCIN" pintype="input"/>
       <node ref="U3" pin="29" pinfunction="VIN__2" pintype="input"/>
@@ -8877,20 +8886,18 @@
       <node ref="U3" pin="8" pinfunction="VIN__1" pintype="input"/>
     </net>
     <net code="5" name="/5V Regulator/PGOOD">
-      <node ref="R100" pin="1" pintype="passive"/>
-      <node ref="TP24" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="TP8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R101" pin="1" pintype="passive"/>
+      <node ref="TP18" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U3" pin="2" pinfunction="PGOOD" pintype="output"/>
       <node ref="U6" pin="31" pinfunction="GPIO20" pintype="bidirectional"/>
     </net>
     <net code="6" name="/Battery Stack Monitor/-BATT">
       <node ref="J7" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="R91" pin="2" pintype="passive"/>
-      <node ref="R93" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="TP1" pin="TP" pintype="passive"/>
+      <node ref="R92" pin="2" pintype="passive"/>
+      <node ref="R94" pin="1" pinfunction="1" pintype="passive"/>
     </net>
     <net code="7" name="/Battery Stack Monitor/ALERT">
-      <node ref="TP21" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP15" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U2" pin="25" pinfunction="ALERT" pintype="passive"/>
       <node ref="U6" pin="6" pinfunction="GPIO4" pintype="bidirectional"/>
     </net>
@@ -8913,7 +8920,7 @@
       <node ref="C4" pin="1" pintype="passive"/>
       <node ref="R11" pin="2" pintype="passive"/>
       <node ref="R12" pin="1" pintype="passive"/>
-      <node ref="R90" pin="1" pintype="passive"/>
+      <node ref="R91" pin="1" pintype="passive"/>
       <node ref="U2" pin="14" pinfunction="VC2" pintype="passive"/>
     </net>
     <net code="11" name="/Battery Stack Monitor/C3">
@@ -8921,55 +8928,55 @@
       <node ref="C5" pin="1" pintype="passive"/>
       <node ref="R16" pin="2" pintype="passive"/>
       <node ref="R17" pin="1" pintype="passive"/>
-      <node ref="R71" pin="2" pintype="passive"/>
-      <node ref="R80" pin="1" pintype="passive"/>
+      <node ref="R72" pin="2" pintype="passive"/>
+      <node ref="R81" pin="1" pintype="passive"/>
     </net>
     <net code="12" name="/Battery Stack Monitor/C4">
       <node ref="C5" pin="2" pintype="passive"/>
       <node ref="C6" pin="1" pintype="passive"/>
       <node ref="R21" pin="2" pintype="passive"/>
       <node ref="R22" pin="1" pintype="passive"/>
-      <node ref="R70" pin="2" pintype="passive"/>
-      <node ref="R79" pin="1" pintype="passive"/>
+      <node ref="R71" pin="2" pintype="passive"/>
+      <node ref="R80" pin="1" pintype="passive"/>
     </net>
     <net code="13" name="/Battery Stack Monitor/C5">
       <node ref="C6" pin="2" pintype="passive"/>
       <node ref="C7" pin="1" pintype="passive"/>
       <node ref="R26" pin="2" pintype="passive"/>
       <node ref="R27" pin="1" pintype="passive"/>
-      <node ref="R78" pin="1" pintype="passive"/>
-      <node ref="U1" pin="4" pinfunction="S1" pintype="bidirectional"/>
+      <node ref="R79" pin="1" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="S4" pintype="bidirectional"/>
     </net>
     <net code="14" name="/Battery Stack Monitor/C6">
       <node ref="C7" pin="2" pintype="passive"/>
       <node ref="C8" pin="1" pintype="passive"/>
       <node ref="R31" pin="2" pintype="passive"/>
       <node ref="R32" pin="1" pintype="passive"/>
-      <node ref="R77" pin="1" pintype="passive"/>
-      <node ref="U1" pin="5" pinfunction="S2" pintype="bidirectional"/>
+      <node ref="R78" pin="1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="S3" pintype="bidirectional"/>
     </net>
     <net code="15" name="/Battery Stack Monitor/C7">
       <node ref="C8" pin="2" pintype="passive"/>
       <node ref="C9" pin="1" pintype="passive"/>
       <node ref="R36" pin="2" pintype="passive"/>
       <node ref="R37" pin="1" pintype="passive"/>
-      <node ref="R76" pin="1" pintype="passive"/>
-      <node ref="U1" pin="6" pinfunction="S3" pintype="bidirectional"/>
+      <node ref="R77" pin="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="S2" pintype="bidirectional"/>
     </net>
     <net code="16" name="/Battery Stack Monitor/C8">
       <node ref="C10" pin="1" pintype="passive"/>
       <node ref="C9" pin="2" pintype="passive"/>
       <node ref="R41" pin="2" pintype="passive"/>
       <node ref="R42" pin="1" pintype="passive"/>
-      <node ref="R75" pin="1" pintype="passive"/>
-      <node ref="U1" pin="7" pinfunction="S4" pintype="bidirectional"/>
+      <node ref="R76" pin="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="S1" pintype="bidirectional"/>
     </net>
     <net code="17" name="/Battery Stack Monitor/C9">
       <node ref="C10" pin="2" pintype="passive"/>
       <node ref="C11" pin="1" pintype="passive"/>
       <node ref="R46" pin="2" pintype="passive"/>
       <node ref="R47" pin="1" pintype="passive"/>
-      <node ref="R74" pin="1" pintype="passive"/>
+      <node ref="R75" pin="1" pintype="passive"/>
       <node ref="U1" pin="12" pinfunction="S5" pintype="bidirectional"/>
     </net>
     <net code="18" name="/Battery Stack Monitor/C10">
@@ -8977,7 +8984,7 @@
       <node ref="C12" pin="1" pintype="passive"/>
       <node ref="R51" pin="2" pintype="passive"/>
       <node ref="R52" pin="1" pintype="passive"/>
-      <node ref="R73" pin="1" pintype="passive"/>
+      <node ref="R74" pin="1" pintype="passive"/>
       <node ref="U1" pin="11" pinfunction="S6" pintype="bidirectional"/>
     </net>
     <net code="19" name="/Battery Stack Monitor/C11">
@@ -8985,7 +8992,7 @@
       <node ref="C13" pin="1" pintype="passive"/>
       <node ref="R56" pin="2" pintype="passive"/>
       <node ref="R57" pin="1" pintype="passive"/>
-      <node ref="R72" pin="1" pintype="passive"/>
+      <node ref="R73" pin="1" pintype="passive"/>
       <node ref="U1" pin="10" pinfunction="S7" pintype="bidirectional"/>
     </net>
     <net code="20" name="/Battery Stack Monitor/C12">
@@ -8994,29 +9001,29 @@
       <node ref="U1" pin="9" pinfunction="S8" pintype="bidirectional"/>
     </net>
     <net code="21" name="/Battery Stack Monitor/RST_SHUT">
-      <node ref="R95" pin="2" pintype="passive"/>
-      <node ref="TP22" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R96" pin="2" pintype="passive"/>
+      <node ref="TP16" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U2" pin="33" pinfunction="RST_SHUT" pintype="passive"/>
       <node ref="U6" pin="7" pinfunction="GPIO5" pintype="bidirectional"/>
     </net>
     <net code="22" name="/Battery Stack Monitor/SPI_CS">
-      <node ref="R121" pin="1" pintype="passive"/>
-      <node ref="TP18" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R123" pin="1" pintype="passive"/>
+      <node ref="TP12" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U2" pin="29" pinfunction="CFETOFF" pintype="passive"/>
       <node ref="U6" pin="3" pinfunction="GPIO1" pintype="bidirectional"/>
     </net>
     <net code="23" name="/Battery Stack Monitor/SPI_RX">
-      <node ref="TP20" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP14" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U2" pin="28" pinfunction="HDQ" pintype="passive"/>
       <node ref="U6" pin="5" pinfunction="GPIO3" pintype="bidirectional"/>
     </net>
     <net code="24" name="/Battery Stack Monitor/SPI_SCLK">
-      <node ref="TP19" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP13" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U2" pin="26" pinfunction="SCL" pintype="passive"/>
       <node ref="U6" pin="4" pinfunction="GPIO2" pintype="bidirectional"/>
     </net>
     <net code="25" name="/Battery Stack Monitor/SPI_TX">
-      <node ref="TP17" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP11" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U2" pin="27" pinfunction="SDA" pintype="passive"/>
       <node ref="U6" pin="2" pinfunction="GPIO0" pintype="bidirectional"/>
     </net>
@@ -9051,186 +9058,184 @@
       <node ref="U2" pin="32" pinfunction="DDSG" pintype="passive"/>
     </net>
     <net code="32" name="/External Connections and Sensing/BUZZ">
-      <node ref="R135" pin="1" pintype="passive"/>
+      <node ref="R137" pin="1" pintype="passive"/>
+      <node ref="TP23" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U6" pin="36" pinfunction="GPIO24" pintype="bidirectional"/>
     </net>
     <net code="33" name="/External Connections and Sensing/DAC_CLK">
-      <node ref="R130" pin="1" pintype="passive"/>
-      <node ref="TP28" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R132" pin="1" pintype="passive"/>
+      <node ref="TP22" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U6" pin="30" pinfunction="GPIO19" pintype="bidirectional"/>
-      <node ref="U7" pin="5" pinfunction="SCL" pintype="input"/>
+      <node ref="U8" pin="5" pinfunction="SCL" pintype="input"/>
     </net>
     <net code="34" name="/External Connections and Sensing/DAC_DAT">
-      <node ref="R129" pin="1" pintype="passive"/>
-      <node ref="TP27" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R131" pin="1" pintype="passive"/>
+      <node ref="TP21" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U6" pin="29" pinfunction="GPIO18" pintype="bidirectional"/>
-      <node ref="U7" pin="4" pinfunction="SDA" pintype="bidirectional"/>
+      <node ref="U8" pin="4" pinfunction="SDA" pintype="bidirectional"/>
     </net>
     <net code="35" name="/External Connections and Sensing/PIX_CLK">
       <node ref="CR2" pin="6" pinfunction="6" pintype="unspecified"/>
-      <node ref="R127" pin="1" pintype="passive"/>
-      <node ref="TP26" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R129" pin="1" pintype="passive"/>
+      <node ref="TP20" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U6" pin="12" pinfunction="GPIO9" pintype="bidirectional"/>
     </net>
     <net code="36" name="/External Connections and Sensing/PIX_DAT">
       <node ref="CR2" pin="4" pinfunction="4" pintype="unspecified"/>
-      <node ref="R128" pin="1" pintype="passive"/>
-      <node ref="TP25" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R130" pin="1" pintype="passive"/>
+      <node ref="TP19" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U6" pin="11" pinfunction="GPIO8" pintype="bidirectional"/>
     </net>
     <net code="37" name="/External Connections and Sensing/RGB_DIN">
       <node ref="LED16" pin="4" pinfunction="DIN" pintype="input"/>
-      <node ref="TP23" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP17" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U6" pin="32" pinfunction="GPIO21" pintype="bidirectional"/>
     </net>
     <net code="38" name="/External Connections and Sensing/RGB_DOUT">
       <node ref="J11" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="LED16" pin="2" pinfunction="DOUT" pintype="output"/>
-      <node ref="TP32" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="39" name="/External Connections and Sensing/TEMP_CORE">
-      <node ref="TP30" pin="1" pinfunction="1" pintype="passive"/>
+    <net code="39" name="/External Connections and Sensing/TEMP_AMB">
+      <node ref="TP24" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U6" pin="38" pinfunction="GPIO26_ADC0" pintype="bidirectional"/>
-      <node ref="U8" pin="2" pinfunction="VOUT" pintype="unspecified"/>
+      <node ref="U9" pin="2" pinfunction="VOUT" pintype="unspecified"/>
     </net>
-    <net code="40" name="/Microcontroller/BUZZ">
-      <node ref="TP29" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U6" pin="36" pinfunction="GPIO24" pintype="bidirectional"/>
-    </net>
-    <net code="41" name="/Microcontroller/GPIO6">
+    <net code="40" name="/Microcontroller/GPIO6">
       <node ref="U6" pin="8" pinfunction="GPIO6" pintype="bidirectional"/>
     </net>
-    <net code="42" name="/Microcontroller/GPIO7">
+    <net code="41" name="/Microcontroller/GPIO7">
       <node ref="U6" pin="9" pinfunction="GPIO7" pintype="bidirectional"/>
     </net>
-    <net code="43" name="/Microcontroller/GPIO10">
+    <net code="42" name="/Microcontroller/GPIO10">
       <node ref="J5" pin="8" pinfunction="Pin_8" pintype="passive"/>
       <node ref="U6" pin="13" pinfunction="GPIO10" pintype="bidirectional"/>
     </net>
-    <net code="44" name="/Microcontroller/GPIO11">
+    <net code="43" name="/Microcontroller/GPIO11">
       <node ref="J5" pin="7" pinfunction="Pin_7" pintype="passive"/>
       <node ref="U6" pin="14" pinfunction="GPIO11" pintype="bidirectional"/>
     </net>
-    <net code="45" name="/Microcontroller/GPIO12">
+    <net code="44" name="/Microcontroller/GPIO12">
       <node ref="J5" pin="6" pinfunction="Pin_6" pintype="passive"/>
       <node ref="U6" pin="15" pinfunction="GPIO12" pintype="bidirectional"/>
     </net>
-    <net code="46" name="/Microcontroller/GPIO13">
+    <net code="45" name="/Microcontroller/GPIO13">
       <node ref="J5" pin="5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="U6" pin="16" pinfunction="GPIO13" pintype="bidirectional"/>
     </net>
-    <net code="47" name="/Microcontroller/GPIO14">
+    <net code="46" name="/Microcontroller/GPIO14">
       <node ref="J5" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="U6" pin="17" pinfunction="GPIO14" pintype="bidirectional"/>
     </net>
-    <net code="48" name="/Microcontroller/GPIO15">
+    <net code="47" name="/Microcontroller/GPIO15">
       <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="U6" pin="18" pinfunction="GPIO15" pintype="bidirectional"/>
     </net>
-    <net code="49" name="/Microcontroller/GPIO16">
+    <net code="48" name="/Microcontroller/GPIO16">
       <node ref="U6" pin="27" pinfunction="GPIO16" pintype="bidirectional"/>
     </net>
-    <net code="50" name="/Microcontroller/GPIO17">
+    <net code="49" name="/Microcontroller/GPIO17">
       <node ref="U6" pin="28" pinfunction="GPIO17" pintype="bidirectional"/>
     </net>
-    <net code="51" name="/Microcontroller/GPIO22">
+    <net code="50" name="/Microcontroller/GPIO22">
       <node ref="U6" pin="34" pinfunction="GPIO22" pintype="bidirectional"/>
     </net>
-    <net code="52" name="/Microcontroller/GPIO23">
+    <net code="51" name="/Microcontroller/GPIO23">
       <node ref="U6" pin="35" pinfunction="GPIO23" pintype="bidirectional"/>
     </net>
-    <net code="53" name="/Microcontroller/GPIO25">
-      <node ref="R122" pin="1" pintype="passive"/>
+    <net code="52" name="/Microcontroller/GPIO25">
+      <node ref="R124" pin="1" pintype="passive"/>
       <node ref="U6" pin="37" pinfunction="GPIO25" pintype="bidirectional"/>
     </net>
-    <net code="54" name="/Microcontroller/GPIO27_ADC1">
+    <net code="53" name="/Microcontroller/GPIO27_ADC1">
+      <node ref="C76" pin="2" pintype="passive"/>
       <node ref="C77" pin="2" pintype="passive"/>
-      <node ref="C78" pin="2" pintype="passive"/>
-      <node ref="R123" pin="1" pintype="passive"/>
-      <node ref="R124" pin="2" pintype="passive"/>
+      <node ref="R125" pin="1" pintype="passive"/>
+      <node ref="R126" pin="2" pintype="passive"/>
       <node ref="U6" pin="39" pinfunction="GPIO27_ADC1" pintype="bidirectional"/>
     </net>
-    <net code="55" name="/Microcontroller/GPIO28_ADC2">
+    <net code="54" name="/Microcontroller/GPIO28_ADC2">
+      <node ref="C78" pin="2" pintype="passive"/>
       <node ref="C79" pin="2" pintype="passive"/>
-      <node ref="C80" pin="2" pintype="passive"/>
-      <node ref="R125" pin="2" pintype="passive"/>
-      <node ref="R126" pin="2" pintype="passive"/>
+      <node ref="R127" pin="2" pintype="passive"/>
+      <node ref="R128" pin="2" pintype="passive"/>
       <node ref="U6" pin="40" pinfunction="GPIO28_ADC2" pintype="bidirectional"/>
     </net>
-    <net code="56" name="/Microcontroller/GPIO29_ADC3">
+    <net code="55" name="/Microcontroller/GPIO29_ADC3">
       <node ref="U6" pin="41" pinfunction="GPIO29_ADC3" pintype="bidirectional"/>
     </net>
-    <net code="57" name="/Microcontroller/QSPI_SCLK">
+    <net code="56" name="/Microcontroller/QSPI_SCLK">
       <node ref="U4" pin="6" pinfunction="CLK" pintype="input"/>
       <node ref="U6" pin="52" pinfunction="QSPI_SCLK" pintype="output"/>
     </net>
-    <net code="58" name="/Microcontroller/QSPI_SD0">
+    <net code="57" name="/Microcontroller/QSPI_SD0">
       <node ref="U4" pin="5" pinfunction="DI(IO0)" pintype="bidirectional"/>
       <node ref="U6" pin="53" pinfunction="QSPI_SD0" pintype="bidirectional"/>
     </net>
-    <net code="59" name="/Microcontroller/QSPI_SD1">
+    <net code="58" name="/Microcontroller/QSPI_SD1">
       <node ref="U4" pin="2" pinfunction="DO(IO1)" pintype="bidirectional"/>
       <node ref="U6" pin="55" pinfunction="QSPI_SD1" pintype="bidirectional"/>
     </net>
-    <net code="60" name="/Microcontroller/QSPI_SD2">
+    <net code="59" name="/Microcontroller/QSPI_SD2">
       <node ref="U4" pin="3" pinfunction="IO2" pintype="bidirectional"/>
       <node ref="U6" pin="54" pinfunction="QSPI_SD2" pintype="bidirectional"/>
     </net>
-    <net code="61" name="/Microcontroller/QSPI_SD3">
+    <net code="60" name="/Microcontroller/QSPI_SD3">
       <node ref="U4" pin="7" pinfunction="IO3" pintype="bidirectional"/>
       <node ref="U6" pin="51" pinfunction="QSPI_SD3" pintype="bidirectional"/>
     </net>
-    <net code="62" name="/Microcontroller/QSPI_SS">
-      <node ref="R116" pin="2" pintype="passive"/>
-      <node ref="R117" pin="1" pintype="passive"/>
+    <net code="61" name="/Microcontroller/QSPI_SS">
+      <node ref="R117" pin="2" pintype="passive"/>
+      <node ref="R119" pin="1" pintype="passive"/>
       <node ref="U4" pin="1" pinfunction="~{CS}" pintype="input"/>
       <node ref="U6" pin="56" pinfunction="QSPI_SS" pintype="bidirectional"/>
     </net>
-    <net code="63" name="/Microcontroller/RUN">
+    <net code="62" name="/Microcontroller/RUN">
       <node ref="R118" pin="2" pintype="passive"/>
       <node ref="SW2" pin="1" pinfunction="1" pintype="unspecified"/>
       <node ref="SW2" pin="2" pinfunction="2" pintype="unspecified"/>
-      <node ref="TP13" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP10" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U6" pin="26" pinfunction="RUN" pintype="input"/>
     </net>
-    <net code="64" name="/Microcontroller/SWCLK">
+    <net code="63" name="/Microcontroller/SWCLK">
       <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="U6" pin="24" pinfunction="SWCLK" pintype="output"/>
     </net>
-    <net code="65" name="/Microcontroller/SWD">
+    <net code="64" name="/Microcontroller/SWD">
       <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="U6" pin="25" pinfunction="SWD" pintype="bidirectional"/>
     </net>
-    <net code="66" name="/Microcontroller/USB_D+">
+    <net code="65" name="/Microcontroller/USB_D+">
       <node ref="CR1" pin="4" pinfunction="4" pintype="unspecified"/>
-      <node ref="R119" pin="2" pintype="passive"/>
-    </net>
-    <net code="67" name="/Microcontroller/USB_D-">
-      <node ref="CR1" pin="6" pinfunction="6" pintype="unspecified"/>
       <node ref="R120" pin="2" pintype="passive"/>
     </net>
-    <net code="68" name="/Microcontroller/VBUS">
+    <net code="66" name="/Microcontroller/USB_D-">
+      <node ref="CR1" pin="6" pinfunction="6" pintype="unspecified"/>
+      <node ref="R121" pin="2" pintype="passive"/>
+    </net>
+    <net code="67" name="/Microcontroller/VBUS">
       <node ref="CR1" pin="5" pinfunction="5" pintype="unspecified"/>
       <node ref="D2" pin="2" pintype="passive"/>
       <node ref="J3" pin="A4_B9" pinfunction="VBUS" pintype="power_out"/>
       <node ref="J3" pin="B4_A9" pinfunction="VBUS__1" pintype="unspecified"/>
       <node ref="Q13" pin="1" pinfunction="G" pintype="passive"/>
-      <node ref="TP10" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R116" pin="2" pintype="passive"/>
+      <node ref="TP7" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="69" name="/Microcontroller/XIN">
-      <node ref="C60" pin="2" pintype="passive"/>
+    <net code="68" name="/Microcontroller/XIN">
+      <node ref="C59" pin="2" pintype="passive"/>
       <node ref="U6" pin="20" pinfunction="XIN" pintype="input"/>
       <node ref="X1" pin="1" pinfunction="1" pintype="input"/>
     </net>
-    <net code="70" name="/Microcontroller/XOUT">
-      <node ref="R114" pin="2" pintype="passive"/>
+    <net code="69" name="/Microcontroller/XOUT">
+      <node ref="R115" pin="2" pintype="passive"/>
       <node ref="U6" pin="21" pinfunction="XOUT" pintype="passive"/>
     </net>
-    <net code="71" name="/Microcontroller/~{USB_BOOT}">
-      <node ref="R116" pin="1" pintype="passive"/>
+    <net code="70" name="/Microcontroller/~{USB_BOOT}">
+      <node ref="R117" pin="1" pintype="passive"/>
       <node ref="SW1" pin="1" pinfunction="1" pintype="unspecified"/>
       <node ref="SW1" pin="2" pinfunction="2" pintype="unspecified"/>
     </net>
-    <net code="73" name="GND">
+    <net code="71" name="GND">
       <node ref="BB1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="C1" pin="1" pintype="passive"/>
       <node ref="C14" pin="1" pintype="passive"/>
@@ -9257,7 +9262,7 @@
       <node ref="C37" pin="2" pintype="passive"/>
       <node ref="C38" pin="1" pintype="passive"/>
       <node ref="C39" pin="1" pintype="passive"/>
-      <node ref="C43" pin="2" pintype="passive"/>
+      <node ref="C43" pin="1" pintype="passive"/>
       <node ref="C44" pin="1" pintype="passive"/>
       <node ref="C45" pin="1" pintype="passive"/>
       <node ref="C46" pin="1" pintype="passive"/>
@@ -9275,22 +9280,22 @@
       <node ref="C58" pin="1" pintype="passive"/>
       <node ref="C59" pin="1" pintype="passive"/>
       <node ref="C60" pin="1" pintype="passive"/>
-      <node ref="C61" pin="1" pintype="passive"/>
+      <node ref="C61" pin="2" pintype="passive"/>
       <node ref="C62" pin="2" pintype="passive"/>
-      <node ref="C63" pin="2" pintype="passive"/>
+      <node ref="C63" pin="1" pintype="passive"/>
       <node ref="C64" pin="1" pintype="passive"/>
       <node ref="C65" pin="1" pintype="passive"/>
       <node ref="C66" pin="1" pintype="passive"/>
-      <node ref="C67" pin="1" pintype="passive"/>
+      <node ref="C67" pin="2" pintype="passive"/>
       <node ref="C68" pin="2" pintype="passive"/>
-      <node ref="C69" pin="2" pintype="passive"/>
+      <node ref="C69" pin="1" pintype="passive"/>
       <node ref="C70" pin="1" pintype="passive"/>
       <node ref="C71" pin="2" pintype="passive"/>
-      <node ref="C72" pin="1" pintype="passive"/>
+      <node ref="C72" pin="2" pintype="passive"/>
       <node ref="C73" pin="2" pintype="passive"/>
       <node ref="C74" pin="2" pintype="passive"/>
       <node ref="C75" pin="2" pintype="passive"/>
-      <node ref="C76" pin="2" pintype="passive"/>
+      <node ref="C76" pin="1" pintype="passive"/>
       <node ref="C77" pin="1" pintype="passive"/>
       <node ref="C78" pin="1" pintype="passive"/>
       <node ref="C79" pin="1" pintype="passive"/>
@@ -9302,7 +9307,6 @@
       <node ref="C85" pin="1" pintype="passive"/>
       <node ref="C86" pin="1" pintype="passive"/>
       <node ref="C87" pin="1" pintype="passive"/>
-      <node ref="C88" pin="1" pintype="passive"/>
       <node ref="CR1" pin="2" pinfunction="2" pintype="unspecified"/>
       <node ref="CR2" pin="2" pinfunction="2" pintype="unspecified"/>
       <node ref="CR3" pin="2" pinfunction="2" pintype="unspecified"/>
@@ -9350,33 +9354,33 @@
       <node ref="Q1" pin="2" pinfunction="E" pintype="passive"/>
       <node ref="Q14" pin="2" pinfunction="E" pintype="passive"/>
       <node ref="R1" pin="1" pintype="passive"/>
-      <node ref="R101" pin="1" pintype="passive"/>
       <node ref="R102" pin="1" pintype="passive"/>
-      <node ref="R105" pin="1" pintype="passive"/>
-      <node ref="R108" pin="1" pintype="passive"/>
-      <node ref="R112" pin="1" pintype="passive"/>
+      <node ref="R103" pin="1" pintype="passive"/>
+      <node ref="R106" pin="1" pintype="passive"/>
+      <node ref="R109" pin="1" pintype="passive"/>
       <node ref="R113" pin="1" pintype="passive"/>
-      <node ref="R124" pin="1" pintype="passive"/>
+      <node ref="R114" pin="1" pintype="passive"/>
+      <node ref="R116" pin="1" pintype="passive"/>
       <node ref="R126" pin="1" pintype="passive"/>
-      <node ref="R132" pin="1" pintype="passive"/>
-      <node ref="R64" pin="2" pintype="passive"/>
-      <node ref="R67" pin="2" pintype="passive"/>
-      <node ref="R69" pin="2" pintype="passive"/>
-      <node ref="R93" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="R94" pin="2" pintype="passive"/>
-      <node ref="R95" pin="1" pintype="passive"/>
-      <node ref="R98" pin="1" pintype="passive"/>
+      <node ref="R128" pin="1" pintype="passive"/>
+      <node ref="R134" pin="1" pintype="passive"/>
+      <node ref="R63" pin="1" pintype="passive"/>
+      <node ref="R65" pin="2" pintype="passive"/>
+      <node ref="R68" pin="2" pintype="passive"/>
+      <node ref="R70" pin="2" pintype="passive"/>
+      <node ref="R94" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R95" pin="2" pintype="passive"/>
+      <node ref="R96" pin="1" pintype="passive"/>
+      <node ref="R99" pin="1" pintype="passive"/>
       <node ref="SW1" pin="3" pinfunction="3" pintype="unspecified"/>
       <node ref="SW1" pin="4" pinfunction="4" pintype="unspecified"/>
       <node ref="SW1" pin="5" pinfunction="5" pintype="power_in"/>
       <node ref="SW2" pin="3" pinfunction="3" pintype="unspecified"/>
       <node ref="SW2" pin="4" pinfunction="4" pintype="unspecified"/>
       <node ref="SW2" pin="5" pinfunction="5" pintype="power_in"/>
-      <node ref="TP16" pin="TP" pintype="passive"/>
-      <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP2" pin="TP" pintype="passive"/>
+      <node ref="TP3" pin="TP" pintype="passive"/>
       <node ref="TP4" pin="TP" pintype="passive"/>
-      <node ref="TP5" pin="TP" pintype="passive"/>
-      <node ref="TP6" pin="TP" pintype="passive"/>
       <node ref="U1" pin="14" pinfunction="GND" pintype="power_out"/>
       <node ref="U1" pin="3" pinfunction="VSS" pintype="power_out"/>
       <node ref="U2" pin="17" pinfunction="VSS" pintype="passive"/>
@@ -9398,228 +9402,225 @@
       <node ref="U5" pin="1" pinfunction="GND" pintype="power_in"/>
       <node ref="U6" pin="19" pinfunction="TESTEN" pintype="passive"/>
       <node ref="U6" pin="57" pinfunction="GND" pintype="power_in"/>
-      <node ref="U7" pin="2" pinfunction="VSS" pintype="power_in"/>
-      <node ref="U8" pin="3" pinfunction="GND" pintype="unspecified"/>
+      <node ref="U7" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U8" pin="2" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U9" pin="3" pinfunction="GND" pintype="unspecified"/>
       <node ref="X1" pin="2" pinfunction="2" pintype="power_in"/>
       <node ref="X1" pin="4" pinfunction="4" pintype="power_in"/>
       <node ref="Z1" pin="2" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="74" name="Net-(C36-Pad2)">
+    <net code="72" name="Net-(C36-Pad2)">
       <node ref="C36" pin="2" pintype="passive"/>
-      <node ref="R99" pin="1" pintype="passive"/>
+      <node ref="R100" pin="1" pintype="passive"/>
     </net>
-    <net code="75" name="Net-(C40-Pad2)">
+    <net code="73" name="Net-(C40-Pad2)">
       <node ref="C40" pin="2" pintype="passive"/>
       <node ref="C42" pin="1" pintype="passive"/>
-      <node ref="R109" pin="2" pintype="passive"/>
-    </net>
-    <net code="76" name="Net-(C41-Pad1)">
-      <node ref="C41" pin="1" pintype="passive"/>
-      <node ref="R106" pin="2" pintype="passive"/>
-    </net>
-    <net code="77" name="Net-(C43-Pad1)">
-      <node ref="C43" pin="1" pintype="passive"/>
       <node ref="R110" pin="2" pintype="passive"/>
     </net>
-    <net code="78" name="Net-(C61-Pad2)">
-      <node ref="C61" pin="2" pintype="passive"/>
-      <node ref="R114" pin="1" pintype="passive"/>
+    <net code="74" name="Net-(C41-Pad1)">
+      <node ref="C41" pin="1" pintype="passive"/>
+      <node ref="R107" pin="2" pintype="passive"/>
+    </net>
+    <net code="75" name="Net-(C60-Pad2)">
+      <node ref="C60" pin="2" pintype="passive"/>
+      <node ref="R115" pin="1" pintype="passive"/>
       <node ref="X1" pin="3" pinfunction="3" pintype="output"/>
     </net>
-    <net code="79" name="Net-(C84-Pad2)">
-      <node ref="C84" pin="2" pintype="passive"/>
+    <net code="76" name="Net-(C83-Pad2)">
+      <node ref="C83" pin="2" pintype="passive"/>
       <node ref="CR3" pin="4" pinfunction="4" pintype="unspecified"/>
-      <node ref="R131" pin="2" pintype="passive"/>
-      <node ref="R132" pin="2" pintype="passive"/>
+      <node ref="R133" pin="2" pintype="passive"/>
+      <node ref="R134" pin="2" pintype="passive"/>
     </net>
-    <net code="80" name="Net-(CR2-Pad1)">
+    <net code="77" name="Net-(CR2-Pad1)">
       <node ref="CR2" pin="1" pinfunction="1" pintype="unspecified"/>
       <node ref="J13" pin="3" pinfunction="3" pintype="passive"/>
     </net>
-    <net code="81" name="Net-(CR2-Pad3)">
+    <net code="78" name="Net-(CR2-Pad3)">
       <node ref="CR2" pin="3" pinfunction="3" pintype="unspecified"/>
       <node ref="J13" pin="4" pinfunction="4" pintype="passive"/>
     </net>
-    <net code="82" name="Net-(CR3-Pad1)">
+    <net code="79" name="Net-(CR3-Pad1)">
       <node ref="CR3" pin="1" pinfunction="1" pintype="unspecified"/>
       <node ref="J18" pin="3" pinfunction="3" pintype="passive"/>
     </net>
-    <net code="83" name="Net-(CR3-Pad3)">
+    <net code="80" name="Net-(CR3-Pad3)">
       <node ref="CR3" pin="3" pinfunction="3" pintype="unspecified"/>
       <node ref="J18" pin="4" pinfunction="4" pintype="passive"/>
     </net>
-    <net code="84" name="Net-(D1-Pad1)">
+    <net code="81" name="Net-(D1-Pad1)">
       <node ref="D1" pin="1" pintype="passive"/>
-      <node ref="R81" pin="1" pintype="passive"/>
+      <node ref="R82" pin="1" pintype="passive"/>
     </net>
-    <net code="85" name="Net-(J1-Pad13)">
+    <net code="82" name="Net-(J1-Pad13)">
       <node ref="J1" pin="13" pinfunction="13" pintype="passive"/>
       <node ref="R58" pin="2" pintype="passive"/>
       <node ref="R59" pin="2" pintype="passive"/>
       <node ref="R60" pin="2" pintype="passive"/>
       <node ref="R61" pin="1" pintype="passive"/>
     </net>
-    <net code="86" name="Net-(J3-CC1_A)">
+    <net code="83" name="Net-(J3-CC1_A)">
       <node ref="J3" pin="A5" pinfunction="CC1_A" pintype="bidirectional"/>
+      <node ref="R114" pin="2" pintype="passive"/>
+    </net>
+    <net code="84" name="Net-(J3-CC1_B)">
+      <node ref="J3" pin="B5" pinfunction="CC1_B" pintype="bidirectional"/>
       <node ref="R113" pin="2" pintype="passive"/>
     </net>
-    <net code="87" name="Net-(J3-CC1_B)">
-      <node ref="J3" pin="B5" pinfunction="CC1_B" pintype="bidirectional"/>
-      <node ref="R112" pin="2" pintype="passive"/>
-    </net>
-    <net code="88" name="Net-(J3-D+_A)">
+    <net code="85" name="Net-(J3-D+_A)">
       <node ref="CR1" pin="3" pinfunction="3" pintype="unspecified"/>
       <node ref="J3" pin="A6" pinfunction="D+_A" pintype="bidirectional"/>
       <node ref="J3" pin="B6" pinfunction="D+_B" pintype="bidirectional"/>
     </net>
-    <net code="89" name="Net-(J3-D-_A)">
+    <net code="86" name="Net-(J3-D-_A)">
       <node ref="CR1" pin="1" pinfunction="1" pintype="unspecified"/>
       <node ref="J3" pin="A7" pinfunction="D-_A" pintype="bidirectional"/>
       <node ref="J3" pin="B7" pinfunction="D-_B" pintype="bidirectional"/>
     </net>
-    <net code="90" name="Net-(LED1-A)">
+    <net code="87" name="Net-(LED1-A)">
       <node ref="LED1" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R5" pin="1" pintype="passive"/>
     </net>
-    <net code="91" name="Net-(LED1-K)">
+    <net code="88" name="Net-(LED1-K)">
       <node ref="LED1" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="Q1" pin="3" pinfunction="C" pintype="passive"/>
       <node ref="R3" pin="1" pintype="passive"/>
       <node ref="R4" pin="1" pintype="passive"/>
     </net>
-    <net code="92" name="Net-(LED2-A)">
+    <net code="89" name="Net-(LED2-A)">
       <node ref="LED2" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R10" pin="1" pintype="passive"/>
     </net>
-    <net code="93" name="Net-(LED2-K)">
+    <net code="90" name="Net-(LED2-K)">
       <node ref="LED2" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="Q2" pin="3" pinfunction="C" pintype="passive"/>
       <node ref="R8" pin="1" pintype="passive"/>
       <node ref="R9" pin="1" pintype="passive"/>
     </net>
-    <net code="94" name="Net-(LED3-A)">
+    <net code="91" name="Net-(LED3-A)">
       <node ref="LED3" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R15" pin="1" pintype="passive"/>
     </net>
-    <net code="95" name="Net-(LED3-K)">
+    <net code="92" name="Net-(LED3-K)">
       <node ref="LED3" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="Q3" pin="3" pinfunction="C" pintype="passive"/>
       <node ref="R13" pin="1" pintype="passive"/>
       <node ref="R14" pin="1" pintype="passive"/>
     </net>
-    <net code="96" name="Net-(LED4-A)">
+    <net code="93" name="Net-(LED4-A)">
       <node ref="LED4" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R20" pin="1" pintype="passive"/>
     </net>
-    <net code="97" name="Net-(LED4-K)">
+    <net code="94" name="Net-(LED4-K)">
       <node ref="LED4" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="Q4" pin="3" pinfunction="C" pintype="passive"/>
       <node ref="R18" pin="1" pintype="passive"/>
       <node ref="R19" pin="1" pintype="passive"/>
     </net>
-    <net code="98" name="Net-(LED5-A)">
+    <net code="95" name="Net-(LED5-A)">
       <node ref="LED5" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R25" pin="1" pintype="passive"/>
     </net>
-    <net code="99" name="Net-(LED5-K)">
+    <net code="96" name="Net-(LED5-K)">
       <node ref="LED5" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="Q5" pin="3" pinfunction="C" pintype="passive"/>
       <node ref="R23" pin="1" pintype="passive"/>
       <node ref="R24" pin="1" pintype="passive"/>
     </net>
-    <net code="100" name="Net-(LED6-A)">
+    <net code="97" name="Net-(LED6-A)">
       <node ref="LED6" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R30" pin="1" pintype="passive"/>
     </net>
-    <net code="101" name="Net-(LED6-K)">
+    <net code="98" name="Net-(LED6-K)">
       <node ref="LED6" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="Q6" pin="3" pinfunction="C" pintype="passive"/>
       <node ref="R28" pin="1" pintype="passive"/>
       <node ref="R29" pin="1" pintype="passive"/>
     </net>
-    <net code="102" name="Net-(LED7-A)">
+    <net code="99" name="Net-(LED7-A)">
       <node ref="LED7" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R35" pin="1" pintype="passive"/>
     </net>
-    <net code="103" name="Net-(LED7-K)">
+    <net code="100" name="Net-(LED7-K)">
       <node ref="LED7" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="Q7" pin="3" pinfunction="C" pintype="passive"/>
       <node ref="R33" pin="1" pintype="passive"/>
       <node ref="R34" pin="1" pintype="passive"/>
     </net>
-    <net code="104" name="Net-(LED8-A)">
+    <net code="101" name="Net-(LED8-A)">
       <node ref="LED8" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R40" pin="1" pintype="passive"/>
     </net>
-    <net code="105" name="Net-(LED8-K)">
+    <net code="102" name="Net-(LED8-K)">
       <node ref="LED8" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="Q8" pin="3" pinfunction="C" pintype="passive"/>
       <node ref="R38" pin="1" pintype="passive"/>
       <node ref="R39" pin="1" pintype="passive"/>
     </net>
-    <net code="106" name="Net-(LED9-A)">
+    <net code="103" name="Net-(LED9-A)">
       <node ref="LED9" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R45" pin="1" pintype="passive"/>
     </net>
-    <net code="107" name="Net-(LED9-K)">
+    <net code="104" name="Net-(LED9-K)">
       <node ref="LED9" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="Q9" pin="3" pinfunction="C" pintype="passive"/>
       <node ref="R43" pin="1" pintype="passive"/>
       <node ref="R44" pin="1" pintype="passive"/>
     </net>
-    <net code="108" name="Net-(LED10-A)">
+    <net code="105" name="Net-(LED10-A)">
       <node ref="LED10" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R50" pin="1" pintype="passive"/>
     </net>
-    <net code="109" name="Net-(LED10-K)">
+    <net code="106" name="Net-(LED10-K)">
       <node ref="LED10" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="Q10" pin="3" pinfunction="C" pintype="passive"/>
       <node ref="R48" pin="1" pintype="passive"/>
       <node ref="R49" pin="1" pintype="passive"/>
     </net>
-    <net code="110" name="Net-(LED11-A)">
+    <net code="107" name="Net-(LED11-A)">
       <node ref="LED11" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R55" pin="1" pintype="passive"/>
     </net>
-    <net code="111" name="Net-(LED11-K)">
+    <net code="108" name="Net-(LED11-K)">
       <node ref="LED11" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="Q11" pin="3" pinfunction="C" pintype="passive"/>
       <node ref="R53" pin="1" pintype="passive"/>
       <node ref="R54" pin="1" pintype="passive"/>
     </net>
-    <net code="112" name="Net-(LED12-A)">
+    <net code="109" name="Net-(LED12-A)">
       <node ref="LED12" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R60" pin="1" pintype="passive"/>
     </net>
-    <net code="113" name="Net-(LED12-K)">
+    <net code="110" name="Net-(LED12-K)">
       <node ref="LED12" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="Q12" pin="3" pinfunction="C" pintype="passive"/>
       <node ref="R58" pin="1" pintype="passive"/>
       <node ref="R59" pin="1" pintype="passive"/>
     </net>
-    <net code="114" name="Net-(LED13-A)">
+    <net code="111" name="Net-(LED13-A)">
       <node ref="LED13" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="R107" pin="1" pintype="passive"/>
+      <node ref="R108" pin="1" pintype="passive"/>
     </net>
-    <net code="115" name="Net-(LED14-A)">
+    <net code="112" name="Net-(LED14-A)">
       <node ref="LED14" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="R115" pin="2" pintype="passive"/>
+      <node ref="R112" pin="2" pintype="passive"/>
     </net>
-    <net code="116" name="Net-(LED15-A)">
+    <net code="113" name="Net-(LED15-A)">
       <node ref="LED15" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="R122" pin="2" pintype="passive"/>
+      <node ref="R124" pin="2" pintype="passive"/>
     </net>
-    <net code="117" name="Net-(Q1-B)">
+    <net code="114" name="Net-(Q1-B)">
       <node ref="Q1" pin="1" pinfunction="B" pintype="passive"/>
       <node ref="R2" pin="2" pintype="passive"/>
       <node ref="Z1" pin="1" pinfunction="K" pintype="passive"/>
     </net>
-    <net code="118" name="Net-(Q2-B)">
+    <net code="115" name="Net-(Q2-B)">
       <node ref="Q2" pin="1" pinfunction="B" pintype="passive"/>
       <node ref="R7" pin="2" pintype="passive"/>
       <node ref="Z2" pin="1" pinfunction="K" pintype="passive"/>
     </net>
-    <net code="119" name="Net-(Q2-E)">
+    <net code="116" name="Net-(Q2-E)">
       <node ref="J1" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="Q2" pin="2" pinfunction="E" pintype="passive"/>
       <node ref="R3" pin="2" pintype="passive"/>
@@ -9628,12 +9629,12 @@
       <node ref="R6" pin="1" pintype="passive"/>
       <node ref="Z2" pin="2" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="120" name="Net-(Q3-B)">
+    <net code="117" name="Net-(Q3-B)">
       <node ref="Q3" pin="1" pinfunction="B" pintype="passive"/>
       <node ref="R12" pin="2" pintype="passive"/>
       <node ref="Z3" pin="1" pinfunction="K" pintype="passive"/>
     </net>
-    <net code="121" name="Net-(Q3-E)">
+    <net code="118" name="Net-(Q3-E)">
       <node ref="J1" pin="3" pinfunction="3" pintype="passive"/>
       <node ref="Q3" pin="2" pinfunction="E" pintype="passive"/>
       <node ref="R10" pin="2" pintype="passive"/>
@@ -9642,12 +9643,12 @@
       <node ref="R9" pin="2" pintype="passive"/>
       <node ref="Z3" pin="2" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="122" name="Net-(Q4-B)">
+    <net code="119" name="Net-(Q4-B)">
       <node ref="Q4" pin="1" pinfunction="B" pintype="passive"/>
       <node ref="R17" pin="2" pintype="passive"/>
       <node ref="Z4" pin="1" pinfunction="K" pintype="passive"/>
     </net>
-    <net code="123" name="Net-(Q4-E)">
+    <net code="120" name="Net-(Q4-E)">
       <node ref="J1" pin="4" pinfunction="4" pintype="passive"/>
       <node ref="Q4" pin="2" pinfunction="E" pintype="passive"/>
       <node ref="R13" pin="2" pintype="passive"/>
@@ -9656,12 +9657,12 @@
       <node ref="R16" pin="1" pintype="passive"/>
       <node ref="Z4" pin="2" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="124" name="Net-(Q5-B)">
+    <net code="121" name="Net-(Q5-B)">
       <node ref="Q5" pin="1" pinfunction="B" pintype="passive"/>
       <node ref="R22" pin="2" pintype="passive"/>
       <node ref="Z5" pin="1" pinfunction="K" pintype="passive"/>
     </net>
-    <net code="125" name="Net-(Q5-E)">
+    <net code="122" name="Net-(Q5-E)">
       <node ref="J1" pin="5" pinfunction="5" pintype="passive"/>
       <node ref="Q5" pin="2" pinfunction="E" pintype="passive"/>
       <node ref="R18" pin="2" pintype="passive"/>
@@ -9670,12 +9671,12 @@
       <node ref="R21" pin="1" pintype="passive"/>
       <node ref="Z5" pin="2" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="126" name="Net-(Q6-B)">
+    <net code="123" name="Net-(Q6-B)">
       <node ref="Q6" pin="1" pinfunction="B" pintype="passive"/>
       <node ref="R27" pin="2" pintype="passive"/>
       <node ref="Z6" pin="1" pinfunction="K" pintype="passive"/>
     </net>
-    <net code="127" name="Net-(Q6-E)">
+    <net code="124" name="Net-(Q6-E)">
       <node ref="J1" pin="6" pinfunction="6" pintype="passive"/>
       <node ref="Q6" pin="2" pinfunction="E" pintype="passive"/>
       <node ref="R23" pin="2" pintype="passive"/>
@@ -9684,12 +9685,12 @@
       <node ref="R26" pin="1" pintype="passive"/>
       <node ref="Z6" pin="2" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="128" name="Net-(Q7-B)">
+    <net code="125" name="Net-(Q7-B)">
       <node ref="Q7" pin="1" pinfunction="B" pintype="passive"/>
       <node ref="R32" pin="2" pintype="passive"/>
       <node ref="Z7" pin="1" pinfunction="K" pintype="passive"/>
     </net>
-    <net code="129" name="Net-(Q7-E)">
+    <net code="126" name="Net-(Q7-E)">
       <node ref="J1" pin="7" pinfunction="7" pintype="passive"/>
       <node ref="Q7" pin="2" pinfunction="E" pintype="passive"/>
       <node ref="R28" pin="2" pintype="passive"/>
@@ -9698,12 +9699,12 @@
       <node ref="R31" pin="1" pintype="passive"/>
       <node ref="Z7" pin="2" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="130" name="Net-(Q8-B)">
+    <net code="127" name="Net-(Q8-B)">
       <node ref="Q8" pin="1" pinfunction="B" pintype="passive"/>
       <node ref="R37" pin="2" pintype="passive"/>
       <node ref="Z8" pin="1" pinfunction="K" pintype="passive"/>
     </net>
-    <net code="131" name="Net-(Q8-E)">
+    <net code="128" name="Net-(Q8-E)">
       <node ref="J1" pin="8" pinfunction="8" pintype="passive"/>
       <node ref="Q8" pin="2" pinfunction="E" pintype="passive"/>
       <node ref="R33" pin="2" pintype="passive"/>
@@ -9712,12 +9713,12 @@
       <node ref="R36" pin="1" pintype="passive"/>
       <node ref="Z8" pin="2" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="132" name="Net-(Q9-B)">
+    <net code="129" name="Net-(Q9-B)">
       <node ref="Q9" pin="1" pinfunction="B" pintype="passive"/>
       <node ref="R42" pin="2" pintype="passive"/>
       <node ref="Z9" pin="1" pinfunction="K" pintype="passive"/>
     </net>
-    <net code="133" name="Net-(Q9-E)">
+    <net code="130" name="Net-(Q9-E)">
       <node ref="J1" pin="9" pinfunction="9" pintype="passive"/>
       <node ref="Q9" pin="2" pinfunction="E" pintype="passive"/>
       <node ref="R38" pin="2" pintype="passive"/>
@@ -9726,12 +9727,12 @@
       <node ref="R41" pin="1" pintype="passive"/>
       <node ref="Z9" pin="2" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="134" name="Net-(Q10-B)">
+    <net code="131" name="Net-(Q10-B)">
       <node ref="Q10" pin="1" pinfunction="B" pintype="passive"/>
       <node ref="R47" pin="2" pintype="passive"/>
       <node ref="Z10" pin="1" pinfunction="K" pintype="passive"/>
     </net>
-    <net code="135" name="Net-(Q10-E)">
+    <net code="132" name="Net-(Q10-E)">
       <node ref="J1" pin="10" pinfunction="10" pintype="passive"/>
       <node ref="Q10" pin="2" pinfunction="E" pintype="passive"/>
       <node ref="R43" pin="2" pintype="passive"/>
@@ -9740,12 +9741,12 @@
       <node ref="R46" pin="1" pintype="passive"/>
       <node ref="Z10" pin="2" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="136" name="Net-(Q11-B)">
+    <net code="133" name="Net-(Q11-B)">
       <node ref="Q11" pin="1" pinfunction="B" pintype="passive"/>
       <node ref="R52" pin="2" pintype="passive"/>
       <node ref="Z11" pin="1" pinfunction="K" pintype="passive"/>
     </net>
-    <net code="137" name="Net-(Q11-E)">
+    <net code="134" name="Net-(Q11-E)">
       <node ref="J1" pin="11" pinfunction="11" pintype="passive"/>
       <node ref="Q11" pin="2" pinfunction="E" pintype="passive"/>
       <node ref="R48" pin="2" pintype="passive"/>
@@ -9754,12 +9755,12 @@
       <node ref="R51" pin="1" pintype="passive"/>
       <node ref="Z11" pin="2" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="138" name="Net-(Q12-B)">
+    <net code="135" name="Net-(Q12-B)">
       <node ref="Q12" pin="1" pinfunction="B" pintype="passive"/>
       <node ref="R57" pin="2" pintype="passive"/>
       <node ref="Z12" pin="1" pinfunction="K" pintype="passive"/>
     </net>
-    <net code="139" name="Net-(Q12-E)">
+    <net code="136" name="Net-(Q12-E)">
       <node ref="J1" pin="12" pinfunction="12" pintype="passive"/>
       <node ref="Q12" pin="2" pinfunction="E" pintype="passive"/>
       <node ref="R53" pin="2" pintype="passive"/>
@@ -9768,295 +9769,300 @@
       <node ref="R56" pin="1" pintype="passive"/>
       <node ref="Z12" pin="2" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="140" name="Net-(Q13-S)">
-      <node ref="C63" pin="1" pintype="passive"/>
+    <net code="137" name="Net-(Q13-S)">
+      <node ref="C62" pin="1" pintype="passive"/>
       <node ref="D2" pin="1" pintype="passive"/>
       <node ref="D3" pin="1" pintype="passive"/>
       <node ref="Q13" pin="2" pinfunction="S" pintype="passive"/>
-      <node ref="TP11" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP8" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U5" pin="3" pinfunction="VI" pintype="power_in"/>
     </net>
-    <net code="141" name="Net-(Q14-B)">
+    <net code="138" name="Net-(Q14-B)">
       <node ref="Q14" pin="1" pinfunction="B" pintype="passive"/>
-      <node ref="R135" pin="2" pintype="passive"/>
+      <node ref="R137" pin="2" pintype="passive"/>
     </net>
-    <net code="142" name="Net-(Q14-C)">
+    <net code="139" name="Net-(Q14-C)">
       <node ref="Q14" pin="3" pinfunction="C" pintype="passive"/>
-      <node ref="R136" pin="1" pintype="passive"/>
+      <node ref="R138" pin="1" pintype="passive"/>
       <node ref="X2" pin="1" pinfunction="1" pintype="unspecified"/>
     </net>
-    <net code="143" name="Net-(R97-Pad1)">
-      <node ref="R97" pin="1" pintype="passive"/>
-      <node ref="R98" pin="2" pintype="passive"/>
+    <net code="140" name="Net-(R98-Pad1)">
+      <node ref="R98" pin="1" pintype="passive"/>
+      <node ref="R99" pin="2" pintype="passive"/>
     </net>
-    <net code="144" name="Net-(R101-Pad2)">
-      <node ref="R101" pin="2" pintype="passive"/>
-      <node ref="R104" pin="1" pintype="passive"/>
+    <net code="141" name="Net-(R102-Pad2)">
+      <node ref="R102" pin="2" pintype="passive"/>
+      <node ref="R105" pin="1" pintype="passive"/>
     </net>
-    <net code="145" name="Net-(R133-Pad2)">
-      <node ref="R133" pin="2" pintype="passive"/>
-      <node ref="R134" pin="1" pintype="passive"/>
+    <net code="142" name="Net-(R135-Pad2)">
+      <node ref="R135" pin="2" pintype="passive"/>
+      <node ref="R136" pin="1" pintype="passive"/>
     </net>
-    <net code="146" name="Net-(U1-A0)">
-      <node ref="R63" pin="1" pintype="passive"/>
+    <net code="143" name="Net-(U1-A0)">
       <node ref="R64" pin="1" pintype="passive"/>
+      <node ref="R65" pin="1" pintype="passive"/>
       <node ref="U1" pin="1" pinfunction="A0" pintype="input"/>
     </net>
-    <net code="147" name="Net-(U1-A1)">
-      <node ref="R66" pin="1" pintype="passive"/>
+    <net code="144" name="Net-(U1-A1)">
       <node ref="R67" pin="1" pintype="passive"/>
+      <node ref="R68" pin="1" pintype="passive"/>
       <node ref="U1" pin="16" pinfunction="A1" pintype="input"/>
     </net>
-    <net code="148" name="Net-(U1-A2)">
-      <node ref="R69" pin="1" pintype="passive"/>
+    <net code="145" name="Net-(U1-A2)">
+      <node ref="R70" pin="1" pintype="passive"/>
       <node ref="U1" pin="15" pinfunction="A2" pintype="input"/>
     </net>
-    <net code="149" name="Net-(U1-D)">
-      <node ref="R65" pin="1" pintype="passive"/>
+    <net code="146" name="Net-(U1-D)">
+      <node ref="R66" pin="1" pintype="passive"/>
       <node ref="U1" pin="8" pinfunction="D" pintype="bidirectional"/>
     </net>
-    <net code="150" name="Net-(U1-EN)">
+    <net code="147" name="Net-(U1-EN)">
       <node ref="R62" pin="1" pintype="passive"/>
+      <node ref="R63" pin="2" pintype="passive"/>
       <node ref="U1" pin="2" pinfunction="EN" pintype="input"/>
     </net>
-    <net code="151" name="Net-(U2-BAT)">
+    <net code="148" name="Net-(U2-BAT)">
       <node ref="C16" pin="2" pintype="passive"/>
       <node ref="C17" pin="2" pintype="passive"/>
-      <node ref="R81" pin="2" pintype="passive"/>
-      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R82" pin="2" pintype="passive"/>
       <node ref="U2" pin="46" pinfunction="CP1" pintype="passive"/>
       <node ref="U2" pin="47" pinfunction="BAT" pintype="passive"/>
     </net>
-    <net code="152" name="Net-(U2-PACK)">
-      <node ref="R92" pin="1" pintype="passive"/>
+    <net code="149" name="Net-(U2-PACK)">
+      <node ref="R93" pin="1" pintype="passive"/>
       <node ref="U2" pin="42" pinfunction="PACK" pintype="passive"/>
     </net>
-    <net code="153" name="Net-(U2-REG18)">
+    <net code="150" name="Net-(U2-REG18)">
       <node ref="C22" pin="1" pintype="passive"/>
       <node ref="U2" pin="24" pinfunction="REG18" pintype="passive"/>
     </net>
-    <net code="154" name="Net-(U2-SRN)">
+    <net code="151" name="Net-(U2-SRN)">
       <node ref="C19" pin="2" pintype="passive"/>
       <node ref="C20" pin="1" pintype="passive"/>
       <node ref="C21" pin="1" pintype="passive"/>
-      <node ref="R94" pin="1" pintype="passive"/>
+      <node ref="R95" pin="1" pintype="passive"/>
       <node ref="U2" pin="20" pinfunction="SRN" pintype="passive"/>
     </net>
-    <net code="155" name="Net-(U2-SRP)">
+    <net code="152" name="Net-(U2-SRP)">
       <node ref="C18" pin="1" pintype="passive"/>
       <node ref="C19" pin="1" pintype="passive"/>
       <node ref="C20" pin="2" pintype="passive"/>
-      <node ref="R91" pin="1" pintype="passive"/>
+      <node ref="R92" pin="1" pintype="passive"/>
       <node ref="U2" pin="18" pinfunction="SRP" pintype="passive"/>
     </net>
-    <net code="156" name="Net-(U2-VC3)">
+    <net code="153" name="Net-(U2-VC3)">
+      <node ref="R81" pin="2" pintype="passive"/>
+      <node ref="R90" pin="1" pintype="passive"/>
+      <node ref="R91" pin="2" pintype="passive"/>
+      <node ref="U2" pin="13" pinfunction="VC3" pintype="passive"/>
+    </net>
+    <net code="154" name="Net-(U2-VC4)">
       <node ref="R80" pin="2" pintype="passive"/>
       <node ref="R89" pin="1" pintype="passive"/>
       <node ref="R90" pin="2" pintype="passive"/>
-      <node ref="U2" pin="13" pinfunction="VC3" pintype="passive"/>
+      <node ref="U2" pin="12" pinfunction="VC4" pintype="passive"/>
     </net>
-    <net code="157" name="Net-(U2-VC4)">
+    <net code="155" name="Net-(U2-VC5)">
       <node ref="R79" pin="2" pintype="passive"/>
       <node ref="R88" pin="1" pintype="passive"/>
       <node ref="R89" pin="2" pintype="passive"/>
-      <node ref="U2" pin="12" pinfunction="VC4" pintype="passive"/>
+      <node ref="U2" pin="11" pinfunction="VC5" pintype="passive"/>
     </net>
-    <net code="158" name="Net-(U2-VC5)">
+    <net code="156" name="Net-(U2-VC6)">
       <node ref="R78" pin="2" pintype="passive"/>
       <node ref="R87" pin="1" pintype="passive"/>
       <node ref="R88" pin="2" pintype="passive"/>
-      <node ref="U2" pin="11" pinfunction="VC5" pintype="passive"/>
+      <node ref="U2" pin="10" pinfunction="VC6" pintype="passive"/>
     </net>
-    <net code="159" name="Net-(U2-VC6)">
+    <net code="157" name="Net-(U2-VC7)">
       <node ref="R77" pin="2" pintype="passive"/>
       <node ref="R86" pin="1" pintype="passive"/>
       <node ref="R87" pin="2" pintype="passive"/>
-      <node ref="U2" pin="10" pinfunction="VC6" pintype="passive"/>
+      <node ref="U2" pin="9" pinfunction="VC7" pintype="passive"/>
     </net>
-    <net code="160" name="Net-(U2-VC7)">
+    <net code="158" name="Net-(U2-VC8)">
       <node ref="R76" pin="2" pintype="passive"/>
       <node ref="R85" pin="1" pintype="passive"/>
       <node ref="R86" pin="2" pintype="passive"/>
-      <node ref="U2" pin="9" pinfunction="VC7" pintype="passive"/>
+      <node ref="U2" pin="8" pinfunction="VC8" pintype="passive"/>
     </net>
-    <net code="161" name="Net-(U2-VC8)">
+    <net code="159" name="Net-(U2-VC9)">
       <node ref="R75" pin="2" pintype="passive"/>
       <node ref="R84" pin="1" pintype="passive"/>
       <node ref="R85" pin="2" pintype="passive"/>
-      <node ref="U2" pin="8" pinfunction="VC8" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="VC9" pintype="passive"/>
     </net>
-    <net code="162" name="Net-(U2-VC9)">
+    <net code="160" name="Net-(U2-VC10)">
       <node ref="R74" pin="2" pintype="passive"/>
       <node ref="R83" pin="1" pintype="passive"/>
       <node ref="R84" pin="2" pintype="passive"/>
-      <node ref="U2" pin="7" pinfunction="VC9" pintype="passive"/>
-    </net>
-    <net code="163" name="Net-(U2-VC10)">
-      <node ref="R73" pin="2" pintype="passive"/>
-      <node ref="R82" pin="1" pintype="passive"/>
-      <node ref="R83" pin="2" pintype="passive"/>
       <node ref="U2" pin="6" pinfunction="VC10" pintype="passive"/>
     </net>
-    <net code="164" name="Net-(U2-VC11)">
-      <node ref="R72" pin="2" pintype="passive"/>
-      <node ref="R82" pin="2" pintype="passive"/>
+    <net code="161" name="Net-(U2-VC11)">
+      <node ref="R73" pin="2" pintype="passive"/>
+      <node ref="R83" pin="2" pintype="passive"/>
       <node ref="U2" pin="1" pinfunction="VC15" pintype="passive"/>
       <node ref="U2" pin="2" pinfunction="VC14" pintype="passive"/>
       <node ref="U2" pin="3" pinfunction="VC13" pintype="passive"/>
       <node ref="U2" pin="4" pinfunction="VC12" pintype="passive"/>
       <node ref="U2" pin="5" pinfunction="VC11" pintype="passive"/>
     </net>
-    <net code="165" name="Net-(U2-VC16)">
-      <node ref="R65" pin="2" pintype="passive"/>
-      <node ref="R70" pin="1" pintype="passive"/>
+    <net code="162" name="Net-(U2-VC16)">
+      <node ref="R66" pin="2" pintype="passive"/>
       <node ref="R71" pin="1" pintype="passive"/>
+      <node ref="R72" pin="1" pintype="passive"/>
       <node ref="U2" pin="48" pinfunction="VC16" pintype="passive"/>
     </net>
-    <net code="166" name="Net-(U3-BOOT)">
-      <node ref="R106" pin="1" pintype="passive"/>
+    <net code="163" name="Net-(U3-BOOT)">
+      <node ref="R107" pin="1" pintype="passive"/>
       <node ref="U3" pin="4" pinfunction="BOOT" pintype="passive"/>
     </net>
-    <net code="167" name="Net-(U3-COMP)">
-      <node ref="R99" pin="2" pintype="passive"/>
+    <net code="164" name="Net-(U3-COMP)">
+      <node ref="R100" pin="2" pintype="passive"/>
       <node ref="U3" pin="21" pinfunction="COMP" pintype="passive"/>
     </net>
-    <net code="168" name="Net-(U3-EN)">
-      <node ref="R96" pin="1" pintype="passive"/>
-      <node ref="R97" pin="2" pintype="passive"/>
-      <node ref="TP7" pin="1" pinfunction="1" pintype="passive"/>
+    <net code="165" name="Net-(U3-EN)">
+      <node ref="R97" pin="1" pintype="passive"/>
+      <node ref="R98" pin="2" pintype="passive"/>
+      <node ref="TP5" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U3" pin="3" pinfunction="EN" pintype="input"/>
     </net>
-    <net code="169" name="Net-(U3-FSW)">
-      <node ref="R105" pin="2" pintype="passive"/>
+    <net code="166" name="Net-(U3-FSW)">
+      <node ref="R106" pin="2" pintype="passive"/>
       <node ref="U3" pin="24" pinfunction="FSW" pintype="passive"/>
     </net>
-    <net code="170" name="Net-(U3-ILIMIT)">
-      <node ref="R102" pin="2" pintype="passive"/>
+    <net code="167" name="Net-(U3-ILIMIT)">
+      <node ref="R103" pin="2" pintype="passive"/>
       <node ref="U3" pin="25" pinfunction="ILIMIT" pintype="passive"/>
     </net>
-    <net code="171" name="Net-(U3-MODE)">
-      <node ref="R104" pin="2" pintype="passive"/>
+    <net code="168" name="Net-(U3-MODE)">
+      <node ref="R105" pin="2" pintype="passive"/>
       <node ref="U3" pin="27" pinfunction="MODE" pintype="input"/>
     </net>
-    <net code="172" name="Net-(U3-PHASE)">
+    <net code="169" name="Net-(U3-PHASE)">
       <node ref="C41" pin="2" pintype="passive"/>
       <node ref="U3" pin="5" pinfunction="PHASE" pintype="output"/>
       <node ref="U3" pin="6" pinfunction="PHASE__1" pintype="unspecified"/>
     </net>
-    <net code="173" name="Net-(U3-SS)">
+    <net code="170" name="Net-(U3-SS)">
       <node ref="C38" pin="2" pintype="passive"/>
       <node ref="U3" pin="19" pinfunction="SS" pintype="passive"/>
     </net>
-    <net code="174" name="Net-(U3-SW)">
+    <net code="171" name="Net-(U3-SW)">
       <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="R109" pin="1" pintype="passive"/>
       <node ref="R110" pin="1" pintype="passive"/>
       <node ref="U3" pin="12" pinfunction="SW" pintype="output"/>
       <node ref="U3" pin="13" pinfunction="SW__1" pintype="unspecified"/>
       <node ref="U3" pin="14" pinfunction="SW__2" pintype="unspecified"/>
       <node ref="U3" pin="14.1" pinfunction="SW__3" pintype="unspecified"/>
     </net>
-    <net code="175" name="Net-(U3-ULTRASONIC)">
-      <node ref="R103" pin="2" pintype="passive"/>
+    <net code="172" name="Net-(U3-ULTRASONIC)">
+      <node ref="R104" pin="2" pintype="passive"/>
       <node ref="U3" pin="18" pinfunction="ULTRASONIC" pintype="input"/>
     </net>
-    <net code="176" name="Net-(U3-VDD)">
+    <net code="173" name="Net-(U3-VDD)">
       <node ref="C37" pin="1" pintype="passive"/>
-      <node ref="R103" pin="1" pintype="passive"/>
+      <node ref="R104" pin="1" pintype="passive"/>
       <node ref="U3" pin="26" pinfunction="VDD" pintype="power_out"/>
     </net>
-    <net code="177" name="Net-(U3-VDRV)">
+    <net code="174" name="Net-(U3-VDRV)">
       <node ref="C39" pin="2" pintype="passive"/>
       <node ref="U3" pin="16" pinfunction="VDRV" pintype="power_out"/>
     </net>
-    <net code="178" name="Net-(U3-VFB)">
-      <node ref="R108" pin="2" pintype="passive"/>
+    <net code="175" name="Net-(U3-VFB)">
+      <node ref="R109" pin="2" pintype="passive"/>
       <node ref="R111" pin="1" pintype="passive"/>
       <node ref="U3" pin="22" pinfunction="VFB" pintype="input"/>
     </net>
-    <net code="179" name="Net-(U3-VSNS)">
+    <net code="176" name="Net-(U3-VSNS)">
       <node ref="C40" pin="1" pintype="passive"/>
       <node ref="U3" pin="20" pinfunction="VSNS" pintype="input"/>
     </net>
-    <net code="180" name="Net-(U6-USB_DM)">
-      <node ref="R120" pin="1" pintype="passive"/>
+    <net code="177" name="Net-(U6-ADC_AVDD)">
+      <node ref="C70" pin="2" pintype="passive"/>
+      <node ref="R122" pin="1" pintype="passive"/>
+      <node ref="U6" pin="43" pinfunction="ADC_AVDD" pintype="power_in"/>
+      <node ref="U7" pin="1" pinfunction="K" pintype="passive"/>
+    </net>
+    <net code="178" name="Net-(U6-USB_DM)">
+      <node ref="R121" pin="1" pintype="passive"/>
       <node ref="U6" pin="46" pinfunction="USB_DM" pintype="bidirectional"/>
     </net>
-    <net code="181" name="Net-(U6-USB_DP)">
-      <node ref="R119" pin="1" pintype="passive"/>
+    <net code="179" name="Net-(U6-USB_DP)">
+      <node ref="R120" pin="1" pintype="passive"/>
       <node ref="U6" pin="47" pinfunction="USB_DP" pintype="bidirectional"/>
     </net>
-    <net code="182" name="Net-(U7-VOUT)">
-      <node ref="C86" pin="2" pintype="passive"/>
+    <net code="180" name="Net-(U8-VOUT)">
+      <node ref="C85" pin="2" pintype="passive"/>
       <node ref="CR3" pin="6" pinfunction="6" pintype="unspecified"/>
-      <node ref="U7" pin="1" pinfunction="VOUT" pintype="output"/>
+      <node ref="U8" pin="1" pinfunction="VOUT" pintype="output"/>
     </net>
-    <net code="183" name="Net-(U8-VDD)">
-      <node ref="C88" pin="2" pintype="passive"/>
-      <node ref="R134" pin="2" pintype="passive"/>
-      <node ref="U8" pin="1" pinfunction="VDD" pintype="input"/>
+    <net code="181" name="Net-(U9-VDD)">
+      <node ref="C87" pin="2" pintype="passive"/>
+      <node ref="R136" pin="2" pintype="passive"/>
+      <node ref="U9" pin="1" pinfunction="VDD" pintype="input"/>
     </net>
-    <net code="184" name="unconnected-(J3-SBU1-PadA8)">
+    <net code="182" name="unconnected-(J3-SBU1-PadA8)">
       <node ref="J3" pin="A8" pinfunction="SBU1" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="185" name="unconnected-(J3-SBU2-PadB8)">
+    <net code="183" name="unconnected-(J3-SBU2-PadB8)">
       <node ref="J3" pin="B8" pinfunction="SBU2" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="186" name="unconnected-(J6-MH1-Pad3)">
+    <net code="184" name="unconnected-(J6-MH1-Pad3)">
       <node ref="J6" pin="3" pinfunction="MH1" pintype="passive+no_connect"/>
     </net>
-    <net code="187" name="unconnected-(J6-MH2-Pad4)">
+    <net code="185" name="unconnected-(J6-MH2-Pad4)">
       <node ref="J6" pin="4" pinfunction="MH2" pintype="passive+no_connect"/>
     </net>
-    <net code="188" name="unconnected-(J7-Pad3)">
+    <net code="186" name="unconnected-(J7-Pad3)">
       <node ref="J7" pin="3" pinfunction="3" pintype="passive+no_connect"/>
     </net>
-    <net code="189" name="unconnected-(J7-Pad4)">
+    <net code="187" name="unconnected-(J7-Pad4)">
       <node ref="J7" pin="4" pinfunction="4" pintype="passive+no_connect"/>
     </net>
-    <net code="190" name="unconnected-(J8-MH1-Pad3)">
+    <net code="188" name="unconnected-(J8-MH1-Pad3)">
       <node ref="J8" pin="3" pinfunction="MH1" pintype="passive+no_connect"/>
     </net>
-    <net code="191" name="unconnected-(J8-MH2-Pad4)">
+    <net code="189" name="unconnected-(J8-MH2-Pad4)">
       <node ref="J8" pin="4" pinfunction="MH2" pintype="passive+no_connect"/>
     </net>
-    <net code="192" name="unconnected-(J9-MH1-Pad3)">
+    <net code="190" name="unconnected-(J9-MH1-Pad3)">
       <node ref="J9" pin="3" pinfunction="MH1" pintype="passive+no_connect"/>
     </net>
-    <net code="193" name="unconnected-(J9-MH2-Pad4)">
+    <net code="191" name="unconnected-(J9-MH2-Pad4)">
       <node ref="J9" pin="4" pinfunction="MH2" pintype="passive+no_connect"/>
     </net>
-    <net code="194" name="unconnected-(J10-MH1-Pad3)">
+    <net code="192" name="unconnected-(J10-MH1-Pad3)">
       <node ref="J10" pin="3" pinfunction="MH1" pintype="passive+no_connect"/>
     </net>
-    <net code="195" name="unconnected-(J10-MH2-Pad4)">
+    <net code="193" name="unconnected-(J10-MH2-Pad4)">
       <node ref="J10" pin="4" pinfunction="MH2" pintype="passive+no_connect"/>
     </net>
-    <net code="196" name="unconnected-(J12-MH1-Pad3)">
+    <net code="194" name="unconnected-(J12-MH1-Pad3)">
       <node ref="J12" pin="3" pinfunction="MH1" pintype="passive+no_connect"/>
     </net>
-    <net code="197" name="unconnected-(J12-MH2-Pad4)">
+    <net code="195" name="unconnected-(J12-MH2-Pad4)">
       <node ref="J12" pin="4" pinfunction="MH2" pintype="passive+no_connect"/>
     </net>
-    <net code="198" name="unconnected-(U2-CHG-Pad45)">
+    <net code="196" name="unconnected-(U2-CHG-Pad45)">
       <node ref="U2" pin="45" pinfunction="CHG" pintype="passive+no_connect"/>
     </net>
-    <net code="199" name="unconnected-(U2-DSG-Pad43)">
+    <net code="197" name="unconnected-(U2-DSG-Pad43)">
       <node ref="U2" pin="43" pinfunction="DSG" pintype="passive+no_connect"/>
     </net>
-    <net code="200" name="unconnected-(U2-NC_1-Pad19)">
+    <net code="198" name="unconnected-(U2-NC_1-Pad19)">
       <node ref="U2" pin="19" pinfunction="NC_1" pintype="passive+no_connect"/>
     </net>
-    <net code="201" name="unconnected-(U2-NC_2-Pad44)">
+    <net code="199" name="unconnected-(U2-NC_2-Pad44)">
       <node ref="U2" pin="44" pinfunction="NC_2" pintype="passive+no_connect"/>
     </net>
-    <net code="202" name="unconnected-(U2-PCHG-Pad40)">
+    <net code="200" name="unconnected-(U2-PCHG-Pad40)">
       <node ref="U2" pin="40" pinfunction="PCHG" pintype="passive+no_connect"/>
     </net>
-    <net code="203" name="unconnected-(U2-PDSG-Pad39)">
+    <net code="201" name="unconnected-(U2-PDSG-Pad39)">
       <node ref="U2" pin="39" pinfunction="PDSG" pintype="passive+no_connect"/>
     </net>
-    <net code="204" name="unconnected-(U3-GL-Pad15)">
+    <net code="202" name="unconnected-(U3-GL-Pad15)">
       <node ref="U3" pin="15" pinfunction="GL" pintype="output+no_connect"/>
     </net>
   </nets>
