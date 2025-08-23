@@ -48,20 +48,6 @@
     (stroke (width 0.0254) (type solid)) (layer "F.Fab") (tstamp aa2595a4-a746-4095-9557-d26c6485a1d0))
   (pad "1" smd rect (at -0.852799 0) (size 1.005599 1.199998) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp aafb42ac-3452-422d-ba75-923b4cf7280c))
   (pad "2" smd rect (at 0.852799 0) (size 1.005599 1.199998) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 4dfb536c-d17a-41b4-81dc-a86e0a028c78))
-  (zone (net 0) (net_name "") (layer "F.Cu") (tstamp 0237d1a7-e500-498c-98d1-b7cedac1886f) (hatch full 0.508)
-    (connect_pads (clearance 0))
-    (min_thickness 0.254) (filled_areas_thickness no)
-    (keepout (tracks not_allowed) (vias not_allowed) (pads allowed) (copperpour not_allowed) (footprints allowed))
-    (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
-    (polygon
-      (pts
-        (xy -0.299199 -0.549199)
-        (xy 0.299199 -0.549199)
-        (xy 0.299199 0.549199)
-        (xy -0.299199 0.549199)
-      )
-    )
-  )
   (model "${KICAD7_3DMODEL_DIR}/RC0805N_VIS.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))

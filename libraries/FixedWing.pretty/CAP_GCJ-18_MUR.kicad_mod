@@ -54,20 +54,6 @@
     (stroke (width 0.0254) (type solid)) (fill none) (layer "F.Fab") (tstamp 0fbe4e11-daac-4688-8373-55a9a1cdd59b))
   (pad "1" smd rect (at -0.8255 0) (size 0.8636 0.889) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 41144d44-6f90-43ec-98d9-ee91b294e893))
   (pad "2" smd rect (at 0.8255 0) (size 0.8636 0.889) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp fdbb9086-ede7-42f7-9b6b-5f00eb6e1292))
-  (zone (net 0) (net_name "") (layer "F.Cu") (tstamp 2eee3a29-0ac1-4873-9d4c-ead737d88d35) (hatch full 0.508)
-    (connect_pads (clearance 0))
-    (min_thickness 0.254) (filled_areas_thickness no)
-    (keepout (tracks not_allowed) (vias not_allowed) (pads allowed) (copperpour not_allowed) (footprints allowed))
-    (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
-    (polygon
-      (pts
-        (xy -0.3429 -0.3937)
-        (xy 0.3429 -0.3937)
-        (xy 0.3429 0.3937)
-        (xy -0.3429 0.3937)
-      )
-    )
-  )
   (model ":KICAD7_3DMODEL_DIR:CAP_GCJ-18_MUR.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))

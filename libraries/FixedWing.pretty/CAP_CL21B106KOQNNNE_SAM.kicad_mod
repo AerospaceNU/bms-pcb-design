@@ -50,20 +50,6 @@
     (stroke (width 0.0254) (type solid)) (fill none) (layer "F.Fab") (tstamp e1d8214b-b1cf-4632-9daa-598eb599f391))
   (pad "1" smd rect (at -0.9017 0) (size 1.0668 1.397) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp acb4cf2a-616a-42c3-8fb0-8aed6b935f16))
   (pad "2" smd rect (at 0.9017 0) (size 1.0668 1.397) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp af8c7c43-b31b-4bcb-bfd7-af66f558f901))
-  (zone (net 0) (net_name "") (layer "F.Cu") (tstamp 297b5038-c3a0-4e7a-a399-7f56c4a4cccc) (hatch full 0.508)
-    (connect_pads (clearance 0))
-    (min_thickness 0.254) (filled_areas_thickness no)
-    (keepout (tracks not_allowed) (vias not_allowed) (pads allowed) (copperpour not_allowed) (footprints allowed))
-    (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
-    (polygon
-      (pts
-        (xy -0.3175 -0.6477)
-        (xy 0.3175 -0.6477)
-        (xy 0.3175 0.6477)
-        (xy -0.3175 0.6477)
-      )
-    )
-  )
   (model "${KICAD7_3DMODEL_DIR}/CAP_CL21B106KOQNNNE_SAM.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))

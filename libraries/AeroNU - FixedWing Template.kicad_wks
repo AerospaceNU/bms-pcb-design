@@ -31,4 +31,5 @@
 )
   (line (name "") (start 90 8.5) (end 90 5.5))
   (line (name "") (start 26 8.5) (end 26 2))
+  (tbtext "Text" (name "") (pos 0 0))
 )

@@ -22,15 +22,6 @@
       (xy 1.6256 -2.4511)
     )
 
-    (stroke (width 0) (type solid)) (fill solid) (layer "F.Cu") (tstamp 11b373ba-b082-41d7-8aab-bb9b0d21e74b))
-  (fp_poly
-    (pts
-      (xy 1.6256 -4.0005)
-      (xy -1.6256 -4.0005)
-      (xy -1.6256 -2.4511)
-      (xy 1.6256 -2.4511)
-    )
-
     (stroke (width 0) (type solid)) (fill solid) (layer "F.Paste") (tstamp d18811a9-0945-434b-9b7f-abe55ab1c8b7))
   (fp_line (start -3.4671 -1.9685) (end -3.4671 1.9685)
     (stroke (width 0.1524) (type solid)) (layer "F.SilkS") (tstamp 765a8df0-eab1-446b-b910-9821bdcc7555))
@@ -118,6 +109,7 @@
   (fp_circle (center -3.0861 1.5875) (end -2.9591 1.5875)
     (stroke (width 0.0254) (type solid)) (fill none) (layer "F.Fab") (tstamp 39181b78-137a-417c-91c5-6963c19ca212))
   (pad "1" smd rect (at -2.2987 3.2258) (size 0.6096 1.5494) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 4359dad9-bc94-4a9a-b23a-d3cb22853352))
+  (pad "2" smd rect (at 0 -3.2258 90) (size 1.5494 3.2512) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 372601c0-9693-49e4-af9d-252ad714d7df))
   (pad "2" smd rect (at 0 3.2258) (size 0.6096 1.5494) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 893cfa3f-7de7-4ec0-a143-6160365b7cb3))
   (pad "3" smd rect (at 2.2987 3.2258) (size 0.6096 1.5494) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 87d22d33-10e6-41c2-8d21-2b52d7ce0bf3))
   (model "${KICAD7_3DMODEL_DIR}/SOT223-3_ONS.step"
