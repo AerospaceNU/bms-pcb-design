@@ -1,0 +1,8 @@
+**/*-backups/
+**/.DS_Store
+**/*.gbr
+**/*panel-job.gbrjob
+**/*.drl
+**/*.zip
+**/*.kicad_pcb.lck
+**/*.kicad_sch.lck
