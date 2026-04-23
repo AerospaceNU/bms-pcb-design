@@ -1,0 +1,22 @@
+Circuit: * C:\Users\matth\Desktop\AeroNU\FixedWing\BMS\bms-pcb-design\sims\WS2812Driver\WS2812Driver.asc
+
+Direct Newton iteration for .op point succeeded.
+
+Date: Wed Mar 25 02:10:24 2026
+Total elapsed time: 0.122 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 8492
+traniter = 8485
+tranpoints = 3616
+accept = 3277
+rejected = 339
+matrix size = 17
+fillins = 3
+solver = Normal
+Avg thread counts: 1.7/2.6/2.6/1.7
+Matrix Compiler1: 1.53 KB object code size  0.4/0.2/[0.2]
+Matrix Compiler2: 1.47 KB object code size  0.2/0.2/[0.1]
+

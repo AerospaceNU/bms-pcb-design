@@ -1,0 +1,82 @@
+* File     : USBLC6-2SC6.LIB
+* Revision : 1.0
+* Date     : October 2014
+* 
+***************************************************************************************
+* Information included is believed to be accurate and reliable. However, *
+* ST Microelectronics assumes no responsibility for the consequences of  *
+* use of such information nor for any infringement of patents or other   *
+* rights of third parties which may result from its use. No license is   *
+* granted by implication or otherwise under any patent patent rights of  *
+* ST Microelectronics. Specification mentionned in this publication are  *
+* subject to change without notice. This publication superseedes and 	 *
+* replaces all information previously supplied. ST Microelectronics      *
+* products are not authorized for use as critical components in life     *
+* support or systems without express written approval of ST              *
+* Microelectronics.                          	                         *
+*                                                                    	 *			*
+*    (c) 2014 ST Microelectronics. All rights reserved.     	         *
+*                                                                    	 *			*
+*           ST Microelectronics GROUP OF COMPANIES                       *
+* Australia - Brazil - France - Germany - Hong Kong - Italy - Japan  	 *
+* Korea - Malaysia - Malta - Morocco - The Netherlands - Singapore   	 *
+* Spain - Sweden - Switzerland - Taiwan - United Kingdom - U.S.A.    	 *
+*									 *
+***************************************************************************************
+
+
+.SUBCKT USBLC6-2SC6 1 2 3 4 5 6
+
+
+
+.MODEL Dup D
++ IS=312.72E-9
++ N=4.9950
++ RS=264m
++ CJO=2p
++ M=.333
++ VJ=.6
++ ISR=100.00E-12
++ BV=50
++ IBV=1m
++ TT=0.1u
+
+.MODEL Ddn D
++ IS=312.72E-9
++ N=4.9950
++ RS=360m
++ CJO=0.9p   
++ M=.3333
++ VJ=.6
++ ISR=100.00E-12
++ BV=50
++ IBV=100.00E-6
++ TT=0.1u
+
+.MODEL TVS D
++ BV=7.3
++ CJO=40p
++ IBV=1m
++ IKF=343.067
++ IS=5.8E-21
++ ISR=3.11E-21
++ N=487.722m
++ M=381.162m
++ RS=648m
++ VJ=0.75
++ TT=50n
+
+
+L_L1 6 node1 750p
+L_L2 4 node2 750p
+L_L17 3 node2 750p
+L_L14 node3 2 550p
+L_L18 5 node4 750p
+L_L16 1 node1 750p
+D_D40 node1 node4 Dup
+D_D41 node3 node1 Ddn
+D_D43 node2 node4 Dup
+D_D44 node3 node2 Ddn
+D_D45 node3 node4 TVS
+
+.ENDS

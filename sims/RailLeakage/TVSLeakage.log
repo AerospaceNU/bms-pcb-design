@@ -1,0 +1,45 @@
+Circuit: * C:\Users\matth\Desktop\AeroNU\FixedWing\BMS\bms-pcb-design\sims\RailLeakage\TVSLeakage.asc
+
+WARNING: Less than two connections to node nc_02.  This node is used by l:u1:_l17.
+WARNING: Less than two connections to node +5v1.  This node is used by l:u1:_l18.
+WARNING: Less than two connections to node nc_01.  This node is used by l:u1:_l16.
+WARNING: Less than two connections to node n002.  This node is used by l:u2:_l1.
+WARNING: Less than two connections to node nc_04.  This node is used by l:u2:_l17.
+WARNING: Less than two connections to node nc_03.  This node is used by l:u2:_l16.
+WARNING: Less than two connections to node +batt.  This node is used by r3.
+Direct Newton iteration for .op point succeeded.
+Semiconductor Device Operating Points:
+                        --- Diodes ---
+Name:   d:u1:_d40   d:u1:_d43   d:u1:_d41   d:u1:_d44   d:u1:_d45
+Model:   u1:dup      u1:dup      u1:ddn      u1:ddn      u1:tvs
+Id:      1.67e-12    1.66e-12   -3.13e-07   -3.13e-07   -3.30e-12
+Vd:      6.91e-07    6.87e-07   -3.30e+00   -3.30e+00   -3.30e+00
+Req:     4.13e+05    4.13e+05    5.90e+10    5.90e+10    1.00e+12
+CAP:     2.24e-12    2.24e-12    4.82e-13    4.82e-13    2.10e-11
+
+Name:   d:u2:_d40   d:u2:_d43   d:u2:_d41   d:u2:_d44   d:u2:_d45
+Model:   u2:dup      u2:dup      u2:ddn      u2:ddn      u2:tvs
+Id:     -3.13e-07   -3.13e-07   -3.13e-07   -3.59e-10   -3.30e-12
+Vd:     -1.65e+00   -3.30e+00   -1.65e+00   -1.48e-04   -3.30e+00
+Req:     3.24e+10    5.91e+10    3.24e+10    4.13e+05    1.00e+12
+CAP:     1.29e-12    1.07e-12    5.79e-13    1.14e-12    2.10e-11
+
+
+
+Date: Tue Sep 23 01:57:57 2025
+Total elapsed time: 0.030 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 50
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 32
+fillins = 20
+solver = Normal
+Avg thread counts: 16.0/0.0/16.0/16.0
+Matrix Compiler1: 2.54 KB object code size
+Matrix Compiler2:     216 opcodes

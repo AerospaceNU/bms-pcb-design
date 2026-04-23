@@ -6973,7 +6973,7 @@
   )
 
   (symbol (lib_id "FixedWing:CRCW08050000Z0EA") (at 163.83 176.53 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid b03911a8-02af-4f87-ba63-598082dc5f80)
     (property "Reference" "R72" (at 170.18 173.99 0)
       (effects (font (size 1.27 1.27)))
@@ -7271,7 +7271,7 @@
   )
 
   (symbol (lib_id "FixedWing:CRCW08050000Z0EA") (at 163.83 163.83 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid ddc40e71-6be6-4909-918d-89ae514d5664)
     (property "Reference" "R71" (at 170.18 161.29 0)
       (effects (font (size 1.27 1.27)))

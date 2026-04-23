@@ -474,7 +474,7 @@
       "model_mode": 0,
       "workbook_filename": ""
     },
-    "page_layout_descr_file": "C:\\Users\\cassi\\Documents\\BMS\\bms-pcb-design\\libraries\\AeroNU - FixedWing Template With Author.kicad_wks",
+    "page_layout_descr_file": "..\\libraries\\AeroNU - FixedWing Template With Author.kicad_wks",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",

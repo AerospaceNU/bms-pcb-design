@@ -30,7 +30,7 @@
     (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 8c42c48f-43c4-4ae8-8bde-ea2e60d6f762))
   (pad "1" smd rect (at -5.4 0) (size 5.2 8.75) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp ac5254a9-4378-4524-b151-0c5da52a5986))
   (pad "2" smd rect (at 5.4 0) (size 5.2 8.75) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 3d5551cc-a8e0-41df-87c8-0f451a181dac))
-  (model "${KICAD7_3DMODEL_DIR}/RES_3920R.step"
+  (model "${KICAD7_3DMODEL_DIR}/RES_5930K_2L00x_BRN.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
