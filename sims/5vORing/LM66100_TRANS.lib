@@ -1,0 +1,170 @@
+*$
+* LM66100
+*****************************************************************************
+* (C) Copyright 2021 Texas Instruments Incorporated. All rights reserved.
+*****************************************************************************
+** This model is designed as an aid for customers of Texas Instruments.
+** TI and its licensors and suppliers make no warranties, either expressed
+** or implied, with respect to this model, including the warranties of
+** merchantability or fitness for a particular purpose.  The model is
+** provided solely on an "as is" basis.  The entire risk as to its quality
+** and performance is with the customer
+*****************************************************************************
+*
+* This model is subject to change without notice. Texas Instruments
+* Incorporated is not responsible for updating this model.
+*
+*****************************************************************************
+*
+** Released by: Texas Instruments Inc.
+* Part: LM66100
+* Date: 23FEB2021
+* Model Type: TRANSIENT
+* Simulator: PSPICE
+* Simulator Version: 17.2-2016 S067
+* EVM Order Number: LM66100EVM
+* EVM Users Guide: SLVUBL9–February 2019
+* Datasheet: SLVSEZ8A –MARCH 2019–REVISED JUNE 2019
+*
+* Model Version: Final 1.10
+*
+*****************************************************************************
+*
+* Updates:
+*
+* Final 1.10
+* Following modifications are done wrt ver 1.00
+*   1. VON, VOFF thresholds and TON delay: The VON and VOFF thresholds are
+*      modified such that MOSFET will turn on when (VCE-Vin)<-150mV and
+*      turned off when (VCE-Vin) >35mV. TON is modelled as a function of VIN.
+*   2. ST pin: TON and TOFF delays are removed from ST pin and a fixed delay
+*      of 1us when VON and VOFF thresholds are reached is added.
+*      ST RON resistance is changes from 200ohm to 100ohm as per the latest DS.
+*	3. RCB detection is activated only when CE is connected to VOUT externally.
+*
+* Final 1.00
+* Release to Web.
+*
+*****************************************************************************
+*
+* Model Usage Notes:
+* A. Features have been modelled
+*	1. 	Comparator Chip Enable (CE)- VON, VOFF thresholds
+*	2. 	Switching Characteristics- TON, TOFF and tFALL
+*	3. 	On-Resistance (RON)
+*	4. 	Reverse Current Blocking (RCB) and Body Diode Characteristics
+*	5. 	Status Indication (ST) functionalities
+*	6. 	Reverse Polarity Protection (RPP)
+*
+* B. Features have not been modelled
+*	1. Operating Quiescent Current, shutdown current and Leakage current
+*   2. Temperature dependent characteristics
+*
+*****************************************************************************
+.SUBCKT LM66100_TRANS CE GND IN N_C OUT ST
+V_V23         N02479 IN -0.5
+X_H2    N01447 OUT LOAD 0 LM66100_H2
+X_S15    EN_DRV 0 IN N01759 LM66100_S15
+G_ABMII7         IN GND VALUE { if(V(EN_DRV)>0.5,0.5u,0.1u)    }
+V_V26         N01657 0 1.5
+X_X_LOAD         DROP 0 N01299 N01759 N01447 ZX
+E_ABM4         CELOW 0 VALUE { if(V(N02265)>0.5,1,0)    }
+X_U10         N17412887 N02209 D_LM66100
+C_C32         0 N02265  1.443u
+E_E1         DROP 0 TABLE { V(VIN_INT, 0) }
++ ( (0,0m) (1.5,140m) (1.8,140m) (3.6,90m) (5,78m) )
+V_V25         N01665 0 0.1
+X_U8         N02479 N01759 D_LM66100
+R_R1         0 N01299  1
+X_S16    N17414831 0 ST GND LM66100_S16
+R_R38         N02265 N17412887  2
+X_U9         N02209 N02235 D_LM66100
+X_U864         VIN_INT N01657 N01665 POR COMPHYS_BASIC_GEN PARAMS: VDD=1 VSS=0
++  VTHRESH=0.5
+E_E5         VIN_INT 0 IN GND 1
+E_ABM6         N02209 0 VALUE { if(V(VON_OFF)>0.5,0,1)    }
+X_U870         VON_OFF N17414276 INV_DELAY_BASIC_GEN PARAMS: VDD=1 VSS=0
++  VTHRESH=0.5 DELAY=1U
+X_U871         N17414276 POR N17414831 NAND2_BASIC_GEN PARAMS: VDD=1 VSS=0
++  VTHRESH=500E-3
+R_R41         0 N17413402  1
+V_V27         NOT_RVCUR 0 1
+E_E6         TON 0 TABLE { V(VIN_INT, 0) }
++ ( (1.8,90) (3.6,40) (5,27) )
+X_X_LOAD1         TON 0 N17413402 N02235 N02265 ZX
+X_U862         CE N17415485 N17415488 VON_OFF COMPHYS_BASIC_GEN PARAMS: VDD=1
++  VSS=0 VTHRESH=0.5
+V_V21         N17415485 VIN_INT 35m
+X_U69         POR NOT_RVCUR CELOW EN_DRV AND3_BASIC_GEN PARAMS: VDD=1 VSS=0
++  VTHRESH=500E-3
+V_V22         N17415488 0 185m
+.ENDS LM66100_TRANS
+*$
+.subckt LM66100_H2 1 2 3 4
+H_H2         3 4 VH_H2 1
+VH_H2         1 2 0V
+.ends LM66100_H2
+*$
+.subckt LM66100_S15 1 2 3 4
+S_S15         3 4 1 2 _S15
+RS_S15         1 2 1G
+.MODEL         _S15 VSWITCH Roff=1e9 Ron=1m Voff=0.2 Von=0.8
+.ends LM66100_S15
+*$
+.subckt LM66100_S16 1 2 3 4
+S_S16         3 4 1 2 _S16
+RS_S16         1 2 1G
+.MODEL         _S16 VSWITCH Roff=1G Ron=100 Voff=0.2 Von=0.8
+.ends LM66100_S16
+*$
+.subckt D_LM66100 1 2
+d1 1 2 dd
+.model dd d
++ is=1e-012
++ n=0.0001
++ tt=1e-011
++ bv=100
+.ends D_LM66100
+*$
+.SUBCKT COMPHYS_BASIC_GEN INP INM HYS OUT PARAMS: VDD=1 VSS=0 VTHRESH=0.5
+EIN INP1 INM1 INP INM 1
+EHYS INP1 INP2 VALUE { IF( V(1) > {VTHRESH},-V(HYS),0) }
+EOUT OUT 0 VALUE { IF( V(INP2)>V(INM1), {VDD} ,{VSS}) }
+R1 OUT 1 1
+C1 1 0 1n
+RINP1 INP1 0 1K
+.ENDS COMPHYS_BASIC_GEN
+*$
+.SUBCKT INV_DELAY_BASIC_GEN A  Y PARAMS: VDD=1 VSS=0 VTHRESH=0.5 DELAY = 10n
+E_ABMGATE1    YINT1 0 VALUE {{IF(V(A) > {VTHRESH} ,
++ {VDD},{VSS})}}
+RINT YINT1 YINT2 1
+CINT YINT2 0 {DELAY*1.3}
+E_ABMGATE2    YINT3 0 VALUE {{IF(V(YINT2) > {VTHRESH} ,
++ {VSS},{VDD})}}
+RINT2 YINT3 Y 1
+CINT2 Y 0 1n
+.ENDS INV_DELAY_BASIC_GEN
+*$
+.SUBCKT NAND2_BASIC_GEN A B Y PARAMS: VDD=1 VSS=0 VTHRESH=0.5
+E_ABMGATE    YINT 0 VALUE {{IF(V(A) > {VTHRESH}  &
++ V(B) > {VTHRESH},{VSS},{VDD})}}
+RINT YINT Y 1
+CINT Y 0 1n
+.ENDS NAND2_BASIC_GEN
+*$
+.SUBCKT AND3_BASIC_GEN A B C Y PARAMS: VDD=1 VSS=0 VTHRESH=0.5
+E_ABMGATE    YINT 0 VALUE {{IF(V(A) > {VTHRESH}  &
++ V(B) > {VTHRESH} &
++ V(C) > {VTHRESH},{VDD},{VSS})}}
+RINT YINT Y 1
+CINT Y 0 1n
+.ENDS AND3_BASIC_GEN
+*$
+.subckt zx 1 2 3 4 5
+eout 4 6 poly(2) (1,2) (3,0) 0 0 0 0 1
+fcopy 0 3 vsense 1
+rin 1 2 1G
+vsense 6 5 0
+.ends
+$
