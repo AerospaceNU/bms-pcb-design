@@ -1,0 +1,56 @@
+Circuit: * C:\Users\matth\Desktop\AeroNU\FixedWing\BMS\bms-pcb-design\sims\5vORing\5vORing.asc
+
+Questionable use of curly braces in "b§e_abmgate1 yint1 0 v={if(v(a)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate2 yint3 0 v={if(v(yint2)>{{vthresh}},{{vss}},{{vdd}})}"
+    Error: undefined symbol in: "if([v](yint2)>((vthresh)),((vss)),((vdd)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}}&v(b)>{{vthresh}},{{vss}},{{vdd}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh))&v(b)>((vthresh)),((vss)),((vdd)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}}&v(b)>{{vthresh}}&v(c)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh))&v(b)>((vthresh))&v(c)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate1 yint1 0 v={if(v(a)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate2 yint3 0 v={if(v(yint2)>{{vthresh}},{{vss}},{{vdd}})}"
+    Error: undefined symbol in: "if([v](yint2)>((vthresh)),((vss)),((vdd)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}}&v(b)>{{vthresh}},{{vss}},{{vdd}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh))&v(b)>((vthresh)),((vss)),((vdd)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}}&v(b)>{{vthresh}}&v(c)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh))&v(b)>((vthresh))&v(c)>((vthresh)),((vdd)),((vss)))"
+WARNING: Less than two connections to node u1:load.  This node is used by h:u1:_h2:_h2.
+WARNING: Less than two connections to node u2:load.  This node is used by h:u2:_h2:_h2.
+Instance "m:m1:1": Width narrower than recommended for a level 3 MOSFET.
+Instance "m:m2:1": Width narrower than recommended for a level 3 MOSFET.
+u1:_u10:dd: Emission coefficient, N=0.0001, too small, limited to 0.1
+u1:_u8:dd: Emission coefficient, N=0.0001, too small, limited to 0.1
+u1:_u9:dd: Emission coefficient, N=0.0001, too small, limited to 0.1
+u2:_u10:dd: Emission coefficient, N=0.0001, too small, limited to 0.1
+u2:_u8:dd: Emission coefficient, N=0.0001, too small, limited to 0.1
+u2:_u9:dd: Emission coefficient, N=0.0001, too small, limited to 0.1
+Direct Newton iteration for .op point succeeded.
+Ignoring empty pin current: Ix(u1:ce)
+Ignoring empty pin current: Ix(u1:n_c)
+Ignoring empty pin current: Ix(u2:ce)
+Ignoring empty pin current: Ix(u2:n_c)
+Ignoring empty pin current: Ix(u1:ce)
+Ignoring empty pin current: Ix(u1:n_c)
+Ignoring empty pin current: Ix(u2:ce)
+Ignoring empty pin current: Ix(u2:n_c)
+
+Date: Thu May  7 00:46:45 2026
+Total elapsed time: 0.160 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 7926
+traniter = 7904
+tranpoints = 2610
+accept = 1954
+rejected = 656
+matrix size = 179
+fillins = 151
+solver = Normal
+Avg thread counts: 1.7/3.3/2.8/1.7
+Matrix Compiler1: 13.70 KB object code size  2.3/1.4/[1.2]
+Matrix Compiler2: 14.44 KB object code size  0.7/1.3/[0.5]
+

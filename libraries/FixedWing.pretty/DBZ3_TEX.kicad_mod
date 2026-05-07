@@ -87,4 +87,9 @@
   (pad "1" smd rect (at -0.950001 1.016) (size 0.5588 1.3208) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f94537a6-b335-4c22-94cb-1346dfba11ab))
   (pad "2" smd rect (at 0.950001 1.016) (size 0.5588 1.3208) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 067dfa2c-bb33-428a-bdd2-ed618253235b))
   (pad "3" smd rect (at 0 -0.88265) (size 0.5588 1.3208) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 0a3b8ba2-9a2c-4ee9-bd57-a51a2d161581))
+  (model "${KICAD7_3DMODEL_DIR}/DBZ0003A.stp"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 -90))
+  )
 )

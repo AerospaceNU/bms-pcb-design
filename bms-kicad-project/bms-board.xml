@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>C:\Users\matth\Desktop\AeroNU\FixedWing\BMS\bms-pcb-design\bms-kicad-project\bms-board.kicad_sch</source>
-    <date>5/6/2026 10:45:59 PM</date>
+    <date>5/6/2026 11:55:53 PM</date>
     <tool>Eeschema 7.0.10</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -2838,35 +2838,35 @@
     </comp>
     <comp ref="C92">
       <value>1µ</value>
-      <footprint>FixedWing:CAPC2012X140N</footprint>
-      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM21BR71C105KA58-01.pdf</datasheet>
+      <footprint>FixedWing:CAPC1608X90N</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM033R71A103KA03-01A.pdf</datasheet>
       <fields>
         <field name="Manufacturer">Murata Electronics</field>
-        <field name="Manufacturer Part Number">GCM21BR71C105KA58L</field>
+        <field name="Manufacturer Part Number">GCM188R71C105KA64D</field>
       </fields>
-      <libsource lib="FixedWing" part="GCM21BR71C105KA58L" description="CAP CER 1UF 16V X7R 0805"/>
+      <libsource lib="FixedWing" part="GCM188R71C105KA64D" description="CAP CER 1UF 16V X7R 0603"/>
       <property name="Manufacturer" value="Murata Electronics"/>
-      <property name="Manufacturer Part Number" value="GCM21BR71C105KA58L"/>
+      <property name="Manufacturer Part Number" value="GCM188R71C105KA64D"/>
       <property name="Sheetname" value="Battery Stack Monitor"/>
       <property name="Sheetfile" value="BatteryMonitor.kicad_sch"/>
-      <property name="ki_description" value="CAP CER 1UF 16V X7R 0805"/>
+      <property name="ki_description" value="CAP CER 1UF 16V X7R 0603"/>
       <sheetpath names="/Battery Stack Monitor/" tstamps="/1e9f81b4-c330-4dde-84b6-9168ce482c70/"/>
       <tstamps>9bb62f24-3976-4285-93c0-33bafb3e70cf</tstamps>
     </comp>
     <comp ref="C93">
       <value>1µ</value>
-      <footprint>FixedWing:CAPC2012X140N</footprint>
-      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM21BR71C105KA58-01.pdf</datasheet>
+      <footprint>FixedWing:CAPC1608X90N</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM033R71A103KA03-01A.pdf</datasheet>
       <fields>
         <field name="Manufacturer">Murata Electronics</field>
-        <field name="Manufacturer Part Number">GCM21BR71C105KA58L</field>
+        <field name="Manufacturer Part Number">GCM188R71C105KA64D</field>
       </fields>
-      <libsource lib="FixedWing" part="GCM21BR71C105KA58L" description="CAP CER 1UF 16V X7R 0805"/>
+      <libsource lib="FixedWing" part="GCM188R71C105KA64D" description="CAP CER 1UF 16V X7R 0603"/>
       <property name="Manufacturer" value="Murata Electronics"/>
-      <property name="Manufacturer Part Number" value="GCM21BR71C105KA58L"/>
+      <property name="Manufacturer Part Number" value="GCM188R71C105KA64D"/>
       <property name="Sheetname" value="Battery Stack Monitor"/>
       <property name="Sheetfile" value="BatteryMonitor.kicad_sch"/>
-      <property name="ki_description" value="CAP CER 1UF 16V X7R 0805"/>
+      <property name="ki_description" value="CAP CER 1UF 16V X7R 0603"/>
       <sheetpath names="/Battery Stack Monitor/" tstamps="/1e9f81b4-c330-4dde-84b6-9168ce482c70/"/>
       <tstamps>861f1e24-e309-4bc8-9ca0-e01ccf9df73b</tstamps>
     </comp>
@@ -4682,35 +4682,35 @@
     </comp>
     <comp ref="C90">
       <value>1µ</value>
-      <footprint>FixedWing:CAPC2012X140N</footprint>
-      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM21BR71C105KA58-01.pdf</datasheet>
+      <footprint>FixedWing:CAPC1608X90N</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM033R71A103KA03-01A.pdf</datasheet>
       <fields>
         <field name="Manufacturer">Murata Electronics</field>
-        <field name="Manufacturer Part Number">GCM21BR71C105KA58L</field>
+        <field name="Manufacturer Part Number">GCM188R71C105KA64D</field>
       </fields>
-      <libsource lib="FixedWing" part="GCM21BR71C105KA58L" description="CAP CER 1UF 16V X7R 0805"/>
+      <libsource lib="" part="GCM188R71C105KA64D_1" description="CAP CER 1UF 16V X7R 0603"/>
       <property name="Manufacturer" value="Murata Electronics"/>
-      <property name="Manufacturer Part Number" value="GCM21BR71C105KA58L"/>
+      <property name="Manufacturer Part Number" value="GCM188R71C105KA64D"/>
       <property name="Sheetname" value="5V Power"/>
       <property name="Sheetfile" value="5VPower.kicad_sch"/>
-      <property name="ki_description" value="CAP CER 1UF 16V X7R 0805"/>
+      <property name="ki_description" value="CAP CER 1UF 16V X7R 0603"/>
       <sheetpath names="/5V Power/" tstamps="/9bfcf0e7-ef8d-4492-b04a-6397126b0bad/"/>
       <tstamps>ae2df514-fc32-40cb-bfb0-bee498d01d31</tstamps>
     </comp>
     <comp ref="C91">
       <value>1µ</value>
-      <footprint>FixedWing:CAPC2012X140N</footprint>
-      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM21BR71C105KA58-01.pdf</datasheet>
+      <footprint>FixedWing:CAPC1608X90N</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM033R71A103KA03-01A.pdf</datasheet>
       <fields>
         <field name="Manufacturer">Murata Electronics</field>
-        <field name="Manufacturer Part Number">GCM21BR71C105KA58L</field>
+        <field name="Manufacturer Part Number">GCM188R71C105KA64D</field>
       </fields>
-      <libsource lib="FixedWing" part="GCM21BR71C105KA58L" description="CAP CER 1UF 16V X7R 0805"/>
+      <libsource lib="" part="GCM188R71C105KA64D_2" description="CAP CER 1UF 16V X7R 0603"/>
       <property name="Manufacturer" value="Murata Electronics"/>
-      <property name="Manufacturer Part Number" value="GCM21BR71C105KA58L"/>
+      <property name="Manufacturer Part Number" value="GCM188R71C105KA64D"/>
       <property name="Sheetname" value="5V Power"/>
       <property name="Sheetfile" value="5VPower.kicad_sch"/>
-      <property name="ki_description" value="CAP CER 1UF 16V X7R 0805"/>
+      <property name="ki_description" value="CAP CER 1UF 16V X7R 0603"/>
       <sheetpath names="/5V Power/" tstamps="/9bfcf0e7-ef8d-4492-b04a-6397126b0bad/"/>
       <tstamps>395948e1-6060-4b92-9548-8a6d873f1532</tstamps>
     </comp>
@@ -7883,6 +7883,38 @@
     </comp>
   </components>
   <libparts>
+    <libpart lib="" part="GCM188R71C105KA64D_1">
+      <description>CAP CER 1UF 16V X7R 0603</description>
+      <docs>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM033R71A103KA03-01A.pdf</docs>
+      <fields>
+        <field name="Reference">C14</field>
+        <field name="Value">1µ</field>
+        <field name="Footprint">FixedWing:CAPC1608X90N</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM033R71A103KA03-01A.pdf</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Manufacturer Part Number">GCM188R71C105KA64D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="GCM188R71C105KA64D_2">
+      <description>CAP CER 1UF 16V X7R 0603</description>
+      <docs>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM033R71A103KA03-01A.pdf</docs>
+      <fields>
+        <field name="Reference">C14</field>
+        <field name="Value">1µ</field>
+        <field name="Footprint">FixedWing:CAPC1608X90N</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM033R71A103KA03-01A.pdf</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Manufacturer Part Number">GCM188R71C105KA64D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="" part="LM66100DCKR_1">
       <description>IC OR CTRLR IDEAL DIODE SC70-6</description>
       <docs>https://www.ti.com/lit/gpn/lm66100</docs>
@@ -8621,7 +8653,7 @@
       <description>CAP CER 1UF 16V X7R 0603</description>
       <docs>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM033R71A103KA03-01A.pdf</docs>
       <fields>
-        <field name="Reference">C</field>
+        <field name="Reference">C14</field>
         <field name="Value">1µ</field>
         <field name="Footprint">FixedWing:CAPC1608X90N</field>
         <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM033R71A103KA03-01A.pdf</field>
@@ -8643,22 +8675,6 @@
         <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM21BC71E475KE36-01.pdf</field>
         <field name="Manufacturer">Murata Electronics</field>
         <field name="Manufacturer Part Number">GCM21BC71E475KE36L</field>
-      </fields>
-      <pins>
-        <pin num="1" name="" type="passive"/>
-        <pin num="2" name="" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="FixedWing" part="GCM21BR71C105KA58L">
-      <description>CAP CER 1UF 16V X7R 0805</description>
-      <docs>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM21BR71C105KA58-01.pdf</docs>
-      <fields>
-        <field name="Reference">C</field>
-        <field name="Value">1µ</field>
-        <field name="Footprint">FixedWing:CAPC2012X140N</field>
-        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM21BR71C105KA58-01.pdf</field>
-        <field name="Manufacturer">Murata Electronics</field>
-        <field name="Manufacturer Part Number">GCM21BR71C105KA58L</field>
       </fields>
       <pins>
         <pin num="1" name="" type="passive"/>
