@@ -6,8 +6,8 @@
 
   (title_block
     (title "Microcontroller")
-    (date "2025-08-13")
-    (rev "A")
+    (date "2026-05-06")
+    (rev "B")
     (company "AeroNU - FixedWing")
     (comment 1 "Matthew Friedman")
   )

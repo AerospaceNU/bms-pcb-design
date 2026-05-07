@@ -6,8 +6,8 @@
 
   (title_block
     (title "External Connections and Sensing")
-    (date "2025-08-13")
-    (rev "A")
+    (date "2026-05-06")
+    (rev "B")
     (company "AeroNU - FixedWing")
     (comment 1 "Matthew Friedman")
   )
@@ -5319,7 +5319,7 @@
     (property "Datasheet" "" (at 59.69 194.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f592dae7-f902-42fc-95d8-26157388719c))
+    (pin "1" (uuid f592dae7-f902-42fc-95d8-26157388719d))
     (instances
       (project "bms-board"
         (path "/8a7831d1-a913-4f04-8780-225d2234b41d/9cf0d325-c2d4-4535-a4db-163de33edbd1"
